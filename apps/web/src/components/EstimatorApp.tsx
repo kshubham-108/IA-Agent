@@ -2,10 +2,11 @@
 
 import { useCallback, useEffect, useState } from "react";
 
-import type { EstimateResult, FlowType } from "@/lib/types";
+import type { UploadedClassifiedFile } from "@/lib/classify-types";
+import { deriveFlow, mergeChecklistState, pickPrimaryFile } from "@/lib/readiness";
+import type { EstimateResult } from "@/lib/types";
 
-import { FileUpload } from "./FileUpload";
-import { FlowSelector } from "./FlowSelector";
+import { ReadinessGate } from "./ReadinessGate";
 import { ResultsView } from "./ResultsView";
 import { YearToggle } from "./YearToggle";
 
@@ -16,11 +17,10 @@ interface RatesResponse {
 }
 
 export function EstimatorApp() {
-  const [flow, setFlow] = useState<FlowType>("iia");
   const [year, setYear] = useState(2026);
   const [years, setYears] = useState<number[]>([2025, 2026, 2027]);
   const [rates, setRates] = useState<Record<number, number>>({ 2026: 362 });
-  const [file, setFile] = useState<File | null>(null);
+  const [primaryFile, setPrimaryFile] = useState<File | null>(null);
   const [result, setResult] = useState<EstimateResult | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -35,7 +35,6 @@ export function EstimatorApp() {
         setYear(data.defaultYear);
       })
       .catch(() => {
-        // Fallback if rates API unavailable during SSR edge cases
         setRates({ 2025: 425.52, 2026: 362, 2027: 239 });
       });
   }, []);
@@ -45,55 +44,63 @@ export function EstimatorApp() {
     setIsMock(data.agentMode !== "live");
   }, []);
 
-  const handleEstimate = useCallback(async () => {
-    if (!file) {
-      setError("Select a file to estimate.");
-      return;
-    }
-
-    setLoading(true);
-    setError("");
-
-    try {
-      const formData = new FormData();
-      formData.append("file", file);
-      formData.append("flow", flow);
-      formData.append("year", String(year));
-
-      const response = await fetch("/api/estimate", {
-        method: "POST",
-        body: formData,
-      });
-
-      const data = await response.json();
-      if (!response.ok) {
-        throw new Error(data.error ?? "Estimate failed");
+  const handleSubmit = useCallback(
+    async (files: UploadedClassifiedFile[]) => {
+      const file = pickPrimaryFile(files);
+      if (!file) {
+        setError("Upload at least one document.");
+        return;
       }
 
-      handleResult(data as EstimateResult);
-    } catch (err) {
-      setError(err instanceof Error ? err.message : "Estimate failed");
-    } finally {
-      setLoading(false);
-    }
-  }, [file, flow, year, handleResult]);
+      const checklist = mergeChecklistState(files);
+      const flow = deriveFlow(checklist);
+
+      setPrimaryFile(file);
+      setLoading(true);
+      setError("");
+
+      try {
+        const formData = new FormData();
+        formData.append("file", file);
+        formData.append("flow", flow);
+        formData.append("year", String(year));
+
+        const response = await fetch("/api/estimate", {
+          method: "POST",
+          body: formData,
+        });
+
+        const data = await response.json();
+        if (!response.ok) {
+          throw new Error(data.error ?? "Estimate failed");
+        }
+
+        handleResult(data as EstimateResult);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "Estimate failed");
+      } finally {
+        setLoading(false);
+      }
+    },
+    [year, handleResult],
+  );
+
+  const handleReset = useCallback(() => {
+    setResult(null);
+    setPrimaryFile(null);
+    setError("");
+  }, []);
 
   return (
     <div className="app-shell">
       <header className="app-header">
-        <h1>IA Agent</h1>
-        <p>VMO2/TCS Impact Assessment Estimation</p>
-      </header>
-
-      <div className="app-main">
-        <aside className="panel">
-          <section className="panel-section">
-            <h2>Flow</h2>
-            <FlowSelector value={flow} onChange={setFlow} disabled={loading} />
-          </section>
-
-          <section className="panel-section">
-            <h2>Planning year</h2>
+        <div className="app-header-inner">
+          <div>
+            <h1>IA Agent</h1>
+            <p>VMO2/TCS Impact Assessment Estimation</p>
+          </div>
+          <div className="header-year">
+            <span className="header-year-label">Planning year</span>
             <YearToggle
               years={years}
               rates={rates}
@@ -101,57 +108,50 @@ export function EstimatorApp() {
               onChange={setYear}
               disabled={loading}
             />
-          </section>
+          </div>
+        </div>
+      </header>
 
-          <section className="panel-section">
-            <h2>Upload</h2>
-            <FileUpload file={file} onFileChange={setFile} disabled={loading} />
-          </section>
-
-          <button
-            type="button"
-            className="btn btn-primary"
-            disabled={loading || !file}
-            onClick={handleEstimate}
-          >
-            {loading ? "Running estimate…" : "Run estimate"}
-          </button>
-        </aside>
-
-        <section className="panel-results">
-          {error && <div className="status-banner status-error">{error}</div>}
+      {!result ? (
+        <main className="gate-main">
+          {error && <div className="status-banner status-error gate-error">{error}</div>}
           {loading && (
-            <div className="status-banner status-loading">
+            <div className="status-banner status-loading gate-loading">
               Agent processing — numbers come from engine tools only…
             </div>
           )}
-
-          {result && file ? (
-            <ResultsView
-              result={result}
-              file={{
-                name: file.name,
-                type: file.type,
-                size: file.size,
-              }}
-              onResult={handleResult}
-              onError={setError}
-              onLoading={setLoading}
-              isMock={isMock}
-            />
-          ) : (
-            !loading && (
-              <div className="empty-state">
-                <strong>No estimate yet</strong>
-                <p>
-                  Upload a Vision Card (IIA) or IA pack, select flow and year, then
-                  run estimate.
-                </p>
-              </div>
-            )
-          )}
-        </section>
-      </div>
+          <ReadinessGate onSubmit={handleSubmit} disabled={loading} />
+        </main>
+      ) : (
+        <div className="app-main app-main-results">
+          <section className="panel-results">
+            {error && <div className="status-banner status-error">{error}</div>}
+            <div className="results-toolbar">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                onClick={handleReset}
+              >
+                ← Back to readiness gate
+              </button>
+            </div>
+            {primaryFile && (
+              <ResultsView
+                result={result}
+                file={{
+                  name: primaryFile.name,
+                  type: primaryFile.type,
+                  size: primaryFile.size,
+                }}
+                onResult={handleResult}
+                onError={setError}
+                onLoading={setLoading}
+                isMock={isMock}
+              />
+            )}
+          </section>
+        </div>
+      )}
     </div>
   );
 }

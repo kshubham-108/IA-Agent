@@ -18,7 +18,7 @@ Dominant corpus format: structured Q&A tables.
 - Prefer `found` when the card states a value verbatim; use `inferred` only when clearly implied by adjacent rows.
 - Mark `missing` when a manifest field has no section or says TBC/blank.
 - Mark `contradictory` when two sections disagree (e.g. scope in Context vs exclusions in Outcome).
-- Capture `evidence_span` as a short verbatim quote (≤120 chars) pointing to the table row.
+- Capture `evidence_span` as a short verbatim quote pointing to the table row.
 
 ## POPIT guidance
 

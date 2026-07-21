@@ -4,16 +4,21 @@
   "type": "module",
   "scripts": {
     "build": "pnpm -r run build",
-    "test": "pnpm -r run test",
+    "test": "pnpm -r run test && pnpm test:root",
+    "test:root": "vitest run tests",
+    "test:leak-check": "vitest run tests/knowledge-leak.test.ts",
     "typecheck": "pnpm -r run typecheck",
     "eval": "EVE_MOCK_MODEL=1 eve eval",
     "eval:live": "eve eval",
     "ingest-corpus": "tsx corpus/scripts/ingest.ts",
-    "calibrate": "tsx evals/run-calibration.ts"
+    "calibrate": "tsx evals/run-calibration.ts",
+    "bakeoff": "tsx evals/bakeoff.ts"
   },
   "dependencies": {
+    "@ai-sdk/gateway": "^4.0.25",
     "@ia-agent/engine": "workspace:*",
     "@ia-agent/extraction-schemas": "workspace:*",
+    "ai": "^7.0.33",
     "eve": "0.26.2",
     "yaml": "^2.8.0",
     "zod": "4.4.3"

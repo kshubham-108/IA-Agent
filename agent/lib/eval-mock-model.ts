@@ -124,7 +124,3 @@ export function createEvalMockModel() {
     };
   });
 }
-
-export function isEvalMockEnabled(): boolean {
-  return process.env.EVE_MOCK_MODEL === "1";
-}

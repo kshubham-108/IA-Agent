@@ -1,12 +1,18 @@
 import { defineAgent } from "eve";
-import { createEvalMockModel, isEvalMockEnabled } from "./lib/eval-mock-model.js";
+import { createEvalMockModel } from "./lib/eval-mock-model.js";
+import {
+  DEFAULT_CLASSIFY_MODEL,
+  DEFAULT_EXTRACT_MODEL,
+  isEvalMockEnabled,
+  resolveExtractModel,
+} from "./lib/model-slots.js";
 
 export default defineAgent({
-  // Claude via Vercel AI Gateway — configure AI_GATEWAY_API_KEY at deploy time.
-  model: isEvalMockEnabled()
-    ? createEvalMockModel()
-    : "anthropic/claude-sonnet-4.6",
+  // Stage 2 extraction / estimation — MODEL_EXTRACT (§11; default gemini-3.6-flash).
+  model: isEvalMockEnabled() ? createEvalMockModel() : resolveExtractModel(),
+  // Stage 1 classify_documents uses MODEL_CLASSIFY via resolveClassifyModel() in tools.
+  // Defaults: classify=${DEFAULT_CLASSIFY_MODEL}, extract=${DEFAULT_EXTRACT_MODEL}
   // Bypass AI Gateway catalog lookup for compaction thresholds when metadata
-  // is unavailable offline (Sonnet 4.6 context window per gateway catalog).
+  // is unavailable offline (Gemini 3.6 Flash context window per gateway catalog).
   modelContextWindowTokens: 1_000_000,
 });

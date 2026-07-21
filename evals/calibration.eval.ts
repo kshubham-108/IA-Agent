@@ -1,5 +1,5 @@
 import { defineEval } from "eve/evals";
-import { equals, gte } from "eve/evals/expect";
+import { equals, satisfies } from "eve/evals/expect";
 import { runBacktest } from "./backtest.js";
 import { runExtractionEval } from "./extraction-eval.js";
 import { buildCalibrationReportMarkdown, writeCalibrationReport } from "./run-calibration.js";
@@ -12,8 +12,11 @@ export default [
       const result = runBacktest({ bandCoverageTargetPct: 90 });
       t.check(result.rowCount, equals(25));
       t.check(result.excludedIds.length, equals(2));
-      t.check(result.mapePct, gte(0));
-      t.check(result.looBandCoveragePct, gte(90));
+      t.check(result.mapePct, satisfies((value) => typeof value === "number" && value >= 0, "mape >= 0"));
+      t.check(
+        result.looBandCoveragePct,
+        satisfies((value) => typeof value === "number" && value >= 90, "loo coverage >= 90"),
+      );
       t.check(result.bandCoverageMet, equals(true));
     },
   }),
@@ -23,8 +26,8 @@ export default [
     async test(t) {
       const result = runExtractionEval();
       t.check(result.labelled.length, equals(4));
-      t.check(result.aggregateFieldAccuracyPct, gte(95));
-      t.check(result.popitPassCount, gte(3));
+      t.check(result.aggregateFieldAccuracyPct, satisfies((v) => typeof v === "number" && v >= 95, "field accuracy >= 95"));
+      t.check(result.popitPassCount, satisfies((v) => typeof v === "number" && v >= 3, "popit pass >= 3"));
       t.check(result.bandPassCount, equals(4));
       t.check(result.manifestCoverage.sampleSize, equals(10));
       t.check(result.fieldAccuracyMet, equals(true));

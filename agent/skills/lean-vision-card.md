@@ -17,7 +17,7 @@ Minimal Vision Cards — frequently missing heatmap, journey counts, stakeholder
 - Use `inferred` sparingly for POPIT evidence when the card implies but does not state (e.g. "Pega migration" → technology evidence `found`, customer evidence often `inferred` or `missing`).
 - Thin cards correlate with lower BA scores — but scoring still goes through `score_ba` after gap-check.
 
-## Correct behaviour (§5b eval targets)
+## Correct behaviour (eval targets)
 
 When journey counts or heatmap are absent:
 
@@ -26,4 +26,4 @@ When journey counts or heatmap are absent:
 3. Call `confidence_band` with reduced manifest coverage to widen the band.
 4. Never guess dimension scores to compensate for missing scope data.
 
-Pega Cloud is the reference lean pair: empty stakeholders, TBC budget, no dependencies → score 2 / Low / 16.4 PU @2026 when scored via engine.
+Pega Cloud is the reference lean pair: empty stakeholders, TBC budget, no dependencies → call `score_ba` after extraction; expect a low band with gaps flagged, not guessed fields.

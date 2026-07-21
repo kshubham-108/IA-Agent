@@ -120,3 +120,87 @@ ia-agent/
 
 ## 8. Definition of done v0.1 (updated)
 Engine golden green (incl. §3D) → Eve agent evals green on all 4 labelled pairs → backtest + coverage report generated → apps/web runs Flow A on the OFR Vision Card and Flow B on the RetainX pack with correct numbers, and degrading the OFR card (delete sections) visibly widens the band and grows the gap report.
+
+# PROJECT BRIEF ADDENDUM v3.1 — Readiness Gate UI, Knowledge Architecture, Model Bake-off
+*(Append to PROJECT_BRIEF.md. Extends v3; nothing in v3 §1–§5b changes. New sections §9–§12 and agent prompts 5–7. Current repo state: Agents 1, 4 done (55/55 golden, 8.96% MAPE, 92% LOO coverage); Agent 2 done pending live-model run; Agent 3 shell done; §8 live demo outstanding.)*
+
+---
+
+## §9. Readiness Gate — landing page spec (replaces Agent 3's upload screen)
+
+**Layout.** Single centred prompt tab (Claude-style), positioned at or slightly below vertical centre. Inside the tab, before any upload, a greyed checklist renders as placeholder-weight text:
+
+```
+> Requirements — Vision Document
+> Impact Areas — Solution Heatmap (optional)          ← italic
+> High-Level Design (HLD) (optional)                  ← italic
+```
+Note the spelling: **HLD, High-Level Design** (not HDL). Bottom-left: a slightly-larger circular **plus** icon → file picker / drag-drop (pdf, docx, xlsx; multi-file). Bottom-right: the **agent submit icon**, slightly larger than standard, rendered at ~25% opacity while gated.
+
+**Checklist item states.**
+| State | Visual | Meaning |
+|---|---|---|
+| `pending` | grey, `>` prefix | nothing uploaded yet covers this need |
+| `checking` | grey + inline spinner | Stage-1 classifier running on a just-uploaded file |
+| `partial` | amber + warning icon + short reason | a relevant doc exists but key fields are missing (e.g. "Impact Areas — partial: app T-shirt sizes missing") |
+| `satisfied` | green + check icon | need covered with evidence |
+| `contradictory` | amber + reason | two docs disagree (rare; surfaces extractor `contradictory` status) |
+
+**Gating rule.** Submit icon goes to full opacity (enabled) when **all mandatory items are `satisfied`**. Mandatory set is flow-aware and drives flow selection implicitly — the user never picks Flow A/B:
+- Requirements `satisfied` only → Flow A (IIA), band −50%/+100%
+- + Impact Areas `satisfied` → Flow A enriched, band −30%/+50%
+- + HLD (and/or IA-template spec) `satisfied` → Flow B (IA), band ±15%
+
+**Confidence chip.** Small pill between the icons showing the live expected band for the current checklist state, updating as items turn green. This is the Cone of Uncertainty surfaced pre-submit.
+
+**Uploaded-file chips** render above the checklist (filename + type icon + remove). Removing a file re-evaluates the checklist. Keyboard accessible throughout; checklist lines are focusable with state announced (aria-live on state changes).
+
+**Behavioural contract.** On each upload: call Stage-1 `classify_documents` (§10) per file, stream state transitions pending→checking→(satisfied|partial). On submit: run the full Flow A/B pipeline (existing Agent 2 path) and route to the results page (unchanged from v3 Agent 3 scope).
+
+## §10. Two-stage pipeline (new tool + knowledge-architecture rules)
+
+**Stage 1 — `classify_documents` (new tool).** Input: file text/bytes. Output per file: `{doc_type: vision_card|heatmap|hld|iia_ba_template|iia_sa_template|ia_spec|other, checklist_coverage: {requirements, impact_areas, hld} each {status, missing_fields[], evidence_span}, confidence}`. Runs on the **cheap model tier** (see §11). Fast (<5s/file target), no estimation, no numbers. Reuses the manifest definitions from packages/rules — do not duplicate them.
+
+**Stage 2** — the existing extract → gap-report → engine-tools → explain flow, on the **quality model tier**. Unchanged.
+
+**Knowledge-architecture rules (hard requirements — these answer the proprietary-data question):**
+1. **Calibrated numbers never reach any model.** PU tables, PUR curve, complexity factors, overlay vectors, T-shirt matrices live ONLY in packages/rules + packages/engine. Audit `agent/skills/*` and `instructions.md` and strip any calibrated numeric values into rules; skills carry methodology and anatomy only.
+2. **No fine-tuning.** Knowledge = skills (curated methodology, versioned in git) + tools (deterministic engine) + runtime retrieval (`wall_of_reference_neighbours` returns top-k rows only, never the whole corpus). Rates change → edit YAML, redeploy; nothing retrains.
+3. **User uploads are transient**: sent per-request via AI Gateway, not persisted to any model. Corpus and rules live in the VMO2 repo/storage only.
+4. Produce `SECURITY_DATAFLOW.md` (one page): diagram of what crosses the model boundary (user docs, instructions/skills, top-k Wall rows) vs what never does (all calibrated tables, PUR, engine); note that enterprise API terms for the chosen provider(s) must be confirmed by VMO2 as excluding training on inputs; state data residency options.
+
+## §11. Model strategy — bake-off, then model-per-stage
+
+Model choice is config (`agent.ts` via AI Gateway), affects extraction only — every golden number is model-invariant. Decide by measurement, not preference:
+- **Candidates:** current Claude quality tier, current Gemini quality tier, plus the cheap/fast tier of each (four runs). Gateway strings resolved from live AI Gateway model list at run time — do not hard-code stale ids.
+- **Tasks scored separately:** (a) Stage-1 classification (checklist coverage on 12 sampled corpus cards + the 4 labelled ones), (b) Stage-2 extraction (the §5b labelled pairs: field accuracy, POPIT ±1 per dimension, total-band correctness, and **gap-flagging correctness** — flagging a missing field is a pass, guessing it is a fail).
+- **Metrics:** accuracy per above, £-cost per document, p50/p95 latency.
+- **Output:** `model_bakeoff_report.md` with a recommendation per stage. Expected shape: cheapest adequate model for Stage 1; Stage 2 decided by the accuracy table. Wire winners into `agent.ts` as two named model slots `MODEL_CLASSIFY`, `MODEL_EXTRACT` (env-overridable).
+
+## §12. Outstanding v3 items folded into this phase
+- Copy the four labelled vision cards into `corpus/vision-cards/`; set `AI_GATEWAY_API_KEY`; run `pnpm eval:live` (Agent 2's environmental steps).
+- Run `pnpm install && pnpm --filter @ia-agent/web dev` locally to verify Agent 3's build (Node was off PATH in-session).
+- **O2T overlay alignment:** re-derive the O2 Transformation itemised base (§3B) directly from `O2_TransformationEstimation_...xlsx` cell-by-cell and reconcile any line-item drift; adjust rules YAML, never the test expectation, unless the source file itself disagrees with §3 — in which case flag, don't silently change.
+- **BA year-PU scaling:** engine already supports per-year PU columns; keep 2026 as default and add a `ba_year_scaling: confirm_with_mentor` flag surfaced in the audit trail until the mentor rules whether effort quantities shrink annually or only the rate.
+
+---
+
+## Cursor agent prompts (paste verbatim, one session each)
+
+**Agent 5 — Readiness Gate UI (apps/web):**
+`Read PROJECT_BRIEF.md §9–§10 and the existing apps/web code. Replace the current upload screen with the Readiness Gate: centred prompt tab; greyed checklist (Requirements mandatory; Impact Areas and HLD optional, italic with "(optional)"); circular plus upload bottom-left; submit icon bottom-right at 25% opacity until all mandatory items are satisfied, then 100%; five checklist states per §9 with amber partial reasons; live confidence chip per the flow-aware band table; uploaded-file chips with remove + re-evaluation; aria-live state announcements; streaming state transitions wired to a new /api/classify endpoint that calls the agent's classify_documents tool (mock until Agent 6 lands). Match the existing app's styling. Deliver: the gate working end-to-end against the mock with a Playwright test covering grey→amber→green→submit-enabled.`
+
+**Agent 6 — Two-stage pipeline + knowledge hardening (agent/ + packages):**
+`Read PROJECT_BRIEF.md §10 and eve docs (@Docs eve.dev). Add tools/classify_documents.ts per the §10 schema, importing manifest definitions from packages/rules (no duplication), model slot MODEL_CLASSIFY. Audit agent/instructions.md and every file in agent/skills/ and remove any calibrated numeric values (PU values, rates, factors, matrices) — replace with references like "call score_ba" — and add a CI check (script + test) that fails if any number from packages/rules YAML appears verbatim in skills or instructions. Write SECURITY_DATAFLOW.md per §10.4. Extend agent/evals with 6 classification cases (vision-only, vision+heatmap, thin lean card, HLD present, contradictory pair, irrelevant doc). Deliver: green evals + the CI leak-check passing.`
+
+**Agent 7 — Model bake-off (evals/):**
+`Read PROJECT_BRIEF.md §11. Parameterise model per stage via MODEL_CLASSIFY / MODEL_EXTRACT env slots resolved through AI Gateway. Build evals/bakeoff.ts running the §11 matrix (4 models × 2 task suites), collecting accuracy, gap-flagging correctness, cost per document from gateway usage metadata, and p50/p95 latency. Emit model_bakeoff_report.md with a per-stage recommendation table and wire the chosen defaults into agent.ts. Requires AI_GATEWAY_API_KEY; fail gracefully with a clear message if unset. Deliver: the report generated from a real run.`
+
+**Then close §8:** with Agents 5–6 merged and env set, run the live demo — OFR Vision Card through Flow A (expect score 20, 295.2 BA PU, seed 456.2 PU, £165,144.40 @2026, band −50/+100 → −30/+50 as the heatmap is added) and the RetainX pack through Flow B (4,162.86 PU, £1,771,380.19 @£425.52-basis, ±15%) — and record the band-widening-on-degradation walkthrough (delete Vision Card sections, watch checklist and band respond) as the mentor demo.
+
+## Sequencing for the next working session
+1. Ten-minute env pass: corpus copy, `AI_GATEWAY_API_KEY`, local `pnpm install` + web dev-server check (§12).
+2. Launch Agent 6 first (it defines the classify tool Agent 5 consumes) and Agent 5 in parallel against the mock.
+3. Launch Agent 7 once the key is set — it's independent.
+4. O2T overlay reconciliation (§12) in a short focused session.
+5. Close §8 with the live demo recording; take `model_bakeoff_report.md` and `SECURITY_DATAFLOW.md` to the mentor — they answer his cost and confidentiality questions with evidence rather than opinion.

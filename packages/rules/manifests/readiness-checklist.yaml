@@ -1,0 +1,29 @@
+# Readiness Gate checklist → manifest field mapping (Stage 1 classify_documents)
+# Field ids are defined in manifests/iia-seed-funding.yaml — referenced here only.
+requirements:
+  manifest_id: iia-seed-funding
+  field_ids:
+    - title
+    - tracking_id
+    - budget_ref
+    - sponsor
+    - proposer
+    - products_in_scope
+    - channels_processes_systems
+    - current_state
+    - problem_opportunity
+    - future_vision
+    - beneficiaries
+    - exclusions
+    - dependencies
+    - journey_counts
+
+impact_areas:
+  manifest_id: iia-seed-funding
+  field_ids:
+    - heatmap
+
+hld:
+  satisfied_doc_types:
+    - hld
+    - ia_spec

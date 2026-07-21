@@ -1,9 +1,7 @@
 # IIA scoring
 
-BA calculator: sum Cust + P/P + Tech + Comp + CIF + CDF (negative floor at 0).
+BA calculator: sum Cust + P/P + Tech + Comp + CIF + CDF (negative floor at zero).
 
-Band lookup: {0–1 VL, 2–4 L, 5–8 M, 9–12 MH, 13–16 H, 17–20 VH}.
+Band lookup, PU per year, effort %, and duration come from `packages/rules` via the `score_ba` tool only — never from skills or inline arithmetic.
 
-PU per year column from rules config. Duration from lookup table, not fixed.
-
-Always call `score_ba` tool — never compute score or PU inline.
+Always call `score_ba` — never compute score, band, or PU inline.

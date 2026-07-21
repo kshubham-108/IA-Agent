@@ -1,128 +1,189 @@
 {
   "seed": 42,
   "sampleSize": 10,
+  "meanCoverage": 0.593,
+  "description": "Unlabelled vision cards sampled for manifest coverage distribution (confidence slider seed)",
   "filenames": [
-    "Vision_Card_PatchMyPC (002).docx",
-    "Vision Document HLR-UDB.docx",
-    "Digital MCAR Project Vision Card v0.1.docx",
-    "Vision_Card_Template 2026.04 R10 Plus for 5G Standalone (1).docx",
-    "Vision_Card_Template_ Sky Cinema and Disney+ (Kahlo_Glass Slipper).docx",
     "Vision_Card_Template 2026.03 giffgaff 5GSA.docx",
-    "Lean Vision card - giffgaff- Ericsson OCS migration to Ericsson AWS Public Cloud v1.0.pdf",
-    "Vision_Card_TOP-857 Wi-Fi 7 2 Box CPE Development.docx",
-    "26-03 O2Daisy Scotty Vision Document _v0.2 (004).docx",
-    "MUNRO TV SVOD Parity Vision Card_V1.1.docx"
+    "1Global Additional MVNO Onboarding - VMO2 Vision Document v2.1.docx",
+    "Vision Card - Straegic ARP v1.docx",
+    "Vision_Card_Template_ Sky Cinema and Disney+ (Kahlo_Glass Slipper).docx",
+    "Vision Document HLR-UDB.docx",
+    "Vision_Card_Template 2026.03 5GSA SIM Swap reliability.docx",
+    "Vision_Card_SharePoint_Migration.docx",
+    "Vision_Card_Template 2026.04 Scotty Unoptimised Devices revised version june 26.docx",
+    "Vision Document Vodafone decom v2.1.docx",
+    "O2 Daisy Data Extraction for Telephony Vision card_.docx"
   ],
-  "cards": [
+  "samples": [
     {
-      "id": "a39d9ba9f394",
-      "filename": "Vision_Card_PatchMyPC (002).docx",
-      "relativePath": "corpus/vision-cards/Vision_Card_PatchMyPC (002).docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/Vision_Card_PatchMyPC (002).txt",
-      "extension": "docx",
-      "formatVariant": "unknown",
-      "sizeBytes": 77578,
-      "textLength": 12387,
-      "textPreview": "Th is  Vision Card outlines the  desired business outcome,  context, problem and vision for  your   new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.  If unsure, pro"
-    },
-    {
-      "id": "59d3c78c97bd",
-      "filename": "Vision Document HLR-UDB.docx",
-      "relativePath": "corpus/vision-cards/Vision Document HLR-UDB.docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/Vision Document HLR-UDB.txt",
-      "extension": "docx",
-      "formatVariant": "unknown",
-      "sizeBytes": 962668,
-      "textLength": 16766,
-      "textPreview": "Th is  Vision Card outlines the  desired business outcome,  context, problem and vision for  your   new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.  If unsure, pro"
-    },
-    {
-      "id": "85aac404de86",
-      "filename": "Digital MCAR Project Vision Card v0.1.docx",
-      "relativePath": "corpus/vision-cards/Digital MCAR Project Vision Card v0.1.docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/Digital MCAR Project Vision Card v0.1.txt",
-      "extension": "docx",
-      "formatVariant": "unknown",
-      "sizeBytes": 107426,
-      "textLength": 25861,
-      "textPreview": "Th is  Vision Card outlines the  desired business outcome,  context, problem and vision for  your   new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.  If unsure, pro"
-    },
-    {
-      "id": "9d9d0f3ba34c",
-      "filename": "Vision_Card_Template 2026.04 R10 Plus for 5G Standalone (1).docx",
-      "relativePath": "corpus/vision-cards/Vision_Card_Template 2026.04 R10 Plus for 5G Standalone (1).docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/Vision_Card_Template 2026.04 R10 Plus for 5G Standalone (1).txt",
-      "extension": "docx",
-      "formatVariant": "prototype-2026",
-      "sizeBytes": 82777,
-      "textLength": 11184,
-      "textPreview": "Th is  Vision Card outlines the  desired business outcome,  context, problem and vision for  your   new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.  If unsure, pro"
-    },
-    {
-      "id": "8019900f9bc9",
-      "filename": "Vision_Card_Template_ Sky Cinema and Disney+ (Kahlo_Glass Slipper).docx",
-      "relativePath": "corpus/vision-cards/Vision_Card_Template_ Sky Cinema and Disney+ (Kahlo_Glass Slipper).docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/Vision_Card_Template_ Sky Cinema and Disney+ (Kahlo_Glass Slipper).txt",
-      "extension": "docx",
-      "formatVariant": "unknown",
-      "sizeBytes": 82624,
-      "textLength": 12579,
-      "textPreview": "Th is  Vision Card outlines the  desired business outcome,  context, problem and vision for  your   new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.  If unsure, pro"
-    },
-    {
-      "id": "71151d912c06",
       "filename": "Vision_Card_Template 2026.03 giffgaff 5GSA.docx",
-      "relativePath": "corpus/vision-cards/Vision_Card_Template 2026.03 giffgaff 5GSA.docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/Vision_Card_Template 2026.03 giffgaff 5GSA.txt",
-      "extension": "docx",
       "formatVariant": "prototype-2026",
-      "sizeBytes": 120720,
-      "textLength": 15639,
-      "textPreview": "Th is  Vision Card outlines the  desired business outcome,  context,  problem,  and vision for  your   new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.  If unsure, "
+      "coverage": 0.6,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "current_state",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 6
     },
     {
-      "id": "a61607f695f2",
-      "filename": "Lean Vision card - giffgaff- Ericsson OCS migration to Ericsson AWS Public Cloud v1.0.pdf",
-      "relativePath": "corpus/vision-cards/Lean Vision card - giffgaff- Ericsson OCS migration to Ericsson AWS Public Cloud v1.0.pdf",
-      "parsedTextPath": "corpus/vision-cards-parsed/Lean Vision card - giffgaff- Ericsson OCS migration to Ericsson AWS Public Cloud v1.0.txt",
-      "extension": "pdf",
-      "formatVariant": "lean",
-      "sizeBytes": 192165,
-      "textLength": 38868,
-      "textPreview": "Lean Vision card - giffgaff- OCS migration to Ericsson AWS Public Cloud v1.0.docx Skia/PDF m150 Google Docs Renderer \u000e\u001d\u001c28hmRpi#\u0016V!S IHS\u0002tspu+.\u0780e(\b\u000e%|\r:t\u001c\u000b\u001c@V\u001fGzM<$*x\u00d0!Kc\u0019z\u0007\u0010G\u0002\r\u0012>\u0013&| \u0001\u001c=36\"o\u02fb\u0292 vL\u0014Gy\u0013\u0091Gy(q\u000fa2 \u0586\u0002g\r\bo %\u00052\\,QyO\u001e\u001a\b\u0002\b\u0015[aW.\u001a\t=:\fA\u0757"
-    },
-    {
-      "id": "6d027cdb02e3",
-      "filename": "Vision_Card_TOP-857 Wi-Fi 7 2 Box CPE Development.docx",
-      "relativePath": "corpus/vision-cards/Vision_Card_TOP-857 Wi-Fi 7 2 Box CPE Development.docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/Vision_Card_TOP-857 Wi-Fi 7 2 Box CPE Development.txt",
-      "extension": "docx",
+      "filename": "1Global Additional MVNO Onboarding - VMO2 Vision Document v2.1.docx",
       "formatVariant": "unknown",
-      "sizeBytes": 89047,
-      "textLength": 12601,
-      "textPreview": "Th is  Vision Card outlines the  desired business, customer and delivery outcome  for your   new project idea . The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.  If unsure, provide y"
+      "coverage": 0.6,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "problem_opportunity",
+        "future_vision",
+        "exclusions",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 6
     },
     {
-      "id": "c48352cf3313",
-      "filename": "26-03 O2Daisy Scotty Vision Document _v0.2 (004).docx",
-      "relativePath": "corpus/vision-cards/26-03 O2Daisy Scotty Vision Document _v0.2 (004).docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/26-03 O2Daisy Scotty Vision Document _v0.2 (004).txt",
-      "extension": "docx",
+      "filename": "Vision Card - Straegic ARP v1.docx",
       "formatVariant": "unknown",
-      "sizeBytes": 7064569,
-      "textLength": 12436,
-      "textPreview": "Vision Document Business Area  \u2612   Wholesale  Mobile & M W  (O2 Daisy)   \u2610  Wholesale Fixed Connectivity  \u2610  Wholesale Mobile & MVNOs \u2610  B2B IT Migration   Initiative Name Scotty / Starlink Direct to Cell Sponsor  Name Dav Sandher P rod uc "
+      "coverage": 0.6,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "current_state",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 6
     },
     {
-      "id": "e084e9bb6c9f",
-      "filename": "MUNRO TV SVOD Parity Vision Card_V1.1.docx",
-      "relativePath": "corpus/vision-cards/MUNRO TV SVOD Parity Vision Card_V1.1.docx",
-      "parsedTextPath": "corpus/vision-cards-parsed/MUNRO TV SVOD Parity Vision Card_V1.1.txt",
-      "extension": "docx",
+      "filename": "Vision_Card_Template_ Sky Cinema and Disney+ (Kahlo_Glass Slipper).docx",
       "formatVariant": "unknown",
-      "sizeBytes": 82912,
-      "textLength": 12258,
-      "textPreview": "Th is  Vision Card outlines the  desired business outcome,  context, problem and vision for  your   new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.  If unsure, pro"
+      "coverage": 0.6,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "current_state",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 6
+    },
+    {
+      "filename": "Vision Document HLR-UDB.docx",
+      "formatVariant": "unknown",
+      "coverage": 0.6,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "current_state",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 6
+    },
+    {
+      "filename": "Vision_Card_Template 2026.03 5GSA SIM Swap reliability.docx",
+      "formatVariant": "prototype-2026",
+      "coverage": 0.6,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "current_state",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 6
+    },
+    {
+      "filename": "Vision_Card_SharePoint_Migration.docx",
+      "formatVariant": "unknown",
+      "coverage": 0.667,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "channels_processes_systems",
+        "current_state",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 5
+    },
+    {
+      "filename": "Vision_Card_Template 2026.04 Scotty Unoptimised Devices revised version june 26.docx",
+      "formatVariant": "prototype-2026",
+      "coverage": 0.6,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "current_state",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 6
+    },
+    {
+      "filename": "Vision Document Vodafone decom v2.1.docx",
+      "formatVariant": "unknown",
+      "coverage": 0.467,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies"
+      ],
+      "gapCount": 8
+    },
+    {
+      "filename": "O2 Daisy Data Extraction for Telephony Vision card_.docx",
+      "formatVariant": "unknown",
+      "coverage": 0.6,
+      "extractedFieldIds": [
+        "title",
+        "budget_ref",
+        "sponsor",
+        "proposer",
+        "current_state",
+        "problem_opportunity",
+        "future_vision",
+        "dependencies",
+        "journey_counts"
+      ],
+      "gapCount": 6
     }
   ]
 }

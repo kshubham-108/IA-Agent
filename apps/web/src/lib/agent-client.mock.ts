@@ -311,12 +311,9 @@ export class MockAgentClient implements AgentClient {
         ? resolveIiaHeadline(year, gapAnswers)
         : resolveIaHeadline(year, gapAnswers);
 
-    const gaps = (flow === "iia" ? baseIiaGaps() : baseIaGaps())
-      .map((g) => ({
-        ...g,
-        answer: gapAnswers?.[g.id],
-      }))
-      .filter((g) => !gapAnswers?.[g.id]);
+    const gaps = (flow === "iia" ? baseIiaGaps() : baseIaGaps()).filter(
+      (g) => !gapAnswers?.[g.id],
+    );
 
     return {
       sessionId: existingSessionId ?? sessionId(),

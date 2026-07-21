@@ -17,7 +17,9 @@
     "./data-milestones.yaml": "./data-milestones.yaml",
     "./templates/retainx.yaml": "./templates/retainx.yaml",
     "./templates/o2t.yaml": "./templates/o2t.yaml",
-    "./templates/dfe-default.yaml": "./templates/dfe-default.yaml"
+    "./templates/dfe-default.yaml": "./templates/dfe-default.yaml",
+    "./manifests/iia-seed-funding.yaml": "./manifests/iia-seed-funding.yaml",
+    "./manifests/readiness-checklist.yaml": "./manifests/readiness-checklist.yaml"
   },
   "scripts": {
     "typecheck": "node -e \"process.exit(0)\""
