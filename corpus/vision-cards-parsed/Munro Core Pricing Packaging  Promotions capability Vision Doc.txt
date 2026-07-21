@@ -1,0 +1,776 @@
+Vision Document
+Idea Name
+Munro Core Pricing, Packaging & Promotions capability
+IDA Reference
+[Mobilisation Lead 
+can
+ add this
+ if you are uncertain
+]
+Sponsor / Delegate
+Stuart Harris
+Proposer / Owner
+Adam Hayes
+Budget code & type
+Capex code
+ 
+former VM
+Finance approver
+Summary
+This project is to develop pricing, packaging and promotional capabilities for Munro
+Aspirational date
+July 26
+NDA required?
+Y
+NDA admin
+NDA c
+ontact name
+Purpose, use and accountabilities of this document
+An approved Vision is mandatory for a project to mobilise. It describes the scope and intent to be delivered by the mobilised project. The project is the prime beneficiary of the Vision in that it guides their scope and intent and provides a baseline for stakeholder conversations.
+The Vision document expands on the information in the Vision card (which is the minimum documentation required for initial T-Shirt sizing of a proposal). 
+The proposer / owner of an idea is responsible for creating and obtaining approval for the 
+Vision 
+document
+.
+Approvals Required
+Please consult with your Mobilisation lead to agree the minimum set of approvals required for this requirement.
+Name
+Role
+Approval 
+(signature or email)
+Date
+Sponsor / Delegate
+Product Manager / Owner
+Mobilisation Lead
+ 
+(
+S
+cope is fit for purpose and 
+relevant stakeholders have been consulted or informed)
+Document History
+Author
+Version
+Date
+Reason
+0.1
+First draft
+0.2
+First review with stakeholders
+1
+.0
+Approved Version
+Key stakeholders and distribution
+Please list all stakeholders engaged in the creation and review of this Vision. Consult your Mobilisation Lead on any additional stakeholders who will benefit from early sight of the Vision document to reduce friction / delay through Ideate and later phases of a project.
+Name
+Role
+RACI / Reason for involvement
+Version
+Sponsor / Delegate
+A: Ensures Vision is funded
+Proposer/Owner
+R: Responsible for creating, socialising and obtaining signoff of Vision document.
+Product owner (s)
+R: Agrees Product vision and impacts
+Mobilisation Lead
+R: Checks Vision is complete, fit for purpose and approved before PMO submission.
+Enterprise Architect
+R/C: Agrees / recommends Vision alignment to roadmap and ESA
+Digital Architect
+R/C: Agrees / recommends Vision alignment to roadmap and ESA
+ESA Domain owner
+R/C: Agrees / recommends Vision alignment to roadmap and ESA
+Subject matter expert
+C: Helps to shape the Vision based on their expertise
+Legal 
+C: Advises on Legal impacts
+Regulatory 
+C: Advises on Regulatory impacts
+Security 
+C: Advises on security impacts
+Contents
+What is the scope of this idea?
+Problem / Opportunity Statement
+Benefits / Goal Alignment
+Customer impact
+Legal/Regulatory, Fraud, Security and 
+E
+nvironmental impacts
+Aspirational Timelines
+Dependencies / Risks / Assumptions
+Appendix
+Problem / Opportunity Statement
+Background or context of the opportunity
+Where does the problem or opportunity occur? What is the context
+, event, 
+or 
+customer 
+journey
+ in which it occurs
+?
+This opportunity sits within the 
+pricing, packaging and promotions
+ design for two customer journeys:
+New to O2
+ customers considering joining our mobile and/or fixed propositions.
+Existing O2 mobile customers
+ considering an upgrade, cross-sell (e.g., fixed), or bundle.
+Current 
+FMCT 
+pricing 
+capa
+bility
+ 
+is
+ largely standardised and do
+es
+ not fully leverage:
+Customer-level signals
+ (e.g., existing mobile product holdings, tenure, spend, payment history) for existing customers.
+Postcode-level context
+ (competitor options available, Virgin Media fixed penetration in the area, affluence).
+As a result, offers can be less competitive against local alternatives, less relevant to the individual, and slower to convert.
+What is the problem or opportunity?
+ 
+Describe the problem or opportunity
+We 
+have the opportunity to
+ implement 
+personalised pricing, packaging and promotions
+ that adapt to:
+Customer status:
+ new to O2 vs existing O2 mobile customer (with tailored logic for existing customers—e.g., tenure, current plan, add-ons, device lifecycle, payment history, previous offers accepted/declined).
+Location signals:
+ postcode-level competitive landscape and 
+VM fixed penetration
+.
+Competitor availability and pricing:
+ presence of fibre/5G competitors and their headline offers in that postcode or area segment.
+This will enable more relevant, locally competitive offers, improving acquisition, cross
+sell/upsell, and retention.
+What is the scale/volume of this opportunity in what timescale?
+
+  
+Scope
+:
+ All 
+new to O2 prospects
+ entering acquisition journeys across all channels and all 
+existing O2 mobile customers
+ engaging in upgrade/cross-sell flows. 
+
+  
+Volume
+:
+ 
+500k customers within 3years
+
+  
+Timescale
+:
+ A phased roll-out 
+from MLP onwards, June 26, 
+(
+M
+L
+P across priority postcodes and segments; scale to 
+full footprint of 
+FF/HFC/Pearl and use associated unit economics to personalise pricing
+).
+Why is it important to address it now?
+
+  
+Competitive
+ intensity
+ is increasing at local level; rivals are 
+gaining share using
+ postcode-led offers. 
+
+  
+Customer
+ expectations
+ now assume tailored value (particularly in-price, bundle, and incentives). 
+
+  We
+ have 
+latent data assets
+ (customer holdings, tenure, postcode penetration) not yet embedded into pricing logic. 
+
+  
+Getting
+ this right from the start is critical. By building on a solid foundation now, we ensure scalability and flexibility for future propositions, avoid costly rework, and maintain compliance as competitive and regulatory landscapes evolve. A well-designed solution from day one maximises ROI, accelerates 
+benefits, and enables us to capture incremental revenue opportunities quickly. Embedding robust processes and governance early also reduces complexity and operational risk, creating a platform that can adapt seamlessly as customer expectations and market dynamics change.
+Have there been any investigations into internal or 3
+rd
+ party solutions to this? What did they find?
+NO
+Include/refer to
+ any internal or external market insight research that is relevant.
+VM have deployed personalised pricing in digital channel that has improved conversion
+Customer research
+ shows that personalisation correlates with higher customer satisfaction, loyalty and conversio
+n
+Competitors are
+ increasingly 
+using
+ postcode or exchange-level competitiveness tactics.
+What should happen in future if we address this opportunity?
+What do you want to happen in future 
+to 
+fix/
+address this problem/opportunity
+?
+ Copy your summary from the Vision 
+C
+ard here
+.
+Implement a 
+dynamic pricing, packaging and promotions engine
+ that:
+Differentiates
+ logic for 
+new to O2
+ versus 
+existing O2 customers
+ (e.g., tenure/loyalty value, device lifecycle triggers, previous behaviours for existing; acquisition incentives and competitor parity for new).
+Ingests postcode-level context
+ (competitor presence and 
+VM fixed penetration
+) to calibrate competitiveness.
+Surfaces 
+offers
+ in real time
+ across sales and service channels (web/app, retail, telesales, outbound comms).
+Controls for fairness and compliance
+, with transparent customer explanations (e.g., “bundle savings”, “loyalty benefit”).
+This should lead to 
+higher conversion, better ARPU/CLV, improved retention
+, and a clear uplift in customer-perceived value.
+ (Optional) Detailed requirements
+If you have any detailed 
+requirements,
+ then 
+feel free to add them here
+.
+ 
+Please i
+nclude any ‘
+non-functional
+’ e.g. performance and availability requirements. 
+If you have any customer experience, journey slides etc then feel free to reference them or include in the appendix.
+ Product Managers or Agile teams may prefer to 
+document these as Epics and Stories in appendix 
+B
+. 
+ID
+Requirement
+ 
+Importance 
+1
+Segment awareness: Identify whether the individual is new to O2 or existing O2 mobile customer and route to appropriate pricing logic.
+Essential
+2
+Customer data ingestion (existing customers): Current plan, add
+‑
+ons, device lifecycle, tenure, payment history, discounts, past responses to offers.
+Essential
+3
+Prospect context (new to O2): Captured intent, device/SIM choice, eligibility (credit/risk markers via approved flows), consented postcode
+ and derived customer value from 
+postcode
+Essential
+4
+Postcode intelligence: Ingest competitor availability/signals and VM fixed penetration by postcode or equivalent geo.
+Essential
+5
+Dynamic pricing rules engine: Configurable rules and/or model-driven scoring combining customer, location, and competitor inputs.
+ Prices can be higher or lower than ‘national price’
+Essential
+6
+Offer construction: Auto-generate bundles (mobile + fixed), incentives (e.g., bill credit, 
+discounts, contract buy-out etc
+),
+Essential
+7
+Channel integration: Real-time APIs to web/app, retail 
+PoS
+, telesales, CRM, outbound comms and journey orchestration. Omni-channel experience unless stated 
+as channel exclusive offer
+Essential
+8
+Testing & experimentation: Built-in A/B and multi-armed bandit capability; holdout cells by segment/postcode.
+Essential
+9
+Governance & fairness: Guardrails on price ranges, equal treatment checks, audit trails, rate card fallbacks, explainability for agents/customers.
+Essential
+10
+Data quality & lineage: Monitoring, alerts, and SLAs for data freshness (e.g., weekly competitor feeds
+ /
+ VM penetration refresh).
+Essential
+11
+Analytics & reporting: Dashboards for conversion, ARPU, churn, contribution margin, and fairness KPIs by segment/postcode.
+Essential
+12
+Campaign enablement: Audience creation for outbound offers aligned to postcode competitiveness and customer status.
+Essential
+13
+Agent tooling: Simple agent UI with recommended offers, rationale (“why this offer”), ability to check offer compliance with recommendation and ability to override when authorised / within guard rails
+/
+governance.
+Essential
+14
+Change management: Content playbooks, training for retail/telesales; channel-ready messaging templates.
+Essential
+How will we define success in fixing / addressing this opportunity?
+What metric(s) will measure whether we have been successful in addressing this opportunity? e.g. Change of X by Y in 
+period
+ Z.
+Primary commercial outcomes (measured vs control/holdout):
+Conversion uplift
+.
+ARPU / CLV uplift:
+ +
+x
+%
+ average revenue per user and 
+CLV
+ uplift through better bundle mix.
+Churn reduction (existing customers):
+ 
+conversion into FMC improves 
+tenure
+DMA-2025-TDP-03049
+What is in scope of this idea?
+Which line of business
+ does this apply to
+? 
+Delete as appropriate: 
+O2 FMC
+Which users / customers?
+Which brand, subset of users, user roles, customer or product type does this impact?
+O2 / 
+Fixed broadband customers and FMC customers
+Operational impact:
+Which operational areas will be impacted by this requirement?
+Area
+Impacted
+Channels
+Omni 
+Commercial, marketing, product
+Y
+Sales, cross sell/upsell, upgrades
+Y
+Use of the product or service
+N
+Care / In-life management
+Y
+Billing, payments, collections, customer finance
+, credit check
+Y
+Logistics or Supply chain
+N
+Network or IT Operations
+N
+Fraud or Security
+?
+Internal management e.g. 
+HR, Finance, procurement, 
+e
+mployee toolset
+N
+Data / 
+Reporting 
+Y
+ – need to report on prospects / sales / success of offers across segments etc.
+Other
+Specify
+Known supplier impact
+If a key supplier is within scope, then feel free to add details here.
+NO
+Out of current scope (possible future scope)
+Anything not defined in 
+2
+.1-
+2
+.4
+ above is deemed out of scope.  
+Are there any specific exclusions to the defined scope for the proposed project? If this is the first phase, a proof of concept or a minimum viable product some functionality, capabilities or journeys could be excluded.
+Benefits / Goal Alignment
+Under the subheadings below, l
+ist the quantifiable, time
+-
+bound benefits you expect to gain from addressing this problem/opportunity. These should be consistent with
+/copied from
+ your business case.
+3.1 
+Customer/User benefits
+What measurable improvement or value will the Customer gain? These might include an increase in the value that the customer gains from our services, simplicity, choice, availability, service levels
+,
+ etc.
+More relevant offers: Customers receive pricing and bundles tailored to their needs, location, and competitive context.
+Greater value perception: Personalised incentives (e.g., loyalty benefits, bundle savings) increase perceived fairness and satisfaction.
+Improved simplicity and choice: Clear rationale for offers (“why this offer”) and omni-channel consistency make decisions easier.
+Faster access to competitive deals: Real-time personalised pricing ensures customers don’t miss out on locally competitive options.
+3.2 
+VMO2 benefits
+What measurable time
+-
+bound value will VMO2 gain 
+(X% improvement in Y by date Z)? 
+e
+.g. Improvement to NPS, Churn, Revenue, ARPU, Customer volumes, Product performance, Basket order completion, Costs etc.
+ 
+Conversion uplift
+ARPU / CLV uplif
+t
+Churn reduction
+Bundle penetration
+Operational efficiency: Ability to 
+automate 
+pricing response without needed to wait for a new offer cycle
+NPS uplift
+ leading to CLV improvement
+3.3 
+Strategic Alignment
+How does 
+this initiative support our strategy?
+Alignment
+Which Strategy / Goal
+ / OKR
+?
+How does idea support it?
+Commercial strategy
+ pillar
+ Build a relationship with me 
+By delivering personalised, competitive offers, we strengthen customer relationships and make the purchase journey simpler and more relevant.
+Consumer / Business OKR
+Drive FMC and grow HH ARPU
+Personalised pricing accelerates FMC adoption and increases ARPU through tailored bundles.
+Corporate strategy
+End State Architecture (ESA) alignment
+Confirm with Enterprise Architect / ESA domain owner
+. Liaise with your Mobilisation Lead if necessary.
+Customer impact
+In summary how does this 
+proposal
+ impact each of the following aspects of the customer experience?
+ 
+Area
+Description
+Brand and Customer segment impacted
+O2 consumer customers (new and existing)
+ – improves their brand perception due to 
+more tailored offering through personalisation
+Adding, removing or changing the nature of a product or service
+Introduces dynamic, personalised pricing and bundles
+Purchase
+ or upgrade experience
+More relevant offers, faster decisions, omni-channel consistency
+How products/services are used
+No change to usage; improved perceived value
+How they are changed or cancelled
+No change to cancellation process
+Customer’s in-life support/care experience
+Agents equipped with rationale for offers; improved transparency
+Equity / Accessibility of VMO2 service(s)
+Designed for fairness and 
+compliance;
+ no adverse impact on vulnerable customers
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Description
+VMO2 stakeholder
+Legal / contractual / legislative obligations
+  
+Must comply with consumer protection and fairness standards; ensure transparent pricing rationale
+VMO2 
+Legal stakeholder
+Regulatory obligations e.g. OFCOM, ICO,
+ 
+etc
+.
+Adhere to OFCOM fairness rules; GDPR compliance for data usage
+VMO2 
+Regulatory stakeholder
+Security or fraud impacts
+Ensure secure handling of customer and postcode data; prevent misuse of pricing logic
+VMO2 
+S
+ecurity / 
+Fraud 
+representative
+ consulted
+Has the whole 
+environmental impact
+ 
+of the project, from design to end of life been considered? 
+N
+VMO2 
+S
+ustainability stakeholder
+Has the lowest energy using product or service been considered for the project 
+(if applicable)?
+n/a
+VMO2 
+Sustainability 
+stakeholder
+Aspirational Timelines 
+Please indicate aspirational commercial launch date for the whole project or proposed phases, summarising scope and drivers for this date. NB. These dates are only aspirational and cannot be validated / committed until there is a baselined plan.
+Commercial launch date
+Scope
+Drivers
+June 26 MLP
+Minimum viable product for commercial trial across priority postcodes and segments
+Enable proof of value and refine pricing logic before scale-up
+Q4 2026
+ – Q1 27
+ (Full launch)
+Full commercial launch to market with dynamic pricing engine and omni-channel experience
+Deliver new revenue and competitive advantage ahead of peak trading season
+.
+Dependencies / 
+Risks / 
+Assumptions
+7.1 
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D1
+D2
+D3
+7.2 Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R1
+R2
+R3
+R4
+7.3 
+Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+A2
+A3
+A4
+Appendices
+Strategic projects may have a Delivery Blueprint. 
+Initial ideation may have created 
+customer journey slides
+, infographics or 
+relevant research
+. Feel free to add these – or 
+list external references here
+. 
+ 
+Glossary
+Term
+Description
+ML
+. 
+Mobilisation lead.
+Involved in the mobilisation of complex cross functional projects. 
+Responsible for helping the proposer of an initiative to 
+scope
+ their idea, engage relevant stakeholders, estimate impacts, 
+review business cases, 
+secure a roadmap slot, obtain resources
+, 
+meet PMO 
+assurance 
+requirements
+ and mobilise 
+as a project. 
+ESA
+. 
+End State Architecture
+Our strategy for transforming the technical estate across IT, 
+N
+etworks and 
+D
+igital.
+ESA 
+D
+omain 
+O
+wner
+Accountable for ESA transformation for a group of technical platforms in our architecture. 
+OFCOM
+Regulator of UK Telecoms
+.
+ 
+https://www.ofcom.org.uk/phones-and-broadband/accessibility/rules-for-providers/
+ICO
+Information Commissioners Office. Regulator of data protection.
+https://ico.org.uk
+Capex
+Capital Expenditure. This type of finance is intended to create an asset, like a piece of software, which will be used by the company. 
+The cost of a
+n asset can be written off over 
+several
+ years
+, 
+on the company balance sheet.
+ If in doubt about funding types and 
+approvals,
+ please consult your 
+F
+inance partner.
+Opex
+Operational Expenditure. This type of expense 
+does not create a tangible asset. It must be shown in the 
+company 
+balance sheet for 
+the year in which it is spent. An initiative may 
+need
+ 
+Opex
+ for some e.g. commercial activity, 
+pre-project activity, 
+or the creation of a proof of concept 
+which is not destined to become a long term commercial or operational tool.
+ 
+Opex
+ cannot be used to create software or an application that will 
+have ongoing 
+commercial or operational use
+ and value
+.
+ If in doubt about funding types and 
+approvals,
+ please consult your 
+F
+inance partner.
+Vision Card
+Standard
+ template to collect minimum information about an initiative
+. This is 
+required 
+to engage a Mobilisation 
+L
+ead
+ to investigate the initiative, consult architects and 
+create a sizing estimate from the DMA estimating tool at the weekly ‘
+Doability
+’ meeting. 
+DMA reference
+This is the identifier of the output of a DMA sizing estimate
+. If an initiative has a DMA 
+reference,
+ then 
+a sizing questionnaire has been completed
+. 
+DMA estimates are an early indication of the scale and complexity of an 
+idea,
+ but they are not an alternative to the 
+more rigorous estimates that are collated 
+based on 
+detailed 
+business requirements, solution steer and Impact Assessments (IA) from suppliers in the scope requirements and baseline planning phase 
+of a project after it is mobilised. DMA estimates are deemed only 60% certain at 
+best and
+ rely on 
+a well-defined and 
+thought-out
+ vision card and 
+initial consultation with architects from key impact areas by the Mobilisation Lead.  
+DMA output is normally transferred across to the project portfolio 
+management
+ tool Clarity by the PMO after 
+sizing. One in Clarity the DMA initiative will be given an IDA code
+.
+IDA reference
+This is the reference given to an initiative once it has been sized and 
+the outputs of sizing transferred to the project portfolio management tool Clarity.
+PMO
+Project Management Office. Responsible for maintaining good governance of the project portfolio. 
+Epics / User Stories
+Product managers and practitioners with 
+experience of agile methodologies may prefer to document their 
+high-level
+ requirements as Epics
+, which you may wish to break down into steps or 
+User 
+S
+tories
+. 
+In this case you may wish to 
+leave section 
+2.3 
+above 
+empty and refer out to this table below.
+ 
+Epic / Story #
+As the 
+[
+role
+]
+I want to [
+action
+]
+So that [
+Desired outcome
+]
+Other detail such as context,
+ response times, volumes etc
+Acceptance criteria
+ / Definition of done
+Priority
+[
+Essential / 
+Optional
+]
+1
+Product manager
+Offer an optional ‘soft’ credit check upfront for new customers that 
+removes unaffordable hardware & plans from the store
+We reduce the 
+volume of customers failing the credit check when their basket is unaffordable
+This impacts 20% of new customer orders, 70% of whom abandon basket
+New customers online and in assisted channels are offered 
+and can complete a soft credit check on entering the store which filters the products they are offered
+.
+We reduce 
+volume of failed credit checks at point of order by 50%.
+Essential
+1.1
+Customer
+Be offered a simple soft credit check 
+before I start shopping 
+So that I know how 
+what
+ I can afford
+ from the store
+Offer should be at the top of the page, at point of entry to the store
+ / offered at the start of a customer journey in the agent’s script
+SCC
+ has 
+no more than 4 steps to complete
+ 
+and less
+ than 10% abandonment rate.
+Essential
+Attachments, 
+R
+eferences

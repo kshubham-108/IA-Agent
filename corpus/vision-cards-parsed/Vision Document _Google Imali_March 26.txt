@@ -1,0 +1,503 @@
+Vision Document
+Idea Name
+Google Imali Migration
+Sponsor 
+Matt Hemingway
+Proposer / Owner
+Ana-Rosa Broster
+Budget code & type
+Capex
+Finance approver
+Nicola Grenville
+Purpose, use and accountabilities of this document
+An approved Vision is mandatory for a project to mobilise. It describes the scope and intent to be delivered by the mobilised project. The project is the prime beneficiary of the Vision in that it guides their scope and intent and provides a baseline for stakeholder conversations.
+The Vision document 
+captures the
+ information required for initial T-Shirt sizing of a proposal
+.
+The proposer / owner of an idea is responsible for creating and obtaining approval for the 
+Vision 
+document
+.
+Approvals & Document Control [Internal Delivery Team]
+Please consult with your Pod lead to agree the minimum set of approvals required for this requirement.
+Name
+Role
+Approval (signature or email)
+Date
+Sponsor / Delegate
+Product Manager / Owner Requestor
+Principal/Senior Business Analyst
+Principal/Senior Solution Architect
+Senior Programme Manager
+Author
+Version
+Date
+Reason
+0.1
+First draft
+0.2
+First review with stakeholders
+1.0
+Approved Version
+Table of Contents
+1
+Problem / Opportunity Statement (Required)
+3
+2
+What is in scope of this idea? (Required)
+3
+3
+Out of current scope (possible future scope) [Required]
+3
+4
+Legal/Regulatory, Fraud, Security and environmental impacts
+4
+5
+Dependencies / Risks / Assumptions [Required]
+5
+6
+Key stakeholders and distribution
+5
+7
+Appendices
+6
+8
+Glossary
+6
+9
+Attachments, References (optional)
+7
+Problem / Opportunity 
+Statement (
+Required)
+Background or context of the opportunity
+Where does the problem or opportunity occur? What is the context
+, event, 
+or 
+customer 
+journey
+ in which it occurs
+?
+As below
+Describe the problem or opportunity
+As below
+Business Objectives - what is the business trying to achieve?
+Under the subheadings below, list the quantifiable, time-bound benefits you expect to gain from addressing this problem/opportunity. These should be consistent with/copied from your business case.
+Objectives
+/Goal what is the business trying to achieve
+Benefits
+ 
+incl
+ volumes
+Google are moving their operator billing transactions 
+(Charge to Mobil) 
+globally to a new billing platform called Imali. 
+As
+ part of our contractual 
+obligation
+ we must migrate to Imali in 2026 and no later than 2027.
+ As part of the 
+migration
+ we are now required to provide a
+n
+ account level ID for each customer so that Google 
+are able to
+ identify attempts coming from the same account level 
+as opposed to just MSISDN level which is what we have now. The Charge to Mobile platform currently does not have this level of detail so it will need to be included in future transactions.
+Additionally,
+ Google have updated their fraud controls and have requested a change to be made to the Subscriber 2 API.
+ 
+To support the new Google security requirement, 
+we
+ will be required to provide the 
+SHA1-hashed IMSI
+ value in the response of the following API endpoint:
+https://sdpapi.o2.co.uk/services/Subscriber_2_0
+As O2 we have around 140k unique users per month and £3m end user spend on Google
+If this wasn’t done this revenue would be at risk.
+What should happen in 
+future
+ if we address this opportunity?
+What do you want to happen in future to fix/address this problem/opportunity? 
+What metric(s) will measure whether we have been successful in addressing this opportunity? e.g. Change of X by Y in period Z.
+We meet the requirements from Google and 
+are able to
+ successfully migrate to the new Imali 
+platform
+ (migration not in scope this will be carried out by third partner technical integrator after the addition of the account ID)
+Successful migration to Google Imali platform by 2027.
+What is in scope of this idea?
+ (Required)
+All existing and future 
+Charge to Mobile 
+debit 
+transactions.
+ Ideally, we’d like this change to only be applied to Google debit 
+transactions
+ 
+but it may require a change to all merchants.
+API
+s
+: 
+11200 Subscriber_2_0 Service Specification 
+and 
+ManageAccountPaymentDebit
+ Service - Service Specification_2_1 
+Charge to Mobile
+ (Direct to Bill)
+ platform
+ (Micropayments)
+O2 
+PAYM customers
+Out of current scope (possible future scope)
+ 
+[Required]
+Are there any specific exclusions to the defined scope for the proposed project? If this is the first phase, a proof of concept or a minimum viable product some functionality, capabilities or journeys could be excluded.
+Out of Scope
+Future Scope (later phase Delivery)
+Reporting
+PAYG customers as they don’t have account level IDs
+Customer Journey
+ 
+Customer journey touch points
+[
+The table below will help you to identity your potential customer touch points, it is important to identify where your customers pain and gain points are along each of the steps, and how we need to evolve the current operating model (People, Processes and systems) to meet the need of our customers
+].
+Find.
+  
+How does a customer find out about it?  Include which segments and channels are targeted for customer acquisition.
+N/A already a live service – there is no impact to the current end user experience
+. End user finds the service via the merchant – this is only impacting the billing element.
+Buy.
+  
+Where/how does we want the Customer to commit to/place order for this?
+N/A already a live service – there is no impact to the current end user experience
+Set Up
+. How does a customer get it& set it up?  E.g., automated online or via other channel or via managed service
+N/A already a live service – there is no impact to the current end user experience
+Use Service.
+  
+Explanation of service What the management of the service shall include.  Typically, it corresponds to what VMB shall do to shall do to support the Product in life.
+N/A already a live service – there is no impact to the current end user experience
+Billing.
+  
+What billing model is needed? E.G subscription or usage model. Will the customer be able to self-serve?
+N/A already a live service – there is no impact to the current end user experience
+ for billing.
+Change & add service
+.  What billing model is needed? E.g., subscription or usage model will the customer be able to self-serve?
+N/A already a live service – there is no impact to the current end user experience
+Support
+. Where do we want customer to turn when they need help/customer support?
+N/A already a live service – there is no impact to the current end user experience for customer support
+Stay, Renew or Move. 
+How does a customer extend or cease a service, leave VMB, return any physical equipment
+?
+N/A already a live service – there is no impact to the current end user experience
+Customer Impacts
+[Please describe the impact of delivery of this idea on the customer.]  
+Question
+Y/N
+Details
+Does this change impact customers and / or the customer experience?
+N
+End user experience is not changing
+ 
+Is there expected to be an impact to the way the customer purchases their service(s)?
+N
+End user experience is not changing
+Is there expected to be an impact to the way the customer uses their service(s)?
+N
+End user experience is not changing
+Is there expected to be an impact to the way the customer makes changes to their service(s)?
+N
+End user experience is not changing
+Is there expected to be an impact to the way the customer cancels their service(s)?
+N
+End user experience is not changing
+Is there expected to be an impact to the way Virgin Media provides support to the customer?
+N
+End user experience is not changing
+Will delivery of the idea offer the customer flexibility?
+N
+End user experience is not changing
+Will delivery of the idea offer additional value to the customer?
+N
+End user experience is not changing
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Description
+VMO2 stakeholder
+Legal / contractual / legislative obligations
+  
+Completing this change is a current contractual obligation. No changes to contract required.
+Stephanie Obeng
+Regulatory obligations e.g. OFCOM, ICO,
+ 
+etc
+.
+N/A no change to regulatory obligations
+Sophie Andreou
+Security or fraud impacts
+TBC – this change should improve ability to identify fraud with Google
+Murray Mac
+k
+enzie
+Has the whole 
+environmental impact
+ 
+of the project, from design to end of life been considered? 
+N/A
+Has the lowest energy using product or service been considered for the project 
+(if applicable)?
+N/A
+Equity / Accessibility of VMO2 service(s)
+N/A no change to the end user experience
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D1
+D2
+D3
+Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R1
+Unable to migrate to Imali platform
+Low
+Loss of Google C2M revenue, contractual breach
+R2
+Impact on other Partners/Merchants
+Medium
+We need to understand if this change will impact other partners using these APIs detrimentally
+R3
+ 
+Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+A2
+A3
+A
+s
+pirational timelines
+[Please indicate Aspirational Commercial Launch Date (CLD) and drivers behind these timelines. Where individual scope lines have different aspirational CLDs please indicate this below.  
+These dates are only aspirational
+, until the project is mobilised & a full impact assessment has been completed, this date is not committed to.
+Commercial Launch Date
+Scope
+Drivers
+Q1 2026
+Internal change on C2M platform
+Change needs to be completed in time for a Q3 2026 Imali migration
+ – Google’s timelines
+Key stakeholders and distribution
+Please list all stakeholders engaged in the creation and review of this Vision. Consult your Mobilisation Lead on any additional stakeholders who will benefit from early sight of the Vision document to reduce friction / delay through Ideate and later phases of a project.
+Name
+Role
+RACI / Reason for involvement
+Version
+Matt Hemingway
+Sponsor / Delegate
+A: Ensures Vision is funded
+Ana-Rosa Broster
+Harriet Lynas
+Proposer/Owner
+R: Responsible for creating, socialising and obtaining signoff of Vision document.
+Ana-Rosa Broster
+Product owner (s)
+R: Agrees Product vision and impacts
+TBC
+Pod Leads
+R: Checks Vision is complete, fit for purpose and approved before PMO submission.
+TBC
+Enterprise Architect
+R/C: Agrees / recommends Vision alignment to roadmap and ESA
+TBC
+Digital Architect
+R/C: Agrees / recommends Vision alignment to roadmap and ESA
+TBC
+ESA Domain owner
+R/C: Agrees / recommends Vision alignment to roadmap and ESA
+Micropayments Team
+Subject matter expert
+C: Helps to shape the Vision based on their expertise
+Stephanie Obeng
+Legal 
+C: Advises on Legal impacts
+Sophie Andreou
+Regulatory 
+C: Advises on Regulatory impacts
+TBC
+Security 
+C: Advises on security impacts
+ 
+Appendices
+Strategic projects may have a Delivery Blueprint. 
+Initial ideation may have created 
+customer journey slides
+, infographics or 
+relevant research
+. Feel free to add these – or 
+list external references here
+. 
+ 
+Glossary
+Term
+Description
+POD
+ lead
+s
+.
+Involved in the mobilisation of complex cross functional projects. 
+Responsible for helping the proposer of an initiative to 
+scope
+ their idea, engage relevant stakeholders, estimate impacts, 
+review business cases, 
+secure a roadmap slot, obtain resources
+, 
+meet PMO 
+assurance 
+requirements
+ and mobilise 
+as a project. 
+ESA
+. 
+End State Architecture
+Our strategy for transforming the technical estate across IT, 
+N
+etworks and 
+D
+igital.
+ESA 
+D
+omain 
+O
+wner
+Accountable for ESA transformation for a group of technical platforms in our architecture. 
+OFCOM
+Regulator of UK Telecoms
+.
+ 
+https://www.ofcom.org.uk/phones-and-broadband/accessibility/rules-for-providers/
+ICO
+Information Commissioners Office. Regulator of data protection.
+https://ico.org.uk
+Capex
+Capital Expenditure. This type of finance is intended to create an asset, like a piece of software, which will be used by the company. 
+The cost of a
+n asset can be written off over 
+several
+ years
+, 
+on the company balance sheet.
+ If in doubt about funding types and 
+approvals,
+ please consult your 
+F
+inance partner.
+Opex
+Operational Expenditure. This type of expense 
+does not create a tangible asset. It must be shown in the 
+company 
+balance sheet for 
+the year in which it is spent. An initiative may 
+need
+ 
+Opex
+ for some e.g. commercial activity, 
+pre-project activity, 
+or the creation of a proof of concept 
+which is not destined to become a long term commercial or operational tool.
+ 
+Opex
+ cannot be used to create software or an application that will 
+have ongoing 
+commercial or operational use
+ and value
+.
+ If in doubt about funding types and 
+approvals,
+ please consult your 
+F
+inance partner.
+Vision 
+Doc
+Standard
+ template to collect minimum information about an initiative
+. This is 
+required 
+to engage 
+a
+ 
+SBA
+ 
+L
+ead
+ to investigate the initiative, consult architects and 
+support creation 
+of 
+ a
+ sizing estimate
+DMA reference
+This is the identifier of the output of a DMA sizing estimate
+. If an initiative has a DMA 
+reference,
+ then 
+a sizing questionnaire has been completed
+. 
+DMA estimates are an early indication of the scale and complexity of an 
+idea,
+ but they are not an alternative to the 
+more rigorous estimates that are collated 
+based on 
+detailed 
+business requirements, solution steer and Impact Assessments (IA) from suppliers in the scope requirements and baseline planning phase 
+of a project after it is mobilised. DMA estimates are deemed only 60% certain at 
+best and
+ rely on 
+a well-defined and 
+thought-out
+ vision card and 
+initial consultation with architects from key impact areas by the Mobilisation Lead.  
+DMA output is normally transferred across to the project portfolio 
+management
+ tool Clarity by the PMO after 
+sizing. One in Clarity the DMA initiative will be given an IDA code
+.
+IDA reference
+This is the reference given to an initiative once it has been sized and 
+the outputs of sizing transferred to the project portfolio management tool Clarity.
+PMO
+Project Management Office. Responsible for maintaining good governance of the project portfolio. 
+Attachments, 
+R
+eferences
+ (optional)

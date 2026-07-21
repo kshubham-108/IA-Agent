@@ -4,7 +4,20 @@
   "private": true,
   "type": "module",
   "exports": {
-    "./rates.yaml": "./rates.yaml"
+    "./rates.yaml": "./rates.yaml",
+    "./ba-allocation.yaml": "./ba-allocation.yaml",
+    "./sa-allocation.yaml": "./sa-allocation.yaml",
+    "./seed-funding.yaml": "./seed-funding.yaml",
+    "./confidence.yaml": "./confidence.yaml",
+    "./wall-of-reference.yaml": "./wall-of-reference.yaml",
+    "./complexity.yaml": "./complexity.yaml",
+    "./data-etl.yaml": "./data-etl.yaml",
+    "./mw.yaml": "./mw.yaml",
+    "./ad360.yaml": "./ad360.yaml",
+    "./data-milestones.yaml": "./data-milestones.yaml",
+    "./templates/retainx.yaml": "./templates/retainx.yaml",
+    "./templates/o2t.yaml": "./templates/o2t.yaml",
+    "./templates/dfe-default.yaml": "./templates/dfe-default.yaml"
   },
   "scripts": {
     "typecheck": "node -e \"process.exit(0)\""

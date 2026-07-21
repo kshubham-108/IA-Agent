@@ -1,0 +1,22 @@
+# Middleware matrix PU (§3B) — action × platform × size
+actions: [New, Modify, Reuse, Onboard]
+platforms: [Apigee, MSA, Fusion]
+sizes: [S, M, C]
+
+matrix:
+  New:
+    Apigee: { S: 8, M: 15, C: 25 }
+    MSA: { S: 10, M: 18, C: 30 }
+    Fusion: { S: 12, M: 22, C: 35 }
+  Modify:
+    Apigee: { S: 4, M: 8, C: 14 }
+    MSA: { S: 5, M: 10, C: 18 }
+    Fusion: { S: 6, M: 12, C: 20 }
+  Reuse:
+    Apigee: { S: 1, M: 2, C: 3 }
+    MSA: { S: 1.5, M: 3, C: 4.5 }
+    Fusion: { S: 2, M: 4, C: 6 }
+  Onboard:
+    Apigee: { S: 6, M: 12, C: 20 }
+    MSA: { S: 8, M: 15, C: 25 }
+    Fusion: { S: 10, M: 18, C: 28 }

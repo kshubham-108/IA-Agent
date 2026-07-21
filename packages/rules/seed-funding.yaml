@@ -1,0 +1,21 @@
+# OFR seed-funding golden case (§3C)
+case_id: ofr
+ba:
+  customer: 4
+  people_process: 5
+  technology: 4
+  complexity: 3
+  cif: 4
+  cdf: 0
+  total_score: 20
+  pu_2026: 295.2
+sa:
+  score: 139
+  pu: 161
+  resources: 2
+  duration_weeks: 16.1
+total_pu: 456.2
+expected_cost_gbp:
+  2025: 194122.22
+  2026: 165144.40
+  2027: 109031.80

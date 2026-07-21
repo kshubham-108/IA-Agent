@@ -1,0 +1,14 @@
+# Confidence band anchors (§4) — slide width by manifest coverage (1 = full manifest)
+flows:
+  ia:
+    lower_pct: -0.15
+    upper_pct: 0.15
+  iia:
+    lower_pct: -0.30
+    upper_pct: 0.50
+  vision-only:
+    lower_pct: -0.50
+    upper_pct: 1.00
+
+# At coverage 0, band width doubles relative to anchors
+coverage_slack_multiplier: 1.0

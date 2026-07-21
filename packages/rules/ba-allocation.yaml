@@ -1,0 +1,54 @@
+# BA IIA allocation — bands, effort %, duration, PU by year (2026 column = golden anchor)
+bands:
+  - id: vl
+    label: Very Low
+    min_score: 0
+    max_score: 1
+    effort_pct: 0
+    duration_weeks_2026: 0
+    pu_2026: 0
+  - id: l
+    label: Low
+    min_score: 2
+    max_score: 4
+    effort_pct: 0.5
+    duration_weeks_2026: 6.5
+    pu_2026: 16.4
+  - id: m
+    label: Medium
+    min_score: 5
+    max_score: 8
+    effort_pct: 1.0
+    duration_weeks_2026: 10
+    pu_2026: 49.2
+  - id: mh
+    label: Medium High
+    min_score: 9
+    max_score: 12
+    effort_pct: 1.0
+    duration_weeks_2026: 13
+    pu_2026: 65.6
+  - id: h
+    label: High
+    min_score: 13
+    max_score: 16
+    effort_pct: 2.0
+    duration_weeks_2026: 16
+    pu_2026: 160.0
+  - id: vh
+    label: Very High
+    min_score: 17
+    max_score: 20
+    effort_pct: 3.0
+    duration_weeks_2026: 19.68
+    pu_2026: 295.2
+
+# Year columns — VH anchor 295.2 → 277.2 → 259.2 (2025 / 2026 / 2027)
+year_pu_factors:
+  2025: 0.9390243902439024 # 277.2 / 295.2
+  2026: 1.0
+  2027: 0.8780487804878049 # 259.2 / 295.2
+
+duration_display:
+  vh: "20+ wks"
+  zero: "0 wks"

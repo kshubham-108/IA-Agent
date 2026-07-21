@@ -1,0 +1,464 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Initiative 
+Title
+PAYG Pre-Loaded SIMs
+Business 
+O
+utcome
+ (and Value)
+1.1 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your 
+business
+-
+unit
+ 
+Primary (SMART) 
+Business 
+Outcome 
+Reduce the current National Databank SIM proposition loss (currently c£800k p/a)
+To deliver a new Try Before you Buy solution at O2 supported events and venues (currently not possible with existing PAYG solution) 
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Improve
+ /
+ reduce
+In which
+ business metric?
+NPS
+ / Supporting Financial Vulnerability
+For which
+ specific stakeholder or business user?
+ 
+(
+Primary outcome beneficiary
+)
+PAYG customers
+By 
+how much
+?
+ 
+(
+Quantity
+ or percentage
+ is required
+)
+XX
+ NPS points
+What is the current 
+value for this business metric?
+e.g. 
+-15
+ 
+NPS
+ average q1-q4 2025
+Improvement must happen 
+w
+ithin what timeframe?
+within 
+9
+ months
+What strategic 
+outcome
+ does this support
+? 
+1.2 Value case
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Y/N Reviewed with Name
+What is the approximate revenue uplift / cost saving from this?
+Saving TBC (however current loss is c.£800K p/a)
+Leading indicator
+s
+ (predictor of successful execution). 
+Suggest (if you know) what metric
+s
+ will measure successful execution of this change.
+Stop Abuse of current proposition
+Streamline onboarding 
+ 
+Key assumptions. 
+Are there any critical 
+business 
+assumptions
+?
+ 
+n/a
+Customer and Experience Outcomes
+2.1 Customer Problem
+ (Evidence based)
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Financially Vulnerable Customers (National Databank
+ - NDB
+)
+Non-O2 Customers at O2 Supported events (Try Before you Buy – TBYB)
+What customer need or problem is this proposal addressing
+?
+Unable to offer TBYB
+ 
+currently
+Current NDB solution is voucher based and open to abuse
+What is happening today?
+Describe what the primary customer (or colleague) experiences today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+NDB today is a 
+voucher based
+ solution where vulnerable customers can obtain a £15 Big Bundle PAYG SIM and 
+upto
+ 12 months of vouchers to give FOC service. Unfortunately, this is being abused by multiple vouchers being obtained and then either refunded in cash or using Premium OOA services free of charge. 
+H
+ow do we know it matters to the customer?
+This service is invaluable to genuine Financially vulnerable customers
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+As above, current solution is open to abuse and is currently 
+driven
+ 
+a
+ negative £800k p/a 
+loss.
+.
+Also, currently 
+no
+ option to offer a TBYB solution to supportO
+2  Network
+ trials for non-customers.
+2.2 Customer Experience Outcome (Future state)
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+O2 becomes 
+a
+ trusted 
+Brand 
+network for
+ Financially vulnerable people, offering a dedicated National Databank SIM catering exactly for its purpose (for both customer and VMO2) 
+How does this differ from the current state?
+Current solution is built on the back of a BAU £15 Big Bundle product which has lots of additional features and services 
+on
+ general 
+sale
+. The new product will have a dedicated 
+amount
+ of allowances for an agreed 
+period of time
+ and process supporting the intended customer use case. 
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+A large drop in the loss of £800k. Costs would be transferred into Network based costs and SIM production costs. New proposition will also offer customers the ability to migrate directly onto a paid PAYG product at the end of the agreed timeframe of the prop.
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+New Pre-Loaded SIM product will include an amount of Data allowance, unlimited Minutes and Texts. It will be Zero rated, replenish each month and last for a configurable timeframe (e.g. 1 month or 6 months depending on if TBYB or NDB). 
+2.
+3
+ Journey 
+context
+Which channels
+ and 
+processes are in scope? 
+NDB SIMs - Available in Retail or via Good Things Foundation
+TBYB – only available at O2 Supported Events  
+Which product
+s or services 
+are 
+in scope
+?
+PAYG
+Delivery Outcomes
+3.1 
+Capability outcomes
+What capabilities must exist to deliver the outcome?
+ 
+Describe the key capabilities needed (not features)
+.
+ 
+If your proposal is on behalf of an external party such as 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support 
+this third party.
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Capability
+MVP*
+1
+Capability within Matrixx CCS
+ or NC360
+ to 
+trigger an 
+auto-migrate onto a Big Bundle PAYG (TBD) product after XX successful monthly tariff cycles
+ (timeframe should be configurable)
+N
+2
+All other capabilities are BAU PAYG Tariff attributes already available within the Matrixx CCS and NC systems today.
+3
+4
+5
+6
+7
+8
+9
+10
+Reporting or analytics capabilities
+Acquisition and in life reporting of NDB and TBYB SIMs MUST be available in a dashboard.
+3.2 Delivery 
+S
+uccess 
+M
+etrics
+. How will delivery be measured?
+Type
+Metric
+Time to Market
+Within 9 months
+Quality target
+n/a
+Adoption target
+n/a
+Other (Specify)
+3.3 Service and Quality Requirements (NFRs)
+What Volumes of customers or transactions 
+must the delivery support
+?
+New Customer 
+Acquisition
+Medium
+Performance
+Response times or availability
+n/a
+Security or privacy
+If unsure, select ‘unknown’
+unknown
+Compliance 
+Any legal or regulatory compliance requirements?
+n/a
+Fraud prevention
+How must 
+we
+ prevent fraud?
+n/a
+Auditability
+n/a
+Accessibility 
+/ vulnerable customer 
+requirements
+The onboarding journey 
+must 
+support vulnerable customers
+ – new Welcome Comms will be required
+3.
+4
+ 
+Delivery Scope & Impact
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+N
+Retail stores
+Y
+NDB product will replace existing SIM currently supplied in store.
+Care and Retentions
+Y
+New product will be fully named and 
+recognisable
+ in CSRD -m agent awareness
+Commercial & go to market
+Product & Proposition management
+N
+Marketing & Sales
+Y
+New SIM packs will be required
+ 
+Shop & Basket (buy/upgrade journeys)
+N
+Order fulfilment & service changes
+Order & fulfilment
+N
+Service activation & configuration
+N
+Supply Chain & Logistics
+Y
+New SKUs will be required, New SIM packs
+Field operations
+Y
+TBYB may be used as an FMC Leader to try O2 SIM before converting to a PAYM Volt/Munro SIM.
+ 
+Run and assure services
+Network services (mobile, fixed, TV)
+N
+Faults, outages & service assurance
+N
+Service operations & support teams
+N
+Money, account and trust
+Billing, payments & customer finance
+N
+Customer accounts, identity and permissions
+Y
+My O2 should be available
+Other
+Wholesale services & support
+N
+B2B Daisy Impact
+N
+3.
+5
+ 
+Constraints and Dependencies
+What constraints or non-negotiables must the future solution 
+respect
+?
+n/a
+Is there anything explicitly out of scope?
+n/a
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+3.
+5
+ 
+Delivery timing
+When do you want this to 
+go live?
+ASAP
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Current NDB solution is loss 
+leading
+ and we need to aim to deliver the replacement product asap to help in stopping the c.£800k loss p/a.
+Supporting Information
+Has any solution assessment been done? 
+Include links to existing solution options, blueprints, etc. that may support T Shirt sizing  
+Insert link here.
+Are there any 
+other 
+supporting documents or references 
+e.g. Links to slides, customer personas etc.
+Insert link here.
+Governance and Ownership
+Proposer
+Jamie Bell
+S
+ponsor
+Jonathan Ross-
+Thriepland
+Person accountable for the business outcome
+Jade Baker
+Finance Business Partner
+(s) 
+Jade Baker / 
+Josephine 
+Parmee
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+e.g. 
+TOP-867
+ might be the reference. Some business units may just use the project name.
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+OCMTB 
+Which business division will be funding this proposal?
+Consumer
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Consumer demand 
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+12/05/26
+If known, when is this planned to attend Investment Committee?
+n/a
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+n/a
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+21/10/25
+Vision has been reviewed with key architects / ESA domain owners?
+Y/N
+Date approved for platform assessment by BEM
+DD/MM/YY
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

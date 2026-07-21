@@ -1,0 +1,40 @@
+# SA IIA allocation — score bands on extended scale (OFR golden: 139 → VH → 161 PU)
+bands:
+  - id: vl
+    label: Very Low
+    min_score: 0
+    max_score: 6
+    resources: 0
+    duration_weeks: 0
+  - id: l
+    label: Low
+    min_score: 7
+    max_score: 27
+    resources: 0.5
+    duration_weeks: 4
+  - id: m
+    label: Medium
+    min_score: 28
+    max_score: 55
+    resources: 1
+    duration_weeks: 8
+  - id: mh
+    label: Medium High
+    min_score: 56
+    max_score: 83
+    resources: 1
+    duration_weeks: 10
+  - id: h
+    label: High
+    min_score: 84
+    max_score: 111
+    resources: 1.5
+    duration_weeks: 13
+  - id: vh
+    label: Very High
+    min_score: 112
+    max_score: 999
+    resources: 2
+    duration_weeks: 16.1
+
+pu_per_week: 5

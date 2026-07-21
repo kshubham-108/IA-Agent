@@ -1,0 +1,639 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+SharePoint 
+to SharePoint Online Migration
+Primary (SMART) Outcome statement
+Migration of all 
+sites
+ and data
+ 
+fro
+m
+ 
+the 
+on
+-p
+remise
+ SharePoint
+ services
+ to 
+the strategic 
+SharePoint Online
+ platform
+.
+ 
+Currently 20Tb of business data 
+is stored on 
+out
+ of support 
+SP 
+platforms
+.
+ Current 
+infrastructure cannot be patched
+, has multiple vulnerabilities
+ and 
+an
+ £8m risk registered. 
+Reduce cost / eliminate vendor dependency
+What type of 
+state change/improvement must the project deliver
+?
+Closure of Risk 
+CIOBTR0053
+ (£8m)
+. Project 
+should
+ mitigate 
+all 
+current SharePoint 
+risk
+ and improve collaboration and productivity.
+In which
+ business metric?
+Risk 
+closure 
+/ Qualys Vulnerability Reporting
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+Applicable risk reduction across all business units currently hosting data on SharePoint on-prem. 
+Main b
+usiness benefit to DWP/Security 
+through 
+reduced vulnerabilit
+y
+ of the platform.
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+100% of vulnerabilities relating to SharePoint
+ 
+on premise 
+mitigated
+ 
+What is the current 
+value for this business metric?
+£8m
+ risk
+Within what timeframe?
+Q3 2027
+What strategic 
+outcome
+ does this support
+? 
+Risk reduction 
+and Compliance
+Stakeholders
+Proposer
+Jim Barton
+S
+ponsor
+Phil Wilshaw
+ /Seza Nevzat
+Person accountable for the business outcome
+Jim Barton
+Finance Business Partner(s) 
+Matt Rigden / Beth Postlethwaite 
+Role
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+DWPDE-4583
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+TBC
+Which business division will be funding this proposal?
+CIO/
+Corporate
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Philip Wilshaw 
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+Feb 2026
+If known, when is this planned to attend Investment Committee?
+N/A
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Business areas affected to cooperate with migration strategies
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+Confidence and cost control
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+Who is impacted and what is broken today?
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Applicable
+ to all 
+users and 
+departments 
+who 
+retain 
+sites and 
+data within the 
+VMO2 
+SharePoint 
+on-prem
+ise
+ 
+service
+What customer need or problem is this proposal primarily addressing — and how do we know it matters to the customer?
+Customer Trust 
+ensuring 
+data is secure
+d 
+on
+ 
+‘
+in support
+’
+ services
+ and infrastructure
+Which product
+s or services 
+are 
+in scope
+?
+SharePoint 2010/13/19 On premise | SharePoint Online
+Which channels, processes or (if known) systems are in scope? 
+Specify the channels, processes or systems involved today
+U
+nsupported 
+fO2 and 
+fVM
+ SharePoint Infrastructure
+ data to be migrated to 
+the strategic SharePoint online platform. 
+ 
+What is happening today?
+Describe what 
+the prim
+ary 
+customer 
+(or colleague) 
+experience
+s
+ today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Majority of the 
+on premise
+ SharePoint infrastructure 
+has been ou
+t of support for over 5 years without technical support, bug fixes, or security updates
+. 
+End users 
+see
+ poor experience 
+with limited collaboration capabilities 
+and 
+significant risk to 
+their 
+ data
+.
+ E.g.
+ External access was recently 
+blocked due to a significant and real hack
+ 
+threat
+. This closure has 
+le
+ft
+ VMO2 and external customers unable to collaborate 
+and share data 
+eff
+iciently.
+ 
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+Migration
+ 
+of 
+all
+ required
+ sites and data
+ to 
+the 
+supported
+ and strate
+gic 
+SharePoint Online platform will
+ secure
+ both
+ internal and customer data
+, mitigating an £8m 20TB Data risk
+, 
+maintaining
+ customer trust.
+The 
+migration to the 
+SharePoint Online platform
+ 
+provides a rich
+, 
+secure, 
+integrated and modern collaboration solution
+. I
+ncreasing 
+productivit
+y
+, security and
+ the overall
+ user experience
+.
+ Reduction in Operational complexity and infrastructure support
+ is also an opportunity.
+What must change
+?
+Vision
+ summary
+ 
+(desired outcome)
+. 
+In one line, what will be materially better for the customer 
+(or colleague) 
+if this succeeds?
+A move to a modern
+, O365 integrated
+,
+ secure
+ platform that will 
+mitigate significant risk and
+ improve 
+collaboration
+,
+ productivity 
+and reduce overall Operation overhead
+ and cost
+ 
+ 
+How does this differ from the current state?
+Migration from
+ aging and unsupported
+ 
+o
+n premise
+ infrastructure to 
+evergreen O365 SharePoint services
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Data security, integrated O365 collaboration experiences, improved productivity and confidence in data security 
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+N/A
+What constraints or non-negotiables must the future solution 
+respect
+?
+N/A
+Is there anything explicitly out of scope?
+N/A
+When do you want this to 
+go live?
+Completion by Q3 2027
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Platform is already 5 years out of support with multiple vulnerabilities that cannot be patched
+. The migrations are complex and Q3 2027 is the expected earliest completion date
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+No value case. SharePoint On
+l
+ine is already 
+in use within the 
+business
+,
+ this is a migration of sites and dat
+a
+ from legacy 
+to 
+in
+ support cloud version
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+All sites and data migrated 
+from SP to SPO.
+Decommission of all SP on Premise infrastructure
+What is the approximate revenue uplift / cost saving from this?
+Risk and compliance driven, not driven by revenue
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+None
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+Clear
+ and accurate
+ communication to
+ all 
+affected areas of the business
+ 
+to ensure accurate migrat
+ion
+ data is
+ collated
+ 
+2
+Migration of only sites and data that are still required by the business
+3
+S
+ecurity 
+of
+ new sites and data is in line with current 
+security 
+rules
+4
+Accurate reporting of migrations throughout the project lifecycle
+5
+Decommission of all legacy infrastructure
+6
+Removal of costs 
+support 
+costs 
+for 
+decomm’d
+ Infrastructure 
+7
+8
+9
+10
+What are your reporting or self-serve analytics (data 
+democ
+.) requirements?
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+N/A
+Response times or availability
+N/A
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+N/A
+Any legal or regulatory compliance requirements?
+N/A – migration is to a
+n 
+in production
+ environment
+Are there any Fraud 
+requirement
+s?
+N/A
+Auditability requirements
+N/A
+Accessibility 
+/ vulnerable customer 
+requirements
+N/A
+6.2
+ 
+What parts of the business are likely to be impacted
+?
+This section helps us understand which parts of the organisation may be affected if this proposal goes ahead. You do not need technical knowledge — simply indicate where you believe there may be an impact. 
+If you are unsure, 
+p
+ick “Potential impact”. You are signalling where impact may exist, not committing to scope or design. This will be reviewed and refined during shaping and sizing
+.
+Operational area
+Impact
+?
+ 
+(Y/N/potential)
+How
+ might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Potential 
+If area has sites or data in SharePoint currently
+Retail stores
+Yes
+Retail 
+SharePoint site resides on fO2 SP on Premise
+Care and 
+R
+etentions
+Potential
+If area has sites or data in SharePoint currently
+Commercial
+ & go to market
+Product & Proposition management
+Potential
+If area has sites or data in SharePoint currently
+Marketing & Sales
+Potential
+If area has sites or data in SharePoint currently
+Shop & Basket (buy/upgrade journeys)
+Potential
+If area has sites or data in SharePoint currently
+Order fulfilment & service changes
+Order
+ 
+&
+ 
+fulfilment
+Potential
+If area has sites or data in SharePoint currently
+Service activation & configuration
+Potential
+If area has sites or data in SharePoint currently
+Field operations
+Potential
+If area has sites or data in SharePoint currently
+Run and assure services
+Network services (mobile, fixed, TV)
+Potential
+If area has sites or data in SharePoint currently
+Faults, outages & service assurance
+Potential
+If area has sites or data in SharePoint currently
+Service operations & support teams
+Potential
+If area has sites or data in SharePoint currently
+Money, account and trust
+Billing, payments & customer finance
+Potential
+If area has sites or data in SharePoint currently
+Customer accounts, identity and permissions
+Potential
+If area has sites or data in SharePoint currently
+Other
+Wholesale services & support
+Potential
+If area has sites or data in SharePoint currently
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+None – migration is using 
+ShareGate
+, which is already used for individual migrations. Migration 
+is 
+to SPO
+, a platform widely used within across
+ 
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+None
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

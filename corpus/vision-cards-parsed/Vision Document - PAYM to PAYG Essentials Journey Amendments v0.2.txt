@@ -1,0 +1,393 @@
+V
+ision Document
+Idea Name
+PAYM to PAYG Essentials 
+Journey Amendments
+Sponsor
+ / Sponsor Delegate
+Deepa Kutmutia
+Has a Vision document been created for this idea previously?
+N
+APPROVALS REQUIRED
+[It is crit
+ical that the 
+author of this document engages with the stakeholders 
+named below.
+ 
+The Vision cannot proceed without their 
+approval.]
+Name
+Role
+Approval
+(Signature or email)
+Date
+Deepa Kutmutia 
+Product Owner 
+(TM)
+Email
+04/06/2025
+Anil Shetty 
+Technical 
+Tribe 
+Architect
+ (TM)
+Email
+04/06/2025
+Chelsey Mott
+Service Delivery Manager (TM)
+Email
+04/06/2025
+Princess Adegbite
+Business Analyst (TM)
+Email
+04/06/2025
+Nikki Crozier
+Account Manager (VMO2)
+Omar Mohammed
+Principal Business Analyst (VMO2)
+DOCUMENT HISTORY
+[Whilst the document is in draft, it should have the numbering convention of Draft v0.1.  Once approved, it needs to be 
+changed to Approved v1.0.
+]
+Author
+Version
+Date
+Reason
+Princess Adegbite 
+Draft v
+0.1
+20/05/2026
+Initial draft for comment
+Chelsey Mott
+04/06/2026
+Supported with initial draft and raised into VMO2 front door.
+Chelsey Mott
+Draft v0.2
+30/06/26
+Inclusion of customer 
+journeys in Appendix
+1.
+PROBLEM or Opportunity Statement
+3
+2.
+Objectives
+3
+3.
+BUSINESS BENEFITS
+3
+4.
+Customer Journey
+4
+5.
+Scope
+5
+6.
+ASpirational timelines
+5
+7.
+Initial Risks, Assumptions, Dependencies
+6
+8.
+Glossary
+6
+9.
+DISTRIBUTION LIST
+7
+10.
+Key Stakeholders
+7
+11.
+pROCESS fLOW
+8
+MVNO – Specific
+The purpose of the Vision document is to capture the key features of 
+the 
+idea, the business objectives, requested scope and benefits.  The Vision document will be used to engage key stakeholders and as a handover to the project team and Architect 
+who will create an 
+architectural s
+teer
+.
+ 
+ 
+T
+he architectural s
+teer is a key input to the Initial Impact Assessment (IIA) which will provide an initial view of expected costs and 
+delivery 
+timelines.  A well-constructed Vision document will speed up the time to complete the architectural
+ steer and lead to a better quality and more accurate Initial Impact Assessment.
+The contents of 
+the 
+Vision document should be discussed and approved with the Principal Business Analyst and the project sponsor.  Without an approved Vision 
+document
+ the project will not proceed to the 
+Ideation
+ 
+(
+Demand Management
+) 
+stage of the above framework and therefore work cannot commence on an Architectural Steer and Initial 
+T Size costings.
+If not already engaged, please contact your PBA as soon as possible.
+PROBLEM or Opportunity Statement
+The core issue is that there is no simple, seamless way to move from PAYM to PAYG
+ Essentials, or vice versa, 
+using the same SIM, resulting in unnecessary effort, delays, and a poor customer experience.
+The current process of disconnecting and reconnecting customers is a 
+manual back-office process
+, which can be impacted by human error, so f
+ailure of any steps can lead customers without service.
+Objectives
+ / Goals
+The goal is to enable customers to transition from PAYM to PAYG Essentials
+,
+ 
+and vice versa
+,
+ 
+without needing a new SIM or manual intervention, creating a much simpler and more customer-friendly journey.
+BUSINESS BENEFITS
+To reduce customer effort, improve 
+customer 
+experience and NPS
+ scores
+.
+ 
+CUSTOMER JOURNEY
+ 
+CUSTOMER JOURNEY TOUCH POINTS
+Find.
+  
+How does a customer find out about it?  Include which segments and channels are targeted for customer acquisition.
+N/A
+Buy.
+  
+Where/how do we want the Customer to commit to/place order for this?
+N/A
+Set Up
+. 
+How does a customer get it& set it up?  E.g., automated online or via other channel or via managed service
+N/A
+Use Service.
+  
+Explanation of service What the management of the service shall include.  Typically, it corresponds to what VMB shall do to shall do to support the Product in life.
+N/A
+Billing.
+  
+What billing model is needed? E.G subscription or usage model. Will the customer be able to self-serve?
+N/A
+Change & add service
+.  
+What billing model is needed? E.g., subscription or usage model will the customer be able to self-serve?
+N/A
+Support
+. 
+Where do we want customer to turn when they need help/customer support?
+N/A
+Stay, Renew or Move. 
+How does a customer extend or cease a service, leave VMB, return any physical equipment
+?
+N/A
+SCOPE
+ 
+5.1 
+In Scope
+Tesco Mobile is reviewing the PAYM to PAYG Essential customer journey. Currently, moving customers between these segments (PAYM to PAYG and vice versa) relies on a highly manual process.
+To improve this, Tesco Mobile needs to enhance capabilities within NetCracker to support re-provisioning of a recently disconnected mobile number (MPN) on the same SIM. 
+This would allow the number to be set up under a different BSS account and assigned a new service more efficiently.
+OUT OF Scope
+There is no change required for other customer journeys. 
+ASpirational timelines
+[Please indicate 
+A
+spirational 
+Commercial Launch Date (CLD)
+ and 
+drivers behind these timelines
+.
+ 
+Where individual scope lines have different aspirational CLDs please indicate this below.  
+These
+ date
+s are
+ only aspirational
+, until the project is mobilised & a full impact assessment has been completed
+, this date is not committed to
+.
+]
+Commercial Launch Date
+Scope
+Drivers
+26
+th
+ August 2026
+All requirements
+To a
+lign with Hansen Release 26.7
+Initial 
+Risks, 
+Assumptions
+,
+ Dependencies
+The areas below should only be completed if applicable, i.e. there may not be any constraints or dependencies.
+Risks
+[Risks are items that
+ could happen (but haven’t yet)
+ 
+that would impact the cost, scope, timelines or successful delivery of this project.
+  
+If you are 
+aware of any, 
+please iden
+tify them using the table below.]
+Risk
+Risk Description
+Probability
+Impact
+R
+1
+Based on VMO2’s delivery SLA’s, this request will need to be expedited 
+in order to
+ achieve Tesco Mobile’s aspirational delivery dates. If this timeline is not achievable then VMO2 should highlight this at the earliest opportunity. 
+H
+Delayed customer experience impacts. 
+Assumptions
+[Assumptions are items that are taken for 
+granted but
+ will need to be validated to prevent the Vision from not being met. 
+If you have made any 
+a
+ssumptions about the delivery or solution
+,
+ please iden
+tify them using the table below.]
+Identifier
+Assumption Description
+A1
+Dependencies
+[Any known dependencies, in or out bound should be detailed. These are items outside the control of the delivery but are needed 
+in order to
+ ensure the success of the Vision. 
+If you are aware of any
+,
+ please iden
+tify them using the table below.]
+Identifier
+Dependency Description
+D1
+Hansen 
+D2
+Care
+H
+ub 
+D3
+APIGW
+D4
+NetCracker
+Glo
+ssary
+[Please include any technical/business terms used throughout this document, with an explanation of any acronyms.]
+Acronym / Abbreviation
+Definition
+CLD
+Commercial Launch Date
+HLRs
+High Level Requirements
+IIA
+Initial Impact Assessment
+PBA
+Principal Business Analyst
+SMART
+Specific, Measurable, Achievable
+, Relevant, Time-based
+TRD
+Technical Readiness Date
+DISTRIBUTION LIST
+[Please capture all stakeholders who have been sent the vision document for information or consultation.
+ Against each stakeholder, please indicate their responsibility in the RACI section (Responsible, Accoun
+table, Consulted, and Informed)
+.]
+Name
+Role
+Department
+RACI
+Version
+Deepa Kutmutia
+Sponsor
+I LOVE
+Accountable
+Chelsey Mott
+Service Delivery Manager
+AMO
+Responsible
+Anil Shetty
+Technical 
+Architect
+I LOVE 
+Consulted
+Princess Adegbite
+Senior 
+Business Analyst
+I LOVE
+Consulted
+Michael 
+Ogden
+Channel Change
+I LOVE
+Consulted
+Key Stakeholders
+[Please capture all the stakeholder groups (by role & name) 
+engaged
+ as part of the vision 
+creation 
+and any areas that have been identified but not yet engaged.]
+Name
+Department
+Deepa Kutmutia
+I LOVE
+Chelsey Mott
+AMO
+Anil Shetty
+I LOVE 
+Princess Adegbite
+I LOVE
+Michael 
+Ogden
+I LOVE
+John Preston 
+I LOVE
+pROCESS fLOW
+[Please 
+include any 
+3
+rd
+ Party process flow which will support 
+your
+ project initiative
+.]
+Tesco Mobile provisions Mobile Phone Numbers (MPNs) via the Network Core (NC) API by passing:
+MPN
+ICCID ( optional )
+BSS Account Identifier (Related Party ID)
+NC uses these inputs to:
+Provision the MPN across network elements
+Create and maintain service inventory
+Associate the MPN/SIM with a service instance ID and BSS account
+Subsequent lifecycle operations (e.g., SIM swap) rely on:
+BSS Account Identifier
+Service Instance ID
+When a customer transitions between propositions (e.g., PAYG → PAYM or PAYM → PAYG):
+The MPN is disconnected
+A new provisioning request is triggered under a different BSS account
+However:
+NC enforces lifecycle rules that prevent reuse of a disconnected MPN
+As a result, the same MPN + SIM combination cannot be reprovisioned immediately
+We need the capability of re-provisioning of a recently disconnected MPN on the same SIM, under a different BSS account and with different service.
+AppendiCES 
+VMO2 Business outcomes
+Enable automated PAYM ↔ PAYG Essentials transitions using the existing SIM and mobile number, removing the need for manual  intervention
+ with 
+100% of supported PAYM/PAYG Essentials journeys 
+being
+ processed through the new automated capability following launch.
+Ensure Tech Mahindra delivery is completed in line with the agreed project plan, approved budget and committed delivery milestones, with any risks to time, cost or scope identified and escalated through governance at the earliest opportunity.
+Tesco Mobile Customer Journeys

@@ -1,0 +1,880 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+Inbound 
+Personalisation
+ 
+Primary (SMART) Outcome statement
+The requirement of surfacing 
+personalised
+ offers to 
+customer
+ 
+in
+ inbound O2 channels has been proved through Inbound PoC. It had 
+a number of
+ challenges but helped to learn and make a 
+path way
+ for Inbound 
+Personalisation
+ Phase 2. This solution aims to take the inputs from learnings and adhere to proposed ESA architecture. This strategic solution aims to provide the framework for 
+personalised
+ offers through inbound channels. It currently covers following use cases with a view to support similar future use cases. 
+Personalised
+ upgrade offers and recommendations 
+Personalised
+ cross-sell offers and recommendations Basket voucher reminders Currently O2 displays same generic/static offers, managed directly within 
+Storyblok
+, to logged in customers. One of the main aims of this solution is to dynamically identify 
+personalised
+ offers and present them to the eligible customers. This improves relevance of the offerings, and hence the uptake. 
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Ref to the outcome statement
+In which
+ business metric?
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+.
+What is the current 
+value for this business metric?
+Within what timeframe?
+Multiple drops, first of them should be in 3Q 2026. 
+What strategic 
+outcome
+ does this support
+? 
+Ref to the outcome statement
+Stakeholders
+Proposer
+Seni Akinduro
+S
+ponsor
+Chris Bournes 
+Person accountable for the business outcome
+Seni Akinduro
+Finance Business Partner
+(s) 
+Reeta Patel 
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Programme
+/Project Manager
+Kalyan Medapati
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+TOP-866
+; C0-2026-010
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+PJ024387 (Base Trading Squad)
+Which business division will be funding this proposal?
+Consumer
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Consumer Demand Forum for prioritization
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+8 May 2026
+If known, when is this planned to attend Investment Committee?
+May 2026
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+N/a
+For admin use only
+Date received by 
+Business Engagement and 
+Mobilisation
+ (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+Who is impacted and what is broken today?
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Per
+sonalis
+tion
+ 
+is 
+rele
+vant for 
+most 
+PAY
+M 
+mobile cus
+tomer
+s
+, so 
+all 
+customer
+s
+ 
+who
+ 
+visit 
+digital 
+channels 
+have
+ 
+a 
+bett
+er 
+experience
+ 
+because 
+it’s rele
+vant to 
+them
+. 
+Specific
+ 
+commercial
+ 
+groups 
+of 
+focu
+s are 
+cus
+tomers 
+look
+ing to u
+pgrade
+ / 
+in 
+reten
+t
+ion win
+dow.
+ 
+And
+,
+ 
+customers 
+who
+ have
+ a 
+high
+ prope
+n
+si
+ty 
+for 
+cross-
+sel
+l
+.
+ 
+What customer need or problem is this proposal primarily addressing — and how do we know it matters to the customer?
+Cust
+omers
+ exp
+ect 
+us to s
+ave them 
+time 
+by prov
+iding 
+perso
+nal recom
+mendations
+.
+ 
+Lots of research has shown this. 
+They
+ expec
+t us 
+to 
+show 
+O2
+ valu
+e
+s
+ them 
+by 
+pro
+viding 
+o
+ffers 
+to 
+retain
+ them 
+d
+uring 
+re
+-
+contra
+cting. 
+At the moment
+ O2 has a 
+significant churn issue (customers cancelling) 
+because we 
+cannot
+ 
+give them 
+personalized 
+offers.
+Which product
+s or services 
+are 
+in scope
+?
+O2 PAYM Contract Renewal (Upgrade / CFU) 
+Recommendations
+ and offers
+O2 Add Connection (Cross-sell / CFA for existing customers) 
+Which channels, processes or (if known) systems are in scope? 
+Specify the channels, processes or systems involved today
+Phase 2 (first): 
+Upgrade Options
+, 
+eCare
+ Home, Basket
+. Also links to pages from Upgrade Options and 
+eCare
+ Home
+ PDPs and Configuration.
+Subsequent phases are TBC and just for info at this stage
+Phase
+ 3: My O2 App
+Phase 4: o2.co.uk/shop, Product / SIMO Listing Page
+What is happening today?
+Describe what 
+the prim
+ary 
+customer 
+(or colleague) 
+experience
+s
+ today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Very limited personalization
+.
+ 
+C
+urrently if the commercial team 
+want
+ to run 
+offers
+ for 
+existing 
+customer
+ 
+in
+ digital channels this is resource-heavy and 
+ran
+ 
+by 
+the CRO team via Optimizely. This 
+take
+s 
+resource
+ away from valuable CRO experimentation. 
+There are also some personalized messages that are driven 
+via 
+Netcracker
+, but these are not 
+offers, and
+ a
+re not integrated with 
+Personalisation
+ Engine.
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+Customers are 
+cancelling because we are unable to offer them competitive offers via digital channels. There is a big commercial opportunity to impact churn.
+Many customers 
+decide to call in to our call 
+centers
+ to try and get the best offer. There is 
+therefore an opportunity to reduce the overhead of the call 
+centres
+.
+What must change
+?
+Vision
+ summary
+ 
+(desired outcome)
+. 
+In one line, what will be materially better for the customer 
+(or colleague) 
+if this succeeds?
+More customers stay with 
+O2
+ and more customers buy 
+additional products 
+because of
+ being shown relevant 
+products and personal offers
+ 
+in
+ 
+inbound digital channels
+.
+How does this differ from the current state?
+Customers are deciding to leave O2 or call into Call Centers because of our inability to surface 
+personal offers to them in digital channels.
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Customers will access Upgrade Options or the My O2 Home Page and immediately see a 
+phone and
+/or
+ tariff recommendation that is relevant to them. 
+This will make their experience of shopping much faster and effortless as they can quickly decide to purchase the product that is relevant to them.
+If they qualify for a retention offer (likely because they have a high churn risk), they will 
+feel valued by O2, be able to secure a much more competitive price, and therefore be 
+much more likely to remain with O2 and trust the brand and digital channels in the future.
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+eCare
+ 703 - Braze roadmap – Figma
+eCare
+ 1118 - Further UX/UI for Inbound 
+Personalisation
+ – Figma
+What constraints or non-negotiables must the future solution 
+respect
+?
+The solution must provide 
+us
+ the ability to show pricing and any
+ necessary
+ regulatory terms 
+alongside those, for example price rise information and right to cancel.
+Is there anything explicitly out of scope?
+For this phase we are focusing on Upgrade Options, 
+eCare
+ Home and Basket, but the solution must be easily 
+scaleable
+ and 
+able to easily implement in other locations in future phases. So other location e.g. My O2 app 
+are
+ out of scope for this phase, but in scope for future phases.
+ 
+When do you want this to 
+go live?
+Commercial launch in August 2026
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Churn is a significant 
+issue
+ and we want to have the means to address it ahead of Apple launch and key Q4 trading.
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+As 
+this is
+ 
+primarily providing
+ capability to 
+deliver Recommender (personalization) Engine led offers into the digital front end, the value projections are 
+together with the Data Products
+ 
+team. 
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+Retained revenue, reduced churn
+What is the approximate revenue uplift / cost saving from this?
+This is provided within the Data Products team forecasts
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+N/A
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+As a signed-in PAYM handset customer in the retention window, the system must remind me of any eligible upgrade offers (money-off handset and/or contract buyout) and display the associated voucher code in my basket if I have seen them earlier in my journey.
+Y
+2
+As a signed-in SIMO customer (in the retention window or out of contract), the system must remind me of any eligible upgrade offers (money-off handset or airtime vouchers) and display the associated voucher code in my basket, regardless of whether I have previously seen them in my journey.
+Y
+3
+System must
+ allow voucher code types to be configurable and must
+ revalidate both voucher reminders and applied voucher codes in the basket when accessed after a previous day; any invalid vouchers must be removed and replaced with a valid set, while same-day vouchers remain unchanged and does not require revalidation.
+Y
+4
+System must allow customers to view in their basket voucher reminders, understand voucher details, apply one or multiple voucher codes, remove and reapply them, clearly see selected vouchers, and view the impact of applied vouchers on basket and checkout pricing across all devices.
+Y
+5
+System must present up to 3 personalised upgrade recommendations (handset to handset and SIMO to handset), including any eligible money-off vouchers, to signed-in PAYM customers on the
+ View
+ Upgrade Options page.
+ 
+Y
+6
+The signed in 
+PayM
+ customer must be eligible for more than one upgrade offers and must be reminded of all those voucher codes in their basket.
+Y
+7
+The signed in 
+PAYM 
+SIMO customer
+ 
+who 
+are 
+ 
+out
+ of contract
+ 
+and are identified eligible
+ for availing the voucher code and
+ may not have
+ the visibility of the voucher code earlier in online upgrade journey, must be reminded of the upgrade offer and associated voucher code in their basket.
+Y
+8
+System must present 
+upto
+ 6 
+personalized upgrade
+/
+Xsell
+ recommendations (Handset to Handset and SIMO to Handset), including any eligible money-off vouchers, to signed-in PAYM customers on the 
+eCare
+ home page.
+Y
+9
+system must use the Recommender Engine to determine customer eligibility for 
+personalized
+ upgrade offers instead of relying on predefined audience criteria in Braze
+. RE must consider the standard Exclusion list for offer recommendations
+ and should be able to suggest the priority of the offer display.
+Y
+10
+System must validate previously applied voucher codes when the user returns. 
+if
+ any are invalid, it must clear the basket and provide new voucher codes.
+Y
+11
+System must display personalized upgrade offers (handset and/or SIMO) to eligible signed-in PAYM 
+customers ,
+ including a recommended device or tariff, applicable upgrade vouchers (as per existing rules), and any relevant generic deals, to help customers decide which offer to explore further.
+Y
+12
+System must allow configuration of the minimum and maximum number of 
+personalised
+ 
+upgrade
+ offers returned by the Recommender Engine and ensure that generic offers are displayed when no personalized offers are available, so the offer carousel is never empty.
+Y
+13
+System must direct customers to the relevant product page when they select a personalized upgrade offer, with the recommended device or tariff pre-selected, allowing them to customize options before proceeding to the basket.
+Y
+14
+System must hide the 
+upgrade 
+recommendations section when an exclusion flag is received from the Recommender Engine and ensure that duplicate or identical offers are not shown simultaneously from both Optimizely and the Recommender Engine.
+Y
+15
+System must allow configuration of offers displayed across homepage carousels and banners, ensuring consistent placement (e.g. aligning top banner offers with carousel positions) to optimize performance.
+Y
+16
+System must allow eCommerce/
+eCare
+ Managers to toggle the display of offers in the blue banner on or off, enabling control over when promotions are shown and supporting changes in offer strategy.
+Y
+11
+The system must allow the cust
+omer to see the voucher applied in the basket cost and in the checkout also the s
+ystem must display promotion applied so that customer can view the cost before the offer applied and after the 
+offer
+ applied.
+Y
+15
+The eCommerce/
+eCare
+ manager must be 
+allow
+ to configure the minimum /maximum 
+number of 
+upgrade
+ 
+offers 
+ and
+ 
+XSell
+ offers.
+Y
+16
+The system
+ must allow the customers to 
+do any further
+ changes 
+on
+ their interested recommended
+ 
+handset/SIMO
+ upgrade offers
+ on relevant phone 
+page/SIMO page where tariff will be preselected.
+Y
+17
+Signed
+ in 
+PayM
+/SIMO customers must be able to see 
+a personalized
+ number of 
+Xsell
+ rec
+ommendations on 
+eCare
+ homepage.
+Y
+18
+The signed in MBB/Watch 
+customers must be able to see Mobile or Watch offers on 
+eCare
+ homepage.
+Y
+19
+The system must allow the customer to see multiple Addition
+al
+ 
+handset
+,
+ Additional 
+SIM,
+ 
+Device,
+ 
+Wearables
+ 
+Xsell
+ offers
+ on 
+eCare
+ homepage.
+Y
+20
+The system must allow the customers to 
+do any further
+ changes 
+on
+ their
+ 
+interested
+  
+ 
+Additional handset, Additional SIM, Device, Wearables, SIM Free 
+Xsell
+ offers 
+on relevant
+ page where 
+tariff
+ will be preselected.
+Y
+What are your
+ reporting 
+or 
+self-serve analytics (data 
+democ
+.
+) requirements
+?
+System must enable reporting on offer behaviour across both the Upgrade Options landing page and the 
+eCare
+ home page, with defined metrics to support tracking and performance analysis.
+- The number of voucher codes which were offered by day/week/month/custom.
+- How many voucher codes were successfully added to the basket and checked out by day/week/month/custom.
+- How many voucher codes were not added to the basket and checked out by day/week/month/custom
+Y
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+Shop 
+:
+ 
+101K
+ECare
+ :
+ 238K
+Upgrad
+ 
+Options :
+ 743K
+Response times or availability
+TBC
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+Unknown
+Any legal or regulatory compliance requirements?
+NA
+Are there any Fraud 
+requirement
+s?
+Yes – 
+Business Rules on Voucher usage
+ in the basket
+Auditability requirements
+NA
+Accessibility 
+/ vulnerable customer 
+requirements
+Yes
+ there is requirement 
+of
+ 
+VMO2’s accessibility compliance.
+6.2
+ 
+What parts of the business are likely to be impacted
+?
+This section helps us understand which parts of the organisation may be affected if this proposal goes ahead. You do not need technical knowledge — simply indicate where you believe there may be an impact. 
+If you are unsure, 
+p
+ick “Potential impact”. You are signalling where impact may exist, not committing to scope or design. This will be reviewed and refined during shaping and sizing
+.
+Operational area
+Impact
+?
+ 
+(Y/N/potential)
+How
+ might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Web & App
+Retail stores
+No
+Care and 
+R
+etentions
+No
+Commercial
+ & go to market
+Product & Proposition management
+Retention and Cross Sell teams
+Marketing & Sales
+Outbound comms, needs to be alignment with offers in comms
+ 
+Shop & Basket (buy/upgrade journeys)
+Upgrade options, Basket
+Order fulfilment & service changes
+Order
+ 
+&
+ 
+fulfilment
+Voucher management 
+Service activation & configuration
+N/A
+Field operations
+N/A
+Run and assure services
+Network services (mobile, fixed, TV)
+N/A
+Faults, outages & service assurance
+N/A
+Service operations & support teams
+N/A
+Money, account and trust
+Billing, payments & customer finance
+N/A
+Customer accounts, identity and permissions
+N/A
+Other
+Wholesale services & support
+N/A
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Link to Solution 
+Design :
+ 
+Inbound 
+Personalisation
+ - Digital Architecture - Confluence
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+Find the detailed functional and non-functional Requirements in below link
+ 
+Inbound 
+Personalisation
+ Requirement 
+Documet
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and 
+Mobilisation
+ (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

@@ -1,0 +1,36 @@
+id: o2t
+label: O2.co.uk Transformation
+base_pu: 4400
+itemised:
+  dynamic_screens_250: 2300
+  cms_50: 250
+  apigee_ops_175: 525
+  msa_25: 250
+  sdk_4: 40
+  reports_10: 50
+  tagging: 500
+  test_data: 100
+  other: 30
+  bazaar: 135
+  third_party: 100
+  catalogue: 120
+overlay_vector:
+  - 0.30
+  - 0.25
+  - 1.0
+  - 0.10
+  - 0.25
+  - 0.25
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.05
+fixed_add_pu: 15
+management_overlays:
+  pm: 0.25
+  warranty: 0.20
+  contingency: 0.05
+expected_total_pu: 16192.5
+expected_person_weeks: 3238.5

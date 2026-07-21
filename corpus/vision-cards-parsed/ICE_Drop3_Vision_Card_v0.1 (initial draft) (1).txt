@@ -1,0 +1,1103 @@
+Th
+is
+ Vision Card outlines the 
+desired business, customer and delivery outcome
+ for your
+ 
+new project idea
+. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Initiative 
+Title
+Project ICE (ITSM Convergence and Evolution) - Drop 3
+Business 
+O
+utcome
+ (and Value)
+1.1 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ 
+Primary (SMART) 
+Business 
+Outcome 
+Workstream 1 (WS1) – Progressive Web Apps Enablement
+ for Helix USM
+. This is a key enabler for 
+Workstream
+ 3
+Workstream 2 (WS2) – Upgrade of Helix 
+USM
+ to
+ a minimum of 26.1
+ to support Workstream 3.
+Workstream 3 (WS3) – 
+Convergence
+ of 
+Fixed 
+Network 
+Service 
+Management Functionality from Remedy
+ 
+to 
+Helix
+ 
+USM
+ 
+in alignment with the Service Assurance End State Architecture
+ 
+while 
+maximising the out of the box capabilities of the target 
+Helix
+ 
+system
+.
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Remove compliance risk linked to legacy solution
+Reduce total cost of ownership
+Improve employee experience
+Reduce Manual effort
+In which
+ business metric?
+Overall 
+Ticket Reduction
+OPEX Cost
+ Avoidan
+ce
+For which
+ specific stakeholder or business user?
+ 
+(
+Primary outcome beneficiary
+)
+All ITSM and Network Service Management Impacted Employees and Partners
+ 
+that use the
+ existing Remedy Platform
+ today 
+By 
+how much
+?
+ 
+ 
+(
+Quantity
+ or percentage
+ is required
+)
+Ticket Reduction
+:
+ ~15%
+OP
+EX Cost Avoidance: Up to £
+2
+.6m
+ efficiencies
+ per year
+ (of which £0.75M/year due to ticket reduction)
+What is the current 
+value for this business metric?
+Ticket Volumes: ~300k/year
+ (network Fault tickets
+)
+OPEX
+ 
+–
+ 
+~
+£
+5
+M
+ per year
+ based on 
+£
+1
+5
+ 
+avg
+ 
+price per ticket
+Improvement must happen 
+by when
+?
+WS1 – PWA – Lowe
+r
+ Environments – Q4 
+2026
+WS
+1 
+–
+ PWA
+ – Production – Q1 2027
+WS2 – Upgrade –
+ 
+Lower Environment(s)
+ - End of Q2
+ 2027
+WS2 – Upgrade – 
+Production
+ – End of 
+Q
+3
+ 2027
+WS3 
+–
+ 
+Net. SM Migration – Production 
+–
+ 
+Q4 2028
+What strategic 
+outcome
+ does this support
+? 
+For our Customers
+: More resilient products and services, faster resolution and service restoration times
+For our Employees & Partners
+: Enhanced digital experiences through an easy-to-use portal, simplifying and harmonising access to internal services and ITSM processes for all VMO2 staff
+For our Operational Users
+: Improved daily experience with a modern, intuitive interface enhanced by intelligent workflow automation.
+For VMO2
+: simplified and future proof toolset, enhanced staff productivity, reduced ticket volumes and increased automation
+1.2 Value case
+What is your value case built on so far?
+ 
+Click any that apply
+☐
+ 
+Revenue uplift  
+☒
+ 
+Cost saving
+☒
+ 
+Risk reduction
+☒
+ 
+Customer experience
+ (employees direct, end customer indirect)
+☐
+ 
+Other
+ (
+specify
+):
+What is the approximate financial value of this?
+Ramp up to 
+£
+2
+.6m
+/year
+ OPEX saved
+£
+9.7M 
+CAPEX
+ cost avoidance
+Over 
+4
+ years
+What are your 
+top 1-3
+ assumptions for this to be true?
+Successful 
+convergence
+ of Network 
+Service 
+Management functionality
+ to USM Helix
+ by 2028
+Reduce
+d
+ product 
+customisations to no more than 10% of all functionality implemented on
+ Helix USM (
+note: 
+product configurations that don’t impact
+ upgrade
+ 
+path and 
+complexity
+ are excluded from this calculation)
+Convergence to a single ITSM 
+toolset
+ 
+to support
+ fixed and mobile 
+network 
+operations
+ enabling enhanced staff productivity
+ and increased automation.
+What lead indicator
+(s)
+ will predict success
+ in delivering this value?
+Product Customisation no more than 10% from OOTB
+Ticket Volume Reduction
+ and/or Automation
+ (# of per year)
+Annual Effort Savings (man hours/year)
+Customer and Experience Outcomes
+2.1 Customer Problem
+ (Evidence based)
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+All employees, partners and vendors using Remedy for fixed network operations and field service management today
+What customer need or problem is this proposal addressing
+?
+Provide a s
+ingle, modern, scalable and future proof ITSM 
+toolset
+ for 
+f
+ixed
+ and
+ 
+m
+obile 
+n
+etwork 
+service management and o
+perations
+What is happening today?
+Describe what the primary customer (or colleague) experiences today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Our ITSM toolset and its data ecosystem is heavily fragmented and siloed, leading to inefficiencies, inconsistent user experience and inability to take advantages of the latest technological innovations. 
+Fixed
+ and mobile network service management is done across two very different syste
+ms (Remedy and USM Helix respectively) preventing full process integration
+, requiring support staff to operate across the two
+ systems and forcing VMO2 to support a more complex and costly architecture.
+H
+ow do we know it matters to the customer?
+Lack of efficiencies, duplicated effort and lack of productivity
+ ultimately
+ affect 
+VMO2 
+ability to 
+get to and 
+fix
+ customer and network
+ problems faster
+, impacting
+ the
+ customer perception of the 
+quality and robustness of VMO2 
+product an
+d
+ services
+.
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+Swivel 
+chai
+r activities and lack of single 
+toolset
+ resulting in additional effort from support teams
+ 
+and
+ 
+wasted cost
+ for VMO2. Money
+ and time
+ which could and should be spent 
+instead in 
+enhancing th
+e
+ customer experience
+.
+This project also provide
+s
+ a unique opportunity to 
+simplify the 
+VMO2 
+ITSM 
+landscape, future proofing it and
+ aligning it to the Service Assurance End State Architecture
+2.2 Customer Experience Outcome (Future state)
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+The project
+ 
+aims
+ to deliver the convergence of the legacy Remedy 
+toolset
+ onto a target Helix architecture. 
+In previous phases (drops), t
+he project
+ has delivered a new API framework for easy integration with US
+M
+ Helix (Drop 1)
+, the 
+migra
+tion and consolidation of
+ employee and partner request portals
+ onto a single
+ system
+,
+ the migration of 
+IT
+ service management and operations onto USM Helix
+ (Drop 2)
+. 
+In th
+e
+ next phase
+ 
+(Drop 3)
+, which is the 
+subject of this vision card, ICE aims to deliver the 
+con
+vergence
+ of 
+Network service management and operations 
+toolset
+,
+ associated
+ data and 
+processes 
+(where applicable) 
+to the new 
+Helix 
+architecture, maximising 
+Helix USM
+ out of the box capabilities
+.
+ This will be done
+ leveraging also
+ some of the new enablers being delivered in the OSS
+ domain, 
+particularly
+ the new 
+target 
+inventory 
+solution (e.g.
+ 
+Digi
+t
+al 
+Twin
+)
+ 
+subject
+ of a separate Vision card and engagement. 
+How does this differ from the current state?
+Project will deliver a
+ s
+ingle, modern, scalable and future proof ITSM solution for 
+f
+ixed
+ and
+ 
+m
+obile
+ Service Management and
+ Network Operations
+.
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+For our Customers
+: More resilient products and services, faster resolution and service restoration times
+For our Employees & Partners
+: Enhanced digital experiences through an easy-to-use portal, simplifying and harmonising access to internal services and ITSM processes for all VMO2 staff
+For our Operational Users
+: Improved daily experience with a modern, intuitive interface enhanced by intelligent workflow automation.
+For VMO2
+: simplified and future proof toolset, enhanced staff productivity, reduced ticket volumes and increased automation
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+No
+2.
+3
+ Journey context
+Which channels
+ and 
+processes are in scope? 
+All Fixed Network Processes and workflows currently in scope of the systems 
+below 
+and
+ any 
+channel (web and mobile) used for their access by users and agents
+Which product
+s or services 
+are 
+in scope
+?
+Remedy, Helix USM, 
+T
+arget
+ network
+ 
+inventory 
+solution (e.g.
+ 
+Digital Twin
+)
+, Strategic CMDB, Wholesale ITSM & any other interconnected systems 
+Technology products as described 
+above
+, with the primary focus on the target system (Helix USM) and the legacy system (Remedy), where functionality currently resides. The project should take the opportunity to redefine existing processes and functionality to align with the new target architecture. This will require a significant degree of first
+ 
+principles and innovative thinking
+ and planning
+, while respecting the constraints and drivers behind the current state, as well as embedding a strong business change management capability within the project to guide impacted stakeholders throughout the entire change journey. This applies to all workstreams but is particularly relevant for WS3.
+Delivery Outcomes
+3.1 
+Capability outcomes
+What capabilities must exist to deliver the outcome?
+ Describe the key capabilities needed (not features)
+.
+ 
+If your proposal is on behalf of an external party such as giffgaff then your requirement scope will only cover the capabilities in VMO2 that support 
+this third party.
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Capability
+MVP*
+1
+WS1 – PWA 
+Tested and 
+Enabled on all Helix USM 
+Environments
+, enabling all users and development teams to operate with PWA
+ views.
+Y
+2
+WS1 – All training materials updated 
+to reflect UI/UX for PWA on Helix USM
+ as part of Business Change activities
+ e.g.
+ 
+t
+raining
+ and 
+communications
+ delivered in a 
+manner
+ that 
+meets business needs
+Y
+3
+WS2 – Helix USM Updated to a minimum version of 26.1 across all environments, providing users with a 
+cohesive experience
+ and 
+access to all product features
+.
+  All 
+testing & 
+compliance
+ needs met
+Y
+4
+WS2 – All training materials updated to reflect UI/UX for Helix.  
+Business Change activities e.g. training and communications delivered in a manner that meets business needs
+.
+Y
+5
+WS2 
+–
+ 
+Future 
+Helix USM 
+upgrades to be deliverable in no more than 6 weeks
+, including meeting all compliance and testing requirements.  Automated testing 
+to be utilised wherever possible.
+Y
+6
+WS3 
+-
+ All critical 
+Network Service Management 
+capabilities
+ process
+es
+ and users
+ moved from Remedy to USM Helix
+ in accordance with the Service Assurance End State Architecture
+Y
+7
+WS3 
+–
+ 
+Capability
+ for
+ selectively 
+ingesting 
+network 
+C
+I
+s
+ and relationships from the
+ 
+target 
+inventory 
+solution (e.g.
+ 
+Digital Twin
+)
+ into the Hel
+ix CMDB
+ 
+minimising data 
+re-
+modelling work on both systems
+Y
+8
+WS3 – 
+Impact Analysis capa
+bility
+ delivered via open API integration
+ 
+with the digital twin
+ for fixed operation
+. This capability underpins 
+fixed Network management in VMO2 today
+. 
+This should
+ be designed in a way that
+ maximises performance (i.e. re
+s
+ponse times) and
+ minimise the complexity on the ITSM end of the 
+API, w
+ith
+ ITSM becoming a requestor/consumer of th
+e services delivered via this integration.
+Y
+9
+W
+S3 
+-
+ 
+Capability
+ for ITSM to use the 
+target
+ network
+ 
+inventory 
+solution (e.g
+.
+ 
+Digital Twin
+)
+ integratio
+n
+ to relay change
+ records
+ 
+and
+ ticket inform
+ation and relationships
+ to
+ the 
+target 
+network 
+inventory 
+solution (e.g.
+ 
+Digital Twin
+)
+TBC
+10
+WS
+3
+ – All training materials updated to reflect
+ any 
+UI/UX
+ change
+ for Helix.  
+Business Change activities e.g. training and communications delivered in a manner that meets business needs
+.
+Reporting or analytics capabilities
+To be assessed and discussed during requirement gathering stage
+s
+ 
+for the 
+three 
+workstreams as
+ requirement will 
+differ. 
+The
+ baseline assumption
+ for the purpose of this Vision Card
+ 
+across all workstreams
+, in particular WS3,
+ 
+should be
+ that
+ 
+all 
+the reporting
+ and analytics capabilities
+ produced
+ or present
+ today on the 
+relevant
+ system
+ are in scop
+e
+3.2 Delivery 
+S
+uccess 
+M
+etrics
+. How will delivery be measured?
+Type
+Metric
+Time to Market
+WS1 – PWA – Lower Environments – Q4 2026
+WS1 – PWA – Production – Q1 2027
+WS2 – Upgrade – Lower Environment(s) - End of Q2 2027
+WS2 – Upgrade – Production – End of Q3 2027
+WS3 – Net. SM Migration – Production – Q4 2028
+Quality target
+Stakeholders satisfaction
+ and delivery of expected outcomes within the above timelines
+ with minimal disruption to existing operations
+Adoption target
+N/A
+Other (Specify)
+3.3 Service and Quality Requirements (NFRs)
+What Volumes of customers or transactions 
+must the delivery support
+?
+All existing users of both USM and Remedy systems
+All existing t
+ransaction
+ and query volumes need to be supported as a minimum
+ for all workstreams and based on 
+the new
+ solution architecture 
+in the case of
+ WS3
+Note: 
+SaaS licenses to cover for 
+all users converged on USM have been procured by VMO2 already
+Transaction volumes 
+on the integrations will need to be validated during discovery phase and 
+consider
+ the new solution architecture for WS3
+Performance
+Response times or availability
+WS1 – Post PWA Upgrade, Helix USM should perform on par or better than present deployment.  Performance metrics will need to be captured as part of WS1.
+  Availability should be consistent with existing 
+Virgin Media O₂ class of Service Definition (Helix is a GOLD Service)
+WS2 – Post Helix USM Version Upgrade, Helix USM should perform on par or better than present deployment.  Performance metrics will need to be captured as part of WS1
+/WS2
+.
+  Availability should be consistent with existing Virgin Media O₂ class of Service Definition (Helix is a GOLD Service)
+WS3 - 
+For Impact Analysis related queries the expectation is that wil
+l 
+take seconds (
+e.g
+. sub 30s)
+ for complex request 
+retuning
+ thousands of 
+impacted
+ C
+I
+s and services when applicabl
+e.
+ Simpler queries with aggregated responses should take even less
+. 
+Security or privacy
+If unsure, select ‘unknown’
+All existing security and privacy requirements will apply to all workstreams (including, where applicable TSA)
+For WS3 – extra controls might need to be built to ensure no IL3/PSN sensitive data is stored 
+or managed on public cloud and outside of the UK
+Compliance 
+What
+ 
+are the 
+legal or regulatory compliance requirements?
+All 
+existing compliance requirements will apply to all workstreams
+.  
+Additional
+ 
+compliance
+ activities will likely be required for all 
+workstreams
+Fraud prevention
+How must 
+we
+ prevent fraud?
+N/A
+Auditability
+What audit or logging 
+is required?
+All existing 
+auditability
+ requirements will apply to all workstreams
+Accessibility 
+/ vulnerable customer 
+requirements
+All existing 
+accessibility / vulnerable 
+users’
+ requirements
+ will apply to all workstreams
+ (if
+ and where these apply)
+3.
+4
+ 
+Delivery Scope & Impact
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Y
+All WSs
+ – Employee 
+self
+‑
+serve actions, login, service management
+Retail stores
+P
+A
+ll
+ WSs – UI/UX Changes require training and comms.
+WS3 
+Possible i
+ndirect impact on i
+n
+‑
+store sales flows, colleague tools, advice, activation or support
+Care and Retentions
+Y
+All
+ WSs – UI/UX Changes require training and comms.
+All WSs - 
+Direct impact on 
+case handling, scripts, troubleshooting
+ and support
+ actions
+Commercial & go to market
+Product & Proposition management
+N
+Marketing & Sales
+N
+Shop & Basket (buy/upgrade journeys)
+N
+Order fulfilment & service changes
+Order & fulfilment
+P
+WS3 - 
+Although out of scope for the 
+migration, 
+indirect impact 
+on
+ activities on B2B
+ 
+order 
+workflows and processes 
+remaining on Remedy 
+will need to be 
+avoided and
+, if needed,
+ workaround
+s might need to be in place
+Service activation & configuration
+P
+WS3 - 
+Same observation as above. This will need to be ruled out
+Supply Chain & Logistics
+N
+Field operations
+Y
+WS3 - 
+Customer installs, repairs, visits
+Run and assure services
+Network services (mobile, fixed, TV)
+Y
+All WSs - 
+Coverage, connectivity, performance, reliability
+ – direct impac
+t on
+ ability to 
+suppor
+t
+ and changed
+ these services
+Faults, outages & service assurance
+Y
+All WSs - 
+Issue detection, restoration, customer communications 
+– direct impact 
+on ability to support and change 
+network and 
+technology
+Service operations & support teams
+Y
+All WSs - 
+Operational processes, monitoring, incident handling 
+Money, account and trust
+Billing, payments & customer finance
+N
+Customer accounts, identity and permissions
+N
+Other
+Wholesale services & support
+Y
+WS3 - Impact on the current Wholesale set up will need to be assessed
+ given the role Remedy plays today to support the current MVP. 
+However,
+ what eventually will need rebuilding or moving to USM Helix will need to be
+ done in
+ alignment with the Service Assurance  End State Architecture
+ and with the approval of the VMO2 Enterprise Architecture team
+s looking after both the consumer and wholesale verticals as 
+operational 
+and technical 
+requirements 
+in this space 
+remain
+ very
+ fluid
+.
+B2B Daisy Impact
+Y
+WS3 - 
+Although out of scope for the migration, indirect impact on activities on B2B order workflows and processes remaining on Remedy will need to be avoided and, if needed, workarounds might need to be in place
+3.
+5
+ 
+Constraints and Dependencies
+What constraints or non-negotiables must the future solution 
+respect
+?
+All WSs - 
+Any that both source and target solution respect today
+ 
+(or will
+,
+ in the near future
+,
+ due to in-flight initiatives) 
+should be the working assumption
+.
+WS3 - 
+The solution 
+must
+ respect the OOTB principle and leve
+rage a solution that simplif
+ies
+ the ITSM layer
+ when it comes to 
+network and customer impact analysis
+ and, potentially, customer related notifications.
+Is there anything explicitly out of scope?
+WS3 – B2B vertical (both O2Daisy and 
+RemainCo
+) and some of the capability 
+on Remedy today and classified as “non-ITSM” remain out of scope of this workstream. 
+Please refer to the Service Assurance End State Architecture for more details and to the 
+CTO 
+Enterprise Architecture team
+ (who owns the SA ESA)
+ for the latest position
+.
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+All WSs – ICE Drop 2 completion and ELS exit before any production deployment can take place (this doesn’t mean, planning
+, architecture steer
+ and 
+high-level
+ design work cannot commence 
+-
+ for the applicable workstreams
+. 
+WS3
+ 
+–
+ 
+Validation work on a proposed solution architecture for Drop 3 
+is ongoing at time of writing this card. While this looks 
+viable,
+ 
+we will require 
+TechM
+ to mobilise architecture r
+es
+ources with a strong grasp of both the ITSM and network inventory domains to 
+work very closely with VMO2 Enterpris
+e
+ Architecture team responsible for the Service As
+s
+urance domain to
+:
+ refine the solution
+; build a
+ realistic E2E delivery 
+plan 
+with interlocks 
+with 
+any external enabler
+s plan
+ (including but not limited to the above mentioned external network inventory - Digital Twin)
+;
+ understand the 
+implications
+ and dependencies
+ 
+of 
+the proposed solution on  the 
+Helix product
+.  
+ 
+3.
+5
+ 
+Delivery timing
+When do you want this to 
+go live?
+WS1 – PWA – Lower Environments – Q4 2026
+WS1 – PWA – Production – Q1 2027
+WS2 – Upgrade – Lower Environment(s) - End of Q2 2027
+WS2 – Upgrade – Production – End of Q3 2027
+WS3 – Net. SM Migration – Production – Q4 2028
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+WS1 and WS2 are key dependencies for WS3. WS3 will (with other external projects) facilitate the decommissioning of the Remedy system by Q1 2029
+ – date in which any form of vendor support will expire
+Supporting Information
+Has any solution assessment been done? 
+Include links to existing solution options, blueprints, etc. that may support T Shirt sizing  
+WS 1 – BMC 
+have prepared a PWA deployment package
+WS 2 – No
+WS 3 
+–
+ 
+Ongoing and due to complete 
+in early July for the new solution referred to in the above answers. Work on Service Assurance End State Architecture was completed in early May and will be shared with this Vision Card.
+Are there any 
+other 
+supporting documents or references 
+e.g. Links to slides, customer personas etc.
+WS3 – Service Assurance End State Architecture and “Option C” conceptual 
+description 
+in annex to this vision card
+Governance and Ownership
+Proposer
+Harley Cunningham
+S
+ponsor
+Julian Davidge
+Person accountable for the business outcome
+Nick Good
+Finance Business Partner
+(s) 
+Lydia Straw
+ / Steven Tuckwell
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Digital Network Architecture
+Ali Ahm
+ad (Head of DNA)
+Digital Network Platforms
+Oliver Barratt (Head of Systems)
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+NTC5116173
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+TSO012
+Which business division will be funding this proposal?
+CTO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Julian Davidge
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+09/12/2024
+If known, when is this planned to attend Investment Committee?
+On going
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+Not Applicable
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+21/10/25
+Vision has been reviewed with key architects / ESA domain owners?
+Y/N
+Date approved for platform assessment by BEM
+DD/MM/YY
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

@@ -1,0 +1,619 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Initiative 
+Title
+Retai
+l POS 
+Transformation
+Business 
+O
+utcome
+ (and Value)
+1.1 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your 
+business
+-
+unit
+ 
+Primary (SMART) 
+Business 
+Outcome 
+Vison, Discovery & Definition (Foundation) 
+Establish an 
+impact assessment
+ within one month
+, 
+which must include 
+timescales and costs 
+for TCS 
+to 
+fully 
+deliver Retail POS Transformation
+ 
+by 
+05/06/28 (Oracle 
+Xstore
+ renewal cutoff date)
+Delivery 
+(Business Outcomes to be refined following the Discovery/ Definition phases): 
+Decommission 
+Oracle 
+Xstore
+, 
+a costly, highly customised, and out of support POS
+Alignment of DFE strategy and O2 Business strategy with Retail Architecture
+ (increased use of DFE for all consumer segment sales
+, O2 Business sales via O2 Business platforms
+)
+Introduce new
+,
+ scalable
+,
+ 
+upgrad
+e
+able, 
+OOTB 
+cloud-based POS solution aligned with ESA 
+and inventory management solution 
+(Gold build) fully integrated 
+with (but not limited to) 
+ePOS
+ / DFE
+, GCP
+, 360, Okta, Proposition Pro
+Solution fully deployed to all Retail stores (approx. 305)
+ – initial IA received from Fujitsu
+Introduce new BI and Reporting aligned with Data Strategy
+New PEDs / scanners
+/ tablets etc to be fully tested, working and compliant
+Till h
+ardware 
+refreshed with Windows 11 / 365
+Retail 
+to continue to function during the rollout period / no downtime
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Replacement of existing BAU
+ Oracle 
+XStore
+ POS with Fujitsu GK POS and 
+Glovia
+ Inventory Management
+ across full Retail store estate
+Introduction of new PEDS and 
+hand held
+ scanners
+ within the Retail Estate, replacing legacy devices that are now out of 
+manufacture
+ / support
+In which
+ business metric?
+Transaction time
+Supportability
+ (getting Retail operations back under 
+software support)
+For which
+ specific stakeholder or business user?
+ 
+(
+Primary outcome beneficiary
+)
+Retail staff
+By 
+how much
+?
+ 
+(
+Quantity
+ or 
+percentage
+ is required
+)
+N/A
+What is the current 
+value for this business metric?
+POS, PEDs, HHTs all now out of manufacture and support
+Improvement must happen 
+w
+ithin what timeframe?
+Immediate
+What strategic 
+outcome
+ does this support
+? 
+Making my life easier
+1.2 Value case
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes
+What is the approximate revenue uplift / cost saving from this?
+£
+6.1
+m
+ OFCF over 4 years
+Leading indicator
+s
+ (predictor of successful execution). 
+Suggest (if you know) what metric
+s
+ will measure successful execution of this change.
+Realignment of Retail architecture to VMO2’s ESA
+ (DFE used in Retail, 02 Business on Proposition Pro)
+Retail back in support
+Fully deployed to all stores
+Xstore
+ decommissioned before 05/06/28
+ 
+No impact to store trading
+ – dual running of 
+Xstore
+ and Fujitsu during the deployment
+Key assumptions. 
+Are there any critical 
+business 
+assumptions
+?
+ 
+We will not renew Oracle 
+XStore
+ beyond 05/06/28
+Rollout done in a phased manner – i.e. not 
+all stores deployed at once
+Deployment will take place outside of store hours
+Reusing existing till hardware where possible
+HHTs and PEDs to be replaced under the programme – specific hardware TBC at this stage
+Improved store connectivity will be in place at the time of deployment
+O2 Business will develop and manage the delivery of changes to O2 Business-owned applications under the governance of this project
+Glovia
+ and GK will remain OOTB
+Build of GK and 
+Glovia
+ to be performed by Fujitsu
+Retail data transformation Phase 2 and Phase 3 will be complete
+ prior to build
+Till hardware to be
+ 
+Windows 11 / 365 and required for build
+Customer and Experience Outcomes
+2.1 Customer Problem
+ (Evidence based)
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Retail store employees
+What customer need or problem is this proposal 
+addressing
+?
+Retail
+ is currently using an out of support, heavily customised POS, resulting in significant financial and operational risk and expensive and 
+lengthy upgrades.
+What is happening today?
+Describe what the primary customer (or colleague) experiences today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Today, our Retail POS platform is outdated, out of support and requires lengthy and costly changes. 
+ Lack of full integration & benefits realisation with DFE – i.e. No Munro BB/Munro TV.  Liferay Renewal (
+ePOS
+) dependant on 
+Pirean
+ Okta Federation for benefits realisation – can lose total of 50 hours a day of agent time just on additional multiple log-ins.
+H
+ow do we know it matters to the customer?
+Minimise system outages
+Resolve any issues immediately 
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+Oracle will (at some point) force an upgrade to a new supported version or withdraw right to use
+. 
+Significant day revenue trade risk as unsupported and outdated POS.  
+High risk of retail hacking.
+2.2 Customer Experience Outcome (Future state)
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+All r
+etail stores will operate a new 
+cloud based
+ POS and inventory management system, 
+fully 
+aligned
+ and integrated
+ with 
+DFE, in support
+ with refreshed PEDs, HHTs on the latest till OS
+ by 05/06/28.
+  Improving capabilities available to Retail and reducing operating costs / TCO.
+How does this differ from the current state?
+Retail is currently using an out of support, heavily customised 
+on premise
+ POS, resulting in significant financial and operational risk and expensive and lengthy upgrades.  
+Heavy customisation 
+to fulfil current business requirements and the 
+XStore
+ POS having to sell different segments in different manners (e.g. a PAYM sale through 
+ePOS
+ 
+and 
+XStore
+ vs PAYG all 
+XStore
+).  This has driven significant duplication of capabilities such as a copy of the product catalogue also exists in Oracle 
+XStore
+.
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Build trust between Retail operations and CIO
+Fewer system issues, and quicker to resolve
+Refreshed (in places) hardware on the latest OS
+Less 
+swivel chairing between apps – should be seamless experience
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+TBC
+2.
+3
+ Journey 
+context
+Which channels
+ and 
+processes are in scope? 
+Retail stores
+In scope are all sales journeys 
+and some Care journeys (returns, refunds, exchanges)
+Inventory management – forward and reverse logistics 
+Which product
+s or services 
+are 
+in scope
+?
+All retail – sold products
+Delivery Outcomes
+3.1 
+Capability outcomes
+What capabilities must exist to deliver the outcome?
+ 
+Describe the key capabilities needed (not features)
+.
+ 
+If your proposal is on behalf of an external party such as 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support 
+this third party.
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Capability
+MVP*
+1
+e.g. 
+Capability for 
+information 
+[
+on existing safety and security offerings 
+for children, as well as links to guidance provided by 3
+rd
+ parties
+]
+ to be surfaced intuitively
+ and seamlessly through the customer’s enquiry, sales 
+and upgrade journeys
+Y
+2
+e.g. 
+Capability for 
+Product managers to create child and age specific products that contain prepackaged child safety features and access controls
+Y
+3
+e.g. 
+Capability to 
+rapidly 
+lead parents to 
+age-appropriate
+ devices and propositions 
+when they are looking to buy or upgrade their children’s devices.
+Y
+4
+e.g. 
+Capability to apply 
+age-appropriate
+ safety controls 
+at service activation 
+by default
+ – as determined by product choices
+Y
+5
+e.g. 
+Capability for p
+arents to manage the child safe controls on their children’s devices via MyO2 and online
+Y
+6
+e.g. 
+Capability
+ for product and content managers
+ to 
+add additional content, educational tips, how to guides etc 
+to make the most of services and resources provided by manufacturers and partners to help customers stay informed and safe online
+N
+7
+8
+9
+10
+Reporting or analytics capabilities
+All POS data ingested into GCP to (at a minimum) enable continuation of business 
+metrics and KPIs
+3.2 Delivery 
+S
+uccess 
+M
+etrics
+. How will delivery be measured?
+Type
+Metric
+Time to Market
+Fully deployed by 05/06/28
+Quality target
+Fully tested, working and compliant, meeting PCI, all required ISO and security standards
+.  Deployed with minimal defects, accepted by Retail Operations 
+ 
+Adoption target
+100% fully rolled out by target date.  
+XStore
+ to be decommissioned
+ by end of 2028
+Other (Specify)
+TCS as prime delivery partner, coordinated 
+with 
+Fujistu
+ and O2 Business
+3.3 Service and Quality Requirements (NFRs)
+All contained within the RFP.
+ 
+3.
+4
+ 
+Delivery Scope & Impact
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Y
+Extension of 
+ePOS
+ to cover additional capabilities and cover all Consumer Retail sales 
+Retail stores
+Y
+Business owners, channel of deployment
+Care and Retentions
+N
+Commercial & go to market
+Product & Proposition management
+Y
+Product catalogue extensions to include Retail 
+Marketing & Sales
+Y
+Sales via new POS
+ 
+Shop & Basket (buy/upgrade journeys)
+Y
+Basket logic, eligibility, offers, cross
+sell, checkout 
+Order fulfilment & service changes
+Order & fulfilment
+Y
+Change of sales process to be consistent across all consumer orders, with all orders
+ being placed into 360
+ (IA and scope already discussed with Netcracker – can be shared)
+Service activation & configuration
+Y
+All consumer orders now via 360 from Retail
+Supply Chain & Logistics
+Y
+Proposed reuse of existing supply chain data into Retail inventory management.  Output from inventory management into supply chain 
+Field operations
+N
+Run and assure services
+Network services (mobile, fixed, TV)
+N
+Faults, outages & service assurance
+N
+Service operations & support teams
+Y
+Onboarding of
+ POS into TCS for L2
+.  L1 remains with Fujitsu for the moment
+.
+ 
+Money, account and trust
+Billing, payments & customer finance
+Y
+All Retail payments will 
+be
+ via new 
+PED though
+ through existing payment 
+gateway
+. Finance 
+reconciliation
+ to continue through 
+Reconnet
+ 
+ 
+Customer accounts, identity and permissions
+Y
+Login, roles, parental controls, account hierarchies 
+Other
+Wholesale services & support
+N
+B2B 
+Business
+ Impact
+Y
+O2 Business sales via new POS
+ including alignment of B2B DFE equivalent and POS
+3.
+5
+ 
+Constraints and Dependencies
+All contained within the RFP.
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+DFE, Data, Windows 11 / 365 rollout, new PEDs, new HHTs
+, Netcracker 360, integrations, O2 Business build, Okta
+ to 
+Pirean
+ federation
+ (all scope of this programme, but numerous sub workstreams)
+3.
+5
+ 
+Delivery timing
+When do you want this to 
+go live?
+2027 – date TBC
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Oracle 
+Xstore
+ contract expires 05/06/28 – full deployment across all Retail stores to have completed by then.  Existing business and operational risk due to BAU platform being out of support.
+Supporting Information
+Has any solution assessment been done? 
+Include links to existing solution options, blueprints, etc. that may support T Shirt sizing  
+High level reference architecture
+High level potential customer journeys
+Engagement with Netcracker for initial scoping support / IA
+Are there any 
+other 
+supporting documents or references 
+e.g. Links to slides, customer personas etc.
+RFP
+Fujitsu presentation
+Governance and Ownership
+Proposer
+Howard Morgetroyd
+S
+ponsor
+Abid Khan
+Person accountable for the business outcome
+Howard Morgetroyd
+Finance Business Partner
+(s) 
+Matthew Rigden / Beth Postlethwaite 
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Enterprise Architect
+Cameron West
+Product Owner
+Charl Uys
+Retail SME
+Mike Gadd
+ / Rohit
+ Khanna
+Retail Support
+Mark McGeechan
+Tracking information
+What 
+reference or 
+ID does your business unit 
+use to track this proposal?
+Retail POS Transformation (ESA ID 2402021403)
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+Which business division will be funding this proposal?
+CIO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+DOAB
+Sub IC
+IC
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+December 2024
+If known, when is this planned to attend Investment Committee?
+May 25
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+No
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+21/10/25
+Vision has been reviewed with key architects / ESA domain owners?
+Y/N
+Date approved for platform assessment by BEM
+DD/MM/YY
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

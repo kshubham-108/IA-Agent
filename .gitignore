@@ -9,4 +9,10 @@ coverage/
 !.env.example
 .DS_Store
 .vercel/
+.output/
 .eve/
+.tools/
+packages/engine/tests/*.js
+packages/engine/tests/*.js.map
+packages/engine/tests/*.d.ts
+packages/engine/tests/*.d.ts.map

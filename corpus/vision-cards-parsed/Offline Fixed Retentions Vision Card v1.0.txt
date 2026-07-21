@@ -1,0 +1,1579 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+Offline Fixed Retentions
+Primary (SMART) Outcome statement
+Vison, Discovery & Definition (Foundation)
+Establish a
+n 
+approved Release 1 solution
+ within two months, with confirmed scope, design, costs, benefits and delivery timescales, supported by a complete artefact set to enable confident execution.
+Provide clear forward visibility on Releases 2 and 3
+ within one month, agreeing high
+level scope and design and producing indicative costs, benefits and timelines to inform strategic planning and investment decisions.
+Accelerate overall delivery and de
+risk the 
+business
+ case
+ by initiating Release 1 development in parallel with Release 2/3 Discovery and Definition, ensuring 
+R2/R3 
+data is available to validate assumptions and refine 
+the 
+business case. 
+Secure Investment Committee funding approval
+ through delivery of an updated Offline Fixed Retentions business case, with an agreed channel sequence, costs, benefits and roadmap.
+Note: see section 8 ‘Offline Fixed Retentions Plan’ for an outline of activities
+, artefacts
+ and timeline. 
+Releases 1 – 3 
+(Business Outcomes to be refined following the 
+D
+iscovery/
+ 
+Definition phases and broken down by Release): 
+Deliver offline VM fixed
+retention capability on 
+a 
+Digital Front End (DFE)
+ 
+migrating 100% of existing Voice agents by 
+June
+/July
+ 
+2027
+ to mitigate the risk of operating on an out
+of
+support platform and safeguard 
+£151m of existing voice recontract revenue
+.
+Enable evidence
+‑
+led decisions through 
+experimentation and test
+‑
+and
+‑
+learn
+, to validate impact and gather feedback before scaling.
+Unlock the ESA roadmap by decommissioning Discover by September 2027
+, following successful migration to 
+DFE
+, delivering 
+£3.2m in operating cost savings between 2027–2030
+.
+Extend RetainX 
+(
+built 
+on DFE)
+ into Field Sales and Retail
+, creating new VM recontract channels and driving 
+£16.9m in incremental EBITDA between 2027–2030
+, subject to rollout sequence and timing.
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Build fixed retention 
+capabilities 
+in new ESA platform (RetainX) enable
+d
+ within Voice, Field Sales 
+and
+ Retail 
+channels 
+C
+ontribute 
+resources 
+to existing DFE In-life squad to 
+support
+/
+maintain
+ platform 
+Migrate 
+existing 
+voice users from Discover to RetainX 
+Decommission Discover 
+In which
+ business metric?
+Reduce 
+operating 
+cost 
+of 
+VM 
+fixed recontract platform 
+Increase revenue and reduce 
+churn 
+by 
+creating new fixed retention channels in Field Sales and Retail 
+Protect existing voice revenue by mitigating risk of out of support platform
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+Virgin Media Fixed customers 
+who wish to recontract via offline channels
+Customer Contact 
+Voice 
+Sales
+ 
+/
+ Service
+, 
+Field Sales
+ and 
+Retail 
+Agents
+CIO for platform support and maintenance
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+Reduction in 
+platform 
+operating and license costs 
+of £3.2M between 2027-2030
+ 
+Increase in incremental revenue
+ with an estimated £16
+.9M 
+EBIDTA 
+benefit across Field Sales & Retail between 2027-2030 
+Protection of existing voice revenue of £151M
+ per year
+ within the voice channel
+ 
+What is the current 
+value for this business metric?
+Cost reduction based on the following: 
+C
+urrent
+ 
+Pega Discover license costs for 
+202
+6
+/
+2027 and forecasts costs for 2028-2030
+Current
+ 
+Discover platform maintenance cost
+s
+ 
+Field Sales 
+and
+ Retail 
+Fixed Recontract Revenue
+:
+ 
+Zero as not currently transacting today 
+via these channels
+Within what timeframe?
+Business Case assumes the 
+following 
+timelines: 
+Discovery/Definition
+:
+ 
+May to Jul-26
+Release 1 Voice: 
+Jul-
+May 27
+Agent Migration & Decommission of Discover: May
+-
+Sep-27
+Release 2 Field Sales
+:
+ 
+Apr-
+Sep-27
+Release 3 Retail: 
+Sep-27 to 
+Apr-28
+What strategic 
+outcome
+ does this support
+? 
+Build Trust - Competency - Fix Critical Journeys
+Stakeholders
+Proposer
+Donna Carey / Mo
+ritz
+ 
+Pf
+eiffer
+S
+ponsor
+Killian Faughnan
+Person accountable for the business outcome
+Morit
+z
+ Pfeiffer / Donna Carey 
+(Product 
+vision, strategy
+, 
+roadmap
+ and lifecycle
+) 
+Leon Vaughan (
+Domain Owner for the new platform) 
+James Brown
+ (Commercial)
+Matt Murdoch (Field Sales & Retail 
+Benefits
+)
+Finance Business Partner
+(s) 
+Rebecca Williams (Field Sales & Retail Benefits) 
+Jain Kooran Kallookkaran
+ 
+(Cost Reduction Benefits which were approved by 
+Leon Vaughan
+, 
+Domain Owner)
+Dayna Freke (Voice
+, Ops
+) 
+Craig Garvey (
+V
+oice Revenue)
+Note 
+no voice benefits included in business case to date, 
+to be determined 
+during Discovery 
+if additional Voice benefits can be 
+realised
+.
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+Digital Front End Domain Owner 
+Leon Vaughan
+Care & Voice Customer Digital 
+EA 
+Kanchan Anand
+Sales, Retentions, XSUS Customer Digital
+ 
+EA
+Manish Dahiya
+Digital Enterprise Architect 
+Kat Duncan 
+Business Solution Architect
+Sandra Biddle 
+Commercial 
+James Brown (decision maker for Commercial) 
+Commercial 
+Mehdi Kabash
+Commercial 
+Oliver Longland
+Commercial 
+Carl Meharry
+Commercial 
+Dan Smith
+Commercial 
+Jannat Jasuja-Wade
+Commercial 
+Karitkeya Malik
+Commercial 
+James Walter
+Field Sales & Retail Finance Business Partner
+Rebecca Williams 
+Voice Operations Finance Business Partner
+Dayna Freke
+Voice Revenue
+ Finance Business Partner
+Craig Garvey
+Voice & Chat 
+Ops 
+Readiness
+Jackie Francis (will assign a Transformation Lead)
+Retail & Field Sales Operation
+al Readiness
+Matt Murdoch
+Retail Operations
+Sophie Peeke-Vout
+Field Sales Operations
+Emma Dobell
+Product Manager
+Moritz P
+feiffer
+Product Manager
+Donna Carey
+Product Manager (FMC)
+Alex Collins
+Data Product 
+Director
+Afo Babatunde
+Data Product Manager
+Georgia Paxton
+Senior Manager
+, Agent, Retentions & Retail
+Kelly Harriott
+Lumi AI Product Manager 
+Ian Harrison
+Customer Contact Transformation Manager (Agentic)
+Jonah Edwards
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+TOP-465 (note original name was Field Sales Recontract/Retentions
+)
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+OP-2026-085
+Which business division will be funding this proposal?
+Consumer (Grow)
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Consumer Demand Forum 
+When was the priority of this idea approved as a candidate for investment?
+Nov-25
+ 
+If known, when is this planned to attend Investment Committee?
+Approved at IC on 
+16-Apr-26 
+to 
+draw down funding to 
+start Discovery 
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Commercial Principles
+Definition of commercial principles 
+to drive the design (e.g. approach to pri
+cing, experience
+, migration to Munro
+ etc
+.
+ across channels)
+External Dependencies (
+o
+n other initiatives)
+Salesforce
+ Okta
+: 
+On Salesforce roadmap to authenticate access to Salesforce via Okta
+,
+ Assumed delivered externally, if not 
+to be brought in scope. 
+Legacy 
+Backbook to Front book Migration:
+ M
+igration of legacy-backbook customers on to new L8 codes (flexible, stackable discounts) from historic L1 codes (hardcoded discounts to a bundle). Projects like EOO step-up, KAHLO and Proactive Offer Management are creating the foundations to do this and as a byproduct already anticipating to move ~4m backbook customers on to modular pricing.
+ Moving the remainder should be straight forward but we will need to visit the respective solution designs and ensure our design is compliant and find a sponsor (either our programme or someone else) that can drive the migration of the remainder.
+Order Automation Enhancements:
+ 
+A
+dditional workstreams (VOLT Recontracting SIMs, VOLT Converged Experience, ICOMS Out of Franchise M&T, ICOMS Manned Installs) making further enhancements to drive order automation closer to 100%.
+Any other dependencies TBC
+Is this an NDA’d project? 
+n/a
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+Virgin Media Fixed customers who wish to recontract via offline channels
+ 
+Customer Contact Voice 
+Sales
+ / Service, 
+Field Sales
+ and 
+Retail 
+Agents
+VM Fixed 
+Commercial 
+Managers 
+CIO –
+ 
+platform support and maintenance
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+All V
+irgin Media 
+fixed products 
+including VOLT SIMS
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+Processes: 
+Front Office: 
+Lead to Order 
+Front Office: 
+Order to Activation 
+Front Office: 
+Request to Change (
+Movers/
+Upsell/Cross-sell)
+Front Office: 
+Termination to Confirmation
+ (Retention
+s
+) 
+Support Front Office
+: 
+Manage Channel Operations
+Support Front Office
+:
+ 
+Administer Customer Communications 
+Journeys: 
+Recontract existing 
+Virgin Media customer
+s
+ 
+C
+ross-sell 
+to 
+existing Virgin Media customer
+s
+ 
+U
+psell 
+to 
+existing Virgin Media customer
+s
+ 
+M
+overs journey of an existing Virgin Media customer 
+Commercial Manager defin
+ing
+ prices, discount percentages and eligibility rules 
+Channels 
+Customer Contact 
+Sales
+Telesales
+ (Inbound
+ Voice
+)
+Telesales
+ (Outbound
+ Voice
+)
+Retentions 
+(Inbound) 
+Retentions (Outbound)
+Movers 
+(Inbound) 
+Sales (Web Messaging)
+Customer Contact 
+Service 
+Cable Care
+ (Voice)
+Cable Care (Messaging)
+Converged Care
+ (Voice)
+Converged Care (Messaging)
+Field Sales
+Retail 
+Systems 
+(potential impacts 
+identified to date,
+ to be validated in Discovery)
+Fixed RetainX platform
+Build new fixed recontract journeys that can be used within all offline channels (
+Voice Sales
+/
+Service, Field Sales and 
+Retail
+)
+Build new fixed product catalogue to support the recontract deals/offers in RetainX 
+Build ability to send the customer an email quote 
+Build recontract order fulfilment 
+Reuse of online APIs/integrations 
+where possi
+ble 
+Enable 
+Field Sales 
+access to RetainX via Salesforce
+Enable Retail access to RetainX 
+via Evolution 
+Enable Voice access to RetainX
+ via 
+O
+mningage
+GCP Commercial Engine
+Build p
+ropensity models, orchestration and NBA/NBO engine
+ICOMS
+Any i
+mpacts 
+TBC during Discovery/Definition 
+Salesforce
+ (Field Sales Impacts)
+Ingestion of retention data leads via GCP (data integration) 
+Salesforce development to reinstate and update allocation and management of retention lead capability
+Ability to trigger access to RetainX via Salesforce to view retention offers
+ for that customer
+Ability to record the retention lead outcome
+Updates to Salesforce reporting/dashboards to include retention lead status/outcome
+Xstore 
+Any impacts TBC during discovery 
+R
+etail
+ 
+Evolution 
+E
+nable 
+R
+etail agents to access Fixed R
+etainX 
+Omningage
+Enable Voice agents to access Fixed RetainX 
+Okta 
+Authenticate RetainX access
+Braze
+Integration for customer communications
+ (TBC
+ in Discovery
+)
+Reporting 
+(
+GCP/Tableau
+)
+Creation of new data feeds containing 
+Field Sales 
+campaign files 
+Ability to send 
+r
+etention campaign files to salesforce from GCP (data integration) 
+Dev
+elopment
+ to existing 
+Voice/
+Retail/
+Field Sales reporting / dashboards to include 
+fixed 
+retention leads
+New RetainX metrics/dashboard
+Generate data on Field Sales recontract leads and feed into Field Sales commissions process 
+Engage
+Update
+s
+ to include 
+fixed 
+retention content / process
+ 
+for Field Sales and 
+R
+etail 
+agents
+Knowledge Hub 
+Updates to existing voice recontract content/process for 
+V
+oice agents
+Discover 
+Decommissioning
+Platform Decommissioning
+Discover data feeds decommissioning
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+Within offline channels 
+VM fixed customers are 
+only able to recontract via voice
+ on a platform that is not ESA
+. 
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+Discover is our only retentions platform to recontract, move, cross- and upsell Virgin Media customers. 
+It 
+was built for a single channel and can't be scaled into Field Sales
+ and 
+Retail
+. 
+We think there is a better way to retain customers with increased margins, but we are disconnected from our Data 
+and 
+AI capabilities
+. 
+The platform is not ESA and will be out of support in Sep-26
+, with an extension costing us 50% increase in cost to mitigate the increase risk of downtime
+. ESA transformation strategy 
+is to m
+ove away from legacy and monolith platforms with a higher TCO on to a “Challenger Tech Stack - GCP” leveraging the architecture principles/foundations 
+for 
+XSUS online and RetainX for mobile.
+Proposal is to replace 
+Discover
+ and 
+create a digital native deal build capability that is no longer isolated in Voice but a centralised retentions capability across all assisted channels (Voice, Retail, Field Sales).
+What must change
+?
+One line vision summary
+Omnichannel 
+offline fixed retentions capability 
+to offer highly relevant and adaptive offers to customers seamlessly
+How does this differ from the current state?
+Customers 
+Existing V
+M
+ fixe
+d
+ customers 
+can 
+get a curated, tailored deal 
+in a
+n offline
+ channel of their preferenc
+e
+ (Voice, Field Sales and Retail)
+Get tailored advice on best tariff based on data usage, lifestyle and individual circumstances first time
+Seamlessly change elements of the deal to suit their current and future needs
+Able to access and redeem any retention offers via a channel of choice, to take advantage of offers made to them at their convenience
+Able to save and manage their basket so that they can pause purchase and come back and resume it 
+later
+ via the same or 
+different
+ 
+channel 
+(assisted or self-serve)
+Able to address a variety of queries whilst also upgrading/changing
+ (voice only)
+Able to add multiple
+ 
+products and additional services
+ 
+at any poin
+t
+Able to go through compliance seamlessly in a channel of their choice
+Receive personalised post-upgrade comms via a preferred comms 
+channel which includes all relevant information
+Consistent experience / offers across all channels 
+Agents
+Agents are prompted with the right deal, at the right price, at the right time for each individual customer to provide great customer experience 
+Agents can seamlessly navigate the entire assisted retention journey to provide great customer experience 
+Agents are armed with insight on customers’ situation to support them with their current and future needs 
+Agents can develop a consistent skillset and capability that allows them to drive effective retention and great customer experience 
+Agents are empowered to address a variety of customer needs in a single call to provide a great customer experience 
+(voice only)
+Agents can effortlessly create a personalised deal, at the right price across all tariff components to drive effective retention
+What will success look like for your primary beneficiary 
+As a customer, when I’m approaching the end of my contract, I can discuss my options through the channel of my choice. I no longer only have the option to call, I could visit my local retail store at my convenience or be visited by a Field Sales agent to discuss in the comfort of my own home.
+ 
+The agent can see all my details. They already know I’ve had a price increase and can see my whole package in one place - my broadband speed, my usage patterns, and even that my daughter works from home and we rely on stable WiFi.
+Instead of a long list of irrelevant bundles, I’m shown two or three options tailored specifically to how my household uses the service.
+The agent is relaxed - no rushing, no awkward silences while systems load. They switch between information instantly. They know what promotions I’m eligible for. They explain things clearly, without jargon.
+I checked online before to see my options. The price the agent shares matches it exactly. There’s no “that deal only exists online” or “this discount doesn’t work in your channel.” Everything feels aligned - like Virgin Media finally speaks with one voice.
+ 
+The agent shows me what I’d save, what I’d gain, and what would change. They even mention a small add
+‑
+on that would help with my daughter’s home
+‑
+working and explain it in a way that makes sense.
+ 
+We wrap up in minutes - not half an hour. No re-keying details. No duplicate forms. No waiting for systems to catch up.
+ 
+I feel valued - not just as a customer with a monthly bill, but as a person whose time, clarity and experience matter
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+To be defined within discovery
+What constraints or non-negotiables must the future solution 
+respect
+?
+To be defined within discovery
+Is there anything explicitly out of scope?
+Recontract of O2 products/services 
+(except for 
+VOLT 
+within the VM fixed recontract journey
+)
+Ability for agents to perform a converged recontract journey across VM and O2 products and services 
+(except
+ for 
+VO
+L
+T within the VM fixed recontract journey)
+Fixed capacity squad to grow capability beyond the 
+project
+ (will need to be funded separately)
+Field Sales/Retail providing new fixed equipment at POS
+, will be fulfilled post sale. 
+Further items 
+to be identified during discovery/definition. 
+When do you want this to 
+go live?
+Assumed start dates
+/channel sequence
+, to be validated during discovery and brought in where possible: 
+Release 1 Voice: May 27
+Release 2 Field Sales
+:
+ Sep-27
+Release 3 Retail: Apr-28
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing
+.
+Current retentions platform out of support Sep-26. 
+Funding secured to extend to Mar-27, with an option to extend 
+to Sep-27 only
+.
+ 
+H
+igh probability 
+we cannot 
+renew or 
+costs increased 
+significantly
+. 
+Significant
+ volume of customers approaching end of offers/leaving via one touch switch, need to 
+extend capability into additional offline channels so we can reach more customers to reduce churn and increase revenue. 
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes, 
+approved 
+to proceed with Discovery at IC on 
+16-Apr-26
+. 
+ 
+Field Sales and Retail benefits 
+defined
+ with Rebecca Williams (FBP for Field Sales and Retail) and Matt Murdoch (Field Sales and Retail Operations Lead). 
+Cost reduction benefits and 
+Capex/Opex costs 
+defined
+ with Leon Vaughan (Domain Owner)
+.
+Leading indicator (predictor of successful execution). 
+Suggest (if you know) what metric will measure successful execution of this change.
+Field 
+S
+ales & Retail Revenue Generation
+Field Sales & Retail Recontract Revenue:
+ Volume of Fixed recontracts via Field Sales and Retail and revenue per sale.
+Field Sales & Retail 
+Recontract Rate:
+ Percentage of customers that successfully recontract, overall and broken down by channel.
+Field Sales & Retail 
+Change in Subs:
+ 
+Measure the change in average revenue per user who is retained, by tracking the pre and post ARPU.  Following a recontract to ensure this is not negative. 
+Cost Reduction: 
+Offline Fixed Retentions License Costs:
+ Discover Pega License costs
+Offline Fixed Retentions Platform Maintenance Costs:
+ Discover platform maintenance costs vs. RetainX platform maintenance costs
+What is the approximate revenue uplift / cost saving from this?
+Reduction in platform operating and license costs of £3.2M between 2027-2030
+. 
+Increase in incremental revenue with an estimated £16.9M EBIDTA benefit across Field Sales & Retail between 2027-2030 
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+Technical Assumptions: 
+Frontend:
+ 
+Digital 
+have built majority of 
+XSUS journeys for self-serving customers. Architecture patterns
+/
+journey documentation is existing and should be reused as much as possible.
+Frontend:
+ 
+D
+igital have already built a di
+gital sales catalogue
+ that is serving XSUS journeys and
+ that is decoupled from our legacy BSS, which should 
+be reviewed for expansion
+ 
+to our offline channels (
+unified sales catalogue for online/offline)
+Frontend:
+ RetainX for mobile Voice retentions 
+and 
+Nexus for fixed 
+acquisitions (Voice, Retail, Field) are two other applications that can 
+give insights into the ‘to-be’.
+Middleware:
+ 
+V
+ast majority of orders in Discover are automated into ICOMS with additional workstreams (
+VOLT Recontracting SIMs
+, VOLT Converged Experience, 
+ICOMS Out of Franchise M&T, ICOMS Manned Installs) making further enhancements to drive automation closer to 100%. APIs should be lifted & shifted where possible
+.
+Data Products:
+ Digital XSUS are using a data product called Commercial Engine which 
+leverages Product & Pricing APIs to drive personalisation online
+. On top of a unified sales catalogue we 
+will need to build a unified decisioning layer. An option could be expanding Commercial Engine. 
+RetainX for mobile Voice is also using recommendation engines and a digital sales catalogue. Those patterns should also be considered to be repurposed for Fixed. 
+Tariff Migrations:
+ 
+A key dependency for Go-Live will be the migration of our legacy-backbook customers on to new L8 codes (flexible, stackable discounts
+) from historic L1 codes (hardcoded discounts to a bundle). Projects like EOO step-up, KAHLO and Proactive Offer Management are creating the foundation
+s to do this and as a byproduct already anticipating to move ~4m backbook customers on to modular pricing
+. Moving the remainder should be straight forward but we will need to visit the
+ respective solution 
+designs and ensure 
+our design is compliant and find a sponsor (either our programme or someone else) that can drive the migration of the remainder.
+BSS:
+ This should stay largely untouched as 
+all frontend technologies and data products 
+will do majority of work with API calls into Netcracker/ICOMS
+ (assumption).
+Access:
+ Migration of Salesforce 
+Service Cloud 
+to OKTA is confirmed
+; 
+IB Voice agents are on AWS, OB Voice agents are not, however there is existing architecture patterns that can be used to circumvent this
+, i.e. there should be no restrictions for any of our Voice user base to access the future state application. Migrating Discover user base from MS AD to OKTA will be required
+.
+Salesforce:
+ 
+C
+apability 
+to manage retention leads 
+has previously been developed and hidden,
+ therefore existing capability can be unhidden and updated to 
+support 
+new 
+r
+equirements 
+CAPEX Assumptions
+Discovery estimates based on squad resource profile and assumes 3-Months to complete. 
+Any further definition work is built into the development cost
+Field Sales and Retail discovery work will be high level only to provide indicate costs/timescales, further work will be required when focus moves to those channels and is incorporated into the development cost. 
+2 x Accenture Salesforce SMEs will be required to support with Salesforce discovery/definition. Work has not transitioned to TCS yet and their technical expertise will be required. 
+Development costs are estimated based on TCS delivery model 
+Start small and scale squad in Q1-27 once established and technology understood to accelerate development for first release. 
+Assumes warranty period for one month after each channel release. 
+Voice channel capability build starts Jul-26 and completes May-27 (includes 1M warranty period)
+Field Sales channel capability build starts Apr-27 and completes Sep-27 (includes 1M warranty period, go live
+/
+benefits from Sep-27)
+Retail channel capability build starts Sep-27 and completes Apr-28 (includes 1M warranty period, go live
+/
+benefits from Apr-28)
+OPEX Assumptions
+Ongoing Fixed RetainX platform maintenance will be managed by the existing DFE team, with this project contributing to an increase of 25% in funding so the additional work can be incorporated. 
+Current Discover/Pega platform costs included 
+within Business Case 
+to show cost reduction (license, TCS and pega support costs), however funding covered within Domain Owners Run budget and does not need to be secured within this case. 
+Pega will be extended for 6 months to Sep-27 to enable development/migration of agents to RetainX and includes costs to extend. 
+Assumes dual run period of Discover and Fixed RetainX to allow migration 
+Assumes Pega license costs would increase by 5% year on year 
+Provision included for E2E Testing, Digital Operations and test data creation 
+Provision included for training development / delivery
+Field Sales & Retail 
+Benefit Assumptions 
+Field Sales benefit based on data from a trial where Field Sales agents generated recontract leads into Telesales 
+A
+ssumes Field Sales make contact with 20% 
+of leads 
+based on current headcount, without impacting acquisition sales. Increase in headcount would be required to scale further.
+Retail benefits are estimated, trial to run for 2 months in 2 stores where retail agents can generate recontract leads into Telesales. benefits to be updated following trial.
+Benefits based on recontracting those who would have churned as some 
+customers 
+would recontract anyway. i.e. benefits calculated based on 19% of the recontract volume.
+Recontract based on like for like, therefore assumes same ARPU as new acquisitions. Assumes worst case as price rise & upsell would increase recontract ARPU. 
+Assumed 78% of those will recontract post 24M on same ARP
+U.
+High level Requirements
+ 
+(note
+ will be defined during Discovery, indicative requirements below)
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+Customer Eligibility and Identification
+Eligible customers are 
+accurately and consistently identified
+ for re
+contracting across all channels.
+Re
+contract opportunities are 
+maximised
+ by supporting both proactive and reactive customer journeys. 
+Customer engagement is 
+better targeted
+ through eligibility decisions based on contract status, tenure, value, and business rules.
+TBC
+2
+Personalised Offers and Propositions
+Customers receive 
+relevant, personalised re
+‑
+contract offers
+ aligned to their profile, usage, and lifecycle stage.
+Retention strategies are 
+effectively executed
+ through curated propositions and targeted incentives.
+Pricing and offers are 
+consistent and trusted
+ across all channels, reducing customer confusion and complaints.
+Commercial investment is 
+controlled and optimised
+ through 
+targeted 
+incentives.
+TBC
+3
+Multi
+Channel Re
+contracting
+Customers can 
+re
+contract through their channel of choice
+, improving accessibility and satisfaction. 
+Customer journeys are 
+continuous and 
+flexible
+, allowing customers to start, pause, and resume across channels. 
+A 
+consistent customer experience
+ is delivered regardless of channel, strengthening brand trust.
+TBC
+4
+Deal Configuration and Flexibility
+Customers and agents can 
+flexibly tailor contracts
+ to reflect changing needs without friction. 
+Cross
+sell and upsell opportunities are 
+fully realised
+ 
+within 
+recontract journeys. 
+Pricing accuracy and compliance are 
+maintained in real time
+, reducing errors and rework. 
+Customers benefit from 
+future
+dated changes
+, increasing confidence and planning certainty.
+TBC
+5
+Assisted Agent Capability
+Agents are 
+guided end
+‑
+to
+‑
+end
+ through the recontract journey, reducing handling time and error rates.
+Agents 
+achieve 
+improved retention outcomes
+ through next best offer prompts and insights.
+Agent capability is 
+consistent and scalable
+ across all assisted channels.
+TBC
+6
+Basket and Journey Management
+Re
+contract journeys are 
+flexible and customer
+centric
+, with save and resume functionality. 
+Journey abandonment is 
+reduced
+, improving conversion. 
+Basket integrity is 
+maintained across channels and sessions
+, increasing completion rates.
+TBC
+7
+Compliance and Governance
+All re
+contract journeys are 
+fully compliant and auditable
+. 
+Compliance execution is 
+consistent across channels
+, reducing regulatory risk. 
+Customer consent and acceptance are 
+clearly evidenced
+. 
+Non
+compliant journeys are 
+prevented
+, protecting revenue and reputation.
+TBC
+8
+Communications and Confirmation
+Customers receive 
+clear confirmation
+ of recontract outcomes, improving trust and understanding.
+Post
+‑
+recontract communications are 
+personalised and channel
+‑
+appropriate
+, reducing inbound queries.
+Customers have 
+clarity on terms, obligations, and next steps
+, reducing inbound contact.
+TBC
+9
+Data, Reporting, and Insight
+Re
+‑
+contract performance is 
+transparent and measurable
+, supporting informed decision
+‑
+making.
+Retention effectiveness, conversion rates, and customer experience are 
+quantified and monitored
+.
+Insight enables 
+continuous optimisation
+ of offers, journeys, and commercial strategy.
+TBC
+10
+Operational and Non
+Functional Requirements
+The solution operates as an 
+integrated part of the enterprise landscape.
+Performance, availability, and scalability 
+support business growth and peak demand
+.
+Data security and access are 
+robust and compliant.
+TBC
+11
+Field Sales Retention Lead Allocation (Salesforce)
+Retention leads are 
+effectively routed and 
+managed 
+by
+ 
+Field Sales.
+Field Sales 
+lead outcomes are 
+visible
+,
+ tracked and measured
+ 
+Field Sales contributes 
+predictably and effectively
+ to retention performance.
+TBC
+12
+Commissions 
+Sales activity is 
+accurately tracked
+ 
+to enable commission payments 
+Commission processes are 
+transparent, timely, and auditable,
+ supporting agent motivation.
+TBC
+13
+RetainX System Access
+Voice, Field Sales, and Retail agents have 
+secure, role
+‑
+based access.
+Access control 
+ensures appropriate governance and accountability.
+TBC
+14
+Training & Development 
+Agents are 
+confident and competent
+ in using the new solution. 
+Channel
+specific training ensures 
+consistent quality of execution
+. 
+Ongoing access to knowledge materials 
+supports adoption and continuous improvement
+.
+TBC
+What are your reporting or self-serve analytics (data democ.) requirements?
+RetainX Dashboard
+New Fixed RetainX Dashboards should measure the following 
+(
+to be defined as part of Discovery
+)
+:  
+Call Volume (Voice Only):
+ Call volumes into our Care, Retentions & Movers functions in the Contact Centre.
+AHT (Voice Only):
+ Average handling time per call, divided into Talk, Wrap & Hold.
+Pre- and post ARPU:
+ Average Revenue per User, pre- and post an agent interaction.
+Change in Subs:
+ 
+Post-ARPU - Pre-ARPU
+Revenue retained %:
+ Percentage of customers with a post-ARPU equal or higher than their pre-ARPU.
+Recontract volumes:
+ Volumes of agent interactions that ended with a customer recontracting with Virgin Media.
+Recontract %:
+ Percentage of agent interactions that ended with a customer recontracting with Virgin Media.
+CSAT:
+ Customer satisfaction score based on their experience with Virgin Media O2.
+Dashboards should also include the following new metrics
+ (
+to be defined as part of Discovery
+)
+:  
+Product Level Detail
+: For example, tracking our converged performance, e.g. Volt attach rates or incentivising agents to XSUS certain products, e.g. TV.
+System Level Detail:
+ Speed to market for change, platform reliability and stability.
+A
+gent Feedback:
+ Regular agent feedback to continuously optimise for users.
+R1
+Voice Dashboard
+Voice retention performance is visible and manageable
+, with retention leads fully integrated into existing Voice operational dashboards, enabling Voice Operations Managers to monitor, manage, and optimise performance effectively.
+R1
+Field Sales Dashboard
+Field Sales 
+retention performance is visible and manageable
+, with retention leads fully integrated into existing 
+Field Sales 
+operational dashboards, enabling 
+Field Sales
+ Operations Managers to monitor, manage, and optimise performance effectively.
+R2
+Retail Dashboard
+Retail
+ retention performance is visible and manageable
+, with retention leads fully integrated into existing 
+Retail
+ operational dashboards, enabling 
+Retail
+ Operations Managers to monitor, manage, and optimise performance effectively.
+R3
+5.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+To be defined as part of discovery 
+Response times or availability
+To be defined as part of discovery 
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+To be defined as part of discovery 
+Any legal or regulatory compliance requirements?
+To be defined as part of discovery 
+Are there any Fraud 
+requirement
+s?
+To be defined as part of discovery 
+Auditability requirements
+To be defined as part of discovery 
+Accessibility 
+/ vulnerable customer 
+requirements
+To be defined as part of discovery 
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Say if you believe an operational department will be impacted by implementing this idea
+.
+Operational area
+Impact
+?
+How
+CTO: 
+Will this requirement involve changes to the mobile or fixed network
+ or the services they deliver? 
+e.g
+.
+ 
+c
+onnectivity, coverage, messaging, et
+c.
+TBC
+To be defined as part of discovery 
+Will CIO or CTO operational teams need to change the way they support our services? 
+Y
+Ongoing Fixed RetainX platform maintenance will be managed by the existing DFE team, with this project contributing to an increase of 25% in funding so the additional work can be incorporated.
+Discover platform decommissioning 
+and 
+stand down current Discover squad
+Further details t
+o be defined as part of discovery 
+Digital channels 
+or 
+App
+TBC
+To be defined as part of discovery
+Commercial
+ and 
+Product teams
+Y
+Commercial Manager defining prices, discount percentages and eligibility rules
+Further details t
+o be defined as part of discovery
+Marketing
+ and 
+Sales
+TBC
+To be defined as part of discovery
+Shop
+ and B
+asket
+TBC
+To be defined as part of discovery
+Retail stores
+Y
+Training, a
+ccess and use of new Fixed RetainX platform to recontract customers
+. 
+Further details t
+o be defined as part of discovery
+Care
+ and 
+Retentions
+Y
+All 
+Customer Contact 
+Sales and services teams who use Discover will need to access 
+new 
+Fixed RetainX platform 
+to recontract 
+customers
+. 
+Discover is also used by Operational Compliance and back-office agents (need to confirm use cases)
+. 
+Migration of existing agents to new platform
+ and t
+raining
+. 
+Further details t
+o be defined as part of discovery
+Billing
+, 
+Payments
+, Customer 
+Finance
+, 
+Insurance
+N
+Logistics
+, 
+supply chain
+ and field
+ operations
+N
+Assume no impact as orders fulfilled as per BAU
+.
+ Retail will not have fixed equipment in store. 
+Further details to be defined as part of discovery
+Other: 
+Field Sales
+Y
+Training, a
+ccess and use of new Fixed RetainX platform to recontract customers
+. 
+Further details t
+o be defined as part of discovery
+Other: 
+Field Sales & Retail Operations 
+Y
+Monitor and manage Field Sales and Retail performance of VM fixed recontracts
+Further details t
+o be defined as part of discovery
+. 
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+Confluence Pages: 
+Fixed Retain X - Product Overview - Enterprise Product - Confluence
+Offline Fixed Retentions 
+Plan 
+Vision
+,
+ 
+Discovery
+ & 
+Definition
+ 
+Plan
+Funding secured to progress with Discovery work
+ to 
+achieve the following outcomes: 
+Establish approved Release 1 solution within two months, with confirmed scope, design, costs, benefits and timescales, supported by a complete artefact set to enable confident execution.
+Provide clear forward visibility on Releases 2
+/
+3 within one month, agreeing high level scope design
+, 
+indicative costs, benefits and timelines to inform strategic planning
+ & 
+investment decisions
+.
+Accelerate overall delivery and de risk the business case by initiating Release 1 development in parallel with Release 2/3 Discovery and Definition, ensuring R2/R3 data is available to validate assumptions and refine the business case. 
+Secure Investment Committee funding approval through delivery of an updated Offline Fixed Retentions business case, with an agreed channel sequence, costs, benefits and roadmap.
+A structured checklist of discovery and definition activities will be used to shape both Release 1 and the high
+‑
+level assessment of Releases 2 and 3.
+ Proposed timeline/activities detailed below: 
+T
+ypes of roles
+/resource profile 
+required to complete 
+these 
+type
+s
+ of activit
+ies
+ would 
+usually 
+include: 
+Resource Type 
+Supplier/
+Internal
+Activities
+Month 1
+(Days)
+Month 2
+(Days)
+Month 3 (Days)
+Product Manager
+VMO2
+Define product vision, strategy and approach
+20
+20
+20
+Enterprise Architect
+VMO2
+Define E2E architecture
+8
+8
+8
+Data Architect
+VMO2
+Define data architecture
+10
+10
+10
+Product Owner
+GTM
+Manage backlog
+20
+20
+20
+Business Analyst
+ 1
+TCS
+Define scope & requirements 
+20
+20
+20
+Business Analyst
+ 2
+TCS
+Define scope & requirements 
+20
+20
+Service Designer
+TBC
+Define the Personas & E2E user journeys 
+20
+20
+20
+Solution Architect
+TCS
+Define solution architecture
+20
+20
+20
+UX/UI Designer
+TBC
+Design UX/UI wireframes
+10
+20
+10
+Technical Delivery Lead
+TCS
+Organising engineering squads & build solution 
+20
+Project Management
+TCS
+Manage delivery plan / budget 
+20
+20
+20
+Salesforce Technical SMEs
+ x 2
+Accenture
+Define high level Salesforce technical solution / impacts
+TBC
+Development
+ 
+TCS
+Development, testing 
+&
+ deployment of solution
+. 
+TBC
+Overall Project Plan 
+The business case 
+assumes the following milestones/timelines, to be 
+updated following output from the Vision, Discovery and Definition phases: 
+Offline Fixed Transition Architecture 
+Potential transition architecture on basis Voice is first, transition dependent on 
+Discovery
+ 
+phase and 
+scope agreed for Releases 1-3
+ and 
+therefore subject to change. 
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

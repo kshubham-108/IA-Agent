@@ -1,0 +1,98 @@
+{
+  "formatVariant": "prototype-2026",
+  "fields": [
+    {
+      "id": "title",
+      "value": "Offline Fixed Retentions",
+      "evidence_span": "Idea Tracking — Title: Offline Fixed Retentions",
+      "confidence": 0.98,
+      "status": "found"
+    },
+    {
+      "id": "tracking_id",
+      "value": "IDEA-2026-OFR",
+      "evidence_span": "Tracking ID: IDEA-2026-OFR",
+      "confidence": 0.95,
+      "status": "found"
+    },
+    {
+      "id": "budget_ref",
+      "value": "FY26 Consumer Retention",
+      "evidence_span": "Budget reference: FY26 Consumer Retention",
+      "confidence": 0.92,
+      "status": "found"
+    },
+    {
+      "id": "sponsor",
+      "value": "Director Consumer Retention",
+      "evidence_span": "Executive sponsor: Director Consumer Retention",
+      "confidence": 0.9,
+      "status": "found"
+    },
+    {
+      "id": "products_in_scope",
+      "value": "Fixed line retention journeys, offline save desk",
+      "evidence_span": "Products/services in scope: Fixed line retention",
+      "confidence": 0.93,
+      "status": "found"
+    },
+    {
+      "id": "channels_processes_systems",
+      "value": "Offline save desk, CRM, billing, retention offers engine",
+      "evidence_span": "Channels/processes/systems: offline save desk, CRM, billing",
+      "confidence": 0.91,
+      "status": "found"
+    },
+    {
+      "id": "dependencies",
+      "value": "Billing platform, offer catalogue, agent desktop",
+      "evidence_span": "Dependencies: billing platform, offer catalogue",
+      "confidence": 0.88,
+      "status": "found"
+    },
+    {
+      "id": "journey_counts",
+      "value": "12 customer journeys; 8 agent workflows",
+      "evidence_span": "Journeys/workflows: 12 customer journeys; 8 agent workflows",
+      "confidence": 0.85,
+      "status": "found"
+    },
+    {
+      "id": "heatmap",
+      "value": "Attached POPIT heatmap v2",
+      "evidence_span": "POPIT heatmap attached",
+      "confidence": 0.9,
+      "status": "found"
+    }
+  ],
+  "popitEvidence": {
+    "customer": {
+      "id": "popit.customer",
+      "value": "Broad fixed customer base; multi-segment retention impact",
+      "evidence_span": "Who is affected: fixed base across segments",
+      "confidence": 0.88,
+      "status": "found"
+    },
+    "peopleProcess": {
+      "id": "popit.peopleProcess",
+      "value": "Large offline agent population; new retention operating model",
+      "evidence_span": "Process change across offline save teams",
+      "confidence": 0.87,
+      "status": "found"
+    },
+    "technology": {
+      "id": "popit.technology",
+      "value": "CRM, billing, offers engine, telephony integrations",
+      "evidence_span": "Systems: CRM, billing, offers engine",
+      "confidence": 0.86,
+      "status": "found"
+    },
+    "complexity": {
+      "id": "popit.complexity",
+      "value": "Multiple journeys with regulatory and offer constraints",
+      "evidence_span": "Complex cross-system retention orchestration",
+      "confidence": 0.84,
+      "status": "found"
+    }
+  }
+}

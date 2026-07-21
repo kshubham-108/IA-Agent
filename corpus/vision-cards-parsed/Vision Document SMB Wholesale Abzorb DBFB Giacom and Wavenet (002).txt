@@ -1,0 +1,423 @@
+V
+ision Document
+Idea Name
+N
+ame
+: 
+Abzorb
+/DBFB/
+Wavenet
+ (MFT)
+ and Giacom new VPN
+Sponsor
+ / Sponsor Delegate
+N
+ame
+: 
+Dean Edwards
+Has a Vision document been created for this idea previously?
+N
+APPROVALS REQUIRED
+[It is crit
+ical that the 
+author of this document engages with the stakeholders 
+named below.  
+The Vision cannot proceed without their 
+approval.]
+Name
+Role
+Approval
+(Signature or email)
+Date
+Dean Edwards
+Sponsor / Sponsor Delegate
+Shiny Prakash
+Principal Business Analyst
+Kevin Veale 
+Principal Solution Architect
+Ravi Birah/
+Annette Gerber
+ 
+Programme Director / Snr Programme Manager
+DOCUMENT HISTORY
+[Whilst the document is in draft, it should have the numbering convention of Draft v0.1.  Once approved, it needs to be 
+changed to Approved v1.0.
+]
+Author
+Version
+Date
+Reason
+Dean Edwards
+Draft v
+0.1
+Initial draft for comment
+1.
+PROBLEM or Opportunity Statement
+2
+2.
+Objectives / Goals
+2
+3.
+BUSINESS JUSTIFICATION & BENEFITS
+2
+4.
+SCOPE
+3
+5.
+Customer Impacts
+3
+6.
+ASpirational timelines
+4
+7.
+Budget
+4
+8.
+Initial Risks, Assumptions, Dependencies
+5
+9.
+Glossary
+6
+10.
+DISTRIBUTION LIST
+6
+11.
+Key Stakeholders
+6
+The purpose of the Vision document is to capture the key features of 
+the 
+idea, the business objectives, requested scope and benefits.  The Vision document will be used to engage key stakeholders and as a handover to the project team and Architect 
+who will create an 
+architectural s
+teer
+.
+ 
+ T
+he architectural s
+teer is a key input to the Initial Impact Assessment (IIA)
+ which will provide an initial view of expected costs and 
+delivery 
+timelines.  
+A well-constructed Vision document will speed up the time to complete the architectural steer and lead to a better quality and more accurate Initial Impact Assessment.
+The Vision 
+document is a pre-requisite for 
+receiving seed funding 
+and taking your project 
+through the
+ Front Door process
+.  The contents of 
+the 
+Vision document should be discussed and approved with the Principal Business Analyst and the project sponsor.  Without an approved Vision 
+document
+ the project will not proceed to the 
+Ideate
+ 
+(
+Demand Management
+) 
+stage of the above framework and therefore work cannot commence on an Architectural 
+Steer
+ and you will not progress into 
+the Foundation
+.
+If not already engaged, please contact your PBA as soon as possible.
+PROBLEM or Opportunity Statement
+This Vision Document has been updated to combine 
+4
+ separate pieces of work, with the desire that all 
+4
+ pieces of work would be managed by 1 x project manager concurrently.  The 
+4
+ projects are not in any way dependent on each other or related in any way.
+Project 1
+:
+Ab
+z
+orb
+ (SPID 536) requires the creation of a new ABS SPIM SSH user in addition to the existing user (SPIM_536_01). The new user should have the same roles and permissions as the current user and must be accessible via the existing VPN setup.
+This is needed as Absorb has recently onboarded 
+Wavenet
+ onto their billing system and needs to provide separate access to 
+Wavenet
+ agents for BAU activities. Since the current user does not support concurrent logins, an additional user is required to allow multiple users to access the system at the same time.
+Project 2: 
+DBFB 
+(SPID 570) 
+require 4 new ABS SPIM SSH 
+users;
+1 login for provisioning
+1 login for network status checking
+1 login for IMEI checking
+1 login for bars
+This is to help them manage their 
+speed of transactions on ABS SPIM which are very slow 
+at the moment
+.
+Project 3:
+Wavenet
+ 
+(SPID 370) 
+require a
+n MFT area setting up specifically for them.  
+This is for sharing commercial month end reporting that shouldn't go to 
+Abzorb
+ (their parent)
+.  Daily CDR's would stay as they are.
+Project 4:
+: G
+ia
+com wants to move the termination point of an existing VPN tunnel to a new virtual router within their network for better segregation.
+Technical Details
+: 
+Current VPN terminates on Palo Alto firewall; new termination will be on a different VR with new IP.
+O2 policy requires creating a 
+new VPN
+ if source IP changes.
+Ports currently allowed need to be confirmed and replicated for the new VPN.
+Historical Context
+: 
+Previous VPN setup was done in 2022; similar process expected now.
+Past delays were due to missed firewall configurations; aim to avoid this now.
+Out-of-Scope Items
+: 
+MFT and SOAP APIs confirmed as unrelated to this VPN change.
+Dependencies
+: 
+O2 internal approval process for VPN setup.
+Objectives
+ / Goals
+Provi
+d
+e a n
+ew port on VPN
+ for 
+Ab
+z
+orb
+.  Provide 4 x 
+User Logins for DBFB
+.  Provide a new MFT File area for 
+Wavenet
+.
+ Provide a new VPN for Giacom.
+BUSINESS JUSTIFICATION & BENEFITS
+This is needed as 
+Ab
+z
+orb
+ has recently onboarded 
+Wavenet
+ onto their billing system and needs to provide separate access to 
+Wavenet
+ agents for BAU activities.
+  This is needed to allow faster connection times for DBFB.  This is needed to allow 
+Wavenet
+ confidential access to 
+month end reports.
+ Giacom are 
+mocing
+ servers so need a new VPN.
+SCOPE
+In Scope
+Provision of new port
+New user ID
+ with concurrent logins
+MFT set up
+New VPN for Giacom
+OUT OF Scope
+Future Scope Items
+NA
+Customer Impacts
+[Please d
+escribe the impact of delivery of this idea on the customer.
+]
+  
+Question
+Y/N
+Details
+Does this 
+change 
+impact customers
+ and / or the customer experience
+?
+N
+Is there 
+expected to be 
+an impact to the way the customer purchases their service(s)?
+N
+Is there expected to be an impact to the way the customer 
+uses
+ their service(s)?
+N
+Is there expected to be an impact to the way the customer
+ makes
+ changes 
+to 
+their service(s)?
+N
+Is there expected to be an impact to the way the customer cancels their service(s)?
+N
+Is there expected to be an impact to the way Virgin Media provides support to the customer?
+N
+Will delivery of the idea offer the customer flexibility?
+Y
+Will delivery of the idea offer additional value to the customer?
+Y
+ASpirational timelines
+Commercial Launch Date
+Scope
+Drivers
+29/4/26
+New user ID and Port on VPM
+ (
+Abzorb
+)
+Partner driven
+29/4/26
+New user ID’s x 4 and Port on VPM (DBFB)
+Partner driven
+29/4/26
+New MFT file area (
+Wavenet
+)
+VMO2 Commercial Team
+29/05/2026
+New VPN for Giacom
+Partner Driven
+Budget
+Initial 
+Risks, 
+Assumptions
+,
+ Dependencies
+The areas below should only be completed if applicable, i.e. there may not be any constraints or dependencies.
+Risks
+[Risks are items that
+ could happen (but haven’t yet)
+ 
+that would impact the cost, scope, timelines or successful delivery of this project.
+  
+If you are 
+aware of any, 
+please iden
+tify them using the table below.]
+Risk
+Risk Description
+Probability
+Impact
+R1
+H/M/L
+R2
+H/M/L
+Assumptions
+[Assumptions are items that are taken for 
+granted but
+ will need to be validated to prevent the Vision from not being met. 
+If you have made any 
+a
+ssumptions about the delivery or solution
+,
+ please iden
+tify them using the table below.]
+Identifier
+Assumption Description
+A1
+A2
+Dependencies
+[Any known dependencies, in or out bound should be detailed. These are items outside the control of the delivery but are needed 
+in order to
+ ensure the success of the Vision. 
+If you are aware of any
+,
+ please iden
+tify them using the table below.]
+Identifier
+Dependency Description
+D1
+D2
+Constraints
+[
+A constraint is something that will limit what you do.  If you are aware of any, please identify
+ any 
+organisational
+ constraints that you believe will impact the delivery of your idea.]
+Identifier
+Constraint Description
+C1
+C2
+Lessons Learnt
+[
+Lessons learnt
+ are experiences obtained from previous projects that should be actively 
+taken into account
+ during the delivery of your idea
+.]
+Identifier
+Lesson Learnt
+ Description
+L
+1
+L
+2
+Glo
+ssary
+[Please include any technical/business terms used throughout this document, with an explanation of any acronyms.]
+Acronym / Abbreviation
+Definition
+CLD
+Commercial Launch Date
+HLRs
+High Level Requirements
+IIA
+Initial Impact Assessment
+PBA
+Principal Business Analyst
+SMART
+Specific, Measurable, Achievable
+, Relevant, Time-based
+TRD
+Technical Readiness Date
+DISTRIBUTION LIST
+[Please capture all stakeholders who have been sent the vision document for information or consultation.
+ Against each stakeholder, please indicate their responsibility in the RACI section (Responsible, Accoun
+table, Consulted, and Informed)
+.]
+Name
+Role
+Department
+RACI
+Version
+Dean Edwards
+Sponsor
+Wholesale Solutions 
+Accountable
+Sponsor Delegate (where applicable)
+Accountable
+Kevin Veale 
+Technical 
+Architect
+Consulted
+Shyam Jamnadas
+Principal Business Analyst
+UK Delivery
+Consulted
+Ravi Birah
+Programme Director
+UK Delivery
+Consulted
+Key Stakeholders
+[Please capture all the stakeholder groups (by role & name) 
+engaged
+ as part of the vision 
+creation 
+and any areas that have been identified but not yet engaged.]
+Name
+Department
+Dean 
+E
+dwards
+Wholesale solutions
+Ian 
+W
+ilkins
+Wholesale commercial team

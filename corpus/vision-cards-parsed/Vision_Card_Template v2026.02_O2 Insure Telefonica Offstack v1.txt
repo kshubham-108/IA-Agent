@@ -1,0 +1,575 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+O2 Insure Growth Phase 1 - Telefonica Insurance Integration
+Primary (SMART) Outcome statement
+Increase
+ O2 insurance 
+attachment rate (uptake) by at least 1% across all Consumer 
+Mobile 
+sales channels
+, 
+ 
+reduce TTM for insurance product and pricing changes
+, and 
+greater clarity of the benefits for customers
+Delivering £1.3m incremental in year margin, whilst
+ eliminating approx. £140k of capex for change of Insurance T&C, pricing etc
+.
+Supporting our 
+overall 
+growth plan to grow Insurance premium 
+from £82m to £100m by 
+end 
+2027.
+ 
+The above can be derived by answering the following questions:
+What type of state change/improvement must the project deliver?
+Increase
+In which business metric?
+O2 insurance attachment rate (uptake)
+For which specific stakeholder or business user? (Primary outcome beneficiary)
+A
+cross all Consumer Mobile sales channels
+By how much? (Quantified amount or percentage is required)
+O2 insurance attachment rate (uptake) by at least 1%
+What is the current value for this business metric?
+N/a
+Within what timeframe?
+Q4 2026
+What strategic outcome does this support? 
+Supporting our 
+growth
+ plan to grow Insurance premium from £82m to £100m by 2027.
+Other outcomes:
+Reduce TTM
+ for insurance product and pricing changes
+Greater clarity of the benefits for customers
+Stakeholders
+Proposer
+Liam McTiernan
+S
+ponsor
+ (accountable for the business outcome)
+Chris Bourne
+s
+Finance Business Partner
+Satwinder Dhanoa
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+Head of TI UK
+Gonzalo
+ 
+Fernande
+z-Ayala Novo
+Finance BP
+Archna Vi
+thlani
+Tracking information
+What reference or ID does your business unit use to track this proposal?
+TOP-855
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+IA funded by Opex 
+OCMD02
+Capex to be drawn down from Telefon
+ica agreement
+. 
+Sizing work (
+IIA from Prime delivery partner)
+ is required first to unlock formal CapEx approval
+.
+Which business division will be funding this proposal?
+O2 Insure via Telefonica Insurance
+ deal
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Consumer Demand Forum 
+and preparing for IC
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+20
+/3/2
+6
+If known, when is this planned to attend Investment Committee?
+May 2
+6
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Is this an NDA’d project? If so, who is the NDA contact?
+No
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+31/3/26
+Vision has been reviewed with key architects / ESA domain owners?
+Y
+ – First review impacts from Sean Devlin by email
+Date approved for platform assessment by BEM
+6/5/26
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+Consumer customers will have optimised product information allowing them to make a decision on whether to purchase O2 Insure.  Speed to market and 
+efficiencies will result in positive impact to the O2 Insure P&L
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+O2 Insure
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+Insurance element of device sales journey in 
+(NC 360) 
+consumer channels
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+Static text is presented to customers for insurance, with no ability to 
+present alternative pricing and no quick way of changing the content.  
+This is contributing to lower attachment of insurance and declining revenue
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+This change is the first submission of the 
+O2 Insure 
+growth plan and covers the integration of Telefonica via API to the O2 Insure sales journey, allowing them to own and update content and pricing within the product tiles (in line with relevant governance) including execution of offers and updates to IPID / policy documentation
+What must change
+?
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+Enable Telefonica Insurance to update Insurance product content (Pricing, T&C etc) directly via API for use by all channels. Mechanism will enable faster and potentially more frequent update for faster TTM & Agility.  Content will be preapproved. Update method and content use by sales channels will ensure we maintain respective roles e.g VMO2 as agent, Telefonica as Underwriter.
+O2 Insure is one of our most profitable mobile products and has undergone a strategic review to determine growth potential, new target segments and operating constraints.
+ 
+Further streamlined integration into journeys and processes 
+will allow a better execution and attachment rate in line with the overall plan
+.
+How does this differ from the current state?
+The objective is to reduce cost of low-level changes (recent T&Cs PDF updates £140k NC), reduce time to market of content changes as we seek to optimise messaging, and allow faster execution of offers and price changes
+ as well as greater clarity of the benefits for customers
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Customers will be presented with the most relevant information to allow them to make the choice to purchase insurance for their device
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+See pack submitted with CDF
+What constraints or non-negotiables must the future solution 
+respect
+?
+As a regulated product, the solution must comply with the relevant requirements. Actual content will be 
+agreed with Telefonica as underwriter
+.
+Is there anything explicitly out of scope?
+We will be guided by the IA, but 
+understand that the insurance tiles/space themselves in the journey remain a Netcracker asset, but 
+content which populates the tiles is fed by Telefonica
+.
+There
+ is not believed to be a
+ systems / automation driven 
+update of training material / frontline updates / 
+knowledge base
+ for insurance products. 
+The current manual process 
+is expected to continue. 
+Any promotions 
+would be communicated via the normal trading process
+ until or unless 
+the 
+end-to-end
+ process is
+ reviewed 
+by the new team
+ 
+–
+ 
+in which case any changes 
+would be 
+outside the scope of this project.
+When do you want this to 
+go live?
+Prior to Apple NPI expected September
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing
+.
+We need to optimize the sale of policies as key moments in order to 
+hit the growth plan
+. 
+We would like the team to discuss the proposed solution with Telefonica to understand sizing and feasibility along with any potential knock-on impacts. With capex funding from Telefonica and prioritisation from their IT team, we would like to understand the practicality of a 
+mid-
+Q3 2026 deployment.
+Leading indicator (predictor of successful execution). 
+Suggest (if you know) what metric will measure successful execution of this change.
+Suggested lead indicator
+s
+ 
+for discussion
+ include:
+Early:
+Average time from Telefonica Insurance approval → live on all VMO2 handset sales channels (
+Reduction here directly predicts faster pricing tests, promo responsiveness, and compliance fixes)
+Count of 
+API based 
+Insurance 
+content
+ changes deployed
+ (Indicates reduced friction)
+Number of post
+publishing
+ corrections required (Direct API entry should reduce rekeying
+ errors and channel inconsistencies)
+Alignment of content updates across channels (should be 100%)
+Mid:
+% of handset sales with insurance attached per channel
+ (improves before total insurance revenue moves)
+Customers shown insurance → customers taking insurance (proxy for clarity of 
+value proposition)
+Early life 
+(30 days) 
+Insurance cancellation rate 
+(indicator of mis
+selling or misunderstanding)
+Long
+ (lag)
+: 
+Sustained insurance revenue uplift
+Trend of Capex
+ required for Insurance content changes to Zero.
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+In progress.  Based on increased premiums from optimised content and pricing flexibility, plus reduced capex
+What is the approximate revenue uplift / cost saving from this?
+A 1% pt uplift in attachment rate equates to £1.3m in-year margin uplift
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+The consumer device sales journey in 360 must allow 
+authorised parties 
+within 
+Telefonica
+ Insurance UK Ltd
+ to 
+upload and amend
+ 
+content 
+about the O2 Insurance product 
+via API
+ and for this content to be configurable
+ by them
+.  Content includes product information, marketing messages and pricing
+.
+ Telefonica will not be able to 
+introduce new data objects or change the 
+underlying 
+data architecture using this API.
+Y
+2
+VMO2 should not be able to change the 
+Insurance 
+content 
+after it has been 
+provided by Telefonica 
+Insurance UK 
+using this mechanism.
+ Approval of the content will have been obtained from V
+M
+O2 prior to the upload.
+ 
+W
+orkflow / automation for this 
+approval is not part of this requirement. 
+Why: 
+To avoid 
+any confusion or possibility of VMO2 accidentally changing their legal status as agent for Telefonica Insurance UK
+, and to avoid the possibility of impacting VMO2’s liability for the insurance product.
+Y
+3
+There must be no change to the customer billing solution 
+–
+ 
+O2 Insure must still appear on the O2 bill.
+Y
+4
+The solution must be compatible with current and future SIM Free Finance journeys
+Y
+5
+All consumer channels are in scope
+Y
+6
+More detail is available in the CDF pack and Telefonica are on standby to discuss the technical requirements in more detail
+Y
+7
+Solution should not 
+preclude (future) bundling/packaging of O2 Insurance products with
+ other VMO2 products
+8
+9
+10
+What are your reporting or self-serve analytics (data democ.) requirements?
+The existing O2 Insure dashboard must capture sales through this journey (not anticipated to affect DD but 
+should discuss)
+And 
+correlation to e.g. 
+content 
+change
+ events
+See also
+:
+ lead indicators.
+Y
+5.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+Medium (10–100k monthly)
+Response times or availability
+The page must load within 2 seconds for customers
+ 
+[or our standard performance]
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+No additional requirements above current solution
+Any legal or regulatory compliance requirements?
+No additional requirements above current solution. This is a regulated service
+.
+ 
+For the avoidance of doubt:
+Mandatory: 
+Solution must ensure that the mechanisms and journeys in scope 
+maintain the current legal accountabilities/roles of VMO2 (agent) and Telefonica Insurance UK Ltd (Underwriter).
+ Refer to Legal and Product team for guidance as required.
+Mandatory: 
+Solution must ensure 
+that any changes to content/pricing etc arising from this mechanism are fully logged and
+ auditable.
+Are there any Fraud 
+requirement
+s?
+No additional requirements above current solution
+Accessibility 
+/ vulnerable customer 
+requirements
+No additional requirements above current solution
+.
+ 
+What parts of the business are likely to be impacted
+?
+This section helps us understand which parts of the organisation may be affected if this proposal goes ahead. You do not need technical knowledge — simply indicate where you believe there may be an impact. 
+If you are unsure, pick “Potential impact”. You are 
+signaling
+ where impact may exist, not committing to scope or design. This will be reviewed and refined during shaping and sizing.
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Y
+Consumer sales journey is in scope
+Retail stores
+Y
+Consumer sales journey is in scope
+Care and Retentions
+N
+Contacts, case handling, scripts, troubleshooting, retention actions
+Commercial & go to market
+Product & Proposition management
+Y
+Delivery of change and accountability for results
+Marketing & Sales
+Y
+May enable more content changes
+Shop & Basket (buy/upgrade journeys)
+Y
+Consumer sales journey is in scope
+Order fulfilment & service changes
+Order & fulfilment
+N
+Buying, upgrading, moving, cancelling, order tracking
+Service activation & configuration
+N
+Provisioning, activation, defaults, service setup
+Supply Chain & Logistics
+Y
+Longer term base growth will result in increased activity
+Field operations
+N
+Customer installs, repairs, visits, equipment delivery 
+Run and assure services
+Network services (mobile, fixed, TV)
+N
+Coverage, connectivity, performance, reliability
+Faults, outages & service assurance
+N
+Issue detection, restoration, customer communications 
+Service operations & support teams
+?
+Possible management of the API availability to Telefonica Insurance
+ 
+Money, account and trust
+Billing, payments & customer finance
+Y
+O2 Insure technical ecosystem
+Customer accounts, identity and permissions
+N
+Login, roles, parental controls, account hierarchies 
+Other
+Wholesale services & support
+N
+Systems, services, support or data we provide or exchange with wholesale partners
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+See 
+CDF submission
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+See CDF submission
+[TOP-855] O2 Insure Growth and Telefonica Insurance Integration - Jira
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

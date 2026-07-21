@@ -1,0 +1,24 @@
+id: retainx
+label: RetainX
+base_pu: 1328
+overlay_vector:
+  - 0.25
+  - 0.0
+  - 0.25
+  - 1.0
+  - 0.10
+  - 0.25
+  - 0.25
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.05
+  - 0.05
+fixed_add_pu: 15
+management_overlays:
+  pm: 0.15
+  warranty: 0.05
+  contingency: 0.10
+expected_total_pu: 4162.86
+expected_person_weeks: 832.572

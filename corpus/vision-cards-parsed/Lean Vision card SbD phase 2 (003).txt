@@ -1,0 +1,192 @@
+Lean Vision card – Annual budget intake
+This Vision Card outlines the desired business, customer and delivery outcome for your new project idea. This is a cut down version of the Vision card for annual 
+planning purposes. 
+The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+Name
+SBD Enhancements phase 2
+ (Part of Programme McQueen)
+Where did this idea originate?
+Legal/Risk/Security
+Strategic goal
+Efficiency / cost saving
+Change type
+Enhancement
+Business outcome
+What measurable change 
+of a key business metric 
+are you aiming to achieve with this proposal? E
+.g. Reduce basket abandonment in digital for consumer PAYM by 20% by Q4 2026 to achieve sales revenue increase of +15% in 2027
+.
+Primary Outcome
+(1 sentence, SMART)
+Primary Outcome - Currently Security are having to vote on 
+Sbd
+ approvals in 2 different platforms, one internally and then in clarity. This engagement is to allow a single point of approval to update/integrate with Clarity to avoid duplication. 
+ 
+Metric value today 
+(if known)
+Value type
+Cost saving
+Rough value size
+<£1m
+By when
+Over 
+1
+ years
+Customer / Use
+r
+ Problem
+Who is impacted?
+(
+e.g. 
+customer type, colleague, segment etc)
+Internal delivery colleagues and Security by Design SMEs
+What is their problem today?
+(2-3 lines max)
+Too much manual work using disparate systems including spreadsheets etc
+Why it matters
+(1 line)
+Efficient/faster delivery of projects
+What proof do you have?
+SbD
+ Team reviewed their processes and found many inefficiencies – 
+assessment of time saved based on requirements delivered
+Desired 
+Future outcome
+Streamlined automated process and lower overhead on Security and Delivery teams
+Delivery Outcomes
+Key Capabilities Required
+Describe what must exist – not how
+ in
+ 3-5 bullets.
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Capability
+MVP*
+1
+Int
+e
+gration with Clarity
+ – automated voting
+ based on the status of the project
+ in 
+SbD
+ and removal of double voting on 2 separate systems
+n
+2
+Improve usability and experience
+ of the 
+SbD
+ Power App post
+ MVP feedback
+ (phase 1)
+n
+Reporting / Analytics Requirement
+s
+1
+n/a
+n
+Operational Impacts
+Channel 
+Core
+ domains / functions
+☐
+ 
+Digital / App
+☐
+ 
+Retail
+☐
+ 
+Care / contact centre
+☐
+ 
+Messaging
+☐
+ 
+Indirect
+☐
+ 
+Sales / shop / basket
+☐
+ 
+Order & fulfilment
+☐
+ 
+In-life service / management
+☐
+ 
+Billing / payment
+ 
+/ finance / insurance
+☐
+ 
+Fraud management
+☐
+ 
+Customer data / Identity
+☐
+ 
+Network connectivity
+☐
+ Mobile Devices / CPE / STB
+☐
+ Wholesale partners
+☐
+ MVNO
+Complexity drivers
+Please mark any that apply as these will improve the accuracy of 
+your estimate
+ – and avoid an under or over estimation of cost and time to deliver
+.
+☐
+ Data or customer migration
+ is required between suppliers or systems
+☐
+ Decommissioning of legacy systems or suppliers
+☐
+ New suppliers or systems introduced
+☐
+ High transaction volumes >100k per month
+☐
+ Realtime/sub-second response required
+☒
+ Regulatory/compliance critical
+☒
+ Security/fraud sensitive
+☐
+ Customer critical journey
+ (e.g. sales, 
+faults, billing, payments)
+Further information
+: 
+Timing
+ 
+Target live date or window
+Dec 2026
+Why this date matters
+Budget allocated for 2026
+Constraints and Dependencies
+ (Max 3)
+Key constraints
+Availability of Automation team to do delivery
+Known dependencies
+ 
+(optional, if known)
+Ownership
+ / Budget
+Proposer
+Nicholas Coe
+Sponsor 
+(
+if known
+)
+Barbara Aung
+Budget planning reference 
+(if known)
+Programme McQueen
+Alternative reference ID e.g. from demand forum

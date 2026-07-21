@@ -1,0 +1,769 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+SIM Seeding Testing for 
+giffgaff
+, PA
+YG & Tesco Mobile
+ 
+Primary (SMART) Outcome statement
+VMO2 can design, build
+, 
+test
+ and 
+deliver 
+supply 
+chain for 
+5GSA 
+compatible (R15) 
+SIM for 
+giffgaff
+, PAYG & Tesco Mobile
+ 
+by the end of 
+Q4
+ 202
+6
+, building trust by 
+enabling these business units to 
+mov
+e
+ more customers to 5GSA for a better experience
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Enable
+In which
+ business metric?
+D
+esign, build, test and supply
+ of 
+5GSA
+ 
+compatible
+ 
+(R15) 
+SIM 
+for
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+g
+iffgaff
+, PAYG & Tesco Mobile
+ 
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+All
+What is the current 
+value for this business metric?
+0%
+ of SIM 
+assets
+ for these business units are 5GSA capable
+Within what timeframe?
+Q4
+ 20
+26
+What strategic 
+outcome
+ does this support
+? 
+Building trust by moving more customers to 5GSA 
+for a better 
+experience
+ 
+Stakeholders
+Proposer
+Marc Tordoff / Jon Fawcett
+ / Paul O Sullivan
+S
+ponsor
+Robert Joyce
+; Killian Faughnan
+Person accountable for the business outcome
+Marc Tordoff
+Finance Business Partner
+(s) 
+Max Koehne
+, Steven Tuckwell
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+PAYG Product Manager
+Jamie Bell
+Jon Fawcett 
+ 
+Head of Mobile Products 
+ 
+Daniele 
+Torrigiani
+ 
+Head of Wholesale Solutions 
+ 
+Paul Duffy 
+ 
+Service Transition 
+ 
+Adrian Merwood 
+ 
+Devices 
+ 
+Darren Thompson 
+ 
+Service Operations 
+ 
+Jason Cooper / Emma Bloor 
+ 
+Application Operations 
+ 
+Paul Doctor
+ 
+Process transformation architect
+ 
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+TOP-7
+47
+ 
+5GSA SIM Seeding
+DMA-2026-TDP-03178
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+PR-2026-058
+Which business division will be funding this proposal?
+CTO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Cons
+umer Demand Forum
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+3/2/26
+If known, when is this planned to attend Investment Committee?
+16/
+4
+/26
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Out
+bound: 
+DMA-2026-TDP-03180 (
+giffgaff
+ 5GSA Enablement) & DMA-2026-TDP-03184 (Consumer PAYG 5GSA Enablement)
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+no
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+February 2026
+Vision has been reviewed with key architects / ESA domain owners?
+Yes
+Date approved for platform assessment by BEM
+TBC
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+Commercial and product teams 
+in 
+Gi
+ff
+gaff
+, 
+O2
+ PAYG
+, Tesco Mobile
+ 
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+All
+ 
+giffgaff
+,
+ O2 PAYG 
+& Tesco Mobile 
+connections
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+5GSA compatible SIMS will be consumed via a
+ll channels and 
+systems in the
+ 
+giffgaff
+, O2 PAYG & Tesco Mobile proposition 
+ecosystem
+s 
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+5G Standalone 
+capable SIM are 
+currently not available to 
+giffgaff
+, 
+PAYG 
+& Tesco Mobile 
+customers. As a 
+result,
+ this entire base is excluded from experiencing the next generation of 5G capability and network performance
+, and VMO2 
+does not gain the related 5GSA network efficiencies.
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+The objective of 
+5GSA Sunrise 
+programme
+ is to introduce and seed R15 SIMs 
+(both physical SIMs and 
+eSIMs
+) 
+into segments that currently only have R10 SIMs—specifically 
+giffgaff
+, Tesco Mobile, and Consumer PAYG.
+The R15 SIM will provide full backward compatibility, supporting 3G, 4G, and 5G NSA, while also enabling 5G Standalone (5GSA) capability. This allows future
+ready customer migration without disrupting current service availability.
+What must change
+?
+One line vision summary
+To enable 5G Standalone growth, the mobile supply chain will provide assured, forecast
+led, and fully traceable delivery of 5GSA
+capable 
+pSIM
+ and 
+eSIM
+ assets for PAYG, TESCO and giffgaff customers, including at
+scale SIM swap.
+How does this differ from the current state?
+VMO2 supply chain 
+will forecast, specify, source
+, test and supply 
+tested approved R15 (
+5GSA
+ capable) SIM 
+to meet the needs of
+ 
+O2 
+PAYG, 
+giffgaff
+ and TESCO
+ for 
+their new customers and 
+inlife
+ SIM swap at scale
+. This is not currently possible / available.
+What
+ will success look like 
+for your primary beneficiary
+ 
+All my new customers 
+(PAYG, TESCO, 
+giffgaff
+) 
+are 
+provided
+ with R15 SIM
+ when their orders are fulfilled. 
+I can seed R15 SIM into my 
+in-life
+ 
+(PAYG, TESCO, 
+giffgaff
+) 
+customer base. 
+Dependent projects and campaigns to provision and seed 5GSA compatible SIM onto 
+PAYG, Tesco and 
+giffgaff
+ do not experience an
+y increase in 
+the rate of 
+SIM activation failures or customer journey delays.
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+Insert link here
+What constraints or non-negotiables must the future solution 
+respect
+?
+The solution must 
+prioritise
+ 
+SIM standards, 
+regulatory compliance and customer trust over speed and feature expansion
+Is there anything explicitly out of scope?
+Project scope does not include the creation of any new
+ products or service features beyond those that are enabled automatically by having 5GSA access
+When do you want this to 
+go live?
+Commercial launch 
+Q4
+ 202
+6
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing
+.
+We must maintain our 
+market trajectory towards 5GSA
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes – reviewed 
+by 
+James Vincent
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+Some suggested 
+lead 
+indicators for consideration include:
+Vendor
+ chipset 
+roadmap
++
+eSIM
+ ecosystem
+ aligned to 
+required 
+R15 
+timelines
+/volumes
+ with forward visibility
+Available test environment
+ and
+ 
+5GSA
+ conformance test plan
+% 
+(in scope) 
+SIM SKU tested and approved for 5GSA
+Business unit
+(s)
+ readiness to support 
+& deploy 5GSA compatible SIM
+ (external dependency)
+Per business unit a
+ctivation failure rates on 5GSA (R15) SIMs + 5GSA capable devices with first 24 hours
+What is the approximate revenue uplift / cost saving from this?
+Costing and bottom line is baked into 
+giffgaff
+ & consumer PAYG business cases
+Key assumptions
+. 
+Are there any critical assumptions that support your timing or business case?
+PAYG ecosystem has completed migration to 360 and CCS platforms
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+The mobile supply chain shall be capable of forecasting, specifying, sourcing, and managing 5G Standalone
+capable 
+pSIM
+ and 
+eSIM
+ 
+that meet the technical, security, and interoperability requirements necessary to support 5GSA services for PAYG and MVNO customers.
+Y
+2
+The mobile supply chain shall provide demand forecasting and capacity planning capabilities
+ that support PAYG
+, Tesco and giffgaff
+ volumes for new activations and SIM swaps, with sufficient accuracy to prevent SIM shortages, excess stock, or delayed market launches.
+Y
+3
+The mobile supply chain shall own and operate an end
+to
+end SIM design, testing, and certification lifecycle
+ to ensure all 5GSA 
+pSIM
+ and 
+eSIM
+ products are validated for network compatibility, security compliance, and operational readiness prior to release to stock.
+Y
+4
+The mobile supply chain shall provide reliable delivery and distribution of 5GSA
+capable 
+pSIM
+ and 
+eSIM
+ assets
+ to support:
+New customer acquisitions (PAY
+G, Tesco, giffgaff
+)
+In
+life SIM swap programmes across all approved fulfilment channels.
+Y
+5
+The mobile supply chain shall provide end
+to
+end visibility and traceability of 5GSA SIM assets
+ across suppliers, inventory, distribution, and lifecycle states to support security, regulatory, operational, and commercial assurance requirements.
+Y
+6
+Y
+7
+?
+8
+9
+10
+What are your
+ reporting 
+or 
+self-serve analytics (data 
+democ
+.
+) requirements
+?
+Dashboards should measure 
+Lead indicators 
+& Smart outcome metrics 
+E
+nd
+to
+end visibility and traceability of 5GSA SIM assets
+ 
+(as distinct from e.g. R10 assets) 
+across suppliers, inventory, distribution, and lifecycle states
+Y
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+New customers 
+for each business unit. 
+SIM Swap for e
+ntire 
+giffgaff
+ (~4million)
+, consumer 
+PAYG 
+(~
+8.5m) 
+& Tesco 
+(~1.7m) 
+Mobile Base
+Response times or availability
+No change to normal service activation times for e.g. new and upgrade orders
+.
+I
+mproved 
+(or at least equivalence) of activation failure rates for 5GSA compatible SIM vs R10 SIM.
+Availability of SIM inventory aligned to business unit commercial roadmaps
+ & 5GSA Sunrise business plan
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+Fully compliant 
+with
+ relevant 5GSA and SIM standards
+Any legal or regulatory compliance requirements?
+Conversion of the 
+prepay base to 5GSA is likely to contribute to improved OFCOM network performance scores.
+Are there any Fraud 
+requirement
+s?
+Mandatory: 
+Assumed existing SIM supply chain controls should be enhanced to support 5GSA for these business units e.g. 
+ 
+The supply chain shall provide end
+to
+end traceability for all 5GSA 
+pSIM
+ and 
+eSIM
+ assets
+ 
+across supplier, inventory, distribution, returns, and disposal lifecycle stages.
+The supply
+chain systems and processes shall enforce role
+based access control and segregation of duties for SIM forecasting, specification, ordering, testing, warehousing, and distribution activities
+The supply chain shall support automated reconciliation controls
+For 
+eSIM
+, the supply chain shall ensure secure generation, storage, transfer, and release of 
+eSIM
+ profile credentials, ensuring profiles cannot be intercepted, reused, or released outside authorised channels
+The supply chain shall prevent cross
+contamination of SIM stock between 
+business units
+Agents in the SIM supply chain shall be subject to ongoing fraud
+risk assurance
+Auditability requirements
+As required to support e.g. end
+to
+end visibility and traceability of 5GSA SIM assets, and fraud requirements
+Accessibility 
+/ vulnerable customer 
+requirements
+n/a
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Say if you believe an operational department will be impacted by implementing this idea
+.
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+N
+Customer journeys, content, self
+‑
+serve actions, login, service management
+Retail stores
+N
+In
+‑
+store sales flows, colleague tools, advice, activation or support
+Care and Retentions
+N
+Contacts, case handling, scripts, troubleshooting, retention actions
+Commercial & go to market
+Product & Proposition management
+N
+Range, bundles, eligibility rules, pricing, packaging
+Marketing & Sales
+N
+Campaigns, messaging, offers, propositions, channels 
+Shop & Basket (buy/upgrade journeys)
+N
+Basket logic, eligibility, offers, cross
+sell, checkout 
+Order fulfilment & service changes
+Order & fulfilment
+Y
+To the extent that 
+success of SIM supply chain 
+capability 
+should be tested for success in each business unit’s 5GSA deployment
+Service activation & configuration
+Y
+To the extent that success of SIM supply chain capability should be tested for success in each business unit’s 5GSA deployment
+Supply Chain & Logistics
+Y
+Full scope of this project
+Field operations
+N
+Customer 
+installs
+, repairs, visits, equipment delivery 
+Run and assure services
+Network services (mobile, fixed, TV)
+Y
+Specification and t
+esting
+Faults, outages & service assurance
+?
+Assumed to be delivered by the relevant 5GSA deployment projects in e.g. Te
+s
+co, 
+giffgaff
+,
+ and PAYG. 
+Service operations & support teams
+N
+Operational processes, monitoring, incident handling 
+Money, account and trust
+Billing, payments & customer finance
+N
+Charging, bills, payments, finance, refunds, insurance 
+Customer accounts, identity and permissions
+N
+Login, roles, parental controls, account hierarchies 
+Other
+Wholesale services & support
+Y
+MVNO integration / data
+ for 
+end to end
+ controls
+ / forecasting relevant to SIM supply chain
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Insert link here.
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+Insert link here.
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

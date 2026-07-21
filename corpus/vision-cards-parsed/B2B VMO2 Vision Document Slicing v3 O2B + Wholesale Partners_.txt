@@ -1,0 +1,881 @@
+Vision Document
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+Business Area 
+☒
+ 
+Wholesale 
+Mobile & M
+W
+ (O2 
+Business
+)
+ 
+☐
+ Wholesale Fixed Connectivity 
+☒
+ B2B IT Migration
+ 
+Initiative Name
+Slicing 
+product launch 
+– Central Strategy 
+Sponsor 
+Name
+Jeanie York 
+P
+rod
+uc
+t 
+Owner
+ Name
+Kinaree Tailor 
+/ Dean Edwards (B2B)
+Finance Partner Name
+Sarah Hug
+h
+es 
+O2Daisy only section
+ 
+O2 Daisy ID
+O2Daisy CTIO Approved
+App
+roval to move to Ideate sizing must be 
+provided
+O2Daisy IT Architecture design or context
+NDA required?
+N
+NDA admin
+NDA contact name
+Aspirational 
+start date 
+TBC
+Aspirational 
+delivery date
+Commercial launch date
+Phased delivery considerations/needs
+Drivers
+ASAP 
+Phased delivery plan of product evolution shared by CTO Tech Products 
+is below this is from 
+May 
+2026 and will change and evolve 
+Phase 
+1 Initial Launch is the priority for sizing and IA 
+Table of Contents
+1.
+Problem & Opportunity / Scope Summary
+2
+2.
+In Scope
+9
+3.
+Customer Journey Touch Points 
+(Required)
+10
+4.
+Out of Scope 
+(Required)
+12
+5.
+High level Requirements
+(Required)
+12
+6.
+Legal/Regulatory, Fraud, Security and environmental impacts
+14
+7.
+Dependencies / Risks / Assumptions [Required]
+15
+2
+For information: Next steps
+16
+ 
+Problem & Opportunity / Scope Summary
+1.
+2 
+Problem & Opportunity
+ 
+VMO2 does not currently have a 
+technical or 
+commercially available 5G network slicing product that can be consumed by Wholesale Mobile partners. This creates a capability gap at a time when network slicing is becoming an increasingly important market opportunity, particularly for organisations that need differentiated mobile connectivity for priority or operationally critical use cases.
+The opportunity is to enable O2 Business and agreed Wholesale Partners to take an initial slicing proposition to market using a controlled Phase 1 product. The current demand is strongest from emergency services and public sector opportunities, with a known pipeline including police force use cases. The Metropolitan Police has been identified as the primary current opportunity.
+Competitor activity indicates that this is a developing commercial and strategic area. If VMO2 is unable to define, size and mobilise an initial slicing capability, there is a risk that O2 Business and Wholesale Partners may be constrained in responding to customer demand or competing for emerging priority connectivity opportunities.
+Phased delivery approach
+Phase 1 should focus on the initial launch capability: a static, SIM-based, always-on national slice that can be sold, ordered, provisioned, billed, reported and supported through agreed operational routes.
+Phase 2 and later phases may consider more advanced capabilities such as dynamic slicing, private DNN, app-based routing, self-service portals or other product evolution features. These should be treated as future scope unless specifically confirmed for Phase 1.
+The recommendation is to proceed with a phased IA approach, starting with Phase 1, so that VMO2 can confirm the cost, timeline, delivery route and scalability of the initial launch proposition before committing to broader product evolution.
+Business 
+ask
+The business ask is to enable O2 Business and agreed Wholesale Partners to commercially launch a minimum viable 5G network slicing product. The product must be supportable end to end, including sales/order capture, eligibility, provisioning, lifecycle management, billing, reporting, partner onboarding/offboarding and operational support.
+Create and manage the network slicing product with clear eligibility rules.
+Support O2 Business and agreed partner order submission through an assisted sales journey.
+Enable quoting and order journeys for eligible customers and subscriptions.
+Provision an eligible SIM or customer onto the Phase 1 slice.
+Identify slice-related billing events and usage over an agreed period to support charging and reconciliation.
+Provide reporting on slice users, usage, performance and relevant service indicators.
+Support partner onboarding and offboarding where Wholesale Partners are in scope.
+Support customer onboarding and offboarding, including the process to remove the slice and return the customer to the public network where required.
+Provide operational support for provisioning failures, incidents, billing queries and reporting discrepancies.
+The focus for this IA is the Phase 1 initial launch. The IA should provide a clear cost, timeline and delivery-route assessment for O2 Business, and should also identify whether the capability can be reused or scaled for SMB Wholesale Partners. Where there are incremental 
+partner-specific costs, such as 
+but not limited to 
+ordering route, partner identifiers, billing, reporting, testing or onboarding, th
+is should
+ 
+be called out separately.
+1.
+3 
+ Scope
+ Summary
+ 
+Design of phase 1 product. 
+Aspirational Scope of Slice 
+Launch
+National slice phase 1
+ - Single S-NSSAI ID for all 5G SA enabled cell sites
+Slicing to use all 5G SA enabled bands. Static slices.  Macro cells (small cells TBC but likely)
+Shared DNN [on Consumer network for internet access via the First Responder slice]
+Single slice use per UE (i.e. always on).  Access to the ‘default’ 5G SA connection not possible despite device – router or phone nor in any of the specific use-cases. If slice subscription is taken off, then ‘BAU’ access to normal 5G SA network will be possible.  If there is no 5G SA, then connection will fall back to 4G or 5G NSA. Need to be able to count this for reporting purposes
+Different devices to be supported for the first responder slice: 
+1) Phone - at least 2 sessions using the slice - IMS/
+VoNR
+, data (voicemail, MMS all currently go via DAB and still use the shared data DNN)
+2) Router - data session only (vehicles and pop-up event)
+3) Body camera - data session only [this is TBC and is not requested]
+Be able to establish device type being used on the slices. Prioritisation between these device types within the slice is out of scope for now. 
+Slicing to be used at all locations once subscribed, i.e. not limited to time or place (i.e. not tracking area) based. 
+Premium rate per traffic unit charged for upload and download traffic plus 
+a
+ Access fee to access the slice. 
+Offline charging (use of CHF).  Charges based on different device types to be possible. 
+Slice usage reports front-end for self-serve of usage for slices (for VMO2 use)
+Need to be able to track/identify the type of device using the slice. TAC (type approval code) makes 
+it's
+ way to the PCF. It's a constant update process. So maybe better for routers, body 
+cams  -
+ niche hardware. This process is not ideal nor needed for phones. 
+Slice performance/usage reports (not per app but and slice users/device) needed. No SLAs defined at this stage for customer reporting. 
+Impacts 
+to
+ non-slice and 4G/consumers established
+New customers only (will need to be on ABS and 
+Geocom
+). Existing customers will not be able to have slicing. Provisioned users on Ericsson HLR may not get migrated
+Bolt-On removed after account has breached X slice usage or increased rate per GB as per definition of contract. Configuration of a data cap.
+ 
+VMO2 requirement - slice downlink/uplink rate setting should be possible, 
+Manual reporting (possible dashboard). VMO2’s impact on 4G and non-slice customers 
+not
+ possible.
+From a network perspective this file articulates what can be provided and how slicing will work 
+from VMO2. 
+The 
+Product will evolve over time through capability as VMO2 test and learn from the process 
+Current 
+architectural 
+understanding is: 
+Daisy Central > ABS (DISE legacy) 
+> 
+Netcracker
+ 360 > feeds 5GSA and Nokia UDB 
+Need a view of if we avoid ABS and go from Daisy central to 
+Netcracker
+ 
+360
+ 
+.
+ 
+Ask 
+is to consider IF it must go through ABS, or could some interactions be direct with NC360?
+Reason – ABS adds complexity to a solution 
+and will be additional thing to migrate 
+at a later date
+. 
+Calls with Athar and Tony suggested we have 3 options: 
+Daisy central to 
+ABS to NC360 
+provides
+ the 
+quickest and easiest option for 5GSA but will be 
+complex
+ to migrate later 
+Dual running approach on both stacks which will be costly 
+API exposure (to be delivered) to bypass ABS go straight Daisy Central to NC360 
+Go straight to NC360 which is slower/costlier but strategic 
+Each option 
+to be considered in the 
+I
+!
+A
+, costs and timelines. 
+National slice 
+– parameters of slice in the technical specification file above
+Slicing is: 
+SIM-based
+ always on 
+the 
+slice 
+Phase 1 will not allow toggle between public network and slice unless we get URSP 
+Delivered as a 
+bolt-on product
+Dependent on 
+5GSA-enabled SIMs (Release 15)
+Provisio
+ning on Nokia stack only 
+ 
+What slicing is NOT. 
+Guaranteed performance 
+Will not protect against cell site failures (e.g. extreme signalling usage scenarios) 
+Voice calls are always prioritised 
+Slice traffic will not 
+be 
+prioritised over emergency calls 
+Currently prioritisation on anything beyond the macro radio network (i.e. DAS, small cells and microcells are out-of-scope at this stage)
+Assumes VMO2 will not provide devices for Slicing 
+1.
+4
+  
+Business
+ Outcomes
+ 
+– 
+(Required)
+Describe the business outcomes for this project.  (
+A business outcome describes the measurable change in business performance or behaviour that will be delivered if this initiative is successful.
+)
+Phase 1 business outcomes
+Enable a minimum viable 5G network slicing product for commercial launch
+O2 Business and agreed Wholesale Partners can take a Phase 1 static, national, SIM-based slicing product to market for defined priority customer segments, starting with emergency services / public sector opportunities.
+Enable partners to sell and order the slicing product through an agreed assisted route
+O2 Business and agreed Wholesale Partners can capture and submit slicing orders using the agreed Phase 1 sales and ordering process, with clear eligibility rules for customer, SIM, device and network readiness.
+Enable eligible customers to be provisioned onto a static national slice
+Eligible customers can be activated onto an always-on national slice using 5GSA-enabled R15 SIMs and supported network capability, with onboarding and offboarding processes defined.
+Enable lifecycle control of the slicing service
+VMO2 and/or the relevant partner can add, remove, cease or change a customer’s slice entitlement, including the ability to return the customer to the public network where required.
+Enable commercial charging and billing for slice usage
+Slice usage and customer billing events can be identified and used to support the agreed charging model, including partner-level wholesale billing where Wholesale Partners are in scope.
+Enable reporting to support commercial, operational and service management
+Reporting can show the quantity of slice users, usage by customer or partner, relevant device information, performance information and any congestion/service indicators required for Phase 1 launch.
+Establish a reusable capability for O2 Business and scalable Wholesale Partner rollout
+The IA confirms whether a common reusable slicing capability can support O2 Business and future Wholesale Partner rollout, including any incremental cost, timeline or integration impact by partner or route.
+Confirm the preferred IT delivery route for Phase 1
+The IA provides a cost, timeline, complexity 
+and
+ impact view for the viable provisioning route options, including the tactical ABS route, direct 
+Netcracker
+ 360 route, or any dual-running approach.
+Protect existing network and customer experience
+Phase 1 launch does not create unmanaged adverse impact to non-slice customers, 4G customers, public network users or existing priority voice/emergency service handling.
+Create a controlled foundation for future slicing evolution
+Phase 1 establishes a controlled MVP that can be expanded in later phases to include more advanced capabilities such as dynamic slicing, hybrid options, app-based routing, private DNN or self-service capability, subject to separate assessment and approval.
+In Scope
+ 
+Area
+Impacted
+Channels
+☐
+ 
+No Channel Impact (BAU)
+☐
+ Assisted 
+(e.g. Contact Centre, Field Sales)
+☐
+ U
+nassisted 
+(e.g. Self-Service)
+☐
+ 
+Change to 
+E
+xisting e
+C
+ommerce
+☐
+ 
+N
+ew e
+C
+ommerce
+ Channel
+☐
+ 
+Stores
+☐
+ Other (
+Specify
+)
+Customer Segment
+☐
+ 
+Wholesale Fixed
+ 
+___________________________________________________
+x
+ 
+Wholesale Mobile
+ 
+x
+ SMB Direct
+x
+ SMB Indirect
+ 
+x
+ Volume Sales
+x
+ Large Enterprise  
+x
+ Public Sector
+x
+ Soho Direct
+ 
+x
+ Soho Indirect
+x
+ WHS O2 Daisy (ABS SPID 372) 
+x
+ VIP
+x
+ O2 Daisy BUD  
+___________________________________________________
+☐
+ 
+Other (
+Specify
+)
+Customer Type 
+☒
+ New Customer  
+☒
+ Existing Customer
+Order Type
+☒
+ New 
+Order 
+- 
+New Custome
+r  
+☒
+ New Order - Existing Customer
+☐
+ Renewal
+/Resign Order
+ - Existing Customer
+☐
+ 
+Additional Connection Order - Existing Customer
+☐
+ MACD - Existing Customer
+☐
+ Other (
+Specify
+)
+API
+ Required 
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes 
+- 
+ wh
+ich
+ 
+ APIs are expected to be delivered by VMO2 as part of the requirement?
+Logistics / Supply 
+C
+hain
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Reporting
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes – 
+Please outline the requirements and describe the type of impact
+ e.g. 
+Use of slice 
+Volume of users on a slice 
+Data used on slice 
+Performance on slice 
+☒
+ New Reports
+☐
+ Amend/Update
+ 
+Existing 
+Reports
+Migration 
+R
+equirements
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Possibly migrations if starting using ABS 
+Decommissioning Requirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Cease 
+E
+xisting 
+S
+ervice/
+S
+upplier
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Network or IT Operations
+ 
+I
+mpact
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+RFI/P
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Known Constraints
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Other
+Impact:  
+☐
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: Please specify the details.
+Customer Journey Touch Points 
+(Required)
+The customer journey is broken down into key touch points that represent different stages of interaction with our products or services from discovery to potential exit. Each touch point reflects a critical moment in the customer experience.
+Please review the touch points below and 
+indicate which ones are impacted by your initiative
+, along with a brief description of the 
+nature of the impact
+ (e.g., improvement, change, risk, etc.).
+We Discover
+ – Customers explore and learn about products or services
+Impacted 
+☒
+ 
+Yes
+    
+☐
+ No
+    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Buy
+ – Customers 
+/ 
+Sales people
+ 
+select and purchase a product or service
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If 
+Yes
+ – confirm s
+olution impact if known
+We Join / Onboard
+ – Product/service is delivered, set up, and activated
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Use
+ – Customers experience the service, including issue resolution.
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Manage Billing
+ – Customers view and manage bills and usage
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If 
+Yes
+ – confirm s
+olution impact if known
+We Add / Change
+ – Customers modify or upgrade their services
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Stay or Leave
+ – Customers decide to renew, stay, or exit
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requiremen
+t
+:
+Out of Scope 
+(Required)
+Out of Scope
+ 
+Item
+Future Scope (
+e.g. 
+later phase Delivery)
+Dynamic slicing
+App-based routing / toggle capability
+Private DNN,
+Customer self-service portal
+Guaranteed performance or SLA-backed prioritisation
+Device supply by VMO2
+Ericsson-based slicing provisioning
+Existing customer migration
+DAS, small cells and microcells 
+Phase 2+ product evolution capabilities
+CTO sizing element of this IIA as CTO have already costed the delivery of 5GSlicing on the network
+High level 
+Requirements
+(
+Required)
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviours
+ the future solution must support.  
+If your requirement is on behalf of an external party such as 
+O2
+Daisy 
+ then
+ your requirement scope will only cover the capabilities in VMO2 that support them. 
+Guidance: 
+Clear high‑level requirements help ensure faster and more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting proposals you may wish to consider the specific elements of the customer lifecycle that each requirement impacts e.g. find/explore, buy/upgrade, pay/bill, getting started/use, manage, get help, stay/leave.
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Change / Requirement
+MVP*
+1
+Delivery of a network slide that can be used by O2 Business 
++ Wholesale Partners
+CTO and CIO compliant 
+A
+ slice which offers a prioritised service 
+on the RAN (radio network) by offering Ra
+dio Resource Partitions (RRPs)
+Y
+2
+Delivery of a 
+National slice 
+Y
+3
+Delivery of a 
+Static slice 
+– always on 
+Access to Consumer core via DNN 
+As an example - 
+We can 
+access 
+internet on public 
+5GSA
+ but we can put 
+specific apps down the slice via OS this ca
+n
+ be configured 
+Slices access radio access cell site and then the Consumer core
+Minimum time on the slice is 30 days 
+ 
+Y
+4
+End to end solution for 
+P
+rovision customers on a slice 
+– customer is configured to slice via DNN 
+Control customers on the slice 
+– onboarding and offboarding of customers to slice 
+Bill customers on the slice
+Y
+5
+Reporting 
+required 
+Number of users on a slice by customer 
+Usage on slice by customer broken down data, m
+i
+ns, SMS
+Time (amount) of congestion on slice during period 
+Y
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Impact 
+VMO2 stakeholder
+Legal / contractual / legislative obligations
+  
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Regulatory obligations e.g. OFCOM, ICO,
+ 
+etc
+.
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Fraud or Security
+ Impact
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Has the whole 
+environmental impact
+ 
+of 
+the project, from design to end of life been
+ considered? 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Has the lowest energy using product or service been considered for the project 
+(if applicable)?
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Equity / Accessibility of VMO2 service(s)
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference (if any)
+Description/nature of dependency
+D1
+inbound
+Dependency for slicing is 5GSA 
+D2
+Outbound
+5GSA is only on R15 SIM
+D3
+Outbound
+Slicing on Nokia UDB 
+R1
+inbound
+No provisioning on Ericsson for slicing
+R2
+inbound
+Alignment on CTO tech products roadmap and O2B use cases and what can be delivered 
+Balance what VMO2 want and can deliver as a commercial product for slicing – universal 
+R3
+inbound
+Alignment across VMO2 areas  
+CTO Tech products 
+CTO Tech and Networks architects 
+CIO IT architects 
+I1
+Customer 
+to 
+provide own device 
+I2
+ 
+Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+Slice enabled SIM 
+A2
+Non-DISE customers
+A3
+New 
+ABS 
+SPID
+/
+Netcracker
+ identifier
+ per Partner to enable identification of customers and usage for billing purposes 
+A4
+The solution can be added and removed from a subscription via 
+ABS
+/
+Netcracker
+ 
+provisioning flow.
+A5
+We anticipate Ericsson to Nokia migrations will be in 2027 so assessment will need to consider if provisioning is straight to Nokia especially during migration period 
+A6
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner is advisable.  They may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

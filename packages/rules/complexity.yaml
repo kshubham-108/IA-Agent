@@ -1,0 +1,15 @@
+# Screen / journey complexity PU (§3B)
+types:
+  new:
+    s: 3
+    m: 5
+    c: 8
+    vc: 12
+  enh:
+    s: 0.75
+    m: 2.5
+    c: 6
+    vc: 12
+
+# Reuse percentage reduces Enh effort pro-rata (100% reuse → 0 PU)
+reuse_applies_to: enh

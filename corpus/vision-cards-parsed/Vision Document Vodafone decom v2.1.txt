@@ -1,0 +1,278 @@
+Vision Document
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+Stakeholders
+Proposer
+ 
+Dean Edwards
+Sponsor
+ 
+Paul O’Sulivan
+Person accountable for the business outcome
+ 
+Name
+ 
+Finance Business Partner(s) 
+ 
+Sarah Hug
+hes
+Other stakeholders (Optional)
+ 
+Only include if consulted to date. e.g., Legal, Regulatory, Insights, Care, Retail Ops. 
+ 
+Role
+ 
+ 
+EA/ Domain Owner
+Tony Fear
+ 
+ 
+ 
+ 
+For admin use only
+ 
+Date received by Business Engagement and Mobilisation (BEM) team
+ 
+– shared via Business Forum 
+27/05/26
+ 
+Vision has been reviewed with key architects / ESA domain owners? 
+Y/N
+ 
+Date approved for platform assessment by BEM 
+DD/MM/YY
+ 
+Contents
+1
+Problem / Opportunity Statement (Required)
+2
+1.1
+Background or context of the opportunity
+2
+1.1.1
+Describe the problem or opportunity
+2
+1.1.2
+Business Objectives - what is the business trying to achieve?
+2
+1.1.3
+What should happen in 
+future
+ if we address this opportunity?
+3
+2
+Desired SMART Business Outcome
+3
+3
+What is in scope of this idea? (Required)
+3
+4
+Out of current scope (possible future scope) [Required]
+3
+5
+Dependencies / Risks / Assumptions [Required]
+4
+5.1
+Dependencies
+4
+5.2
+Risks
+4
+5.3
+Assumptions
+4
+6
+Aspirational timelines
+4
+7
+Appendices
+5
+8
+Attachments, References (optional)
+5
+Problem / Opportunity 
+Statement (
+Required)
+Background or context of the opportunity
+We are terminating Vodafone as a Wholesale Partner and therefore need to decommission their Wholesale Partner architecture.
+Describe the problem or opportunity
+This piece of demand is to decommission the Vodafone wholesale partner architecture and close down the related accounts and data holdings associated with the Vodafone Wholesale Agreement. The business needs a planning assessment to identify the essential Ofcom-regulated tasks required to decommission the Vodafone mobile MVNO from the O2 network and systems, together with an initial view of timelines, operating cost and any risks of leaving non-essential data in place. A similar decommissioning exercise was previously completed for Manx Telecom and can be used as a reference point.
+Business Objectives - what is the business trying to achieve?
+Objectiv
+es 
+Decommission the Vodafone wholesale architecture and close down accounts relating to the Vodafone Wholesale Agreement. Remove all IMSI/GT data. Complete a planning assessment covering the mandatory regulated activities, indicative timelines, associated OPEX costs and risks of retaining non-essential data in situ. The intention is to start in Q4.
+What should happen in 
+future
+ if we address this opportunity?
+Vodafone will no longer be able to access VMO2 systems in the absence of a contractual trading agreement, and the legacy wholesale partner architecture and related accounts will be decommissioned as good operational practice.
+D
+esired SMART Business Outcome
+s
+ 
+By the end of Q
+4
+ 202
+6
+, complete the planning and decommissioning activity needed to remove Vodafone wholesale access to VMO2 systems, close Vodafone-related accounts, and remove all identified IMSI/GT data associated with the Vodafone Wholesale Agreement.
+By completion of the decommissioning activity, confirm that Vodafone has no residual technical access to VMO2 systems and that all mandatory regulated decommissioning tasks have been identified, assessed and either completed or formally scheduled for delivery.
+Success measures: 100% of identified Vodafone-related accounts closed; 100% of identified IMSI/GT records removed; confirmation that Vodafone IP addresses and VPN access have been blocked or un-whitelisted where applicable; and business-owner sign-off that all MSISDNs have been ported out or disconnected before final closure activity begins.
+Delivery control and sequencing
+Decommissioning activity will be treated as successful only if network and system access is removed in the correct sequence, with blocking or un-whitelisting completed after confirmation that all live Vodafone MSISDNs have been migrated or 
+disconnected,
+ and no unsupported customer activity remains.
+What is in scope of this idea?
+ (Required)
+All provisioning and billing capability
+Prioritisation of VPN blocking (un-whitelisting) once confirmed all MSISDNs have been ported or disconnected.
+17 SPIDs in total 
+SP_ID
+Name
+Short_name
+Partner
+46
+Vodafone Corporate
+VFCORP
+Vodafone
+51
+Vodafone Connect Limited
+VFCON
+Vodafone
+55
+Cellular Operations Ltd
+CELLOPS
+Vodafone 
+85
+Vodafone Connect Limited
+VFCON
+Vodafone
+122
+Vodafone Connect Limited
+VFCON
+Vodafone
+160
+Vodafone Connect Limited
+VFCON
+Vodafone
+162
+Vodafone Corporate
+VFCORP
+Vodafone
+216
+Vodafone Business Solutions Limited
+PROJ
+Vodafone
+268
+Vodafone Corporate
+VFCORP
+Vodafone
+277
+Cellular Operations Ltd
+CELLOPS
+Vodafone
+291
+Cellular Operations Ltd
+CELLOPS
+Vodafone
+334
+Vodafone Corporate (2)
+VFCORP2
+Vodafone
+356
+Vodafone Corporate (2)
+VFCORP2
+Vodafone
+357
+Vodafone Corporate (2)
+VFCORP2
+Vodafone
+358
+Vodafone Corporate (2)
+VFCORP2
+Vodafone
+396
+Vodafone Business Solutions Limited
+PROJ
+Vodafone
+446
+ISIS Telecommunications Management Limited
+ISIS
+Vodafone 
+Out of current scope (possible future scope)
+ 
+[Required]
+Out of Scope
+Future Scope (later phase Delivery)
+Disconnection or port-out support for Vodafone connections.
+Anything identified through 
+reverse engineering
+ the original onboarding process that was never actually set up for Vodafone.
+No future-scope items 
+have been
+ explicitly identified
+.
+Dependencies / 
+Risks 
+[Required]
+Dependencies
+, Risks 
+(events that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Description/nature of dependency
+/ris
+k
+D1
+Vodafone must port its base to its own network within the agreed timeframes.
+D2
+Vodafone must have no outstanding charges on its accounts before closure activity completes.
+R1
+Funding may not be approved if the work is not seen as a business priority.
+R2
+Identifying and confirming the IP addresses that belong to Vodafone may be difficult because there is no current relationship and no confirmed list available.
+ 
+Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+No support is required for the port-out of the Vodafone base.
+A2
+No decommissioning activity can proceed until the business owner confirms that all MSISDNs have either ported out or been disconnected.
+A3
+All identified IMSI/GT data associated with Vodafone can be located and removed as part of the decommissioning activity.
+A
+s
+pirational timelines
+[Please indicate Aspirational Commercial Launch Date (CLD) and drivers behind these timelines. Where individual scope lines have different aspirational CLDs please indicate this below.  
+These dates are only aspirational
+, until the project is mobilised & a full impact assessment has been completed, this date is not committed to.]
+Commercial Launch Date
+Scope
+Drivers
+Q4 2026
+Partner informed that its base must be migrated away from VMO2 by 30 June, enabling decommissioning activity to proceed in Q4 2026.
+Driven by Robs and Churn decommission activity and the need to end Vodafone access following termination of the wholesale agreement.
+For information: Next steps
+ 
+Pre-submission checks: An early conversation with your Business Engagement and Mobilisation (BEM) Partner is advisable.  They may suggest a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+ 
+Submission: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team [Insert BEM team inbox here] 
+ 
+Vision card review: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM partner may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+ 
+T-Shirt Sizing: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+ 
+Mobilisation: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.
+ 
+ 
+Appendices
+PLEASE NOTE:- A replica of this project was recently completed by Maya Telecoms to de-commission the Manx Telecom project so we need to do the same here.
+  See attached below for detailed IA 
+and Ideate pack 
+from that project.
+Attachments, 
+R
+eferences
+ (optional)

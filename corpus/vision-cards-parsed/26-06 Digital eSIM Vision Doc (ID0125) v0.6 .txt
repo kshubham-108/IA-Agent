@@ -1,0 +1,1082 @@
+Vision Document
+Business Area 
+☒
+ 
+Wholesale 
+Mobile & M
+W
+ (O2 Daisy)
+ 
+☐
+ Wholesale Fixed Connectivity 
+☐
+ Wholesale Mobile & MVNOs
+☐
+ B2B IT Migration
+ 
+Initiative Name
+Digital 
+eSIM 
+for 
+O2 Business / 
+Daisy Stack
+Sponsor 
+Name
+Dav Sandher
+Product Owner Name
+James Goodwin
+O2 Daisy ID
+ID
+125
+O2Daisy CTIO Approved
+Emma Aylesbury
+O2Daisy IT Architecture design or context
+NDA required?
+No
+ 
+NDA admin
+N/A
+Aspirational 
+start date 
+03
+.0
+8
+.26
+Aspirational 
+delivery date
+Phased - 
+Q4’26
+ (Tactical
+)
+H1’27 (Strategic)
+O2B 
+Submission date
+ to VMO2
+30
+.06.26
+Review call held
+Updated submission
+DMA
+IIA
+O2 Business approval
+Virtual Front Door
+Commercial launch date
+Phased delivery considerations/needs
+Drivers
+01.10.26
+ / ASAP
+Tactical delivery 
+–
+ 
+Initial Digital Download journey (EID Quick Connect)
+iPhone 18 launch date (expected Sep’26)
+Jan’2
+7
+Quick Switch
+Key journey required to support SIMO customers
+. 
+Alignment to expected Apple iPhone 18 launch that is expected to include ‘eSIM only’ models
+H1’2
+7
+Click to Connect
+Required to support new customer Port-in journeys
+H1’2
+7
+Reporting
+D
+ecoupled from Tactical Delivery to ensure doesn’t become blocker to releasing Tactical solution at pace.
+Expect reporting can be released independently of new capability development, and should be made available as soon as possible
+Vis
+i
+on Document Summary 
+ 
+The Vision Document serves as a key foundation for any business initiative. It outlines the core problem, objectives, expected benefits, scope, and identifies associated risks, assumptions, and dependencies. Its purpose is to provide a clear and comprehensive overview that supports accurate impact assessment and informed planning.
+This document is a required input for the Ideate Pack, which is used by the Mobile & MW Portfolio pod team to evaluate the initiative across all relevant touchpoints. A well-prepared Vision Document ensures the Ideate Pack can be completed accurately and effectively.
+Table of Contents
+1.
+Background / Problem & Opportunity / Scope Summary
+2
+2.
+In Scope 
+(Required)
+3
+3.
+Customer Journey Touch Points 
+(Required)
+6
+4.
+Out of Scope 
+(Required)
+7
+5.
+Legal/Regulatory, Fraud, Security and environmental impacts
+8
+6.
+Dependencies / Risks / Assumptions [Required]
+9
+7.
+Approvals & Document Control [Internal Delivery Team]
+10
+8.
+Appendices
+10
+Background / Problem & Opportunity / Scope Summary
+1.1 Background
+eSIM technology has evolved since its initial introduction on the O2 network in 2019
+Initial QR code voucher implementation sought to minimise changes from physical SIM processes; from warehouse stock management, customer delivery and to how Service agents supported customers, the changes were intentionally ‘light touch’
+Newer eSIM standards allow for virtualised stock management, innovative customer delivery options, and enhanced Service support
+.  
+(“
+V
+irtualised” in this context refers to digital-first provisioning without reliance on pre-generated QR voucher inventory)
+The 2024 
+B2B 
+Digital eSIM Distribution 
+project
+ (
+BC015670 / 
+PJ022015) introduced a virtualised eSIM provisioning capability for B2B customers managed via DISE.
+This capability supports:
+- Seamless Network Activation (also referred to as “Quick Connect” within VMO2)
+- MDM activation via Carrier URL
+This is a subset of the digital eSIM provisioning journeys
+ available to O2 consumer
+ subscribers
+, 
+but 
+these 
+customer journeys 
+were prioritised to address 
+scenarios 
+where 
+a B2B 
+customer purchases 
+both airtime and 
+hardware
+. 
+It was envisaged 
+at the time 
+that the remaining 
+SIMO journeys
+ 
+would be addressed by 
+a 
+follow-on project
+, but this did not occur due to the 
+Jet VMBL / 
+Daisy
+ carve-out.
+O2 Business m
+obile subscribers that are not managed by DISE
+ 
+can currently only 
+be provisioned with 
+eSIM via 
+legacy physical QR codes
+. This presents a poor customer experience and is expected to hamper mobile 
+revenue 
+attainment in 
+the 
+longer term as eSIM adoption becomes more prevalent and 
+the 
+competitive gap grows.
+For clarity, the following terminology is used in this document:
+Network Activation: automatic download via device discovery server (
+sometimes referred to as ‘Quick Connect’ within VMO2
+)
+MDM Activation: download via managed device configuration (Carrier URL)
+Click to Install: user-initiated download via URL (SMS/RCS)
+Quick Switch: device-to-device transfer (OEM migration flow)
+The intent of this Vision Card is to:
+Enable the existing VMO2 
+B2B 
+digital eSIM capability 
+journeys 
+within the Daisy stack
+Extend capability to support SIMO journeys (Quick Switch, Click to Install)
+Expose programmatic interfaces and reporting to enable O2 Business self-serve experiences and operational support
+1.
+2 
+Problem & Opportunity
+ 
+Channel feedback is that whilst ‘cost of change’ is key for customers, ease of ‘in life’ management is also a primary factor in selecting providers. Customers perceive eSIM capability as instrumental to addressing these.
+The Sep’25 launch of an ‘eSIM only’ iPhone 17 Air raises a significant risk that the H2’26 launch of an iPhone 18 range might well adopt an ‘eSIM only’ approach across the iPhone range.
+Support for the missing key Apple eSIM onboarding experience for new devices is considered essential to maximise O2 
+Business
+’ commercial outcomes from new device launches.
+1.
+3
+ 
+Scope Summary
+ 
+The 
+extension of the existing 
+digital eSIM provisioning capability (delivered by PJ022015 Digital eSIM distribution) 
+so that it may be integrated with the Daisy stack
+, 
+and if necessary other new interface components, 
+that 
+will allow O2 
+Business 
+to provide 
+functional 
+parity of eSIM capability with that available today 
+for O2 Business customers managed on DISE.
+ 
+Specifically
+Seamless Network Activation. 
+Where O2
+ Business
+ sources a compatible mobile device via the VMO2 supply chain, then it shall be possible to capture the EID serial details of the shipped device from the VMO2 supply chain database, and automatically use this to provision an eSIM on that device.
+  
+If it is a SIMO order, then it shall be possible to utilise EID serial details provided by the customer, and supplied via the Daisy 
+stack
+.
+In both cases, the eSIM is registered with the appropriate vendor Discovery Server for the target device
+ (e.g. Apple, GSMA SM-DS).
+MDM Activation by Carrier URL
+Where O2
+ Business 
+sources a compatible mobile device via the VMO2 supply chain, then it shall be possible to capture the EID serial details of the shipped device from the VMO2 supply chain database, and automatically use this to provision an eSIM on that device.
+If it is a SIMO order, then it shall be possible to utilise EID serial details provided by the customer, and supplied via the Daisy 
+stack
+.
+The eSIM is not registered with the vendor Discovery Server, and instead the eSIM may be downloaded from a fixed / known URL that can be provided to the customer.
+In both cases, t
+he solution shall support customer journeys where successful eSIM download results in automatic activation of the new profile without requiring a separate customer SIM swap process.
+Potential phasing will be discussed during the Ideate 
+process
+ to optimise cost/speed of delivery
+, but it is anticipated that reaching parity can be delivered at pace 
+through 
+significant re-use of 
+the 
+existing capability
+, and could therefore be delivered 
+as a ‘tactical’ 
+release in advance of the remainder of the vision scope.
+The 
+development of 
+‘SIMO’ experience journeys
+ that were not included as part of the initial 
+2024 
+project
+, recognising that many onboarding customers are seeking to re-utilise existing devices, or source new devices via 3rd parties.
+Click to Install
+ – 
+End user receives SMS 
+or RCS 
+with unique URL that is encoded to trigger download of their eSIM
+Quick Switch
+ – 
+End user can use Apple Quick Transfer / Android Smart Switch application to automatically ‘transfer’ mobile subscription from old device SIM to an eSIM in new device, typically during initial device setup process. 
+Both the o
+ld device and new device need to be in 
+proximity
+ during the transfer.
+This 
+capability should also enable 
+on
+-
+device pSIM to eSIM conversion
+ (although 
+if th
+is on-device conversion 
+significantly complicates
+ the 
+Quick Switch 
+implementation, then this is an area of potential 
+deprioritisation
+).
+D
+evelopment of Customer, Service and Product Reporting 
+to support 
+effective in-life management of eSIM.
+ (Expect VMO2 to provide data feeds to agreed Data
+ Lake
+ for O2 Business to subsequently surface vi
+a appropriate visualisation
+)
+Product Management; order reporting & stock forecasting
+Required to manage Stock Ordering
+Measures customer adoption of eSIM to support future investment and CEX improvements
+Sales
+ / Service status enquiries
+Meet basic customer expectation to be able to understand type of SIM (and Device) their employees are using
+Real-time status allows diagnosis of simple user eSIM issues by Customer Admin and helps reduce Service calls
+ (e.g. to see if eSIM has been downloaded)
+Delivery Management real-time eSIM status
+Real-time status reporting on eSIM delivery to allow O2 Business Delivery Managers to support customer onboarding 
+and
+ migration project
+Operational reporting should support near real-time status where required for customer servicing and delivery management.
+Anticipate required data feeds to include:
+SIM Type
+SIM Profile
+SIM Description
+SIM SKU
+SMDP Profile status
+Development 
+of support 
+and extension of existing 
+operational journeys
+ for eSIM 
+device 
+lifecycle management including Lost & Stolen
+, and device returns / replacement.
+The solution must maintain compatibility with the O2 Service Entitlement Server (SES) for services beyond eSIM provisioning (e.g. RCS), recognising device constraints around a single entitlement endpoint.
+  For example, O2 Business uses the same Apple carrier bundle as VMO2
+.
+Longer term, O2 Business intend to enable the provision of eSIM during customer online self-serve journeys
+.
+ 
+The solution shall expose programmatic interfaces sufficient to support 
+O2 Business
+ digital self-service channels without requiring manual operational activity.
+ 
+The delivered capability should support future digital customer journeys without requiring material redesign of the underlying provisioning capability.
+Delivery Options considerations
+It is recognised that alternative delivery models may exist, including integration with third-party eSIM provisioning platforms.
+ O2 Business 
+understands
+ that VMO2 
+are working with 1Global 
+to integrate their platforms
+ for another wholesale partner
+, and that this might present an option for re-use or an accelerated availability of
+ key functionality
+.
+As such, it is requested that the VMO2 CIO team consider, as part of the solution design process, the relative merits of:
+Extending the existing O2 capability
+Integrating 
+the 1Global 
+third-party eSIM provisioning solution
+. 
+This includes consider
+ing
+ different 
+integration 
+models
+ (MVNE vs. 
+platform integration)
+Any alternative approach should:
+Meet the functional requirements and customer journeys outlined in this document
+Maintain alignment with existing O2 authentication
+ and 
+domains (as defined in scope)
+Be assessed against delivery speed, cost, operational complexity, and long-term scalability
+For the option w
+here the approac
+h builds on extending the existing O2 capability, 
+t
+he intent is to reuse existing O2 network, authentication and entitlement capabilities wherever possible. The solution should minimise introduction of new core platforms 
+/ tenants 
+unless demonstrably required.
+Out of Scope
+The following are ‘out of scope’ of this Vision Document
+changes to existing DISE eSIM capability (i.e. eSIM provisioning to LEPS via DISE should continue to be supported until these customers are migrated off DISE, and/or DISE is decommissioned)
+All eSIM profiles will continue to utilise O2-managed subscriber credentials (K/OPc) within the O2 authentication domain. No separate authentication domain or AuC integration is in scope.
+1.
+4
+ 
+Business Outcomes
+Ability to 
+provide 
+all O2 Business 
+customers who purchase eSIM device from O2 Business to have seamless insta
+llation / provisioning experience (eSIM automatically downloaded and 
+activated when device first switched on out of the box)
+.
+Quicker realisation of recurring monthly 
+mobile service 
+revenue through 
+reduction in 
+provisioning times through
+ removal of delays caused by posting of SIM packs to customers
+Competitive onboarding proposition for new customers that uses a seamless digital onboarding experience to presents them with a reduced cost-of-change.
+Improved retention of existing customers through an improved in-life management experience of their eSIM-capable mobile devices.
+Reduce Service contacts relating to SIM fulfilment and SIM swap
+In Scope 
+Area
+Impacted
+Channels
+☐
+ 
+No Channel Impact (BAU)
+☒
+ Assisted 
+(e.g. Contact Centre, Field Sales)
+☒
+ U
+nassisted 
+(e.g. Self-Service)
+☒
+ 
+Change to 
+E
+xisting e
+C
+ommerce
+ 
+(SoHo shop to support ‘Click to install’)
+☐
+ 
+N
+ew e
+C
+ommerce
+ Channel
+☐
+ 
+Stores
+☐
+ Other (
+Specify
+)
+Customer Segment
+☐
+ 
+Wholesale Fixed
+ 
+___________________________________________________
+☐
+ 
+Wholesale Mobile
+ 
+☒
+ SMB Direct
+☒
+ SMB Indirect
+ 
+☒
+ Volume Sales
+☒
+ Large Enterprise  
+☒
+ Public Sector
+☒
+ Soho Direct
+ 
+☒
+ Soho Indirect
+☒
+ WHS O2 Daisy (ABS SPID 372) 
+☒
+ VIP
+ 
+(TBC)
+☒
+ O2 Daisy BUD  
+___________________________________________________
+☐
+ 
+Other (
+Specify
+)
+Customer Type 
+☒
+ New Customer  
+☒
+ Existing Customer
+Order Type
+☒
+ New 
+Order 
+- 
+New Custome
+r  
+☒
+ New Order - Existing Customer
+☒
+ Renewal
+/Resign Order
+ - Existing Customer
+☒
+ 
+Additional Connection Order - Existing Customer
+☒
+ MACD - Existing Customer
+☐
+ Other (
+Specify
+)
+API
+ Required 
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes 
+- 
+ wh
+ich 
+ APIs are expected to be delivered by VMO2 as part of the requirement?
+Expect 
+discussion will be required during the Ideate process to explore proposed architecture and 
+to understand optimal approach.  However, anticipate 
+APIs 
+will be needed for
+the SMDP ES2+ interfaces
+SIM Swap management to coordinate with eSIM Download (if not already possible via existing interfaces)
+obtaining EID details for any devices shipped by VMO2 supply chain
+‘Click to Install’ so that it can be subsequently easily integrated into future online / self-serve journeys that require eSIM provisioning (such as creating new SIMO subscriptions)
+A 
+mechanism that can be used to specify whether a specific subscription is ‘enabled / entitled’ to use the Quick Switch capability (e.g. an ABS option that can be set via the wholesale API)
+Logistics / Supply 
+C
+hain
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Supply Chain already scan EID serial details and record in Unified Storage database.
+Will need to ensure that EID and order details are made available 
+to O2 Business
+May require updates to Returns & Stolen/IMEI bar processes to ensure O2 Daisy channels are appropriately covered.
+Reporting
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes – 
+Please outline the requirements and describe the type of impact
+ e.g. 
+☒
+ 
+New Reports
+☒
+ Amend/Update
+ 
+Existing 
+Reports
+Data feeds into GCP (to support creation of PowerBI reports) including
+eSIM orders
+EID
+Profile Type
+Profile State (Released, Downloaded, Installed etc)
+Provision Type (MDM, Network Activation)
+Intention is to support Delivery and Service Management SIM status enquiries
+Migration 
+R
+equirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Decommissioning Requirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Cease 
+E
+xisting 
+S
+ervice/
+S
+upplier
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Network or IT Operations
+ 
+I
+mpact
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+: 
+SM
+-
+DP
++, SES
+ and associated servers are VMO2 managed. Don’t anticipate new capability (as already managed for some O2
+ Business
+ channels), but Ops will need to manage them in-life for the new channels
+ 
+RFI/P
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Known Constraints
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Other
+Impact:  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: Please specify the details.
+Customer Journey Touch Points 
+(Required)
+The customer journey is broken down into key touch points that represent different stages of interaction with our products or services from discovery to potential exit. Each touch point reflects a critical moment in the customer experience.
+Please review the touch points below and 
+indicate which ones are impacted by your initiative
+, along with a brief description of the 
+nature of the impact
+ (e.g., improvement, change, risk, etc.).
+We Discover
+ – Customers explore and learn about products or services
+Impacted 
+☒
+ 
+Yes
+    
+☐
+ No
+    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+There will need to be updates to the online shops & web pages that outline available eSIM capability to customers.
+Will also need 
+updated 
+Sales Enablement. (However, do not envisage that this 
+enablement 
+will require VMO2 CIO support)
+We Buy
+ – Customers 
+/ Sales people 
+select and purchase a product or service
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+For Sales assisted journeys, Sales should be able to record in 
+relevant
+ CRM that customer requires eSIM
+ delivery with the order
+ (SIMO scenarios)
+The
+ project should deliver the enabling capability
+ that allows eSIM provisioning to devices ordered via the online customer shops
+ (via 
+Network Activation
+)
+.
+Customers purchasing 
+new connections (SIMO) 
+via the SoHo Shop / 
+existing 
+self-serve portals should be able to select the ‘click to install’ option to provision the eSIM to their existing device
+But f
+or clarity, 
+delivery of 
+new 
+online portals for customer self-serve journeys is out of scope of this vision doc.
+If Yes – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ Blue Salesforce
+☒
+ Purple Salesforce / CPQ 
+☐
+ Microsoft Dynamics 365
+☒
+ Other (
+Specify
+)
+Daisy Central
+Wholesale 
+Fixed 
+ 
+☐
+ Red Salesforce
+ 
+☐
+ Engage
+☐
+ BPT
+☐
+ Other (
+Specify
+)
+ 
+We Join / Onboard
+ – Product/service is delivered, set up, and activated
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+New Customers (i.e. porting in) should be given option to receive new eSIM via digital journey
+Click to install (SIMO)
+Network Activation
+MDM Activation
+Existing Customer taking new connections with new hardware should be given option to receive new eSIM via digital journey
+Existing Customer taking a new or replacement device should be able to use the digital delivery option for eSIM
+Expect support on both Ericsson & Nokia networks
+N
+etwork provisioning to be 
+managed by O2 
+Business
+ 
+via 
+existing 
+Wholesale ABS APIs
+If Yes – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☒
+ Other (
+Specify
+)
+Daisy Central
+Strategic architecture TBC
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ Force
+☐
+ Oracle 
+☐
+ Other (
+Specify
+)
+ 
+We Use
+ – Customers experience the service, including issue resolution.
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Processes & training for Service Agents
+We Manage Billing
+ – Customers view and manage bills and usage
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If Yes – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ NRM
+☐
+ Oracle
+☐
+ Other (
+Specify
+)
+We Add / Change
+ – Customers modify or upgrade their services
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Customers can add / change eSIM ‘in life’
+Existing customers can migrate ‘in life’ from physical SIM to eSIM on request.  This does not need to be accompanied by a change in mobile device (although will normally be)
+We Stay or Leave
+ – Customers decide to renew, stay, or exit
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requiremen
+t
+:
+(Don’t envisage that contract re-sign has an impact on eSIM)
+Out of Scope 
+(Required)
+Out of Scope
+ 
+Item
+Future Scope (
+e.g. 
+later phase Delivery)
+Provisioning of eSIM digital journeys to customers managed in DISE
+Creation of new online shopping 
+and self-serve portals
+Delivery Options considerations
+It is recognised that alternative delivery models may exist, including integration with third-party eSIM provisioning platforms. O2 Business understands that VMO2 are working with 1Global to integrate their platforms for another wholesale partner, and that this might present an option for re-use or an accelerated availability of key functionality.
+As such, it is requested that the VMO2 CIO team consider, as part of the solution design process, the relative merits of:
+Extending the existing O2 capability
+Integrating the 1Global third-party eSIM provisioning solution. This includes considering different integration models (MVNE vs. platform integration)
+Any alternative approach should:
+Meet the functional requirements and customer journeys outlined in this document
+Maintain alignment with existing O2 authentication and domains (as defined in scope)
+Be assessed against delivery speed, cost, operational complexity, and long-term scalability
+For the option where the approach builds on extending the existing O2 capability, t
+he intent is to reuse existing O2 network, authentication and entitlement capabilities wherever possible. The solution should minimise introduction of new core platforms 
+/ tenants 
+unless demonstrably required.
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Impact 
+VMO2 stakeholder
+Legal / contractual / legislative obligations  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Regulatory obligations e.g. OFCOM, ICO, etc.
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Fraud or Security
+ Impact
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+O2 
+Business
+ Security 
+Has the whole 
+environmental impact
+ 
+of 
+the project, from design to end of life been
+ considered? 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Has the lowest energy using product or service been considered for the project (if applicable)?
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Equity / Accessibility of VMO2 service(s)
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D1
+Inbound
+Unknown if 
+O2 Business supply chain 
+integration project is a dependency / impacts.
+D2
+Inbound
+Unknown if this has an impact but flagging
+O2 Business SPID migration
+Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R
+1
+ Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+VMO2 will deliver
+ 
+underlying 
+eSIM provisioning capability.
+ O2B will provide the 
+Daisy stack integration. 
+A2
+Approvals 
+& Document Control 
+[Internal Delivery Team]
+.
+Name
+Role
+Approval (signature or email)
+Date
+Dav Sandher
+Sponsor / Delegate
+James Goodwin
+Product Manager / Owner
+ Requestor
+ Portfolio
+ Lead
+s SBA, PM, SSA
+ 
+(Scope is fit for purpose and relevant stakeholders have been consulted or informed)
+Author
+Version
+Date
+Reason
+James Goodwin
+0.1
+29/10/25
+First draft
+James Goodwin
+0.2
+20/02/26
+First review with stakeholders
+James Goodwin
+0.3
+19/3/26
+Clarification of CTIO review/approval
+James Goodwin
+0.4
+29/06/26
+Combined Phase 1 & 2 into single 
+document.
+James Goodwin
+0.5
+30/06/26
+Addition of 1Global partnering consideration
+Appendice
+s

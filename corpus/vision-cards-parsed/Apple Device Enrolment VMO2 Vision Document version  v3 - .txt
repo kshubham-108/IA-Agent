@@ -1,0 +1,955 @@
+Vision Document
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+Business Area 
+☒
+ 
+Wholesale 
+Mobile & M
+W
+ (O2 Daisy)
+ 
+☐
+ Wholesale Fixed Connectivity 
+☐
+ B2B IT Migration
+ 
+Initiative Name
+Apple 
+Device Enrolment
+Sponsor 
+Name
+Mike Pratt
+ / Dav Sandher
+Product Owner Name
+Neil 
+Hodson / Yiannis Niarchos
+O2 Daisy ID
+ID
+340
+O2Daisy CTIO Approved
+Yes – approved with L
+y
+ndsey Charlton. 
+O2Daisy IT Architecture design or context
+Aligned to 
+plan
+NDA required?
+No
+ 
+NDA admin
+N/A
+Aspirational 
+start date 
+20/4/26
+Aspirational 
+delivery date
+1/
+9
+/
+20
+26
+Commercial launch date
+Phased delivery considerations/needs
+Drivers
+1/7/2026
+Requesting delivery before 
+SME/So migration 
+in July and
+ 
+Apple’s NPI in September
+. 
+This will enable the development of a 
+scalable process
+ with no manual interventions and facilitate 
+trading during the peak Apple NPI
+ period. 
+Vis
+i
+on Document Summary 
+ 
+The Vision Document serves as a key foundation for any business initiative. It outlines the core problem, objectives, expected benefits, scope, and identifies associated risks, assumptions, and dependencies. Its purpose is to provide a clear and comprehensive overview that supports accurate impact assessment and informed planning.
+This document is a required input for the Ideate Pack, which is used by the Mobile & MW Portfolio pod team to evaluate the initiative across all relevant touchpoints. A well-prepared Vision Document ensures the Ideate Pack can be completed accurately and effectively.
+Table of Contents
+1.
+Background / Problem & Opportunity / Scope Summary
+2
+2.
+In Scope 
+(Required)
+3
+3.
+Customer Journey Touch Points 
+(Required)
+6
+4.
+Out of Scope 
+(Required)
+7
+5.
+Legal/Regulatory, Fraud, Security and environmental impacts
+8
+6.
+Dependencies / Risks / Assumptions [Required]
+9
+7.
+Approvals & Document Control [Internal Delivery Team]
+10
+8.
+Appendices
+10
+Background / Problem & Opportunity / Scope Summary
+1.1 Background
+Where does the problem or opportunity occur? What is the context, event, or customer journey in which it occurs?
+Context/Background
+Schedule 7 requires all devices to be purchased through VMO2, with a TSA compliance deadline of 30 April 2026.
+O2 Daisy Transformation has produced 
+a high
+level architecture, but VMO2 and O2 Daisy are unable to meet the TSA deadline.
+We are currently 
+operating a dual
+warehouse model
+: GXO for f-VMO2 orders and Westcoast for f-Daisy orders
+: To comply with our contractual agreements, we are shipping devices to Westcoast via the indirect DISE process so they can fulfil all Daisy orders.
+The fulfilment of Apple DEP-enrolled devices currently requires 
+manual intervention
+, as there is no automated process in place within the Daisy/Westcoast environment.
+This request aims to eliminate the need for duplicate and manual Apple device enrolment processes until full integration with GXO is achieved (refer to request IDs 
+377 and 378
+).
+Current State Process
+ 
+Current Fulfilment Model
+Path 1
+: 
+DISE
+ (Established / BAU)
+Individual customer orders only for Apple devices, where customers require DEP enrolment. 
+Daisy places via partner portal → DISE → GXO. GXO fulfils orders directly to the customer. 
+Includes:  
+Automated fulfilment
+Apple enrolment processes (via existing integration)
+This flow is working and not being changed
+Path 2: Daisy Central
+ (Interim / Workaround)
+Individual customer orders for all devices:
+Apple: customers don’t require DEP enrolment Orders placed in Daisy Central → fulfilled from West Coast warehouse
+All other devices including Samsung whether customer requires enrolment or not. 
+Stock is: Shipped from GXO → West Coast to support this model
+Current problems:
+No integration to GXO fulfilment processes
+No automated Apple enrolment
+Requires multiple manual interventions
+Dual Ordering Process (Critical Behaviour)
+Current logic:
+Non-enrolled
+ devices:
+Ordered via Daisy Central
+Fulfilled from West Coast stock (ordered in bulk in advance from VMO2)
+Apple enrolled
+ devices
+Cannot be fulfilled from West Coast
+Must be:
+Re-keyed manually into Indirect Portal
+Routed to DISE → GXO
+Fulfilled from GXO via the existing enrolment process. 
+This creates:
+Duplicate order handling
+Inconsistent fulfilment paths
+Pain points - Manual Operational Activities
+The interim model requires:
+Forecasting & Stock Movement
+Manual forecasting and bulk ordering via GXO
+Devices shipped to West Coast manually
+ Apple Enrolment Workaround
+Manual re-entry of orders via indirect portal
+To trigger enrolment via DICE integration
+Post-Fulfilment Handling
+Additional manual steps required
+Load enrolled devices into Daisy Central
+Enable downstream build/billing
+Resourcing
+Manual process supported by ~3 people
+Scaling Risk
+More customers are being moved to Daisy Central
+Manual workload will: 
+Increase significantly
+Potentially 
+block transformation progress
+Illustration of 
+all three current processes and high-level changes
+1.
+2 
+Problem & Opportunity
+ 
+State the main problem(s) and the opportunity created by addressing them. Highlight key pain points and expected benefits
+Problem
+Manual and duplicate processes are used to enrol 
+and de-enrol 
+Apple devices as separate per-customer orders are raised into the indirect portal for individual shipping. 
+The existing manual Apple DEP enrolment process is not scalable, which prevents the transformation from migrating any significant number of SME and Soho customers to Daisy Central.
+ 
+The 
+existing Apple Device Enrolment process relies on DISE and Westcoast
+‑
+specific routing, which is not fully aligned with Daisy Central as the future system of record.
+IMEI data will be available in Daisy Central, but the end
+‑
+to
+‑
+end automated feed into SRM is not yet fully established or approved within current CIO timescales.
+O2 Daisy faces tight delivery timelines, and waiting for full assessment, build and approval risks delaying Apple device fulfilment for customers.
+Any short
+‑
+term solution must continue to meet security, compliance and audit requirements, and must not introduce risk, rework or long
+‑
+term technical debt.
+Opportunity
+SRM (
+Comarch
+) has confirmed that where the file structure and outputs remain unchanged, existing Apple enrolment integrations can continue without redesign.
+A phased approach enables:
+An interim manual workaround to protect near
+‑
+term delivery, and
+A strategic move to an automated Daisy Central → SRM feed as the steady
+‑
+state solution.
+This allows O2 Daisy to maintain customer experience and Apple compliance without blocking on governance timelines, while still converging on the target architecture.
+The approach is considered a small, low
+‑
+risk change for O2 Daisy, with SRM estimating 2
+–
+4 weeks of effort for testing once the automated feed is ready.
+What O2 Business is asking for:
+ 
+1.
+3 
+ Scope
+ Summary
+ 
+Summarise what is included and excluded from the initiative to set clear expectations and boundaries
+In Scope (MVP / Phased Delivery)
+Phase 1 – Interim Workaround (
+Time
+￼
+Bound
+)
+Primary Ask (Immediate Priority)
+Automate Apple Device Enrolment from Daisy Central. Specifically:
+Enable:  
+Orders from Daisy Central to trigger enrolment
+Avoid:  
+Manual rekeying into DISE / indirect portal
+We also require support from VMO2/Comarch to 
+determine
+ the following elements of the device enrolment build in Daisy Central:
+Location and credentials to store the enrolment files
+ when built
+The enrolment 
+file data attributes and values
+ where those values are system / process driven.
+The workaround is explicitly:
+Temporary,
+Volume
+ 
+controlled, and
+Subject to defined operational ownership to avoid bottlenecks.
+Business Benefits
+Lower effort than full integration
+Deliverable earlier
+Critical to remove manual steps
+No more rekeying orders into the indirect portal
+Eliminates duplication for Apple enrolment
+1.4 Business Outcomes
+Describe the business outcomes for this project.  (
+A business outcome describes the measurable change in business performance or behaviour that will be delivered if this initiative is successful.
+)
+Reduced manual intervention and process duplication
+, minimising the risk of human error while improving resource efficiency and capacity. 
+Operational scalability through automation: 
+elimination of fragmented manual processes and establishment of a repeatable operating model that supports future growth and strategic API-led integration.
+Improved customer service speed
+, enabling faster fulfilment and shorter delivery cycles. 
+Faster order handling for enrolled devices
+. 
+Optimised returns and de-enrolment processes
+, delivering a streamlined and consistent end-to-end fulfilment experience.
+Lower error rates in enrolment
+Removes critical blocker to scaling
+ 
+In Scope 
+Area
+Impacted
+Channels
+☐
+ 
+No Channel Impact (BAU)
+☐
+ Assisted 
+(e.g. Contact Centre, Field Sales)
+☐
+ U
+nassisted 
+(e.g. Self-Service)
+☒
+ 
+Change to 
+E
+xisting e
+C
+ommerce
+☐
+ 
+N
+ew e
+C
+ommerce
+ Channel
+☐
+ 
+Stores
+☐
+ Other (
+Specify
+)
+Customer Segment
+☐
+ 
+Wholesale Fixed
+ 
+___________________________________________________
+☐
+ 
+Wholesale Mobile
+ 
+☒
+ SMB Direct
+☐
+ SMB Indirect
+ 
+☐
+ Volume Sales
+☒
+ Large Enterprise  
+☒
+ Public Sector
+☒
+ Soho Direct
+ 
+☐
+ Soho Indirect
+☐
+ WHS O2 Daisy (ABS SPID 372) 
+☐
+ VIP
+☒
+ O2 Daisy BUD  
+___________________________________________________
+☐
+ 
+Other (
+Specify
+)
+Customer Type 
+☒
+ New 
+Customer  
+☒
+ Existing Customer
+Order Type
+☒
+ New 
+Order 
+- 
+New Custome
+r  
+☒
+ New Order - Existing Customer
+☐
+ Renewal
+/Resign Order
+ - Existing Customer
+☐
+ 
+Additional Connection Order - Existing Customer
+☐
+ MACD - Existing Customer
+☐
+ Other (
+Specify
+)
+API
+ Required 
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes 
+- 
+ wh
+ich 
+ APIs are expected to be delivered by VMO2 as part of the requirement?
+Logistics / Supply 
+C
+hain
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+ 
+Reporting
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes – 
+Please outline the requirements and describe the type of impact
+ e.g. 
+☐
+ New Reports
+☒
+ Amend/Update
+ 
+Existing 
+Reports
+Migration 
+R
+equirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Decommissioning Requirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Cease 
+E
+xisting 
+S
+ervice/
+S
+upplier
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Network or IT Operations
+ 
+I
+mpact
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+: 
+Please see 
+Appendix
+ and below. 
+ 
+RFI/P
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Known Constraints
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Apple Watch doesn’t support QR code 
+eSIM
+ 
+Other
+Impact:  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: Please specify the details.
+Customer Journey Touch Points 
+(Required)
+The customer journey is broken down into key touch points that represent different stages of interaction with our products or services from discovery to potential exit. Each touch point reflects a critical moment in the customer experience.
+Please review the touch points below and 
+indicate which ones are impacted by your initiative
+, along with a brief description of the 
+nature of the impact
+ (e.g., improvement, change, risk, etc.).
+We Discover
+ – Customers explore and learn about products or services
+Impacted 
+☐
+ 
+Yes
+    
+☒
+ No
+    
+☐
+ Unknown
+ 
+We Buy
+ – Customers 
+/ Sales people 
+select and purchase a product or service
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If Yes – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ Blue Salesforce
+☐
+ Purple Salesforce / CPQ 
+☐
+ Microsoft Dynamics 365
+☐
+ Other (
+Specify
+)
+Daisy Central 
+(
+SMB / SoHo
+)
+Daisy central (LE/PS)
+Strategic architecture TBC
+Solution needs to integrate into O2 Daisy BSS
+Wholesale 
+Fixed 
+ 
+☐
+ Red Salesforce
+ 
+☐
+ Engage
+☐
+ BPT
+☐
+ Other (
+Specify
+)
+ 
+We Join / Onboard
+ – Product/service is delivered, set up, and activated
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If Yes – confirm s
+olution impact if known
+Wholesale Mobile 
+☒
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☒
+ Other (
+Specify
+)
+Daisy Central 
+(
+SMB / SoHo
+)
+Solution needs to integrate into O2 Daisy BSS
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ Force
+☐
+ Oracle 
+☐
+ Other (
+Specify
+)
+ 
+We Use
+ – Customers experience the service, including issue resolution.
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Manage Billing
+ – Customers view and manage bills and usage
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If Yes – confirm s
+olution impact if known
+Wholesale Mobile 
+☒
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☒
+ Other (
+Specify
+)
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ NRM
+☐
+ Oracle
+☐
+ Other (
+Specify
+)
+We Add / Change
+ – Customers modify or upgrade their services
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Customers can add / remove Watch services ‘in life’ via Service Desk. 
+We Stay or Leave
+ – Customers decide to renew, stay, or exit
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requiremen
+t
+:
+Customers will need to be able to re-sign / retain the Watch subscriptions at point of contract re-sign.
+Out of Scope 
+(Required)
+Out of Scope
+ Item
+Future Scope (
+e.g. 
+later phase Delivery)
+1 BAU DISE Process
+Existing:  
+Partner Portal → DISE → GXO flow
+2 Bulk Device Ordering Process
+Ordering via partner portal into DISE remains
+Bulk stock flow:
+GXO → West Coast remains for interim
+3 Procurement / Supply Chain BAU
+Device procurement via supply chain: Remains unchanged
+Considered: Separate from enrolment solution scope
+Changes to Apple enrolment policies, customer configurations or Apple commercial arrangements.
+Redesign or decommissioning of DISE outside this specific Apple Device Enrolment flow.
+Permanent reliance on manual processes beyond the agreed interim period.
+Any workaround that bypasses agreed security, compliance, or audit controls.
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Impact 
+VMO2 stakeholder
+Legal / contractual / legislative obligations
+  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Regulatory obligations e.g. OFCOM, ICO,
+ 
+etc
+.
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Fraud or Security
+ Impact
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Has the whole 
+environmental impact
+ 
+of 
+the project, from design to end of life been
+ considered? 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Has the lowest energy using product or service been considered for the project (if applicable)?
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+More devices will ship directly to the customer from GXO avoiding the double handling (GXO → Westcoast → Customer)
+Equity / Accessibility of VMO2 service(s)
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+Dependencies raised
+Architecture alignment required
+Potential need to validate with: 
+Supply chain
+Apple relationship owners
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D3
+Outbound
+IDs 377 & 378
+Supply Chain 
+ID 
+11047025174
+377 & 378: 
+O2 Daisy Warehouse Interfacing (Tactical 
+–
+ Flat
+ 
+Files) & (Strategic - API)
+ - Is this a dependency on the this interim ask?
+Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R1
+More customers are being moved to Daisy Central
+, so the m
+anual workload will: 
+Increase significantly
+Potentially 
+block transformation progres
+s
+R2
+ Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+GXO and 
+RDi
+ remain the only logistics partners of VMO2 supply chain
+A2
+IT transformation schedule and timelines of customers migration
+Approvals 
+& Document Control 
+[Internal Delivery Team]
+.
+Name
+Role
+Approval (signature or email)
+Date
+Sponsor / Delegate
+Product Manager / Owner
+ Requestor
+ Portfolio
+ Lead
+s SBA, PM, SSA
+ 
+(Scope is fit for purpose and relevant stakeholders have been consulted or informed)
+Author
+Version
+Date
+Reason
+R. Munir
+0.1
+17
+/
+4
+/2026
+First draft
+Y. Niarchos
+0.2
+18/5/2026
+First review with stakeholders
+1.0
+Approved Version
+Appendices
+Customers increasingly expect Apple devices to be delivered pre
+‑
+configured, secure and ready for use, particularly where Apple Device Enrolment (ADE) is required to apply device management and security policies prior to first use.
+Today, Apple device enrolment is triggered once devices are procured, using IMEI data from the supply chain. Requests are processed through DISE, supported by Westcoast as an intermediary platform, before being passed to SRM, which converts validated enrolment files into API requests to Apple. This flow is proven but tightly coupled to legacy DISE
+‑
+centric integrations.
+As part of O2 Daisy’s ongoing operating model simplification and the move towards Daisy Central as the primary orchestration platform, IMEI data will now be received from Westcoast directly into Daisy Central. However, the downstream Apple Device Enrolment process must continue to function without disruption, while aligning incrementally to the target architecture.
+Given current CIO governance timelines (6–8 weeks) and de
+‑
+prioritisation of some supporting initiatives, a pragmatic, time
+‑
+bound interim approach is required to prevent delivery delays for O2 Daisy customers.
+Out of Scope (for this Initiative)
+Changes to Apple enrolment policies, customer configurations or Apple commercial arrangements.
+Permanent reliance on manual processes beyond the agreed interim period.
+Redesign or decommissioning of DISE outside this specific Apple Device Enrolment flow.
+Any workaround that bypasses agreed security, compliance, or audit controls.
+Out of scope
+1 BAU DISE Process
+Existing:  
+Partner Portal → DI
+S
+E → GXO flow
+2 Bulk Device Ordering Process
+Ordering via partner portal into DI
+S
+E remains
+Bulk stock flow:
+GXO → West Coast remains for interim
+3 Procurement / Supply Chain BAU
+Device procurement via supply chain:
+ 
+Remains unchanged
+Considered: Separate from enrolment solution scope
+Suggested approach discussed:
+Daisy Central to generate:
+An enrolment file in required format. 
+Join existing MDS → Comarch → Apple processing stream
+IMEI data received from Westcoast into Daisy Central.
+Manual generation of the Apple enrolment 
+and de-enrolment
+ file from Daisy Central.
+Secure manual email transfer of the enrolment 
+and de-enrolment
+ file to SRM using agreed secure distribution lists and controls.
+SRM continues to:
+Validate the file,
+Convert it into API requests, and
+Submit enrolment requests to Apple with no change to Apple integrations.

@@ -1,0 +1,740 @@
+Vision Document
+Business Area 
+☒
+ 
+Wholesale 
+Mobile & M
+W
+ (O2 Daisy)
+ 
+☐
+ Wholesale Fixed Connectivity 
+☐
+ Wholesale Mobile & MVNOs
+☐
+ B2B IT Migration
+ 
+Initiative Name
+Scotty / Starlink Direct to Cell
+Sponsor 
+Name
+Dav Sandher
+P
+rod
+uc
+t 
+Owner
+ Name
+James Goodwin
+O2 Daisy ID
+O2Daisy CTIO Approved
+Yes
+ – approved with Lindsey Charlton
+O2Daisy IT Architecture design or context
+Reviewed with Dan and agreed update VROM required of making services available
+ for O2 Diasy Stack to consume. 
+NDA required?
+N
+NDA admin
+NA
+Aspirational 
+start date 
+Q2’26
+Aspirational 
+delivery date
+H2 26
+Commercial launch date
+Phased delivery considerations/needs
+Drivers
+Oct’26
+To maximise the benefits of the 
+Consumer
+ go-to-market halo effect, seeking a launch as close to the consumer launch as possible.
+Vis
+i
+on Document Summary 
+ 
+The Vision Document serves as a key foundation for any business initiative. It outlines the core problem, objectives, expected benefits, scope, and identifies associated risks, assumptions, and dependencies. Its purpose is to provide a clear and comprehensive overview that supports accurate impact assessment and informed planning.
+This document is a required input for the Ideate Pack, which is used by the Mobile & MW Portfolio pod team to evaluate the initiative across all relevant touchpoints. A well-prepared Vision Document ensures the Ideate Pack can be completed accurately and effectively.
+Table of Contents
+1.
+Background / Problem & Opportunity / Scope Summary
+2
+2.
+In Scope 
+(Required)
+3
+3.
+Customer Journey Touch Points 
+(Required)
+6
+4.
+Out of Scope 
+(Required)
+7
+5.
+Legal/Regulatory, Fraud, Security and environmental impacts
+8
+6.
+Dependencies / Risks / Assumptions [Required]
+9
+7.
+Approvals & Document Control [Internal Delivery Team]
+10
+8.
+Appendices
+10
+Background / Problem & Opportunity / Scope Summary
+1.1 Background
+The Satellite market is early stage, but growing fast, with focus on LEOs to expand geographic coverage in rural/ remote areas. Two models are emerging for Direct-to-Device connectivity: MNO-led using operator spectrum and OEM-led using MSS satellite spectrum, with the latter posing a disintermediation risk to operators
+VMO2 have signed an exclusive partnership with a Satellite operator to use O2 spectrum and that gives VMO2 first mover advantage and differentiation on satellites vs rest of market.
+The Mobile Wholesale Services Agreement between VMO2 and O2 Daisy 
+requires
+ 
+both parties to discuss how the 
+O2 Satellite service 
+may be made available 
+to O2 Daisy customers
+. VMO2 have now made a commercial offer for the service. 
+The intent of this Vision Document is to progress a
+ shared 
+understanding 
+of how this service may be best integrated and 
+made available O2 Daisy.
+1.
+2 
+Problem & Opportunity
+ 
+Improved rural coverage, or improved coverage whilst on the move, is expected to be of interest to B2B 
+customers;
+ e.g. National Authorities and Mobile Workforce segments currently account for ~850k subscribers in B2B base.
+1.
+3 
+ Scope
+ Summary
+ 
+The goal is to launch a new Bolt On into all B2B segments that seamlessly provides the O2 Satellite capability to those subscribers that have the Bolt On. When out of O2 network coverage, subscribers with the Bolt On will be able to ‘roam’ onto the Satellite coverage and continue to utilise SMS & Data.
+It is expected that the Bolt On will be positioned to customers to provide coverage ‘peace of mind’ and/or as a ‘backup’ capability.
+The Scope of the project should extend the current Consumer capability to provide 
+provisioning and billing that can be integrated to the O2 Daisy OSS/BSS.
+This is expected to include:
+Service codes that can be provisioned via the wholesale provisioning interface
+Offline CDR production to allow 
+usage billing and reporting
+Bon Voyage messaging
+O2 Daisy will also need to 
+create and launch the new Bolt On capability, and to make the necessary 
+O2 Daisy OSS/BSS 
+system and tariff changes to allow existing and new customers to take advantage of it.
+O2 Daisy will use the same Optimised devices and applications as made available to the Consumer 
+implementation, and
+ is expected to benefit as this range evolves over time.
+For initial launch, it is not expected that O2 Daisy will launch or certify any business-specific devices or applications
+James Landale has created an initial solution architectural assessment, and this 
+is includes
+ in the Appendix.
+In Scope 
+Area
+Impacted
+Channels
+☐
+ 
+No Channel Impact (BAU)
+☒
+ Assisted 
+(e.g. Contact Centre, Field Sales)
+☒
+ U
+nassisted 
+(e.g. Self-Service)
+☒
+ 
+Change to 
+E
+xisting e
+C
+ommerce
+ 
+(SoHo 
+shop
+)
+☐
+ 
+N
+ew e
+C
+ommerce
+ Channel
+☒
+ 
+Stores
+ 
+(SoHo retail journeys)
+☐
+ Other (
+Specify
+)
+Customer Segment
+☐
+ 
+Wholesale Fixed
+ 
+___________________________________________________
+☐
+ 
+Wholesale Mobile
+ 
+☒
+ SMB Direct
+☒
+ SMB Indirect
+ 
+☒
+ Volume Sales
+☒
+ Large Enterprise  
+☒
+ Public Sector
+☒
+ Soho Direct
+ 
+☒
+ Soho Indirect
+☒
+ WHS O2 Daisy (ABS SPID 372) 
+☐
+ VIP
+☐
+ O2 Daisy BUD  
+___________________________________________________
+☐
+ 
+Other (
+Specify
+)
+Customer Type 
+☒
+ New Customer  
+☒
+ Existing Customer
+Order Type
+☒
+ New 
+Order 
+- 
+New Custome
+r  
+☒
+ New Order - Existing Customer
+☒
+ Renewal
+/Resign Order
+ - Existing Customer
+☒
+ 
+Additional Connection Order - Existing Customer
+☒
+ MACD - Existing Customer
+☐
+ Other (
+Specify
+)
+API
+ Required 
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Expect Provisioning capability to be delivered via the Wholesale provisioning API
+Logistics / Supply 
+C
+hain
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Reporting
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes – 
+Please outline the requirements and describe the type of impact
+ e.g. 
+☒
+ New Reports
+☒
+ Amend/Update
+ 
+Existing 
+Reports
+Data feeds into GCP (to support creation of 
+PowerBI
+ reports) including
+Subscribers with O2 satellite enabled
+Roaming events (i.e. to allow reporting on how many users are 
+actually roaming
+ onto Sat coverage)
+Usage 
+event 
+data (SMS, data)
+ i.e. to allow reporting on number of messages sent over Sat etc
+Migration 
+R
+equirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Decommissioning Requirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Cease 
+E
+xisting 
+S
+ervice/
+S
+upplier
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Network or IT Operations
+ 
+I
+mpact
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Don’t believe that any new CIO or CTO systems are being introduced for O2 Daisy, but service level may need to be updated to include Business customers
+RFI/P
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Known Constraints
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Other
+Impact:  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: Please specify the details.
+Customer Journey Touch Points 
+(Required)
+The customer journey is broken down into key touch points that represent different stages of interaction with our products or services from discovery to potential exit. Each touch point reflects a critical moment in the customer experience.
+Please review the touch points below and 
+indicate which ones are impacted by your initiative
+, along with a brief description of the 
+nature of the impact
+ (e.g., improvement, change, risk, etc.).
+We Discover
+ – Customers explore and learn about products or services
+Impacted 
+☒
+ 
+Yes
+    
+☐
+ No
+    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+There will need to be updates to the online shops & web pages that outline available capability to customers.
+Will also need 
+updated 
+Sales Enablement. (However, do not envisage that this 
+enablement 
+will require VMO2 CIO support)
+We Buy
+ – Customers 
+/ 
+Sales people
+ 
+select and purchase a product or service
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Ability for Sales and Service to quote and order Bolt On
+Provisioning API
+ 
+should allow updates to self-serve journeys to support eSIM, but the updates to the self-serve portals themselves is not in scope of this Vision Doc
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ Blue Salesforce
+☐
+ Purple Salesforce / CPQ 
+☐
+ Microsoft Dynamics 365
+☒
+ Other (
+Specify
+)
+ 
+DaisyCentral
+Wholesale 
+Fixed 
+ 
+☐
+ Red Salesforce
+ 
+☐
+ Engage
+☐
+ BPT
+☐
+ Other (
+Specify
+)
+We Join / Onboard
+ – Product/service is delivered, set up, and activated
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ Force
+☐
+ Oracle 
+☐
+ Other (
+Specify
+)
+Expect support on Nokia network
+ (Ericsson out of scope)
+N
+etwork provisioning to be 
+managed by O2 Daisy 
+via Wholesale ABS APIs
+We Use
+ – Customers experience the service, including issue resolution.
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Processes & training for Service Agents
+We Manage Billing
+ – Customers view and manage bills and usage
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Billing of new Bolt On
+Usage on O2 Satellite should be billed as UK usage.
+No requirement for Sat usage to consume allowances, but Satellite usage should be visible in billing reports
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☒
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ NRM
+☐
+ Oracle
+☐
+ Other (
+Specify
+)
+We Add / Change
+ – Customers modify or upgrade their services
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Existing Customers can request addition of Bolt 
+On
+ from Service as a BAU / in-life change
+We Stay or Leave
+ – Customers decide to renew, stay, or exit
+Impacted 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes - please outline any specific requiremen
+t
+:
+Ceasing or migrating customers should lose entitlement to O2 Sat service
+Out of Scope 
+(Required)
+Out of Scope
+ 
+Item
+Future Scope (
+e.g. 
+later phase Delivery)
+Provisioning to customers managed within DISE
+Provisioning to customers on Ericsson Network
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Impact 
+VMO2 stakeholder
+Legal / contractual / legislative obligations
+  
+☐
+ Yes    
+☒
+ No    
+☒
+ Unknown
+Regulatory obligations e.g. OFCOM, ICO,
+ 
+etc
+.
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Need to meet all regulatory requirements. However, don’t anticipate that O2 Daisy introduces new requirements not already addressed by VMO2 for Consumer
+Fraud or Security
+ Impact
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Has the whole 
+environmental impact
+ 
+of 
+the project, from design to end of life been
+ considered? 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Has the lowest energy using product or service been considered for the project 
+(if applicable)?
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Equity / Accessibility of VMO2 service(s)
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D1
+D2
+Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R1
+R2
+ Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+A2
+Approvals 
+& Document Control 
+[Internal Delivery Team]
+.
+Name
+Role
+Approval (signature or email)
+Date
+Sponsor / Delegate
+Product Manager / Owner
+ Requestor
+ Portfolio
+ Lead
+s SBA, PM, SSA
+ 
+(Scope is fit for purpose and relevant stakeholders have been consulted or informed)
+Author
+Version
+Date
+Reason
+James Goodwin
+0.1
+13/3/26
+First draft
+0.2
+First review with stakeholders
+1.0
+Approved Version
+Appendices

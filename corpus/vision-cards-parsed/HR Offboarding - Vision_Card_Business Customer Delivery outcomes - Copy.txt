@@ -1,0 +1,603 @@
+Th
+is
+ Vision Card outlines the 
+desired business, customer and delivery outcome
+ for your
+ 
+new project idea
+. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Initiative 
+Title
+HR Offboarding Agentic Automation
+Business 
+O
+utcome
+ (and Value)
+1.1 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your 
+business
+-
+unit
+ 
+Primary (SMART) 
+Business 
+Outcome 
+Reduce end-to-end HR offboarding cycle time and manual intervention by delivering a governed, multi-agent workflow that completes >80% of offboarding activities automatically, with full auditability and SLA adherence, by initial production rollout.
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+e.g. Improve
+, reduce, increase, enable, accelerate
+In which
+ business metric?
+Employee offboarding time, improved payroll (end of contract)
+, 
+For which
+ specific stakeholder or business user?
+ 
+(
+Primary outcome beneficiary
+)
+CPTO – Primary Stakeholder (business process owner)
+Enterprise solution – All employees
+ 
+ 
+By 
+how much
+?
+ 
+ 
+(
+Quantity
+ or percentage
+ is required
+)
+>80% of process journey to be automated with human in the loop 
+check points.
+What is the current 
+value for this business metric?
+Improvement must happen 
+by when
+?
+Upon deployment of solution
+What strategic 
+outcome
+ does this support
+? 
+ENPS, AI & Automation POR
+1.2 Value case
+What is your value case built on so far?
+ 
+Click
+ any that apply
+☐
+ 
+Revenue uplift  
+☐
+ 
+Cost saving
+☐
+ 
+Risk reduction
+☐
+ 
+Customer experience
+☒
+ 
+Other
+ (
+specify
+):
+ ENPS and alignments to AI & Automation POR
+What is the approximate financial value of this?
+£ 
+number or range
+ 
+Over 
+X
+ years
+What are your 
+top 1-3
+ assumptions for this to be true?
+Assumptions
+What lead indicator
+(s)
+ will predict success
+ in 
+delivering this value?
+Lead indicators:
+Line manager adoption of the agent as the primary offboarding interface
+% of tasks completed on time and reduction in overdue actions
+Depth of agent interaction (e.g. approvals, actions completed via agent)
+Reduction in cross-system navigation
+Speed of exception resolution
+Data completeness at initiation
+Manager confidence and clarity in completing offboarding tasks
+Customer and Experience Outcomes
+2.1 Customer Problem
+ (Evidence based)
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Line Managers (LMs)
+ within VMO2 responsible for managing employee exits
+Specific context:
+Managing 
+voluntary resignations (high-volume, standardised leaver scenario)
+ 
+Responsible for: 
+initiating offboarding
+completing mandatory HR inputs
+coordinating cross-functional tasks (HR, IT, Finance)
+What customer need or problem is this proposal addressing
+?
+Problem:
+Line managers are accountable for offboarding but operate across disconnected systems with no clear, consolidated view of responsibilities, resulting in inefficient execution, rework, and compliance risk.
+Need:
+A single, guided interface that orchestrates tasks, provides clarity, and ensures all required actions are completed correctly and on time.
+ 
+What is happening today?
+Describe what the primary customer (or colleague) experiences today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Today
+, line managers manage offboarding across multiple disconnected systems with no single view of their responsibilities, required actions, or progress. Tasks are coordinated manually through emails and separate systems, guidance is not centralised, and managers must actively chase updates, interpret requirements, and resolve issues, resulting in a time-consuming and uncertain experience.
+H
+ow do we know it matters to the customer?
+We know this matters through direct evidence captured in user stories, process documentation, and current-state analysis. Line managers explicitly state the need for clearer visibility of responsibilities and tasks, indicating a lack of clarity in the current experience.
+Current processes require managers to navigate multiple systems to understand status and next steps, and rely on manual coordination through emails and spreadsheets, demonstrating inefficiency and fragmentation.
+Additionally, the need for exception handling, audit tracking, and 
+compliance controls highlights existing operational risks in the current process.
+Together, this evidence shows that managers are spending time interpreting and coordinating the process rather than executing it, confirming a genuine and material customer nee
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+Line managers are accountable for offboarding but must navigate multiple disconnected systems with no clear, consolidated view of their responsibilities or progress, leading to manual coordination, delays, and risk of missed or incorrect actions.
+This creates inefficiency, lack of confidence, and increased compliance and operational risk, as critical tasks depend on individual effort rather than a guided, controlled process.
+2.2 Customer Experience Outcome (Future state)
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+Line managers will be able to manage employee offboarding end
+to
+end through a single, guided interface, with clear tasks, real
+time progress, and minimal manual coordination.
+How does this differ from the current state?
+Today, managers manually coordinate offboarding across multiple systems with little visibility or support; in the future, they will manage the entire process through a single, guided interface with clear tasks and real
+time progress
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Managers will feel confident and in control of the process, knowing exactly what to do next, trusting that tasks are handled correctly, and completing offboarding quickly without chasing, confusion, or fear of missing something.
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+Yes — this requirement is supported by a set of artefacts including an end-to-end journey map, a future-state “to-be” workflow, detailed user stories, and a scoping document. These collectively illustrate how line managers will interact with a single, guided interface to initiate, manage, and track offboarding activities across systems, providing both a visual and functional representation of the future experience.
+HR Offboarding Multi Agent Artefacts
+2.
+3
+ Journey 
+context
+Which channels
+ and 
+processes are in scope? 
+In scope are the AI agent (primary user interface), Oracle HCM, and integrated HR, IT, Finance, and Facilities systems, covering end-to-end voluntary resignation offboarding, task orchestration, approvals, exception handling, and compliance tracking.
+AI Agent / Line Manager Assistant (primary interaction channel) 
+Oracle HCM (system of record for HR processes) 
+Which product
+s or services 
+are 
+in scope
+?
+ AI / Agent layer
+AI Offboarding Agent (LM-facing assistant / conversational interface) 
+Gemini Enterprise platform (agent hosting and interaction layer) 
+Vertex AI (AI/ML capability underpinning agent logic) 
+Agent Gym (agent training, feedback, and continuous improvement capability) 
+Integration & middleware layer
+Apigee (API gateway for system integration) 
+API integration services (Oracle HCM and wider system connectivity) 
+Core HR systems
+Oracle HCM (primary HR system of record) 
+Delivery Outcomes
+3.1 
+Capability outcomes
+What capabilities must exist to deliver the outcome?
+ 
+Describe the key capabilities needed (not features)
+.
+ 
+If your proposal is on behalf of an external party such as 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support 
+this third party.
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Capability
+MVP*
+1
+Capability to provide a single, unified interface for line managers to manage offboarding end
+to
+end
+Y
+2
+Capability to orchestrate offboarding tasks across HR, IT, Finance, and Facilities in a coordinated flow
+Y
+3
+Capability to trigger and manage offboarding journeys within Oracle HCM (system of record)
+Y
+4
+Capability to integrate with enterprise systems via APIs (e.g. Apigee) to enable automation and data exchange
+Y
+5
+Capability to present clear, role-based task lists with SLAs and dependencies to managers
+Y
+6
+Capability to capture and validate required data at initiation to ensure completeness and reduce rework
+Y
+7
+Capability to provide decision support using HR policy (recommendations, guidance)
+Y
+8
+Capability to maintain human-in-the-loop approvals for key decisions to ensure control and accountability
+Y
+9
+Capability to detect, surface, and route exceptions (e.g. missing data, policy conflicts) for resolution
+Y
+10
+Capability to track progress and generate audit/compliance records (status, approvals, evidence)
+Y
+3.2 Delivery 
+S
+uccess 
+M
+etrics
+. How will delivery be measured?
+Type
+Metric
+Time to Market
+MVP by September 2026
+Quality target
+S
+ystem reliability (e.g. % uptime of agent and integrations) 
+% of offboarding cases completed without system or integration failure 
+Accuracy of agent recommendations aligned to HR polic
+y
+Adoption target
+ % of offboarding cases initiated and managed via the agent (vs Oracle/manual) 
+% of line managers actively using the agent during pilot and rollout 
+Increase in agent-led task completion vs manual coordination
+Other (Specify)
+Reduction in end-to-end offboarding cycle time
+License reclamation worth £27k
+Device loss reduction worth £24k
+Time savings for LMs worth 45k hours p/a
+Overpayments avoided worth £56k
+Audit remediation risk reduction £90k
+3.3 Service and Quality Requirements (NFRs)
+What Volumes of customers or transactions 
+must the delivery support
+?
+500
+ p/a
+Low
+Performance
+Response times or availability
+Core agent interactions (e.g. task retrieval, status updates) respond within 
+≤2–3 seconds
+ for standard querie
+s
+Security or privacy
+If unsure, select ‘unknown’
+Access restricted to 
+authorised users only
+ (e.g. line managers, HR roles, based on role permissions)
+Identity and access controlled via 
+enterprise IAM (e.g. Okta / Active Directory)
+ 
+No direct AI access to sensitive HR data without governed APIs and controls 
+Personal data handling must comply with internal 
+Security by Design (SBD)
+ and data privacy standards 
+Data exposure limited to 
+need-to-know basis
+ (role-based access
+Compliance 
+What
+ 
+are the 
+legal or regulatory compliance requirements?
+Must comply with 
+UK GDPR and data protection regulations
+ for employee data 
+Must adhere to 
+VMO2 internal HR, security, and data governance policies
+ 
+Must ensure 
+HR policy adherence is embedded in decision-making
+ (agent recommendations grounded in approved artefacts) 
+Must align with 
+enterprise architecture and AI governance 
+controls
+ (e.g. no uncontrolled LLM access to systems)
+Fraud prevention
+How must 
+we
+ prevent fraud?
+All actions require 
+authenticated user identity and role validation
+ (e.g. verifying Line Manager of record) 
+Critical actions (e.g. approvals, changes to offboarding status) require 
+explicit user confirmation / approval
+ 
+Segregation of duties maintained across HR, manager, and system roles 
+Agent cannot execute 
+irreversible or high-risk actions without human approval
+ 
+Monitoring for unusual behaviour (e.g. unauthorised access or abnormal activity patterns)
+Auditability
+What audit or logging 
+is required?
+All actions must be fully logged, including: 
+what action was taken
+who performed it
+when it occurred
+which system/channel was used
+Full audit trail maintained for: 
+approvals
+task completion
+exception handling
+Capability to generate an 
+evidence pack for audit/compliance purposes
+ 
+Logs must be retained in line with 
+data retention policies
+Accessibility 
+/ vulnerable customer 
+requirements
+Interface must support 
+accessible design standards
+ (e.g. readable layout, clear instructions) 
+Use of 
+plain English guidance
+ to support understanding of tasks and responsibilities 
+3.
+4
+ 
+Delivery Scope & Impact
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+N
+No direct customer-facing impact; experience is internal to line managers and HR processes
+Retail stores
+N
+No impact to in-store sales or colleague workflows
+Care and Retentions
+Potential
+May reduce post-leaver queries or contacts if offboarding is clearer and more controlled
+Commercial & go to market
+Product & Proposition management
+N
+No changes to product range, pricing, or propositions
+Marketing & Sales
+N
+No impact to campaigns, messaging, or acquisition journeys
+Shop & Basket (buy/upgrade journeys)
+N
+No impact to purchase or upgrade journeys
+Order fulfilment & service changes
+Order & fulfilment
+N
+No direct impact to customer order journeys
+Service activation & configuration
+Potential
+Some downstream impact where offboarding triggers service deactivation or entitlement changes in systems
+Supply Chain & Logistics
+Potential
+May trigger asset return processes (e.g. equipment recovery), but no change to core logistics operation
+s
+Field operations
+Potential
+Limited impact where equipment recovery or returns require field activity (case-dependent)
+Run and assure services
+Network services (mobile, fixed, TV)
+N
+No impact to network performance or service delivery
+Faults, outages & service assurance
+N
+No direct impact
+Service operations & support teams
+N
+Improved operational efficiency through reduced manual coordination, better visibility, and structured workflows for support teams
+Money, account and trust
+Billing, payments & customer finance
+Potential
+Indirect impact through improved accuracy of final payments, settlements, and account closure processes
+Customer accounts, identity and permissions
+Y
+Significant impact through automation of access removal, role deactivation, and identity management processes
+Other
+Wholesale services & support
+N
+No impact to wholesale systems or partner services
+B2B Daisy Impact
+N
+No impact to Daisy systems or services
+3.
+5
+ 
+Constraints and Dependencies
+What constraints or non-negotiables must the future solution 
+respect
+?
+Must use Oracle HCM as the system of record for all employee data and offboarding actions
+Must operate through governed API integrations (via Apigee) rather than direct system access
+Must comply with VMO2 Security by Design (SBD), GDPR, and internal HR data governance policies
+Must ensure human-in-the-loop approvals for key decisions, maintaining manager accountability
+Must not allow LLMs or AI agents direct, uncontrolled access to live HR systems or sensitive data
+Must preserve or strengthen existing compliance, audit, and governance controls (no reduction in control coverage) 
+Must align with enterprise architecture standards and integration patterns (e.g. Apigee, IAM, audit controls)
+Must prioritise data privacy, security, and compliance over automation speed or feature expansion
+Is there anything explicitly out of scope?
+Additional offboarding variants beyond voluntary resignation (e.g. redundancy, retirement, performance)
+Redesign of core HR policies or introduction of new HR rules
+Replacement of core systems (e.g. Oracle HCM remains unchanged)
+Changes to customer-facing products, services, or journeys
+Full automation of high-risk decisions (human approvals retained for control)
+Expansion to non-HR use cases beyond initial offboarding scope
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Availability and exposure of Oracle HCM APIs via Apigee gateway 
+Completion of Solution Architecture approval (PAB / SBD) 
+Delivery of integration layer (Apigee) 
+3.
+5
+ 
+Delivery timing
+When do you want this to 
+go live?
+MVP pilot (voluntary resignation journey) targeted for 
+Q3 2026 (
+September)
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Enables proof of value for agentic automation within 2026 delivery cycle 
+Supports wider AI adoption and enterprise integration strategy (Gemini / agentic roadmap) 
+Reduces operational inefficiencies and manual effort across HR processes within current financial year 
+Provides foundation for scaling agentic automation across additional use cases 
+Supporting Information
+Has any solution assessment been done? 
+Include links to existing solution options, blueprints, etc. that may support T Shirt sizing  
+HR Offboarding Agent Scoping Document (design, architecture, requirements) 
+To-Be Executive Workflow and Journey Maps 
+User Stories and Master PDD Workbook 
+HR Offboarding Multi Agent Artefacts
+Are there any 
+other 
+supporting documents or references 
+e.g. Links to slides, customer personas etc.
+HR Offboarding Multi Agent Artefacts
+All artefacts can be found here.
+Governance and Ownership
+Proposer
+Kayleigh Bradford
+S
+ponsor
+Kris Legroe / Eric Tyree
+Person accountable for the business outcome
+Kayleigh Bradford
+Finance Business Partner
+(s) 
+Dan Fox
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Architecture / Engineering
+Philip Adler
+Automation Strategy & Value
+Kumaran Nathan
+HR / People 
+Experience
+Zoe Lavery
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+H
+R Offboarding Agent / Agentic Offboarding
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+GRC5130451
+Which business division will be funding this proposal?
+DPPA
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Automation Committee 
+pipeline & demand governance
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+12/3/2
+6
+If known, when is this planned to attend Investment Committee?
+Q1 – Already approved at IC
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+N/a
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+21/10/25
+Vision has been reviewed with key architects / ESA domain owners?
+Y
+ – Cameron West + Karen Moore
+Date approved for platform assessment by BEM
+DD/MM/YY
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

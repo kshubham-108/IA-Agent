@@ -1,0 +1,550 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+ESA target: Host CCS in in 
+Public
+ cloud with 99.999% availability, immediate and seamless scalability, TSA compliance and minimum operating costs
+Full CCS service transition to 
+Public
+ cloud must be complete before end of 2027 to enable legacy Tanzu environments to be decommissioned
+Phase 1: POC during 2026 to select public cloud provider and agree design
+Phase 2: Build production environment and migrate O2 and TM bases successfully to this environment before end of 2027
+Pro
+posed
+ Title
+CCS to Public Cloud
+Primary (SMART) Outcome statement
+Host CCS in in 
+Public
+ cloud with 99.999% availability, immediate and seamless scalability, TSA compliance and minimum operating costs
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Improve availability, scalability, accelerate delivery and reduce operating costs
+In which
+ business metric?
+?
+e.g. 
+NPS, Customer retention, 
+Employee onboarding time, 
+Basket abandonment etc
+.
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+CIO
+, CTO
+ and All mobile customers
+ 
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+?
+e.g. 
+5%, 30 seconds per transaction, 
++2 NPS points etc
+.
+What is the current 
+value for this business metric?
+?
+e.g. 
+-15
+ 
+NPS
+ average q1-q4 2025
+Within what timeframe?
+Phase 1:
+ 
+Before end of 2026
+Phase 2: 
+Before end of 2027
+What strategic 
+outcome
+ does this support
+? 
+CTO/CIO cost avoidance
+Stakeholders
+Proposer
+Sean Devlin
+S
+ponsor
+?
+Name
+Person accountable for the business outcome
+?
+Name
+Finance Business Partner
+(s) 
+Matt Ridgen
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+e.g. 
+TOP-867
+ might be the reference. Some business units may just use the project name.
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+?
+CO-2025-005
+Which business division will be funding this proposal?
+CIO / CTO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Prashant Malkani
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+?
+12/3/25
+If known, when is this planned to attend Investment Committee?
+?
+May 25
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+No
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+21/10/25
+Vision has been reviewed with key architects / ESA domain owners?
+Y/N
+Date approved for platform assessment by BEM
+DD/MM/YY
+Who is impacted and what is broken today?
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+All 
+m
+obile customer
+s (O2 and Tesco Mobile)
+What customer need or problem is this proposal primarily addressing — and how do we know it matters to the customer?
+Cost avoidance of significantly increased costs for VMWare Tanzu licencing
+Increase resilience and 
+availablity
+Which product
+s or services 
+are 
+in scope
+?
+All mobile charging accounts for O2 and Tesco Mobile
+Which channels, processes or (if known) systems are in scope? 
+Specify the channels, processes or systems involved today
+Change should be invisible to customer channels
+What is happening today?
+Describe what 
+the prim
+ary 
+customer 
+(or colleague) 
+experience
+s
+ today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Costs of CCS hosting 
+on-premise
+ are due to rise dramatically at end of 2027
+Scalability of environments is very limited, and slow to grow
+Resilience does not meet expectation
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+As above
+What must change
+?
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+Host CCS in in 
+Public
+ cloud with 99.999% availability, immediate and seamless scalability, TSA compliance and minimum operating costs
+How does this differ from the current state?
+Costs of CCS hosting 
+on-premise
+ are due to rise dramatically at end of 2027
+Scalability of environments is very limited, and slow to grow
+Resilience does not meet expectation
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Implementation will be invisible to customer
+Costs will reduce for CIO / CTO
+Resilience of service will improve
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+NA
+What constraints or non-negotiables must the future solution 
+respect
+?
+The solution must meet TSA standards as set by Ofcom
+Is there anything explicitly out of scope?
+New features/capability
+When do you want this to 
+go live?
+Phase 1: POC during 2026 to select public cloud provider and agree design
+Phase 2: Build production environment and migrate O2 and TM bases successfully to this environment before end of 2027
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Overall delivery must complete by end of 2027 to avoid VMware 
+licence
+ costs
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+N
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+100% mobile accounts for O2 and Tesco Mobile on CCS in Public Cloud by end of 2027
+What is the approximate revenue uplift / cost saving from this?
+TBC
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+NA
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+e.g. 
+D
+igital pages and channel materials 
+must
+ 
+intuitively and seamlessly 
+surface information on existing safety and security offerings 
+for children
+, as well as 
+links to guidance
+ 
+provided by 3
+rd
+ parties
+Y
+2
+e.g. 
+Product managers must be able to 
+c
+reat
+e
+ child and age specific products
+ that contain prepackaged child safety features and access controls
+Y
+3
+e.g. 
+When parents are looking to buy or upgrade their children’s devices
+,
+ they are led to 
+age-appropriate
+ devices and propositions
+Y
+4
+e.g. 
+The service must ensure age-appropriate safety controls are active from initial service activation
+Y
+5
+e.g. 
+Parents 
+must be able to
+ manage the child safe controls 
+on their children’s devices 
+via
+ MyO2 and online
+Y
+6
+e.g. 
+Product managers will w
+ork with our partners to curate 
+updated content
+ providing educational tips and “how to” guides to make the most of services and resources provided by manufacturers and partners to help customers stay informed and safe online
+N
+7
+8
+9
+10
+What are your
+ reporting 
+or 
+self-serve analytics (data 
+democ
+.
+) requirements
+?
+e.g. 
+Dashboards should measure 
+Proportion 
+& trend 
+of 
+family accounts in base (e.g. 
+accounts 
+with child friendly products)
+% of eligible child connections sold with parental controls enabled at point of sale
+Y
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+Low (<10k monthly)
+ 
+Medium (10–100k monthly)
+High (>100k monthly)
+Unknown
+Response times or availability
+e.g. 
+The page must load within 2 seconds for customers
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+e.g. 
+Only parents (account 
+holders
+) may access and set the access controls for the child device
+Any legal or regulatory compliance requirements?
+e.g. 
+OFCOM and ICO 
+polic
+ies
+ 
+are
+ evolving
+. Legal and Reg team should be involved from the outset.
+Are there any Fraud 
+requirement
+s?
+e.g. 
+Proof of 
+Age check for 
+applying and managing parental controls is required
+Auditability requirements
+e.g. 
+We must be able to evidence when and how controls are applied and changed
+Accessibility 
+/ vulnerable customer 
+requirements
+e.g. 
+The journey must 
+support vulnerable customers
+6.2
+ 
+What parts of the business are likely to be impacted
+?
+This section helps us understand which parts of the organisation may be affected if this proposal goes ahead. You do not need technical knowledge — simply indicate where you believe there may be an impact. 
+If you are unsure, 
+p
+ick “Potential impact”. You are signalling where impact may exist, not committing to scope or design. This will be reviewed and refined during shaping and sizing
+.
+Operational area
+Impact
+?
+ 
+(Y/N/potential)
+How
+ might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Customer journeys, content, self
+‑
+serve actions, login, service management
+Retail stores
+In
+‑
+store sales flows, colleague tools, advice, activation or support
+Care and 
+R
+etentions
+Contacts, case handling, scripts, troubleshooting, retention actions
+Commercial
+ & go to market
+Product & Proposition management
+Range, bundles, eligibility rules, pricing, packaging
+Marketing & Sales
+Campaigns, messaging, offers, propositions, channels 
+Shop & Basket (buy/upgrade journeys)
+Basket logic, eligibility, offers, cross
+sell, checkout 
+Order fulfilment & service changes
+Order
+ 
+&
+ 
+fulfilment
+Buying, upgrading, moving, cancelling, order tracking
+Service activation & configuration
+Provisioning, activation, defaults, service setup
+Supply Chain & Logistics
+Device/SIM delivery & returns
+Field operations
+Customer installs, repairs, visits, equipment delivery 
+Run and assure services
+Network services (mobile, fixed, TV)
+Coverage, connectivity, performance, reliability
+Faults, outages & service assurance
+Issue detection, restoration, customer communications 
+Service operations & support teams
+Operational processes, monitoring, incident handling 
+Money, account and trust
+Billing, payments & customer finance
+Charging, bills, payments, finance, refunds, insurance 
+Customer accounts, identity and permissions
+Login, roles, parental controls, account hierarchies 
+Other
+Wholesale services & support
+Systems, services,
+ support or data we provide or exchange with wholesale partners
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Insert link here.
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+Insert link here.
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

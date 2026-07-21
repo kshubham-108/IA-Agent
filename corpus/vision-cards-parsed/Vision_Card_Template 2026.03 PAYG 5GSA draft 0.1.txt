@@ -1,0 +1,576 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+Consumer 
+PAYG 
+5G Standalone
+ Enablement
+ 
+Primary (SMART) Outcome statement
+Enable 
+5GSA access for 
+9
+0% of
+ O2 PAYG customers
+ with a capable device
+ by default
+,
+ by the end of H1 2027
+, building trust by moving more customers to 5GSA for a better experience
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Enable
+ consumer PAYG to provide 5GSA to their customer base.
+In which
+ business metric?
+5GSA
+ by default
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+02 PAYG customers
+ 
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+All
+What is the current 
+value for this business metric?
+0%
+Within what timeframe?
+H1 2027
+What strategic 
+outcome
+ does this support
+? 
+Building trust by moving more customers to 5GSA 
+for a better 
+experience
+ 
+Stakeholders
+Proposer
+Marc Tordoff / Jon Fawcett
+S
+ponsor
+Robert Joyce
+ / Killian Faughnan
+Person accountable for the business outcome
+Marc Tordoff
+Finance Business Partner
+(s) 
+Rita Patel
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+PAYG Product Manager
+Jamie Bell
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+TOP-713
+, 
+DMA-2026-TDP-03184
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+CO-2026-127
+Which business division will be funding this proposal?
+CTO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Consumer Demand Forum
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+3/2/26
+If known, when is this planned to attend Investment Committee?
+16/
+4
+/26
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Inbound: 
+TOP-746 
+SIM SWAP 
+Reliability
+ will deliver a series of improvements to the capability to seamlessly
+ (and without error)
+ swap customers from legacy to R15 (5GSA capable) SIM
+Is this an NDA’d project? If so, who is the NDA contact?
+no
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+February 2026
+Vision has been reviewed with key architects / ESA domain owners?
+Yes
+Date approved for platform assessment by BEM
+February 2026
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+O2 
+consumer
+ PAYG customers (inlife) and prospective O2 PAYG customers
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+All O2 PAYG propositions 
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+All channels and 
+systems in the PAYG ecosystem
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+5G Standalone is currently not available to PAYG customers. As a 
+result,
+ this entire base is excluded from experiencing the next generation of 5G capability and network performance
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+PAYG customers 
+cannot
+ 
+have 
+improved
+ experience 
+that
+ 5GSA
+ enables
+ (e.g. speed improvement, battery life, advanced voice service capabilities etc.). 
+VMO2 is unable to 
+fully gain from the 5GSA benefits of more efficient use of spectrum, network investment and energy efficiency.
+ 
+VMO2 is unable to create future differentiation of PAYG services by harnessing 5GSA capabilities (e.g. speed, latency etc)
+  
+What must change
+?
+One line vision summary
+O2 
+becomes the leading network for 5G+
+How does this differ from the current state?
+All 5GSA plans automatically provisioned for 5GSA access
+R15 (5GSA capable) p- and e-SIM are issued for all new SIM purchases and swaps
+Simple self-serve routes are available for R10 
+(non 5GSA) 
+SIM users to convert to R15, including on device eSIM swaps
+Completing infrastructure upgrades required to support SA on PAYG
+What
+ will success look like 
+for your primary beneficiary
+ 
+New and upgrading customers: 
+Signing up to 
+O2 
+PAYG gives me access to 5G+ by default
+In-life PAYG customers: 
+Enabling 5G+ on my device was simple and quick. I never lost service throughout the journey.
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+Insert link here
+What constraints or non-negotiables must the future solution 
+respect
+?
+The solution must prioritise regulatory compliance and customer trust over speed and feature expansion
+Is there anything explicitly out of scope?
+Project scope does not include the creation of any new
+ products or service features beyond those that are enabled automatically by having 5GSA access
+When do you want this to 
+go live?
+Commercial launch 
+H1 2027
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing
+.
+We must maintain our 
+market trajectory towards 5GSA
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes – reviewed 
+by 
+James Vincent
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+Some suggested indicators for consideration include:
+Completed certification of 5GSA capabilities for PAYG customers and traffic
+PAYG 
+charging for 5GSA is accurate
+Completion of 5GSA compatible order journeys
+% of PAYG 5GSA service activation flows successfully completing without manual intervention
+% PAYG SIM SKU tested and approved for 5GSA
+% of 
+active PAYG base with 5GSA capability enabled 
+% of new PAYG connections activated with 5GSA capable device / SIM / active servi
+c
+e
+% of PAYG SIM/eSIM profiles provisioned with 5GSA compatible parameters
+Activation failure rates on PAYG 5GSA (R15) SIMs + 5GSA capable devices with first 24 hours
+% of R10/R15 SIM swaps executed without fault
+% take-up of SIM Swap campaigns
+First
+30
+day complaints rate among swapped PAYG customers
+Availability of 5GSA specific diagnostic tools for first
+‑
+line support
+% of active PAYG customers with access to 5GSA
+What is the approximate revenue uplift / cost saving from this?
+Scenario Assumptions
+​
+Expected Benefit (000’s) / Frequency
+​
+Revenue benefit after 
+CoS
+: £3,484,919
+​
+​
+Assumes that 100% of the eligible PAYG base (743,645 customers, or 59.14% of the total base) will migrate to 5G Standalone by December 2030.
+​
+​
+Assume a 2% reduction in churn. This churn benefit is then multiplied by the segment ARPU of £9.40
+​
+2027 £109,980
+​
+2028 £692,310
+​
+2029 £1,194,117
+​
+2030 £1,488,512
+​
+Key assumptions
+. 
+Are there any critical assumptions that support your timing or business case?
+PAYG ecosystem has completed migration to 360 and CCS platforms
+. 
+Due to requiring very similar requirements/capabilities and involving common teams 
+Consumer PAYG
+ enablement project and giffgaff 5GSA projects 
+should
+ be aligned, with clear commercial, operational and technical RACI and funding
+.
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+All 
+current and future 
+PAYG tariffs 
+are 
+provisioned for 5G SA by default
+Y
+2
+R15 
+(5GSA capable) 
+SIMs issued for all PAYG acquisitions and swaps
+Y
+3
+Existing PAYG Customers 
+with R10 SIM 
+must be given c
+lear
+, 
+simple 
+self-serve
+ routes to convert to R15 eSIM
+Y
+4
+Complete PAYG-specific R15 
+p
+SIM/eSIM configuration and validation
+Y
+5
+Carrier Bundle Updates – Ensure PAYG devices receive required 5G SA configs
+Y
+6
+PAYG 
+Supply chain and 
+CTO and CIO service activation must support R15 SIM and 5GSA
+Y
+7
+=
+8
+9
+10
+What are your
+ reporting 
+or 
+self-serve analytics (data democ
+.
+) requirements
+?
+Dashboards should measure 
+(amongst other things)
+% of active PAYG base with 5GSA capability enabled 
+Uptake of R10-R15 sim swap
+Y
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+Entire PAYG Base
+Response times or availability
+No change to normal service activation times for e.g. new and upgrade orders
+Self-serve
+ e.g. SIM Swap processes should always be available except for system updates
+, and completed without errors within 10 minutes
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+N/a
+Any legal or regulatory compliance requirements?
+Conversion of the 
+prepay base to 5GSA is likely to contribute to improved OFCOM network performance scores.
+Are there any Fraud 
+requirement
+s?
+Service activation and SIM Swap processes must be designed to prevent / not enable fraud
+Auditability requirements
+n/a
+Accessibility 
+/ vulnerable customer 
+requirements
+The journey must 
+support vulnerable customers
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Say if you believe an operational department will be impacted by implementing this idea
+.
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Y
+Surfacing and execution of Sales, and SIM swap journeys
+Retail stores
+Y
+In terms of the type of PAYG SIM issued, and sales/product support collateral describing 5G+
+Care and Retentions
+Y
+Supporting 5G+ information, sim swap journeys etc
+Commercial & go to market
+Product & Proposition management
+Y
+Incorporate 5GSA
+Marketing & Sales
+Y
+Campaigns, messaging
+ etc
+Shop & Basket (buy/upgrade journeys)
+Y
+In terms of the type of PAYG SIM issued, and sales/product support collateral describing 5G+
+Order fulfilment & service changes
+Order & fulfilment
+Y
+Buying, upgrading, order tracking
+Service activation & configuration
+Y
+Provisioning, activation, defaults, service setup
+Supply Chain & Logistics
+Y
+Device/SIM delivery & returns
+Field operations
+N
+Run and assure services
+Network services (mobile, fixed, TV)
+Y
+5GSA services
+Faults, outages & service assurance
+Y
+Issue detection, restoration, customer communications 
+Service operations & support teams
+Y
+Operational processes, monitoring, incident handling 
+Money, account and trust
+Billing, payments & customer finance
+Y
+Customers should be charged accurately when using 5GSA
+ 
+Customer accounts, identity and permissions
+N
+Assume no impacts
+ 
+Other
+Wholesale services & support
+N
+n/a
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Insert link here.
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+Insert link here.
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

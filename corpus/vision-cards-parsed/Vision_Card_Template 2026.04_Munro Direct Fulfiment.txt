@@ -1,0 +1,548 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Initiative 
+Title
+Munro: 
+Direct Fulfillment
+Business 
+O
+utcome
+ (and Value)
+1.1 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your 
+business
+-
+unit
+ 
+Primary (SMART) 
+Business 
+Outcome 
+Enable 
+a 
+single 
+customer 
+self-install 
+service 
+across all Munro Network technology types
+ for 
+Q
+1 2027 CVP
+Reduce overall 
+truck requirements by enabling direct fulfillment of
+ CPE and other 
+consumables 
+to the customer in-life
+ (New and faulty swaps)
+Utilisation
+ of the Retail estate and 
+Collect
++ 
+to further enhance the courier 
+direct to customer 
+network 
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Change and 
+Enable
+In which
+ business metric?
+NPS, Customer retention, 
+Employee onboarding time
+For which
+ specific stakeholder or business user?
+ 
+(
+Primary outcome beneficiary
+)
+Munro BB Solus, FMC & TV
+ customers
+ 
+By 
+how much
+?
+ 
+(
+Quantity
+ or percentage
+ is required
+)
+Unknown
+What is the current 
+value for this business metric?
+Unknown
+Improvement must happen 
+w
+ithin what timeframe?
+Technical / Business readiness 
+Q
+1 2027
+What strategic 
+outcome
+ does this support
+? 
+Munro
+ 
+CVP
+1.2 Value case
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Munro B
+usiness Case
+ / 3Y
+P
+BC Ref- TBC
+What is the approximate revenue uplift / cost saving from this?
+Unknown: Required to enable strategic 
+delivery
+Leading indicator
+s
+ (predictor of successful execution). 
+Suggest (if you know) what metric
+s
+ will measure successful execution of 
+this change.
+Available to support 
+one service model across all 
+Munro 
+technology types from 
+H1 2027
+ 
+Key assumptions. 
+Are there any critical 
+business 
+assumptions
+?
+ 
+FMC to also consider SIM and Handset
+Customer and Experience Outcomes
+2.1 Customer Problem
+ (Evidence based)
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+New and existing
+ Munro
+ 
+FMC, BB Solus and
+/or
+ TV 
+customers
+What customer need or problem is this proposal addressing
+?
+Removal of need to be present for appointed visits
+Single method of Install available across all Munro Technology types
+Equipment available through Retail / Collect+ 
+What is happening today?
+Describe what the primary customer (or colleague) experiences today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+CPE for New Installs and in-life connectivity management only available through appointed visits
+ (Trucks)
+H
+ow do we know it matters to the customer?
+Required to support strategic 
+network changes in H1 2027. Without it we cannot service 
+all of
+ the available footprint without additional comple
+xity and customer inconvenience.
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+Without Direct fulfilment enabled we cannot service 
+all of
+ the available footprint without additional complexity
+, cost
+ and customer inconvenienc
+e in 2027.
+2.2 Customer Experience Outcome (Future state)
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+Simplicity 
+ac
+ross installation 
+journey’s
+ and in-life self-service
+How does this differ from the current state?
+Required to be present for engineer visits 
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Simple self-installation with clear digital instructions and help available. 
+Either delivered directly to the 
+customers
+ 
+premise
+ or a local 
+pick up
+ point.
+Self-guided in-life help 
+available
+ through Munro D
+igital Front-end
+ channels 
+leading to a direct fulfillment option for additional or replacement equipment
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+No
+2.
+3
+ Journey 
+context
+Which channels
+ and 
+processes are in scope? 
+Digital, MyO2, Retail, Field Sales
+. Also supported through Web Chat
+, 
+Telesales
+ (Inbound/Outbound)
+Which product
+s or services 
+are 
+in scope
+?
+All Munro Products
+/Services requiring equipment
+Delivery Outcomes
+3.1 
+Capability outcomes
+What capabilities must exist to deliver the outcome?
+ 
+Describe the key capabilities needed (not features)
+.
+ 
+If your proposal is on behalf of an external party such as 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support 
+this third party.
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Capability
+MVP*
+1
+Identification of the appropriate new-in
+s
+tall
+ / Movers
+ orders eli
+gible for Direct 
+fulfilment
+ 
+Y
+2
+Choice of Delivery / collection options surfaced (i.e. Courier service to home, O2 Store, Collect+)
+Y
+3
+In-life BB faults and XSUS journeys also enabled for Direct fulfillment where equipment is required
+Y
+4
+Direct Fulfillment of service swap equipment (faulty replacements)
+Y
+5
+Direct Fulfillment of Munro consumables (i.e. Ethernet cables, PSU’s)
+Y
+6
+O2 Store inventory of non-serialised Munro consumables (
+i.e. Ethernet cables, PSU’s)
+Y
+7
+Supply Chain Inventory and operational management requirements 
+Y
+8
+Bespoke packaging (including returns where applicable)
+Y
+9
+Optional charging mechanism for manned installations if selected where a Direct Fulfilment option is also presented
+Y
+10
+Digital 
+enablement for 
+WiFi
+ 
+walk
+ and new Direct Fulfillment options across applicable journeys
+Y
+Reporting or analytics capabilities
+(To be scoped in full)
+Must include Asset tracking
+ and Finance requirements 
+Y
+3.2 Delivery 
+S
+uccess 
+M
+etrics
+. How will delivery be measured?
+Type
+Metric
+Time to Market
+Munro CVP 
+Q
+1 2027
+Quality target
+Munro Service experience
+Adoption target
+To align
+ with Technology type capabilities (Tbc)
+Other (Specify)
+3.3 Service and Quality Requirements (NFRs)
+What Volumes of customers or transactions 
+must the delivery support
+?
+New and existing Munro base
+3YP 
+Performance
+Response times or availability
+In alignment to 
+Munro service SLA’s
+Security or privacy
+If unsure, select ‘unknown’
+Unknown
+Compliance 
+Any legal or regulatory compliance requirements?
+Unknown
+Fraud prevention
+How must 
+we
+ prevent fraud?
+As per 
+Asset tracking/Fraud prevention requirements 
+Auditability
+Asset tracking requirements (Supply Chain / Finance)
+Accessibility 
+/ vulnerable customer 
+requirements
+The 
+journey
+’s
+ must 
+support vulnerable customers
+3.
+4
+ 
+Delivery Scope & Impact
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Y
+Identification and 
+journey completion for CPE requirements 
+eligible for Direct Fulfilment 
+Retail stores
+Y
+TBC – C
+PE collection point / Consumables in inventory
+Care and Retentions
+Y
+Contacts, case handling, scripts, troubleshooting, retention actions
+Commercial & go to market
+Product & Proposition management
+Y
+eligibility rules, pricing, 
+service alignment
+Marketing & Sales
+Y
+messa
+ging
+ 
+Shop & Basket (buy/upgrade journeys)
+Y
+Basket logic, eligibility, offers, cross
+sell, checkout 
+Order fulfilment & service changes
+Order & fulfilment
+Y
+Buying, upgrading, moving, cancelling, order tracking
+Service activation & configuration
+Y
+Provisioning, activation, defaults, service setup
+Supply Chain & Logistics
+Y
+Device/SIM
+, CPE
+ delivery
+,
+ returns
+ and refurbishment
+Field operations
+Y
+Customer installs, repairs, visits, equipment delivery 
+where not available for Direct Fulfilment
+Run and assure services
+Network services (mobile, fixed, TV)
+Y
+Unknown (Supply Chain requirements)
+Faults, outages & service assurance
+Y
+customer communications 
+Service operations & support teams
+Y
+Operational processes, monitoring, incident handling 
+Money, account and trust
+Billing, payments & customer finance
+Y
+Charging, bills, payments, finance, refunds, insurance 
++ Any other unknown
+Customer accounts, identity and permissions
+Y
+Login, roles
+Other
+Wholesale services & support
+TBC – Network technology Technical Assessment 
+B2B Daisy Impact
+None
+3.
+5
+ 
+Constraints and Dependencies
+What constraints or non-negotiables must the future solution 
+respect
+?
+Unknown
+Is there anything explicitly out of scope?
+No
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Munro 
+footprint expansion
+ capability delivery
+3.
+5
+ 
+Delivery timing
+When do you want this to 
+go live?
+Commercial/Business readiness 
+Q
+1 2027
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Munro CVP
+ / footprint expansion readiness
+Supporting Information
+Has any solution assessment been done? 
+Include links to existing solution options, blueprints, etc. that may support T Shirt sizing  
+No
+Are there any 
+other 
+supporting documents or references 
+e.g. Links to 
+slides, customer personas etc.
+https://virginmediauk-my.sharepoint.com/personal/m7790242_virginmedia_co_uk/Documents/FT_PROD/DTC%20requirements%20matrix_MUNRO%200904.pptx?web=1
+Governance and Ownership
+Proposer
+Claire Moore
+S
+ponsor
+Simon Griffiths
+Person accountable for the business outcome
+Simon Griffiths
+Finance Business Partner
+(s) 
+Kiran Chana
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+TBC in progress
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+TBC
+Which business division will be funding this proposal?
+TBC
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+TBC In progress
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+TBC
+If known, when is this planned to attend Investment Committee?
+TBC
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+Courtney Mentore
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

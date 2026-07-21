@@ -1,0 +1,503 @@
+{
+  "pur": 425.52,
+  "source": "corpus/Wall of Reference - Calibrated Projects.xlsx",
+  "sheet": "Wall of Reference - TCS",
+  "generatedAt": "2026-07-21T14:09:03.687810+00:00",
+  "excludedFromCalibration": [
+    "data-ncc-phase-4",
+    "data-helix-datalake"
+  ],
+  "exclusionReason": "Infosys delivery / escalation discounts (\u00a73A)",
+  "rows": [
+    {
+      "id": "data-ccs-phase-2",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "CCS Phase 2",
+      "size": "Medium",
+      "scopeSummary": "The objective of the CCS (Convergent Charging System) Phase 2 project is that the UK Government regulation mandates the decommission of the Huawei Online Charging System (OCS) platform from the Virgin Media O2 (VMO2) network. To achieve Phase 2 of CCS, the project will: \n\u2022 Augment the initial CCS charging platform implementation to provide one combined charging system for VMO2 supporting all mobile subscribers. \n\u2022 Migrate all PAYM subscribers currently on OCS onto the CCS platform by November 2026 to enable OCS decommissioning from December 2026. \n\nFor the purposes of baselining, the TCS estimates only cover the activities from the period of 06 January 2026 to 31 March 2026 (Phase 2 of CCS). The scope of this work covers : \n1. Scope Item 1 : Requirement grooming and Data mapping document for CCS PH2 release \n2.  Scope Item 2: GCP Native Inbound Data Integration Delivery for CCS PH2 release \n3. Scope Item 3 : GCP Native Outbound Data Integration - ICD Documentation and Delivery for CCS PH2 release \n4. Scope Item 4 : System Integration Test (SIT)/End to End (E2E) Test Support for CCS PH2 release \n5. Scope Item 5 : Deployment and Early Life Data Support for CCS PH2 March release",
+      "pu": 1210.662048192771,
+      "estimatedCostGbp": 515160.91,
+      "actualCostGbp": 517970.4,
+      "variance": -0.005424026649036619,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 7: CCS Phase 2"
+      }
+    },
+    {
+      "id": "data-ofcom-net-act",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "OFCOM Provider Net Act Equivalent for 360 Customers",
+      "size": "Small",
+      "scopeSummary": "EDH will be creating a new feed OFCOM report where we will be using Netcracker 360 CDR data as source to populate values in this report. \nThere will be total 15 attributes in this report, and it will be a monthly report.",
+      "pu": 30.028799999999997,
+      "estimatedCostGbp": 12777.85,
+      "actualCostGbp": 13616.2,
+      "variance": -0.061569676121091196,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 8: OFCOM Provider Net Act Equivalent for 360 Customers"
+      }
+    },
+    {
+      "id": "data-helix-cmdb",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "O2 Helix CMDB Integration",
+      "size": "Small",
+      "scopeSummary": "The Qualys tool, specifically Strategic Qualys, is designed to automatically discover and categorize both known and unknown assets, including those within the internal network and those exposed to the internet. It continuously identifies unmanaged assets, offering real-time alerts on vulnerabilities, compromised devices, and network irregularities. Strategic Qualys has been chosen as the preferred tool for VMO2, replacing the previous \"O2 Qualys\" vulnerability solution, to provide ongoing, automated vulnerability detection across VMO2's hybrid infrastructure. This will encompass both VM and O2 assets, all managed within the same platform.\n\nThe goal of this integration is to connect the Strategic Configuration Management Database (CMDB) with Qualys, enabling a two-way data exchange for Configuration Items (CIs). This ensures that the data within Qualys remains accurate and aligned with the business inventory. By enhancing host data in Qualys, this integration will improve vulnerability management and enable a more effective response to security events that impact specific applications and hardware.",
+      "pu": 136.47095555555555,
+      "estimatedCostGbp": 58071.12,
+      "actualCostGbp": 60675.11,
+      "variance": -0.0429169224744711,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 9: O2 Helix CMDB Integration"
+      }
+    },
+    {
+      "id": "data-edh-fdp-dq",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "EDH FDP Data Quality Framework",
+      "size": "Small",
+      "scopeSummary": "The goal is to build a Data Quality batch execution pipeline for FDP using google native technologies.",
+      "pu": 172.638,
+      "estimatedCostGbp": 73460.92,
+      "actualCostGbp": 74418.0,
+      "variance": -0.012860843344352207,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 10: EDH FDP Data Quality Framework"
+      }
+    },
+    {
+      "id": "data-ace-landing-pad",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "ACE Landing PAD migration",
+      "size": "Large",
+      "scopeSummary": "Automated Commissions Engine (ACE) is a comprehensive system designed to handle the complete lifecycle of commission processing for the external partners; from transactional and reference data ingestion, data processing, commissions configuration and calculations, report generation and publishing for partners to access and partner query management. ACE is currently hosted in SAP cloud. It includes two servers:\n1. ACE Landing Pad - VMO2 data preprocessing application layer, built in a unix\nserver in SAP cloud on Oracle and Informatica Powercenter\n2. SAP Commission engine, which is an SAP product for commissions configuration \nand calculation. \nThe purpose of this IA is to perform the GCP environment (platform, infrastructure, connectivity) set up, low-level design of the platform migration and low-level design of the data migration for this work.",
+      "pu": 4693.300688888889,
+      "estimatedCostGbp": 1997093.31,
+      "actualCostGbp": 2041594.98,
+      "variance": -0.021797502100049125,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 11: ACE Landing PAD migration"
+      }
+    },
+    {
+      "id": "data-ncc-phase-4",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "NCC Phase 4 Del",
+      "size": "Small",
+      "scopeSummary": "This engagement is for the NCC Phase 4 Delivery :\n1) Geo-Place Development.\n2) Pre-enablement and other BRE template changes.\n3) ICOMS realtime Dev support.\n4) CR34 changes.\n5) Real-Time into GCP BQ.\n6) Real-Time into CSQL.\n7) POC on dynamic BRE change.",
+      "pu": 556.4246888888889,
+      "estimatedCostGbp": 236769.83,
+      "actualCostGbp": 144872.88,
+      "variance": 0.6343282028768944,
+      "excludeFromCalibration": true,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 12: NCC Phase 4 Del"
+      }
+    },
+    {
+      "id": "data-helix-datalake",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "Req for Data IA Helix Datalake",
+      "size": "Small",
+      "scopeSummary": "The requirement is to bring the data from Helix to GCP via STRIIM incremental batch reader in a near Realtime batch process.",
+      "pu": 492.06493333333333,
+      "estimatedCostGbp": 209383.47,
+      "actualCostGbp": 122937.33,
+      "variance": 0.703172424779357,
+      "excludeFromCalibration": true,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 13: Req for Data IA Helix Datalake"
+      }
+    },
+    {
+      "id": "data-cpe-inventory",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "Phase 2 CPE Inventory Project",
+      "size": "Small",
+      "scopeSummary": "Phase 1 has delivered the strategic platform for managing serially tracked CPE devices utilizing GCP platform. The goal of Phase 2 is to deliver :\n1. One time migration of SIFTER data to CIMS\n2. Creation of new feed for ILM and IMF feed from CIMS to ICOMS\n3. ATU file to CIMS\n4. CIMS data avilability into BQ for reporting",
+      "pu": 202.87924444444445,
+      "estimatedCostGbp": 86329.18,
+      "actualCostGbp": 83774.33,
+      "variance": 0.03049676548890327,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 14: Phase 2 CPE Inventory Project"
+      }
+    },
+    {
+      "id": "data-losing-provider",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "Losing Provider Logic",
+      "size": "Small",
+      "scopeSummary": "The GPLB Switching process will allow business customers to follow an industry-agreed GPLS process for the following Services:\n\u2022 Fixed Line Number\n\u2022 Broadband\nCustomers will provide the current Service Provider details at the point of sale and provide consent for services to be switched. The LP will confirm the impacts of switching directly to the Customer. The GP will process the switch request and any related number porting on behalf of Customers. This will enable customers to have quick, easy, and reliable switching.\nThis engagement is to provide data solution for the matching of customer data, services and provide necessary responses. This engagement is specific for SoHo and SoHo_A&P customer.",
+      "pu": 196.52664444444446,
+      "estimatedCostGbp": 83626.02,
+      "actualCostGbp": 79053.11,
+      "variance": 0.057846019517764656,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 15: Losing Provider Logic"
+      }
+    },
+    {
+      "id": "data-bulk-diagnostic",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "Bulk Diagnostic API",
+      "size": "Small",
+      "scopeSummary": "As part of wholesale programme, the goal is to enhance the existing L2 Single diagnostic engine to scope drop 2 business requirements and build new interfaces to support L2 bulk diagnostic engine.",
+      "pu": 106.9928,
+      "estimatedCostGbp": 45527.58,
+      "actualCostGbp": 46470.99,
+      "variance": -0.020301132900331965,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 16: Bulk Diagnostic API"
+      }
+    },
+    {
+      "id": "data-picasso",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "Picasso",
+      "size": "Small",
+      "scopeSummary": "Project Picasso is intended to deliver a refreshed set of fixed front book bundles in September 2025, the new front book should deliver improvements in choice and flexibility for customers whilst addressing some known challenges that we have today. The front book should be streamlining the range where possible, removing products that have low appeal and sales, addressing any illogical up-sell or cross-sell price steps and resolving the high ongoing bundle pricing that causes bill shock when offers end. There is a desire to include third-party SVOD content (primarily Netflix) with bundles if supported by a suitable commercial agreement, there is also a desire to sell value accretive add-ons (Bundles of content add on) to grow ARPU in the purchase journey. This will all be supported by a reimagining of the current Digital sales experience, to give the impression of modularity, flexibility and greater customer choice.\nBased on the Picasso requirement for Anaplan reporting, we need to include a new field in the fact tables to derive the SKY UHD movements in the fact Coc tables, along with the corresponding start and end values in the fact_wfr tables.",
+      "pu": 113.09400000000001,
+      "estimatedCostGbp": 48123.76,
+      "actualCostGbp": 48837.98,
+      "variance": -0.014624296909904995,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 17: Picasso"
+      }
+    },
+    {
+      "id": "data-augustus-bill-ops",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "Augustus Bill Ops",
+      "size": "Small",
+      "scopeSummary": "The purpose is to deliver the following : \n1. Create a new table in CDH project to load the comparison report - ICOMS_SERVICE_REQUIREMENT_COMPARISON with 2 years retention.\n2. Create 2 new views (one for latest records based on load_Date and one with history data) for users ICOMS_SERVICE_REQUIREMENT_COMPARISON_V1 ICOMS_SERVICE_REQUIREMENT_COMPARISON_LATEST\n3. Create a new Abinitio ETL to load the comparison data on daily basis as append in to the table.\n4. Complete Unit Testing and deployment.\n5. Provide Warranty Support.",
+      "pu": 30.27031111111111,
+      "estimatedCostGbp": 12880.62,
+      "actualCostGbp": 13703.04,
+      "variance": -0.0600171360515624,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 18: Augustus Bill Ops"
+      }
+    },
+    {
+      "id": "data-apollo-fraud",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "Apollo as an AO FRAUD reporting",
+      "size": "Small",
+      "scopeSummary": "A data requirement to generate daily a fraud report for VM Fraud Manager which should include all the previous day orders where new customer has ordered 3 or more STBs and customer status is 'untraced' i.e., customer having credit score as 8, 9 ,10 Or credit band E,F,G to identify potential 'Fraud Orders'.",
+      "pu": 23.8412,
+      "estimatedCostGbp": 10144.91,
+      "actualCostGbp": 8455.3,
+      "variance": 0.1998282052677019,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 19: Apollo as an AO FRAUD reporting"
+      }
+    },
+    {
+      "id": "data-edh-gcp",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "EDH > GCP",
+      "size": "Large",
+      "scopeSummary": "VMO2\u2019s Enterprise Data Hub (EDH) is a centralised, unified data platform which provides business critical data across VMO2\u2019s organisation. Originally EDH was built as an on-premise solution hosted on Cloudera Data Platform but has recently been migrated onto Cloudera Data Platform (CDP) hosted on Google Cloud Platform (GCP) in a \u2018lift and shift\u2019 migration onto virtual machines. This migration has allowed VMO2 to move to the Cloud quickly and decouple from licensing and hardware constraints present with the previous on-premise solution. However, this has come at the cost of an architecture which involves higher operational costs than if EDH was built on GCP native technology.\nTherefore, VMO2 has decided to migrate EDH on CDP GCP to GCP cloud native to fully realise the cost benefits of a cloud native solution and to align the EDH\u2019s end state infrastructure with VMO2\u2019s strategic technology vision for 2024 and beyond.",
+      "pu": 9792.8365,
+      "estimatedCostGbp": 4167047.79,
+      "actualCostGbp": 3650000.0,
+      "variance": 0.14165692807671218,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 20: EDH > GCP"
+      }
+    },
+    {
+      "id": "data-netpulse-gcp",
+      "lot": "Data",
+      "domain": "Data Management",
+      "project": "Netpulse > GCP",
+      "size": "Large",
+      "scopeSummary": "The Netpulse is a Cloudera Hadoop based Bigdata and analytics platform which enables the business to collect, store and analyze a vast amount of complex data from varied sources of mobile network elements that are internal and external to VMO2. The platform helps the business gain critical insights into the overall customer experience, usage patterns and quality of services provided by the business to its customer base.\n\nNetpulse is a large on-premises Hadoop based platform running business critical data warehouse and analytics capabilities in the former O2 network domain. The insights provided by the platform are increasingly playing a critical role in strategic decision-making across the organization; therefore, any occurrence of service disruption have the potential to impact the quality and delivery timelines of critical business operations and projects.\n\nAs it stands, the platform stores up to 6 Petabytes of data in Hadoop cluster, available for analytics using Hive, Spark, Python, and native Hadoop libraries. The platform ingests more than 10 Terabytes of source data feeds on daily basis and processes billions of transactions from Network, CRM, and other external sources per day. \n \nThe Netpulse Hadoop cluster provides cumulative compute capacity of 6480 CPU Cores and 45 TB Memory space in production environment and 684 CPU Cores and 4.9 TB Memory space in Testbed environment.\n\nNetpulse ingestion layer is built using three different solutions, \n1. Cardinality solution distributed across 80+ physical servers in production and 20+ physical servers in testbed. \n2. HDF platform (NiFi) with 896 CPU cores in production and 264 CPU cores in Testbed.\n3. Unix script-based ingestion.\n\nDue to increasingly wider adaption of the platform for varying use cases across the business, its footprint and complexity has significantly grown over time, making the task of maintaining the resilience and operational standards incredibly challenging without causing disruption or degradation to its core services.\n\nWhile Netpulse platform provides the capability to monitor many metrics, it is not a simple monitoring tool. By integrating many disparate data sources & applying complex analytics, it delivers predictive capabilities and tools replacing outdated methods of collecting and analyzing data (e.g., the VDT can replace traditional drive testing). Netpulse is the only tool across VMO2 that pulls data from enough sources to create a true picture of performance at both a network and, importantly, at a customer (MSISDN) level. Through Netpulse analytics, the radio team can identify cells of concern and focus efforts in those areas to provide quick wins and noticeable improvements in network quality for VMO2 customers. In short, Netpulse generates predictive models (e.g., NCX predictor) to drive customer satisfaction through targeted network improvements and enhanced customer service.\n\nTherefore, Netpulse is a key platform for VMO2 data analytics strategy to refine and enhance VMO2 products including predictive analytics. Netpulse will play a key role in improving VMO2 customers satisfaction journey. Hence, we intend to migrate Netpulse into GCP to increase flexibility & scalability, achieve simplified management & monitoring, adapt innovative technologies, elastic approach and optimize costs.",
+      "pu": 9504.0,
+      "estimatedCostGbp": 4044142.08,
+      "actualCostGbp": 3704930.0,
+      "variance": 0.0915569470948168,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 21: Netpulse > GCP"
+      }
+    },
+    {
+      "id": "consumer-myo2",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "My O2 Mobile App Rebuild",
+      "size": "Large",
+      "scopeSummary": "Release of MyO2 app built on App Factory. App Factory is a single app code base. The aim of App Factory was to resolve this with core code shared across the apps, reducing the need to duplicate integration with Identity, Communications, Orchestration, Analytics, Chat, and other key SDKs.\nMyO2 app is currently built on Novum. We want to rebuild the app as React Native (App Factory) and bring the development in-house.\n\nTo rebuild the MyO2 app using App Factory, leveraging an advanced tech stack aligned with VMO2's end-state architecture. This approach enables seamless integration of new features and enhancements powered by Engine, ensuring a future-ready, robust, and scalable app experience for our customers.",
+      "pu": 3018.75,
+      "estimatedCostGbp": 1284538.5,
+      "actualCostGbp": 1376000.0,
+      "variance": -0.06646911337209302,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 22: My O2 Mobile App Rebuild"
+      }
+    },
+    {
+      "id": "consumer-retainx",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "RetainX",
+      "size": "Medium",
+      "scopeSummary": "The RetainX project is a Next.js web application developed by ILOR to calculate or configure O2 mobile deals (likely SIM-only, device, or bundle offers).\nThe purpose is to create a frontend app for deal configuration or calculation, tightly integrated with internal VMO2 libraries (@virginmediao2/*) and powered by a headless CMS (Storyblok) for dynamic content.",
+      "pu": 4162.86,
+      "estimatedCostGbp": 1771380.19,
+      "actualCostGbp": 1909200.0,
+      "variance": -0.0721872055311126,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 23: RetainX"
+      }
+    },
+    {
+      "id": "consumer-payg-transformation",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "PayG Transformation",
+      "size": "Medium",
+      "scopeSummary": "This project focuses on the development of a new Pay As You Go (PayG) Transformation Web Application, built using NextJS. The application will encompass a comprehensive suite of customer journeys, including Home Page, Top-up, Payment Method management, SIM ordering and replacement, Bolt Ons, managing personal details, registration and sign-in, joining and leaving O2, tariff management, unblocking/unlocking services, document access, and contact preferences.\n\nThe project involves the creation of 35-40 dynamic web pages, implementation of 100 analytics tags, and integration with numerous third-party systems such as Experian & GCP, Autopopup Portal, Rolling Plan Portal, O2 Rewards, Blackhawk, CCS, MiPay, CPS, Real Digital, and O2 Identity. Technical components include Google Analytics and Braze SDKs, 47 API developments and orchestrations, Dynatrace for monitoring and alerting, and CDO APIgee and Microservices for DFE PAYG. The scope covers end-to-end delivery from requirement gathering through to warranty support, including comprehensive functional, performance, security, and API testing, alongside test data creation.",
+      "pu": 3253.0,
+      "estimatedCostGbp": 1384216.56,
+      "actualCostGbp": 1644320.0,
+      "variance": -0.15818298141480974,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 24: PayG Transformation"
+      }
+    },
+    {
+      "id": "consumer-payg-comms",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "PayG Communication",
+      "size": "Medium",
+      "scopeSummary": "This project is dedicated to transforming Pay As You Go (PayG) customer communications. It involves the creation and management of 108 personalised communication templates across 43 canvases, delivered via Email, SMS, and Print channels. A key focus is on dynamic personalisation using existing data attributes and the creation of two new real-time audiences. The scope includes implementing 108 event-driven or scheduled communications, a bidirectional communication flow for Balance Enquiry, and comprehensive end-to-end delivery, testing, and post-go-live monitoring.",
+      "pu": 1836.0,
+      "estimatedCostGbp": 781254.72,
+      "actualCostGbp": 956376.56,
+      "variance": -0.18310971757521816,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 25: PayG Communication"
+      }
+    },
+    {
+      "id": "consumer-bss-comms",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "BSS Service Comms",
+      "size": "Medium",
+      "scopeSummary": "This project focuses on the implementation and management of Business Support System (BSS) service communications.\nThe project covers end-to-end delivery from requirement gathering to warranty support, including comprehensive functional, performance, security, and API testing. Post-go-live, there will be delivery and engagement monitoring, with feedback sent back to Netcracker and SOA for necessary changes. Basic analytics for delivery, open, and click-through rates will also be implemented.",
+      "pu": 1462.0,
+      "estimatedCostGbp": 622110.24,
+      "actualCostGbp": 573620.0,
+      "variance": 0.08453373313343326,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 26: BSS Service Comms"
+      }
+    },
+    {
+      "id": "consumer-o2-website",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "O2.co.uk Transformation",
+      "size": "Extra Large",
+      "scopeSummary": "The O2 Transformation project involves a migration from the legacy Netcracker 360 platform to a new technology stack utilising NextJS for static content and Angular. The project implements ElasticSearch for the upper funnel catalogue, which is populated by stock and pricing data from Netcracker (BSS) via daily CSV files. An MSA service is responsible for merging and processing this data, which is then consumed by the front end to display consolidated stock and pricing information.\n\nNetcracker\u2019s catalogue is out of scope. The digital sales catalogue will ensure products from Netcracker are integrated, with the upper funnel, basket logic, and checkout experience built as part of the transformation Order processing continues to be managed by Netcracker, including subsequent communications, handling, and fulfilment via the PAU process. The current MSA does not queue orders after they are sent from the order entry.\u200b There are no queues, such as dead letter or message queues, for orders.\u200b\nPerformance and accessibility testing is in scope and must meet AAA standards. Internal APIs retrieve data from systems like Netcracker, while external APIs are exposed to the front end to drive functionality.",
+      "pu": 16192.5,
+      "estimatedCostGbp": 6890232.6,
+      "actualCostGbp": 6960730.68,
+      "variance": -0.010127970765334992,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 27: O2.co.uk Transformation"
+      }
+    },
+    {
+      "id": "consumer-o2-marketing",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "O2 Marketing Transformation",
+      "size": "Extra Large",
+      "scopeSummary": "This project aims to transform O2's marketing capabilities by implementing and leveraging a new platform, primarily Braze, for 11-50 users (Campaign Managers, Merkle, Platform Engineering). The scope includes designing and building 17 event-based and data-triggered customer journeys across four channels (SMS, Email, MMS, Web Content Card). It involves significant data work, including 51-100 Data Landing Tables, creation of 20+ new audiences and integrating one Recommendation Engine with Braze. The project also covers front-end and API client-side SDK integration, handling three internal inbound events, creating 21-100 communication templates, and comprehensive testing for language, locale, analytics, and tagging.",
+      "pu": 11924.0,
+      "estimatedCostGbp": 5073900.48,
+      "actualCostGbp": 5264854.92,
+      "variance": -0.03626964812433908,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 28: O2 Marketing Transformation"
+      }
+    },
+    {
+      "id": "small-apigee",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "APIGee onboarding API",
+      "size": "Small",
+      "scopeSummary": "Onboard a new API for data diagnostics for consumption within the FE plus exposing Data Diagnostics from DATA within VPC (ingress, internal load balancer)  to MSA internally",
+      "pu": 6.0,
+      "estimatedCostGbp": 2553.12,
+      "actualCostGbp": 2500.0,
+      "variance": 0.021247999999999958,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 29: APIGee onboarding API"
+      }
+    },
+    {
+      "id": "small-10-pages",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "Migration of 10 content pages",
+      "size": "Small",
+      "scopeSummary": "As part of the CQ5 migration, VMO2 need to migrate legacy pages into the new stack. This did not include the rebuild of the pages, just the like for like movement.",
+      "pu": 18.0,
+      "estimatedCostGbp": 7659.36,
+      "actualCostGbp": 9000.0,
+      "variance": -0.14896000000000004,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 30: Migration of 10 content pages"
+      }
+    },
+    {
+      "id": "small-affirm",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "Affirm Onboarding",
+      "size": "Small",
+      "scopeSummary": "Affirm as part of the brokered finance",
+      "pu": 19.0,
+      "estimatedCostGbp": 8084.88,
+      "actualCostGbp": 9000.0,
+      "variance": -0.10168000000000009,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 31: Affirm Onboarding"
+      }
+    },
+    {
+      "id": "small-360-dfe-topup",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "Migration from a legacy page within 360 to DFE web page for top up",
+      "size": "Small",
+      "scopeSummary": "Page already exists, change the redirets for the  destination; updating proxy, perform QA and auto test and release",
+      "pu": 15.0,
+      "estimatedCostGbp": 6382.8,
+      "actualCostGbp": 8000.0,
+      "variance": -0.20215000000000008,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 32: Migration from a legacy page within 360 to DFE web page for top up"
+      }
+    },
+    {
+      "id": "small-recycle",
+      "lot": "Consumer",
+      "domain": "Consumer DFE",
+      "project": "Recycle Arnold",
+      "size": "Small",
+      "scopeSummary": "Onboard a new API exposed for recycle (Project Arnold)",
+      "pu": 22.0,
+      "estimatedCostGbp": 9361.44,
+      "actualCostGbp": 12000.0,
+      "variance": -0.2198800000000001,
+      "excludeFromCalibration": false,
+      "provenance": {
+        "ruleId": "wall-of-reference.xlsx",
+        "evidenceSpan": "TCS sheet row 33: Recycle Arnold"
+      }
+    }
+  ],
+  "smallChangePack": {
+    "items": [
+      {
+        "id": "small-apigee",
+        "pu": 6.0,
+        "costGbp": 2553.12
+      },
+      {
+        "id": "small-10-pages",
+        "pu": 18.0,
+        "costGbp": 7659.36
+      },
+      {
+        "id": "small-affirm",
+        "pu": 19.0,
+        "costGbp": 8084.88
+      },
+      {
+        "id": "small-360-dfe-topup",
+        "pu": 15.0,
+        "costGbp": 6382.8
+      },
+      {
+        "id": "small-recycle",
+        "pu": 22.0,
+        "costGbp": 9361.44
+      }
+    ],
+    "totalPu": 80.0,
+    "totalCostGbp": 34041.6
+  }
+}

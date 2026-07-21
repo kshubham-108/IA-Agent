@@ -1,0 +1,613 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+HLR to UDB Migration
+Primary (SMART) Outcome statement
+A significant number of customers remain on the legacy E/// HLR platforms. These customers were originally expected to be migrated through other projects that have since been discontinued. The E/// HLRs are now end of life, and while Core Engineering has secured an extension of vendor support until 2027, this deadline is fixed and cannot be extended further. In parallel, several major initiatives are underway within CIO to migrate customers from upstream legacy platforms, all of which must be completed by the end of 2026.
+The remaining HLR customer base broadly falls into four categories:
+Simple: No APN/MVR requirements and correctly provisioned SIMs.
+Dependent: Customers with private APNs, static IPs, or requiring IMS uplift.
+Complex: Legacy 2G services, bespoke APNs, and IoT use cases.
+High Risk: Public sector customers with resilience requirements.
+Successful migration will require close collaboration between CIO, CTO, and business owners to ensure data consistency and effective customer management alongside the technical transition.
+All consumer customers, Tesco Mobile, giffgaff, and Smart Metering have already been migrated to the Nokia UDB. As a result, much of the required design and technical capability to support the remaining migrations is expected to be already in place.
+ It should also be noted that there are already O2 Daisy/SMB customers that are on Nokia UDB today. 
+O2 Daisy
+ 
+and IOT
+ 
+are 
+currently migrating from DISE to an alternative platform, a programme that must be completed by the end of 2026. Our expectation is that this initiative will have addressed service and data cleansing activities, unless additional gaps are identified through the Nokia UDB migration. This should help to simplify the remaining migration activities.
+Additionally
+ for O2Daisy
+, since the launch of 5G SA, all new connections are provisioned onto DISE via a Capita-managed process. Under this new approach, the team is required to 
+assess whether customers should be placed on Nokia UDB or Ericsson, based on any legacy service requirements.
+Port-in requests follow a different process. These are automated on Nokia UDB, but fail where customers require legacy services that are not supported. When this occurs, Mark Harddine’s team must manually remove the customer from Nokia UDB and re-provision them onto Ericsson. This manual intervention introduces delays, increases operational effort, and results in a poor customer experience.
+ 
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Customers could potentially lose service is they are not migrated off the Ericsson HLRS by the end of 2027
+ 
+In which
+ business metric?
+Customer first / Simplify / Fit for future​
+TSA compliance 
+CTO OKR
+ of 90% of customers on %GSA by the of 2027
+Regulatory 
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+5.5m
+ – Wholesale Mobile Customers ( plus BUD also not yet resolved) need to be migrated from E/// HLR to Nokia UDB. 
+​
+SMB Wholesale: 
+818,428
+​
+O2 Daisy: 
+3,339,085
+​
+IOT: 
+Approx. 1m 
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+100% of customers must be migrated off HLRS onto Nokia UDB
+.
+What is the current value for this business metric?
+TSA compliance - 
+Risk removed from operating on legacy solution 
+​
+Regulatory - 
+Customer ability to access services such as 5G SA 
+​
+Data alignment across architectures 
+​
+Removal of legacy products 
+Within what timeframe?
+By the end of 2027 – cannot exceed that date. 
+What strategic outcome does this support? 
+Fit for the future – removes all legacy services
+ 
+Customer first - 
+Customers enabled to use 5GSA – CTO OKR 90% of customers using 5GSA
+ – improved porting customer experience 
+Simplify 
+–
+ 
+paying for 2 core networks – Nokia UDB and HLRs, this will OPEX cost and simply architecture. 
+Stakeholders
+Proposer
+Emma Caldwell 
+S
+ponsor
+Paul O’ Sullivan / Jakki Kirby/ Jorge Ribeiro
+Person accountable for the business outcome
+TBC
+Finance Business Partner
+(s) 
+TBC
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+Architects 
+Tony Fear, Zoran Spasojevic (Ana Fernandes)
+ 
+Jonathan Mays
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+HLR to UDB
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+TBC
+Which business division will be funding this proposal?
+CTO/CIO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Wholesale 
+Mobile
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+31/03/2026
+If known, when is this planned to attend Investment Committee?
+Not known
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Highly dependent on CIO activity to migrate B2B and Wholesale bases away from DISE by end of 2026. 
+​
+Dependent on business ownership for the customer cohorts – O2D / Wholesale to manage customer comms and ensure actions meet contractual commitments . 
+​
+Is this an NDA’d project? If so, who is the NDA contact?
+N/a
+For admin use only
+Date received by 
+Business Engagement and 
+Mobilisation
+ (BEM) team
+21/10/25
+Vision has been reviewed with key architects / ESA domain owners?
+Y/N
+Date approved for platform assessment by BEM
+DD/MM/YY
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+Wholesale Customers 
+VMO2 
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+Wholesale mobile services
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+   
+ 
+ 
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+We have some
+ of these Wholesale
+ customers already on Nokia UDB who can get access to services like 
+5GSA
+ and some still stuck on the legacy HLR platform
+ who are unable to use it. 
+Additionally, since the launch of 5G SA, all new connections are provisioned onto DISE via a Capita-managed process. Under this new approach, the team is required to assess whether customers should be placed on Nokia UDB or Ericsson, based on any legacy service requirements.
+Port-in requests follow a different process. These are automated on Nokia UDB, but fail where customers require legacy services that are not supported. When this occurs, Mark Harddine’s team must manually remove the customer from Nokia UDB and re-provision them onto Ericsson. This manual intervention introduces delays, increases operational effort, and results in a poor customer experience.
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+As an organisation we are paying for 2 core networks. 
+Regulatory have confirmed we could come into some competition law issues as we are able to offer some customers within the same segment additional services like 5GSA
+Improved customer experience for vital new connections 
+(porting)
+TSA compliance 
+What must change
+?
+One line vision summary
+We must migrate all customers onto one Core network
+ to 
+reduce costs
+, 
+improve customer experience 
+and make them fit for the future
+How does this differ from the current state?
+we
+ pay for 2 core network services
+, which are provisioned via different routes
+.
+Unaligned service offerings between customers
+Bad experience 
+for
+ our new porting customers
+What
+ will success look like 
+for your primary beneficiary
+ 
+A simplified VMO2 architecture with reduced OPEX costs 
+Regulatory sign off as we 
+are able to
+ offer services across all customers within a certain segment. 
+Customers 
+happy
+ to receive additional services 
+Opportunities to onward 
+sell
+ more products to wholesale partners
+Better customer experience 
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+Product 
+or experience 
+developments will ideally have a Customer Journey
+ example
+:
+ 
+What constraints or non-negotiables must the future solution 
+respect
+?
+Regulatory have advised we must be able to offer customers within the same segments the same services or 
+will could
+ potentially have issues. 
+TSA 
+compliance 
+Is there anything explicitly out of scope?
+All other custom
+ers who have been migrated 
+When do you want this to 
+go live?
+Ideally migrations to take place Q12027 but the deadline date is Dec 2027
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing
+.
+There is no further support on the HLRS which could impact customer services 
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+R
+unning costs
+ for Ericsson HLR are estimated at 
+£1,2M CAPEX a year paying for license fees and software upgrades, as well as £977k OPEX a year to keep it going under reduced extended support. 
+We have had to pay this for an additional 3 years due to customers still not moved onto Nokia UDB. 
+Customer loss as can not access standard services. 
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+100% of customers migrated off HLRs and that contract terminated. 
+ 
+What is the approximate revenue uplift / cost saving from this?
+This isn’t a cost saving request, this is about an EOL platform where we need to migrate customers off. 
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+Funding for initial discovery will be covered by CIO / CTO to work out what projects are required. (agreed with JR & JK ) .
+​
+That migrations from DISE to UDB compatible platforms will complete 
+pre end
+ 2026.
+​
+That where customer cohorts are still on DISE HLR to UDB migrations of existing customers will take place post DISE migration activity ( to be ratified) 
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+We must ensure 
+all 
+customers with private APNs, static IPs, or requiring IMS uplift, bespoke APNs,
+ 
+IoT use cases
+ and public sector services 
+but 
+not limited to these
+,
+ are able to migrate over to Nokia UDB
+2
+We must ensure
+ that all migrations programs are 
+taken into consideration
+ and planned effectively
+3
+We must plan 
+and implement 
+the most
+ efficient
+ migration
+ 
+strategy
+ to 
+enable a seamless customer impact
+ 
+but as
+ quickly as possible
+.
+ 
+4
+We must complete all migrations by 
+1
+st
+ Dec 
+2027
+ to avoid 
+change freeze
+ and 
+allow for 
+EOY 
+E//
+/ 
+contract termination.
+5
+6
+7
+8
+9
+10
+What are your
+ reporting 
+or 
+self-serve analytics (data 
+democ
+.
+) requirements
+?
+n/a
+Y
+5.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+5.5m
+ – Wholesale Mobile Customers ( plus BUD also not yet resolved) need to be migrated from E/// HLR to Nokia UDB. 
+​
+SMB Wholesale: 
+818,428
+​
+O2 Daisy: 
+3,339,085
+​
+IOT: 
+Approx. 1m 
+We could migrate customers in Cohorts so the 
+transactions
+ would be reduced but that would need to be worked through 
+Response times or availability
+This needs to be done with minimal customer impact
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+TSA compliance 
+Any legal or regulatory compliance requirements?
+Regulatory have advised we must be able to offer customers within the same segments the same services or 
+will could
+ potentially have issues – so they will need to be informed of the timelines 
+Are there any Fraud 
+requirement
+s?
+No
+Auditability requirements
+No
+Accessibility 
+/ vulnerable customer 
+requirements
+Unknown
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Say if you believe an operational department will be impacted by implementing this idea
+.
+Operational area
+Impact
+?
+How
+CTO: 
+Will this requirement involve changes to the mobile or fixed network
+ or the services they deliver? 
+e.g
+.
+ 
+c
+onnectivity, coverage, messaging, et
+c.
+Y
+Mobile 
+Network
+s for migration activities
+Wholesale Mobile 
+Netcracker support 
+ABS support
+Will CIO or CTO operational teams need to change the way they support our services? 
+Y
+Simplify support moving to single core network. 
+ 
+Digital channels 
+or 
+App
+N
+no
+ 
+Commercial
+ and 
+Product teams
+Y
+Wholesale commercial Team 
+(customer facing impact)
+Marketing
+ and 
+Sales
+N
+No
+Shop
+ and 
+B
+asket
+N
+Retail stores
+N
+Care
+ and 
+Retentions
+N
+Billing
+, 
+Payments
+, Customer 
+Finance
+, 
+Insurance
+N
+Logistics
+, 
+supply chain
+ and field
+ operations
+N
+Other: (State)
+Wholesale partner leads O2D and SMB
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+ 
+ 
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+ 
+ 
+ 
+ 
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and 
+Mobilisation
+ (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

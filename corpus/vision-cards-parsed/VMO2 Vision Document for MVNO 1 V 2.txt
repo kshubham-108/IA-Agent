@@ -1,0 +1,286 @@
+Vision Document
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+Idea Name
+Project Chimera - Sky
+Sponsor 
+Daniele 
+ Torrigiani
+MVNO 
+Proposer / Owner
+Andrew Garrety
+Finance approver
+Sarah Hughes
+For admin use only
+ 
+Date received by Business Engagement and 
+Mobilisation
+ (BEM) team
+ 
+– shared via Business Forum 
+17
+t
+h 
+April 2026
+D/MM/YY
+ 
+Vision has been reviewed with key architects / ESA domain owners? 
+Y
+ 21
+st
+ April 2026
+Date approved for platform assessment by BEM 
+06/05/2026
+/
+Approvals & Document Control [Internal Delivery Team]
+Author
+Version
+Date
+Reason
+Andrew Garregty
+0.1
+First draft
+Andrew Garregy
+0.2
+5/05/2026
+Updates to Vision doc following initial review on the 21/4/2026
+Table of Contents
+1
+Problem / Opportunity Statement (Required)
+3
+2
+What is in scope of this idea? (Required)
+3
+3
+Out of current scope (possible future scope) [Required]
+3
+4
+Legal/Regulatory, Fraud, Security and environmental impacts
+4
+5
+Dependencies / Risks / Assumptions [Required]
+5
+6
+ASpirational timelines
+5
+7
+Key stakeholders and distribution
+6
+8
+Appendices
+6
+9
+Glossary
+7
+10
+   
+Attachments, References (optional)
+8
+Problem / Opportunity 
+Statement (
+Required)
+Background or context of the opportunity
+Chimera Brief
+Sky has embarked on the 
+Chimera programme
+, a major initiative to modernise its existing telco cloud environment that hosts key network functions supporting both fixed and mobile services. This programme represents a strategic shift toward a more scalable, resilient, and future
+ready architecture.
+There are two distinct elements to this, one is a set of ‘pre-work’ the other is the specific 
+work we need to do in support of Project Chimera and we would like to assess whether managing this as a single project is the correct way to operate this in order to get the efficiencies of a single project.
+In the first phase
+, Sky have note that their
+ Application Firewalls that cover SIGTRAN and Diameter connectivity have some complex configuration when it comes to the routing of UK SMS traffic which we would like to correct/optimise, this is due to Sky segregating UK MVNO traffic from UK MNO traffic. We currently send all MNO traffic to VMO2 for onward transit, but we are sending MVNO traffic via other routes, this makes configuration and signalling analysis configuration unnecessarily complicated. 
+We would like to request if it would be possible to also route this traffic to VMO2 as we do for MNOs, allowing VMO2 to transit this traffic via your existing routes, this is for SMS traffic only and is very low volume. The MVNOs in question are:
+Truphone
+TISMI
+Gamma
+Lycamobile
+Parateum
+Stour Marine
+Lebara
+Spitfire (under review)
+Business Outcomes
+Make VMO2 the single route for all SMS traffic (including MVNOs)
+Redirect MVNO SMS traffic through VMO2
+Remove the need for multiple routing paths
+Simplify configuration and troubleshooting
+The second element is that
+ Sky will extend its telco cloud footprint by introducing a new set of Appliance Network Functions (ANFs). 
+These ANFs will be deployed in the 
+lab environment during Q1–Q2
+, enabling validation, integration testing, and platform readiness activities.
+Following successful lab qualification, the programme will move into 
+production implementation starting in Q3 2026
+, establishing the foundation required ahead of phased 
+service migration
+ to the new platform.
+ANFs in scope
+UK Interconnect SBC (Mobile & Fixed)
+UK & 
+RoI
+ CMG (
+ePDG
+)
+UK & 
+RoI
+ CMG (Data & Voice)
+UK & 
+RoI
+ CMG (CPV)
+Additional questions asked of Sky to clarify the scope of the changes:
+1. Can you confirm exactly how many ANF (functions) Sky are planning to implement and what are the order/timings we should be considering in reference and moving into production?
+[SKY] Sky are 
+planning
+ to implement Fixed a& Mobile 
+iSBC
+ and UK UPF Data & Voice as ANF, starting with SBC in May followed by UPF Data / voice in June (lab).  
+                  
+2. Can you identify the software & hardware releases for each ANF, any interface impacts/changes and based on that we can provide the depth of the regression. 
+[Sky] No new interface as ANF will be deployed with similar functionality and expected software is 24. 7
+      
+    
+                                                                                                                                                                                                                                                                                                                                             
+Describe the problem or opportunity
+See above for initial project outline
+Business Objectives - what is the business trying to achieve?
+VMO2 to deliver and integrate new network functions and support migration to Sky’s new telco platform
+ Business Outcomes
+ANFs deployed according to agreed order  - ANFs (SPCs first, then Packet Gateways) are delivered in line with agreed sequencing and quality standards.
+Deliver build artefacts aligned to agreed design
+Continuity of service
+Ensure readiness for testing and integration
+Delivery supports contractual obligations with Sky while respecting commercial sensitivity.
+What should happen in 
+future
+ if we address this opportunity?
+N/A
+What is in scope of this idea?
+ (Required)
+See above statement for initial understanding of the scope of this work, this will require a detailed IA in order to confirm the full scope
+Out of current scope (possible future scope)
+ 
+[Required]
+Are there any specific exclusions to the defined scope for the proposed project? If this is the first phase, a proof of concept or a minimum viable product some functionality, capabilities or journeys could be excluded.
+Day-to-day running of the network after delivery is not part of this project
+The MVNO traffic routing work 
+Out of Scope
+Future Scope (later phase Delivery)
+To be confirmed as stated above
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D1
+D2
+D3
+Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R1
+Risk that pre
+work governance decision delays Chimera mobilisation
+R2
+Risk of insufficient technical detail delaying Impact Assessments
+ 
+ 
+Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+Sky timelines (Q2 lab / Q3 prod) remain aspirational until IA completion
+A2
+No material interface changes from ANF deployments
+A3
+Sky-funded model remains valid across full scope
+A
+s
+pirational timelines
+[Please indicate Aspirational Commercial Launch Date (CLD) and drivers behind these timelines. Where individual scope lines have different aspirational CLDs please indicate this below.  
+These dates are only aspirational
+, until the project is mobilised & a full impact assessment has been completed, this date is not committed to.]
+Commercial Launch Date
+Scope
+Drivers
+ASAP  
+The Partner will be funding this change fully 
+Partner wants to start the base migrations.
+Sky wish to complete before the end of the year
+For information: Next steps
+  
+Pre-submission checks: An early conversation with your Business Engagement and 
+Mobilisation
+ (BEM) Partner is advisable.  They may suggest a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+  
+ 
+Submission: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team [Insert BEM team inbox here] 
+  
+ 
+Vision card review: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM partner may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+  
+ 
+T-Shirt Sizing: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+  
+ 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.
+  
+For information: Next steps
+  
+Pre-submission checks: An early conversation with your Business Engagement and 
+Mobilisation
+ (BEM) Partner is advisable.  They may suggest a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+  
+ 
+Submission: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team [Insert BEM team inbox here] 
+  
+ 
+Vision card review: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM partner may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+  
+ 
+T-Shirt Sizing: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+  
+ 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.
+  

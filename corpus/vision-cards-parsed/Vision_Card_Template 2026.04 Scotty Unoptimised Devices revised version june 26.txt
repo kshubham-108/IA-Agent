@@ -1,0 +1,500 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Initiative 
+Title
+O2 Satellite – 
+Unoptimised
+ Devices
+ (2.0)
+Business 
+O
+utcome
+ (and Value)
+1.1 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your 
+business
+-
+unit
+ 
+Primary (SMART) 
+Business 
+Outcome 
+Ensure customers can only use O2 Satellite with certified devices which are optimised for the satellite network, ensuring a consistent experience for all users and protecting the network.
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Identification of customers using 
+unoptimised
+ devices via terrestrial usage/account/device data, followed by customer comms workflow and automated bolt-on removal where no action is taken.
+In which
+ business metric?
+Volume of O2 Satellite customers using 
+unoptimised
+ devices, and the volume remediated through device change, voluntary bolt-on removal or automated bolt-on removal.
+For which
+ specific stakeholder or business user?
+ 
+(
+Primary outcome beneficiary
+)
+This primarily affects O2 Pay Monthly customers with the O2 Satellite bolt-on who are using, or may use, an 
+unoptimised
+ device.
+By 
+how much
+?
+ 
+(
+Quantity
+ or percentage
+ is required
+)
+Currently
+ we have limited means to restrict usage of 
+unoptimised
+ devices. It is likely volumes are 
+low
+ but they could be highly impactful to the network so need to be managed.
+What is the current 
+value for this business metric?
+Service quality and revenue protection, supporting the O2 Satellite business case by helping to protect customer experience and reduce the risk of 
+unoptimised
+ devices impacting the service.
+Improvement must happen 
+w
+ithin what timeframe?
+Q1 2027.
+What strategic 
+outcome
+ does this support
+? 
+New revenue driver and service quality protection, supporting the O2 Satellite proposition and future growth.
+1.2 Value case
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Y
+es
+What is the approximate revenue uplift / cost saving from this?
+Revenue and service quality protection. The change helps protect the O2 Satellite business case by reducing the risk of poor customer experience, complaints and network/service-quality impact caused by 
+unoptimised
+ devices.
+Leading indicator
+s
+ (predictor of successful execution). 
+Suggest (if you know) what metric
+s
+ will measure successful execution of this change.
+Volume of customers identified as using 
+unoptimised
+ devices.
+ 
+Volume of customers notified.
+ 
+Volume of customers moving to an optimised device.
+ 
+Volume of customers voluntarily removing the O2 Satellite bolt-on.
+ 
+Volume of automated bolt-on removals.
+ 
+Accuracy rate of device identification.
+ 
+Number of exceptions, false positives, complaints or appeals following notification or removal.
+Key assumptions. 
+Are there any critical 
+business 
+assumptions
+?
+ 
+Accurate and timely detection of the subscriber’s device is possible using available device data, including IMEI, software version, device model and device usage data.
+ 
+The existing CTO > GCP feed can support the required identification and batch process.
+ 
+Terrestrial usage within the VMO2 network is sufficient to identify impacted customers for this proposal.
+ 
+Data latency and accuracy are acceptable before any automated customer action is taken.
+ 
+Known sources of inaccuracy, including jailbroken devices and new-to-market devices, can be assessed and controlled through exception handling and data-quality checks.
+Customer and Experience Outcomes
+2.1 Customer Problem
+ (Evidence based)
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+O2 Pay Monthly customers who have the O2 Satellite bolt-on and are using, or may use, an 
+unoptimised
+ device.
+What customer need or problem is this proposal addressing
+?
+The proposal addresses the need to identify customers using 
+unoptimised
+ devices for O2 Satellite and manage them through a fair and controlled customer journey. This is required to protect customer experience, reduce the risk of poor service performance, and prevent 
+unoptimised
+ device behaviour from impacting the wider service.
+What is happening today?
+Describe what the primary customer (or colleague) experiences today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Today, 
+a customer could purchase O2 Satellite with an unsupported and 
+unoptimised
+ device.
+H
+ow do we know it matters to the customer?
+Customer has purchased a service 
+we do not fully support.
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+The opportunity is to proactively identify customers using 
+unoptimised
+ devices and manage them through clear comms and appropriate actions before their experience, or the wider service, is impacted. This also reduces the risk of customers continuing to pay for a bolt-on that may not be fully supported on their device.
+2.2 Customer Experience Outcome (Future state)
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+Customers using 
+unoptimised
+ devices are identified and notified, with a clear route to move to an 
+optimised
+ device or remove the O2 Satellite bolt-on before automated removal is applied.
+How does this differ from the current state?
+Currently 
+unsupported devices can also connect to O2 Satellite.
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Customers with unsupported or 
+unoptimised
+ devices will receive clear notification explaining that they need to move to an 
+optimised
+ device or remove the bolt-on. Customers will have a defined period to 
+take action
+ before the bolt-on is automatically removed. The process should feel clear, fair and transparent, with appropriate controls to avoid incorrect removal.
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+No mockups currently available. Proposed journey is identification, customer notification, customer action window, follow-up check, and automated bolt-on removal if no action is taken.
+2.
+3
+ Journey 
+context
+Which channels
+ and 
+processes are in scope? 
+Customer comms through SMS and email.
+ 
+Batch identification process using account, device usage and device model data.
+ 
+Customer notification and follow-up workflow.
+ 
+Automated job to remove the O2 Satellite bolt-on if no customer action is taken.
+ 
+Exception handling and reporting for uncertain or inaccurate device identification.
+Which product
+s or services 
+are 
+in scope
+?
+O2 Satellite bolt-on
+Delivery Outcomes
+3.1 
+Capability outcomes
+What capabilities must exist to deliver the outcome?
+ 
+Describe the key capabilities needed (not features)
+.
+ 
+If your proposal is on behalf of an external party such as 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support 
+this third party.
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Capability
+MVP*
+1
+Identification of customers using 
+unoptimised
+ devices
+Y
+2
+Real-time capability to identify whether the customer is using an 
+unoptimised
+ device, using the existing journey
+Y
+3
+Batch identification process using account data, device usage and device model
+Y
+4
+Customer comms to impacted customers advising them to move to an 
+optimised
+ device or remove the bolt-on
+Y
+5
+Follow-up process to identify whether the customer has switched to an 
+optimised
+ device or removed the bolt-on
+Y
+6
+Automated bolt-on removal process if no customer action is taken
+Y
+7
+Data quality, latency and exception handling controls before customer comms or bolt-on removal
+Y
+8
+Audit and reporting of identification, comms, customer action, automated removal and false-positive exceptions
+Y
+9
+10
+Reporting or analytics capabilities
+Reporting is required to monitor identified 
+unoptimised
+ devices, comms outcomes, customer actions, voluntary bolt-on removals, automated bolt-on removals, false positives and data accuracy.
+3.2 Delivery 
+S
+uccess 
+M
+etrics
+. How will delivery be measured?
+Type
+Metric
+Time to Market
+Target 
+Q1 2027
+Quality target
+Agreed accuracy threshold for IMEI/software-version/device-model-based identification before automated customer action is enabled. False-positive risk, data latency and data completeness must be understood and controlled before automated bolt-on removal is implemented.
+Adoption target
+N/A — this is a control and remediation process rather than a customer adoption journey.
+Other (Specify)
+Volume of automated removals completed correctly.
+Volume of exceptions, complaints or appeals following removal.
+Evidence that data quality controls are operating before automated removal.
+3.3 Service and Quality Requirements (NFRs)
+What Volumes of customers or transactions 
+must the delivery support
+?
+1
+00-1000 per month estimated to be unsupported
+Performance
+Response times or availability
+No additional requirements
+Security or privacy
+If unsure, select ‘unknown’
+Unknown
+Compliance 
+Any legal or regulatory compliance requirements?
+Must comply with applicable 
+Ofcom regulations
+Fraud prevention
+How must 
+we
+ prevent fraud?
+Unknown
+Auditability
+Unknown
+Accessibility 
+/ vulnerable customer 
+requirements
+Unknown
+3.
+4
+ 
+Delivery Scope & Impact
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+N
+No updates expected
+Retail stores
+Y
+Briefings
+Care and Retentions
+Y
+Briefings
+Commercial & go to market
+Product & Proposition management
+Y
+Awareness
+Marketing & Sales
+Y
+Awareness
+Shop & Basket (buy/upgrade journeys)
+N
+Order fulfilment & service changes
+Order & fulfilment
+N
+Service activation & configuration
+N
+Supply Chain & Logistics
+N
+Field operations
+N
+Run and assure services
+Network services (mobile, fixed, TV)
+N
+Faults, outages & service assurance
+N
+Service operations & support teams
+Y
+Awareness
+Money, account and trust
+Billing, payments & customer finance
+N
+Customer accounts, identity and permissions
+N
+Other
+Wholesale services & support
+Y
+Awareness
+B2B Daisy Impact
+Y
+Awareness
+3.
+5
+ 
+Constraints and Dependencies
+What constraints or non-negotiables must the future solution 
+respect
+?
+Regulatory compliance
+Is there anything explicitly out of scope?
+N/A
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+3.
+5
+ 
+Delivery timing
+When do you want this to 
+go live?
+Q1 2027
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Must be in place to protect O2 Satellite network before 
+v.high
+ volumes of customers are using service.
+Supporting Information
+Has any solution assessment been done? 
+Include links to existing solution options, blueprints, etc. that may support T Shirt sizing  
+Prior SA reviews
+Are there any 
+other 
+supporting documents or references 
+e.g. Links to slides, customer personas etc.
+Governance and Ownership
+Proposer
+Marcus Hamilton
+S
+ponsor
+Killian Faughnan
+Person accountable for the business outcome
+Marcus Hamilton
+Finance Business Partner
+(s) 
+James Vincent
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+HoD
+ Commercial Prog.
+Sam Sharp
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+Which business division will be funding this proposal?
+TBC,
+ likely CTO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+TBC
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+If known, when is this planned to attend Investment Committee?
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+N/A
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+DD/MM/YY
+Vision has been reviewed with key architects / ESA domain owners?
+Y/N
+Date approved for platform assessment by BEM
+DD/MM/YY
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

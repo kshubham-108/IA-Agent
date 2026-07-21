@@ -1,0 +1,700 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, 
+problem,
+ and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+g
+iffgaff 
+5G Standalone
+ Enablement
+Primary (SMART) Outcome statement
+Enable 
+giffgaff to give 5GSA by default to their customers
+ by 
+June
+ 2027 in order to 
+improve mobile experience, reduce churn, 
+network efficiency and feature parity across brands
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Enable
+ giffgaff to 
+provide 5GSA to their customer base
+In which
+ business metric?
+5GSA
+ by default
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+giffgaff customers
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+All
+What is the current 
+value for this business metric?
+0%
+ of giffgaff customers are enabled for 5GSA
+Within what timeframe?
+H1 2027
+What strategic 
+outcome
+ does this support
+? 
+Improve mobile data experience for giffgaff users, helping to reduce churn
+​
+Drive wider 5G SA adoption across the O2 network footprint
+​
+Support long-term network efficiency and feature parity across brands
+​
+Stakeholders
+Proposer
+Marcus Hamilton
+ (Jon Fawcett, Clare Bentley
+, Colin Woods
+)
+S
+ponsor
+Killian Faugh
+n
+an
+Person accountable for the business outcome
+Marc Tordoff
+Finance Business Partner
+(s) 
+Rita Patel
+, Charmee Gandhi
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+MVNO
+ service manager
+Phil 
+Downs
+5GSA Sunrise 
+Owner
+Marc Tordoff
+giffgaff Director Technical Partnerships and Delivery
+Colin Woods
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+TOP-
+745
+, 
+DMA-2026-TDP-03180
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+CO-2026-126
+Which business division will be funding this proposal?
+Consumer
+ commercial
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Consumer Demand Forum
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+3/2/26
+If known, when is this planned to attend Investment Committee?
+16/
+4
+/26
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Inbound: 
+TOP-746 
+SIM SWAP 
+Reliability
+ will deliver a series of improvements to the capability to seamlessly
+ (and without error)
+ swap customers from legacy to R15 (5GSA capable) SIM
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+no
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+February 2026
+Vision has been reviewed with key architects / ESA domain owners?
+Yes
+Date approved for platform assessment by BEM
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+giffgaff as a 
+MVNO
+ customer of VMO2
+, and therefore
+all 
+giffgaff’s
+ customers with a 5GSA capable device
+ 
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+All 
+giffgaff mobile connections
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+All VMO2 systems 
+and platforms involved in supporting the giffgaff mobile ecosystem
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+giffgaff 
+is
+ unable to offer their customers 5GSA 
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+Without this 
+giffgaff will fall behind other providers as one of the few MVNOs without 5G SA, which could lead to increased churn and a weaker customer proposition. 
+It also means 
+VMO2
+ miss out on the network efficiency gains that come with moving more users onto 5G SA.
+What must change
+?
+One line vision summary
+giffgaff 
+has a competitive customer proposition
+ and lower churn by being able to offer 5GSA
+How does this differ from the current state?
+E
+nable 5G Standalone (5G SA) for all giffgaff customers who have a compatible device and an R15 
+(5GSA capable) 
+SIM
+Enable giffgaff to 
+include 5GSA 
+in their product and customer lifecycle e.g. 
+range
+ 
+and supply 
+R15 SIM
+, activate
+, 
+support
+, charge
+ for services
+, 
+d
+evice testing and accreditation
+​
+ 
+etc
+.
+Enable giffgaff to seed R15 SIM in their base
+ through e.g. issue of R15 SIM to new connections and SIM Swap for existing customers
+What
+ will success look like 
+for your primary beneficiary
+ 
+New and upgrading 
+giffgaff 
+customers: 
+Signing up to 
+giffgaff
+ gives me access to 5G+ by default
+In-life 
+giffgaff
+ customers: Enabling 5G+ on my device was 
+simple and quick. I never lost service
+ throughout the journey.
+ 
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+Insert link here
+What constraints or non-negotiables must the future solution 
+respect
+?
+The solution must 
+prioritise
+ regulatory 
+and
+ 
+MVNO supply contract compliance and 
+customer trust over 
+other requirements
+Is there anything explicitly out of scope?
+In scope: 
+The 
+project 
+cost will cover system development and provisioning work, device testing and accreditation, integration and end-to-end testing, as well as shared core resource across giffgaff and VMO2. It also includes updates needed in the core network to support 5G SA for giffgaff customers.
+Out of scope: 
+Project cost estimate 
+for VMO2 
+is assumed to exclude the technical, operational
+ and commercial giffgaff costs of making this change.
+When do you want this to 
+go live?
+Commercial launch 
+H1 2027
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing
+.
+EC backed initiative to accelerate 5G adoption across O2 networ
+k
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes – reviewed 
+by 
+James Vincent
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+ 
+5G SA success for the MVNO is constrained first by the host operator’s network readiness, second by joint IT integration, and lastly by MVNO retail execution
+.
+Suggested lead indicators
+ require end to end alignment across VMO2 and giffgaff
+. Some suggested indicators for consideration 
+include
+: 
+Completion of regulatory/compliance checks (e.g. emergency services, lawful intercept) if required
+Completed, c
+orrect enforcement of 
+giffgaff
+specific policy in the network
+Complete
+d certification of 5GSA capabilities for giffgaff customers and traffic
+Completion of end
+‑
+to
+‑
+end 5GSA call flows verified with giffgaff IMS
+Completion of 5GSA compatible order journeys in 
+giffgaff
+ and 
+VMO2
+ IT systems
+% of 
+giffgaff 5GSA 
+service activation
+ flows successfully completing without manual intervention
+Billing mediation readiness for 
+giffgaff 
+5GSA traffic
+Alignment
+ between 
+MVNO
+ charging and giffgaff retail pricing
+Availability of 5GSA specific diagnostic tools for first
+‑
+line support
+% of active giffgaff device base certified for 5G SA
+% 
+giffgaff 
+SIM SKU tested and approved for 5GSA
+% of 
+giffgaff 
+SIM/
+eSIM
+ profiles provisioned with 
+5G
+SA
+ 
+compatible parameters
+Activation failure 
+rates on 
+giffgaff 
+5G
+SA (R15) SIMs 
++ 5GSA capable devices 
+with first 24 hours
+% of 
+giffgaff 
+SIM swaps completed without 
+fault
+First
+30
+day complaints rate among swapped 
+giffgaff 
+customers
+% of active giffgaff customers with access to 5GSA
+ 
+What is the approximate revenue uplift / cost saving from this?
+ 
+Key assumptions
+. 
+Are there any critical assumptions that support your timing or business case?
+Due to requiring very similar requirements/capabilities and involving common teams 
+Consumer PAYG
+ enablement project and giffgaff 5GSA projects 
+should
+ be aligned
+, with clear commercial, operational and technical RACI and funding
+. 
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope 
+for
+ VMO2 
+will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+A
+ll giffgaff customers with compatible devices should be able to access 5G SA as standard, with no additional steps or bolt-
+ons
+ required​
+Y
+2
+N
+ew SIMs and replacements must be R15 by default, so customers are automatically ready for 5G SA going forward​
+Y
+3
+T
+he experience should be seamless – customer should move to 5G SA in the background, with no disruption or manual provisioning​
+Y
+4
+Supported devices must be tested and certified so customers get a reliable experience when 5G SA is switched on​
+Y
+5
+Customers should be informed clearly (through app, web or comms) that their device now supports 5G SA and what the benefits are​
+Y
+6
+Support channels must be ready to explain 5G SA and assist with any related queries or issues​
+Y
+7
+giffgaff systems need to be able to 
+recognise
+ and manage 5G SA users, to ensure network and account 
+behaviours
+ are handled correctly​
+Y
+8
+9
+10
+What are your
+ reporting 
+or 
+self-serve analytics (data 
+democ
+.
+) requirements
+?
+Dashboards should measure 
+key indicators including e.g. 
+% of active 
+giffgaff
+ base with 
+access to 
+5GSA 
+% gross adds with 5GSA 
+capable 
+giffgaff 
+SIM/Device/Service
+ 
+Incremental 
+MVNO
+ revenue from 
+giffgaff 
+5GSA
+Network experience measures for 
+giffgaff 
+5GSA customers
+Volumes 
++ Types 
+of 
+giffgaff 
+5GSA related 
+incidents after BAU 
+standardisation
+% targeted 
+giffgaff 
+customer base successfully migrated
+Y
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+Approx 4.12m customers
+Response times or availability
+No adverse change to normal / contractual 
+MVNO
+ 
+service completion times
+ for e.g. service activation, sim swap, 
+fault management, 
+MVNO
+ charging mechanism etc
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+Unchanged
+Any legal or regulatory compliance requirements?
+Solution must comply with all relevant OFCOM and Home Office 
+regulations
+Are there any Fraud 
+requirement
+s?
+5GSA capabilities
+ must be designed to prevent / not enable fraud
+Auditability requirements
+Service auditability unchanged, but must 
+indicate where these are 5GSA specific
+Accessibility 
+/ vulnerable customer 
+requirements
+Must support vulnerable customers (
+although 
+assumes 
+no significant impact on/change to the current 
+MVNO
+ service
+ provided by VMO2
+)
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Say if you believe an operational department will be impacted by implementing this idea
+.
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Y
+giffgaff channels
+Retail stores
+N
+Care and Retentions
+Y
+G
+iffgaff
+ 
+c&r
+Commercial & go to market
+Product & Proposition management
+Y
+giffgaff
+Marketing & Sales
+Y
+giffgaff
+Shop & Basket (buy/upgrade journeys)
+Y
+giffgaff
+Order fulfilment & service changes
+Order & fulfilment
+Y
+Buying, upgrading, order tracking
+Service activation & configuration
+Y
+Provisioning, activation, defaults, service setup
+Supply Chain & Logistics
+Y
+giffgaff 
+Device/SIM delivery & returns
+. 
+Ranging of R15 SIM, testing of devices 
+etc
+Field operations
+N
+Run and assure services
+Network services (mobile, fixed, TV)
+Y
+5GSA services
+Faults, outages & service assurance
+Y
+Issue detection, restoration, customer communications 
+per giffgaff SLA
+Service operations & support teams
+Y
+Operational processes, monitoring, incident handling 
+per giffgaff SLA
+Money, account and trust
+Billing, payments & customer finance
+Y
+MVNO charging and alignment with giffgaff retail charging
+Customer accounts, identity and permissions
+N
+Assume no impacts
+ 
+Other
+Wholesale services & support
+Y
+Support of giffgaff
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Insert link here.
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+Insert link here.
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

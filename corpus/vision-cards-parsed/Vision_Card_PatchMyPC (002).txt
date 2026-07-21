@@ -1,0 +1,461 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+PatchMyPC
+ 
+Primary (SMART) Outcome statement
+By 
+en
+d of Q3
+, deliver an automated third‑party application patching capability integrated with Microsoft Configuration Manager (SCCM) and Intune, covering Windows
+ and
+ Mac
+ endpoints
+, so that third‑party apps are updated consistently and with minimal manual packaging effort, resulting in a measurable reduction in open endpoint vulnerabilities (baseline ~
+2
+57
+,000, largely driven by outdated third‑party applications) and improved patch compliance visibility/reporting to support ongoing Cyber Essentials Plus (CE+) compliance.
+What type of 
+state change/improvement must the project deliver
+?
+Improved security posture and reduction in open vulnerabilities.
+In which
+ business metric?
+Vulnerability reporting / Qualys vulnerability reports.
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+Enterprise wide applicable to all staff devices. Primary benefit to 
+S
+ecurity and 
+D
+WP as reduced security 
+vulnerabilities. Furthermore, ensure CE+ devices for VMBL are all patched ensuring we retain CE+ certification.
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+Conservative target of 50% reduction in vulnerabilities by end of Q4.
+What is the current 
+value for this business metric?
+Cyber Essentials + commitments/obligations and knock on impact to VMO2 B2B organisation 
+of 
+failing has an
+ associated revenue loss of £40m per year. 
+Within what timeframe?
+Q3 2026
+What strategic 
+outcome
+ does this support
+? 
+Compliance and
+ Aud
+it
+ Readiness 
+Stakeholders
+Proposer
+Ian Bowles
+S
+ponsor
+Stuart Seymour / Seza Nevzat / 
+Phil Wilshaw
+Person accountable for the business outcome
+Ian Bowles
+Finance Business Partner
+(s) 
+Matt Rigden / Beth Postle
+th
+waite 
+Role
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+DWPDE-4617
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+TBC 
+Which business division will be funding this proposal?
+CIO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Stuart Seymour / Phil Wilshaw
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+Feb 2026
+If known, when is this planned to attend Investment Committee?
+N/A
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Intune / SCCM integration readiness
+Network / firewall allow-listing for PatchMyPC
+Security approval (SBD)
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+Confidence and cost control
+Date received by 
+Business Engagement and 
+Mobilisation
+ (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+Who is impacted and what is broken today?
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Applicable to all colleagues who have an endpoint device.
+What customer need or problem is this proposal primarily addressing — and how do we know it matters to the customer?
+Ensures customer trust by having secure endpoints.
+Which product
+s or services 
+are 
+in scope
+?
+PatchMYPC
+ / SCCM / Intune
+Which channels, processes or (if known) systems are in scope? 
+Specify the channels, processes or systems involved today
+PatchMyPC
+ will sit on both blue and red SCCM instances, alongside a cloud version which ties into our Intune 
+instance for purple build devise.
+What is happening today?
+Describe what 
+the prim
+ary 
+customer 
+(or colleague) 
+experience
+s
+ today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Qualys is used for vulnerability management and reporting prov
+i
+ding detailed reports on endpoints. A 
+patching module has been procured but does not automatically patch 3
+rd
+ party applications, and previous attempts to patch 3
+rd
+ party browsers e.g. Chrome have failed. 
+As such on our endpoint estate we have ~257k vulnerabilities. The vast majority of these are third party applications- such as browsers – e.g. Chrome / Edge / Firefox, underlying software .NET / Java or utilities Notepad++ etc. 
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+These application vulnerabilities need to be remediated for VMBL users manually to ensure we remain Cyber Essentials+ compliant (by having an up-to-date and secure estate). 
+PatchMyPC
+ offers an automated (set and forget) auto update /
+patching functionality which means for third party applications we can automatically update and therefore increase our security posture.
+What must change
+?
+Vision
+ summary
+ 
+(desired outcome)
+. 
+In one line, what will be materially better for the customer 
+(or colleague) 
+if this succeeds?
+Devices will be up-to-date on the most secure/modern version of an application. 
+How does this differ from the current state?
+We have 257,000 vulnerabilities across ~21,000 endpoints.
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+A significant drop in the baseline numbers of vulnerabilities and an easier approach for CE+ Certification
+.
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+N/A
+What constraints or non-negotiables must the future solution 
+respect
+?
+N/A
+Is there anything explicitly out of scope?
+N/A
+When do you want this to 
+go live?
+Q2/Q3 2026
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+CE certification is November each year, changes to the scope means we can no longer select which devices are audited meaning we must ensure a complete 
+secure / patched / compliant estate prior to audit.
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+PatchMyPC
+ cost less than the Qualys module for patching so offers a 
+cost benefit. Currently the Qualys patching module
+ i
+s being tested for a proof of concept on servers
+Leading indicator (predictor of successful execution). 
+Suggest (if you know) what metric will measure successful execution of this change.
+Endpoint Vulnerability count.
+What is the approximate revenue uplift / cost saving from this?
+This is compliance driven and not linked to revenues.
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+DOAB approval for the 
+licence
+ cost (advised not due to go to IC due to lower cost and nature of 
+procurement.
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+Seamless integration with SCCM & Intune
+2
+Fully automated third
+party 
+application 
+patch deployment
+3
+R
+eduction in 
+manual 
+administrative overhead
+4
+Customization of deployment rules
+5
+Improved patch hygiene and security posture
+6
+Purpose
+built patch automation 
+7
+Ensures e
+vergreen compliance 
+8
+Clear and actionable reporting
+9
+Rollback capability
+10
+No negative device impact
+What are your
+ reporting 
+or 
+self-serve analytics (data 
+democ
+.
+) requirements
+?
+N/A
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+SBD approval
+6.2
+ 
+What parts of the business are likely to be impacted
+?
+This section helps us understand which parts of the organisation may be affected if this proposal goes ahead. You do not need technical knowledge — simply indicate where you believe there may be an impact. 
+If you are unsure, 
+p
+ick “Potential impact”. You are signalling where impact may exist, not committing to scope or design. This will be reviewed and refined during shaping and sizing
+.
+Operational area
+Impact
+?
+ 
+(Y/N/potential)
+How
+ might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+N
+Retail stores
+N
+Care and 
+R
+etentions
+Commercial
+ & go to market
+Product & Proposition management
+N
+Marketing & Sales
+N
+Shop & Basket (buy/upgrade journeys)
+N
+Order fulfilment & service changes
+Order
+ 
+&
+ 
+fulfilment
+N
+Service activation & configuration
+N
+Field operations
+N
+Run and assure services
+Network services (mobile, fixed, TV)
+N
+Faults, outages & service assurance
+N
+Service operations & support teams
+N
+Money, account and trust
+Billing, payments & customer finance
+N
+Customer accounts, identity and permissions
+N
+Other
+Wholesale services & support
+N
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Qualys tested. Proof of Concept being piloted with 
+P
+a
+tchMyPC
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and 
+Mobilisation
+ (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

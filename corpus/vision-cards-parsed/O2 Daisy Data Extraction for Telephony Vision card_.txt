@@ -1,0 +1,686 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+Data extract for Telephony customer identification -ID304
+What type of 
+state change/improvement must the project deliver
+?
+Reducing agent call handling times which in turn reduces 
+Opex
+ cost with Accenture and Capita
+In which
+ business metric?
+Customer
+ onboarding time
+ and customer NPS 
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+O
+perations
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+£
+150,000 operational efficiency saving per month, once teams are migrated onto the new platform
+What is the current 
+value for this business metric?
+£4m savings
+Within what timeframe?
+Over 4 years
+What strategic 
+outcome
+ does this support
+? 
+Driving operational efficiency savings
+Stakeholders
+Proposer
+Sally Ockwell, O2 Daisy CTIO
+S
+ponsor
+ (accountable for the business outcome)
+Jo Watts and Nicholas Collines
+Finance Business Partner
+Patricia Harding
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+Transformation Lead
+Ian Scott, Head of Business Transformation
+Architecture Lead
+Andy Bowyer, Director of Architecture & Innovation
+Contact Centre/Care Lead
+Victoria Dean
+Tracking information
+What ID does your business unit or demand forum use to track this proposal?
+ID304
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+Not known
+Which business division will be funding this proposal?
+B2B
+ O2 
+Daisy
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+O2 Daisy 
+SteerCo
+.
+Jo Watts & Paul Edwards
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+1
+0
+/
+02
+/2
+6
+If known, when is this planned to attend Investment Committee?
+10/02/26
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+N/
+A
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Y/N
+Date approved for platform assessment by BEM
+DD/MM/YY
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+O2 Daisy.
+All care and sales agents 
+across multiple tech stacks 
+will be amalgamated onto one telephony solution, with automated call summarization and pre call connection 
+AI bot 
+ID&V 
+customer 
+check
+ and auto call summarization.
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+N/A
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+Voice, Chat and payments call flows plus Outbound 
+Dialler
+ on 
+Amazon Connect
+.
+Workforce Management (scheduling, quality management, call recordings) on Verint.
+Post call customer surveys will be conducted by Genesys and not Amazon Connect.
+PCI card payments on Amazon
+ 
+Connect using 
+Sequence Shift
+ will be replaced by capability on Genesys.
+The 
+Amazon Connect
+ web chat solution will be replaced and the Website widget on VMB website updating.
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+O2 Daisy has teams spread across 4 telephony solutions. 
+Calls are routed to 4 different telephony stacks for O2Daisy,
+All sales, service and sales agents across O2 Daisy
+ 
+will be 
+migrated 
+onto Genesys over 2026.
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+O2 Daisy wishes to 
+migrate 
+off 
+AmazonConnect
+ and get all agents onto o
+n to a new
+ tech stack
+, Genesys Cloud.
+This demand is to aid the AI bot ID&V check prior to delivering the calls to agents. 
+In order to
+ do this, O2 Daisy 
+requires a daily
+ data
+ feed
+/file
+ from
+ VMO2 GCP data lake
+ or from the native system if it is not in GCP.
+ It is 
+believe
+ that the data required originates from the following systems.
+ 
+DISE
+Red Salesforce
+Purple Salesforce
+ICOMs
+Comet
+NRM
+Remedy
+What must change
+?
+What is your future vision
+?
+We would 
+require
+ a daily feed of data with the following data point
+s, 
+as
+ one file 
+either
+ from the systems 
+or from GCP
+Purpose
+& priority
+Data Point Name
+Customer Cohort
+VMBL SO Mobile
+VMBL SO Fixed
+VMBL SME Mobile
+VMBL SME Fixed
+VMBL - LEPS Mobile
+VMBL - LEPS Fixed
+DPA
+ (1)
+CLI
+GCP (DISE)
+GCP (ICOMS)
+GCP (DISE)
+GCP (ICOMS, NRM)
+GCP (DISE)
+GCP (ICOMS, NRM)
+DPA
+Billing Account Number
+GCP (DISE)
+GCP (ICOMS)
+GCP (DISE)
+GCP (ICOMS, NRM)
+GCP (DISE)
+GCP (ICOMS, NRM)
+DPA
+PIN
+N/A
+N/A
+GCP (DISE)
+GCP (ICOMS, NRM)
+GCP (DISE)
+GCP (ICOMS, NRM)
+DPA
+DPA password
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+DPA
+Company name
+GCP (DISE)
+GCP (Red Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+DPA
+Address
+GCP (DISE)
+GCP (Red Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+DPA
+Post code
+GCP (DISE)
+GCP (Red Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+DPA
+Last Four Digits of Banking
+GCP (DISE)
+GCP (ICOMS)
+GCP (DISE)
+GCP (ICOMS, NRM)
+GCP (DISE)
+GCP (ICOMS, NRM)
+DPA
+Segment - SOHO/SME/LE/PS
+GCP (DISE)
+GCP (Red Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+GCP (NG Salesforce)
+DPA
+Product - VMB Broadband,
+GCP (DISE)
+GCP (ICOMS)
+GCP (DISE)
+GCP (ICOMS, NRM)
+GCP (DISE)
+GCP (ICOMS, NRM)
+ 
+O2 Broadband, MIA, DIA
+,
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+O2 Mobile, MS365, MDM, UC
+ 
+ 
+ 
+ 
+ 
+ 
+Routing
+ (2)
+Overdue invoice
+ 
+ 
+ 
+ 
+ 
+ 
+Routing
+Open order
+ 
+ 
+ 
+ 
+ 
+ 
+Routing
+Collection event
+ 
+ 
+ 
+ 
+ 
+ 
+Routing
+Delivery event vs connected
+ 
+ 
+ 
+ 
+ 
+ 
+Routing
+Complaint
+ 
+ 
+ 
+ 
+ 
+ 
+Routing
+Fraud
+ 
+ 
+ 
+ 
+ 
+ 
+Routing
+Case Reference
+ 
+ 
+ 
+ 
+ 
+ 
+Routing
+Order ID
+ 
+ 
+ 
+ 
+ 
+ 
+How does this differ from the current state?
+We will migrate users from Amazon Connect to Genesys over a 
+6 month
+ period
+What
+ will success look like 
+for your primary beneficiary
+ 
+O2 Daisy receives a daily file to ingest and send to Genesys so that c
+alls are successfully delivered to agents after the ID&V check has been performed by the AI bot
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+What constraints or non-negotiables must the future solution 
+respect
+?
+We require this data for all segments of customers
+.
+The feed needs to be daily or maximum, every 2 days
+Is there anything explicitly out of scope?
+A separate data file per system.
+When do you want this to 
+go live?
+Commercial launch in 
+June
+ 2026
+.
+Testing 
+end
+ May.
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing
+.
+To 
+realise
+ the benefits outlined in the business case so we can migrate teams
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes
+ but it 
+is 
+an O2 Daisy case
+What is the approximate revenue uplift / cost saving from this?
+Operational savings
+ of around £150k per month
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+O2 Daisy must receive a consolidated daily data f
+ile
+, covering all customer segments
+ 
+from GCP
+ or the native system, in a merged file
+, delivered securely 
+to
+ the 
+O2 Daisy landing zone
+Y
+2
+The 
+DPA 
+data points provided earlier
+ in the document
+ are critical
+ for Day 1
+ and are priority 1.
+Y
+3
+The routing data points are 
+priority 
+2
+Y
+4
+Y
+5
+Y
+6
+N
+7
+8
+9
+10
+What are your
+ reporting 
+or 
+self-serve analytics (data 
+democ
+.
+) requirements
+?
+N/A
+Y
+5.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+Medium (10–100k monthly)
+Response times or availability
+Scheduled time for the file to drop daily so an automated process can be defined to upload to Genesy
+s
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+The file trans
+fer must be secure
+Any legal or regulatory compliance requirements?
+O2 Daisy are addressing any DPO concerns
+Are there any Fraud 
+requirement
+s?
+No
+Accessibility 
+/ vulnerable customer 
+requirements
+The journey must 
+support vulnerable customers
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Say if you believe an operational department will be impacted by implementing this idea
+.
+Operational area
+Impact
+?
+How
+CTO: 
+Will this requirement involve changes to the mobile or fixed network
+ or the services they deliver? 
+e.g
+.
+ 
+c
+onnectivity, coverage, messaging, et
+c.
+?
+Will CIO or CTO operational teams need to change the way they support our services? 
+Y
+Digital channels 
+or 
+App
+Y
+Commercial
+ and 
+Product teams
+Y
+Marketing
+ and 
+Sales
+Shop
+ and 
+B
+asket
+Y
+Retail stores
+Y
+Care
+ and 
+Retentions
+Y
+Billing
+, 
+Payments
+, Customer 
+Finance
+, 
+Insurance
+Logistics
+, 
+supply chain
+ and field
+ operations
+Y
+Other: (State)
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Insert link here.
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc
+Insert link here.
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

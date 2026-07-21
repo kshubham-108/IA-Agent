@@ -1,0 +1,50 @@
+# Data ETL matrix PU (§3B) — volume × latency × classification
+volume: [High, Medium, Low]
+latency: [RealTime, Batch]
+classification: [VC, VN, VS]
+
+matrix:
+  High:
+    RealTime:
+      VC: 56
+      VN: 42
+      VS: 28
+    Batch:
+      VC: 28
+      VN: 21
+      VS: 14
+  Medium:
+    RealTime:
+      VC: 28
+      VN: 21
+      VS: 14
+    Batch:
+      VC: 14
+      VN: 10.5
+      VS: 7
+  Low:
+    RealTime:
+      VC: 14
+      VN: 10.5
+      VS: 7
+    Batch:
+      VC: 4
+      VN: 3
+      VS: 2
+
+accelerators:
+  CIF: -0.27
+  GCS: -0.32
+  DBT: -0.20
+  FRAMEWORK: -0.15
+
+storage_tb:
+  1: 1
+  2: 2
+  3: 3
+  5: 5
+  8: 8
+
+multipliers:
+  pii: 1.25
+  framework: 1.15

@@ -1,0 +1,522 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+2G Switch-off for consumers (2029)
+Primary (SMART) Outcome statement
+VMO2 intends to commence the shutdown of 2G services for consumer customers and IoT services (excluding SMIP – Smart Meters) from 2029. A high-level impact assessment is required to identify affected platforms/services and indicative costs to support the business case.
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Reduce legacy network cost and complexity. Improve spectrum efficiency. 
+In which
+ business metric?
+Network Costs to serve (OPEX), Customer Experience (NPS)
+, 
+Network costs to upgrade are avoided (CAPEX
+)
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+CTO
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+Reduce 2G or 2G/3G only devices from network to Zero.
+Red
+uce 2G voice and data traffic (excl. SMIP devices) to zero.
+What is the current 
+value for this business metric?
+30-Apr-2026:
+Following are 2G and 3G only devices
+O2 = 500K, giffgaff = 40K, Tesco = 36K
+Traffic?
+Within what timeframe?
+The programme will mobilise straight away after business case is approved. 
+There will be certain network platforms that will be decommissioned in 2029-2030 time-frame. 
+What strategic 
+outcome
+ does this support
+? 
+It directly links to CTO NWESA strategy by turning off legacy 2G technology. It aligns to our Can D
+o
+ goal of Transforming our Network for Greater Agility at Lower Cost.
+ 
+Stakeholders
+Proposer
+Harry Mason
+S
+ponsor
+Rob Joyce
+Person accountable for the business outcome
+Rob Joyce (?)
+Finance Business Partner
+(s) 
+tbc
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Head of Regulatory Projects
+Chris Adams
+Head of Mobile Product
+Jon Fawcett
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+Which business division will be funding this proposal?
+CTO, TBC.
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Jeanie York, SLT
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+March 2026
+If known, when is this planned to attend Investment Committee?
+ASAP
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Is this an NDA’d project? If so, who is the NDA contact?
+No
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+Who is impacted and what is broken today?
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Mobile customers – retail and business currently using 2G services (national as well as roaming).
+IoT devices that are limited to 2G services. 
+What customer need or problem is this proposal primarily addressing — and how do we know it matters to the customer?
+Which product
+s or services 
+are 
+in scope
+?
+2G Mobile services. - Voice, SMS and Data.
+Which channels, processes or (if known) systems are in scope? 
+Specify the channels, processes or systems involved today
+All channels
+What is happening today?
+Describe what 
+the prim
+ary 
+customer 
+(or colleague) 
+experience
+s
+ today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Today,
+ customer devices are able to use 2G, 4G and 5G NSA and SA 
+technology depending upon the device type.
+VMO2 plans to offer mobile services only on 4G, 5G NSA and 5G SA from 2029 onwards for all mobile customers, including all roaming services will be limited to 4G and 5G. 
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+The 
+existing
+ 2G technology stack requires investment to maintain and upgrade. In the future, this technology will become increasingly expensive to 
+support.
+ There is an opportunity here to reduce annual operating costs and avoid sizeable investment in the near future
+.
+What must change
+?
+Vision
+ summary
+ 
+(desired outcome)
+. 
+In one line, what will be materially better for the customer 
+(or colleague) 
+if this succeeds?
+VMO2 is able to decommission 2G services
+ 
+and associated network equipment
+ without impacting services to mobile customers
+, 
+whilst maintaining an active 2G data service for SMIP (Smart Metering) devices only.
+How does this differ from the current state?
+Currently we offer 2G coverage that allows customers with 2G/3G or 2G only devices to function – support voice calls, SMS and data services. Going forward once 2G is shutdown, voice/sms/data services will only be supported on 4G and 5G. 
+As part of the shutdown, business will need to ensure all 2G only or 2G/3G only devices (customers) are migrated to 4G or 5G capable devices.
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Our primary customer base
+ has a 4G+ enabled devices and the majority of their utilisation is across 4G+ technology.
+ 
+Success will 
+ensure this customer base feels minimally impacted by the switch-off of 2G, feel trusted that VMO2 have 
+migrated all of their services carefully and considerately, and that we 
+have carried out the switch-off responsibly. Our other primary customer base are vulnerable customers still reliant on 2G services for telecare and other 
+early 
+health 
+warning/detection services. The same feeling applies to these customers and their 
+experience of the switch off
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+What constraints or non-negotiables must the future solution 
+respect
+?
+The future solution must ensure that 
+2G data services supporting SMIP (IoT) devices remain in service. The future solution must unsure that partial switch-off of 2G network and associated infrastructure can be achieved to deliver 
+cost reduction savings. The future solution must aim to minimize the impact on the customer 
+during any migration period. The solution must ensure that switch-off can be completed 
+as early as possible within the timeframes given
+.
+Is there anything explicitly out of scope?
+Smart Metering is currently out of scope. We expect the current contract of SMIP which ends in 2029 will be extended till 2033. This means that radio and certain parts of 2G core networks will be maintained to support SMIP services.
+When do you want this to 
+go live?
+Shutdown to commence in 2029 (likely Q3 start). But there may be some pre-requisites that need to kick-off earlier.
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Strategically want to avoid being the last 2G-voice service active in the UK (other competitors will cease service by early 2030’s)
+Avoid sizeable upgrade to 2G-based circuit-switched core
+Ensure that SMIP remains the sole user of the network beyond 2029 
+to ensure the running cost can be allocated directly to DCC (part of negotiation)
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes 
+(
+for CTO
+)
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+Traffic and 2G-only devices on VMO2 mobile network (excl. SMIP)
+ 
+What is the approximate revenue uplift / cost saving from this?
+For CTO, approximate cost saving is £10m p.a. after partial switch-off
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+Key customers (MVNOs, O2B, IoT) have completed all pre-requisites and own their own cost to deliver.
+ 
+That further regulation changes or infringements may cause a change to the programme/business case value. That we must give customers >3yrs notice before terminating their service.
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+Comms informing customers on switching-off 2G – date and next steps.
+Y
+2
+Identify vulnerable customers (mobile) with 2G only or 2/3G only devices. Based on business guidance, create 
+comms and plans to migrate them to 4G/5G capable devices.
+Y
+3
+As part of switch-off pro
+je
+ct, provide quarterly KPI update to DSIT.
+Y
+4
+Support pre-requisite changes for migrating SMS services from MAP to SIP and/or Diameter based interface. This will require new SMS CDR flows to be supported on DCTC and billing/mediation.
+Y
+5
+Chang
+e
+ provisioning flows to stop provisioning 2G and 3G HLR data, 2/3G authentication data – this is a pre-requisite for network to switch off 2G/3G HLR onc
+e all customers are migrated to 4G or 4G/5G devices.
+Y
+6
+7
+8
+9
+10
+What are your
+ reporting 
+or 
+self-serve analytics (data democ
+.
+) requirements
+?
+At a minimum level, data as covered in the below section (for legal / regulatory compliance requirements) is required on a quarterly basis.
+Y
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+High (>100k monthly)
+Response times or availability
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+Any legal or regulatory compliance requirements?
+DSIT expects VMO2 to share key indicators relating to 2G switch off and report quarterly.
+Number of featurephones and or non-VoLTE capable mobile phones remaining in use on VMO2 network.
+Number of 2G IoT devices remaining on network
+Total 2G customers (Residential and business) remaining on network
+Number of voice calls made via 2G network and as a percentage of overall connections to VMo2 network.
+Number of individual data connections made to 2G network and as a percentage of overall connections to the network.
+Volume of data used by 2G network and as a percentage of overall data volumes,
+Number & volume of 2G roaming connections made to VMO2 network.
+Number and location of areas where 2G coverage is not also covered by 4G/5G. 
+Are there any Fraud 
+requirement
+s?
+No (Not aware at this stage)
+Auditability requirements
+Accessibility 
+/ vulnerable customer 
+requirements
+Yes, ensure vulnerable customers if they are on 2G or 2G/3G only devices are migrated to 4G/5G capable devices before shutdown.
+6.2
+ 
+What parts of the business are likely to be impacted
+?
+This section helps us understand which parts of the organisation may be affected if this proposal goes ahead. You do not need technical knowledge — simply indicate where you believe there may be an impact. 
+If you are unsure, 
+p
+ick “Potential impact”. You are signalling where impact may exist, not committing to scope or design. This will be reviewed and refined during shaping and sizing
+.
+Operational area
+Impact
+?
+ 
+(Y/N/potential)
+How
+ might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Yes
+Communication on 2G shutdown. Customer migration from 2G/3G device to 4G/5G capable devices. SIM replacement, if applicable.
+Retail stores
+Yes
+Ability to support SIM / Device migration.
+Care and 
+R
+etentions
+Yes
+Communication / Support on 2G shutdown.
+Commercial
+ & go to market
+Product & Proposition management
+Maybe
+Range, bundles, eligibility rules, pricing, packaging
+Marketing & Sales
+Yes
+Campaigns, messaging, offers, propositions, channels 
+Shop & Basket (buy/upgrade journeys)
+No
+Basket logic, eligibility, offers, cross
+sell, checkout 
+Order fulfilment & service changes
+Order
+ 
+&
+ 
+fulfilment
+Yes
+Buying, upgrading, moving, cancelling, order tracking
+Service activation & configuration
+Yes
+Provisioning, activation, defaults, service setup
+Supply Chain & Logistics
+Yes
+Device/SIM delivery & returns
+Field operations
+Maybe
+Customer installs, repairs, visits, equipment delivery 
+Run and assure services
+Network services (mobile, fixed, TV)
+Yes
+Coverage, connectivity, performance, reliability
+Faults, outages & service assurance
+No
+Issue detection, restoration, customer communications 
+Service operations & support teams
+Yes
+Operational processes, monitoring, incident handling 
+Money, account and trust
+Billing, payments & customer finance
+No?
+Charging, bills, payments, finance, refunds, insurance 
+Customer accounts, identity and permissions
+No?
+Login, roles, parental controls, account hierarchies 
+Other
+Wholesale services & support
+Yes
+Systems, services,
+ support or data we provide or exchange with wholesale partners
+Might need support for giffgaff and Tesco as they migrate their customers from 2G/3G devices to 4G. 
+Information on our shutdown timelines and progress.
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+None on the CIO side. 
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+Information:
+Following network platforms will be switched-off and decommissioned as part of 2G switch-off (2029) project.
+2G Radio BTS and BSCs that are not serving SMIP areas.
+MBC and MGW - supports voice call for Non-IMS capable devices.
+IP-Signalling Transfer Point – supports SS7 based signaling with Roaming Networks, National MNOs and MVNOs. (Signalling where applicable to migrate to Diameter and/or SIP signalling). Impacts of SMS delivery flows.
+2G/3G HLR and authentication functions in Nokia UDB.
+We anticipate above decommissioning or changes to Network Platforms will impact:
+Provisioning flows - where 2G/3G provisioning steps should be removed.
+Billing – CDRs from MBC to be stopped.
+DCTC/Billing - SMS CDRs may move to diameter / SIP based flows; some flow and configuration and testing will be required.
+Any systems where 2G cell-information is stored or maintained to be updated, and such information is to be removed.
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

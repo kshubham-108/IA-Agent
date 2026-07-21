@@ -1,0 +1,48 @@
+id: iia-seed-funding
+description: Required inputs for Flow A IIA / seed funding from Vision Card + heatmap
+fields:
+  - id: title
+    label: Idea title
+    impact: high
+  - id: tracking_id
+    label: Idea tracking ID
+    impact: medium
+  - id: budget_ref
+    label: Budget reference
+    impact: high
+  - id: sponsor
+    label: Executive sponsor
+    impact: medium
+  - id: proposer
+    label: Idea proposer
+    impact: low
+  - id: products_in_scope
+    label: Products / services in scope
+    impact: high
+  - id: channels_processes_systems
+    label: Channels, processes, systems
+    impact: high
+  - id: current_state
+    label: Current state
+    impact: medium
+  - id: problem_opportunity
+    label: Problem / opportunity
+    impact: high
+  - id: future_vision
+    label: Future vision / outcome
+    impact: high
+  - id: beneficiaries
+    label: Beneficiaries
+    impact: medium
+  - id: exclusions
+    label: Exclusions
+    impact: medium
+  - id: dependencies
+    label: Dependencies
+    impact: high
+  - id: journey_counts
+    label: Journey / workflow counts
+    impact: high
+  - id: heatmap
+    label: POPIT heatmap
+    impact: high

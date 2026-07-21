@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+import "./globals.css";
+
 export const metadata: Metadata = {
   title: "IA Agent",
   description: "VMO2/TCS Impact Assessment Estimation Agent",

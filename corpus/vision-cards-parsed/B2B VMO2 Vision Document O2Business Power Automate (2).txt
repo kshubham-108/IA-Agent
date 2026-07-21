@@ -1,0 +1,873 @@
+Vision Document
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+Business Area 
+☒
+ 
+Wholesale 
+Mobile & M
+W
+ (O2 
+Business
+)
+ 
+☐
+ Wholesale Fixed Connectivity 
+☐
+ B2B IT Migration
+ 
+Initiative Name
+Indirect Partner – Interim 
+Solution
+Sponsor 
+Name
+Jamie Macrae
+P
+rod
+uc
+t 
+Owner
+ Name
+Jeff McCarney
+Finance Partner Name
+O2
+Business
+ only section
+O2 
+Business
+ ID
+ID320
+O2Business
+ CTIO Approved
+Lyndsey Charlton
+O2
+Business
+ IT Architecture design or context
+Channel Partner Interim Transformation
+NDA required?
+N 
+NDA admin
+Aspirational 
+start date 
+Aspirational 
+delivery date
+1-August-2026
+Commercial launch date
+Phased delivery considerations/needs
+Drivers
+Table of Contents
+1.
+Problem & Opportunity / Scope Summary
+2
+2.
+In Scope
+2
+3.
+Customer Journey Touch Points 
+(Required)
+4
+4.
+Out of Scope 
+(Required)
+6
+5.
+High level Requirements
+7
+6.
+Legal/Regulatory, Fraud, Security and environmental impacts
+8
+7.
+Dependencies / Risks / Assumptions [Required]
+9
+2
+For information: Next steps
+9
+ 
+Problem & Opportunity / Scope Summary
+Background or context of the opportunity
+This request enables definition and replication of Power Automate integrations between 
+Tariffco
+m
+ Proposition
+, eService
+ and DISE required to support 
+P
+artner continuity
+, negate the need 
+for
+ costly development in 
+Tariffcom
+ Propos
+i
+tion
+ and eService,
+ to 
+replicate 
+the existing
+ configuration
+.
+As part of 
+IT 
+Transformation
+ (DISE closure)
+, Indirect
+ Channel Partner
+s
+ require an interim solution
+ retaining their existing Partner facing portal
+s and APIs
+ with the back end moving to 
+fDaisy
+ 
+tech stack. As such O2 Business has
+ a requirement to support 
+P
+artner journeys currently enabled via integrations between 
+Tariffcom
+ Proposition
+, the Automation Hub
+ and DISE, facilitated through Power Automate processes (and legacy automation patterns).
+ The preferred approach would be to 
+migrate
+ the existing VMO2 Power Automate configuration to the O2 Business 
+Power Automate environment.
+The
+ existing
+ integrations underpin key partner activities across:
+Order capture and submission
+ including billing account creation
+Provisioning
+Real time order updates
+Back
+ O
+ffice processing and exception handling
+Initial programme activity has identified that:
+The Power Automate flows linking 
+Tariffcom
+ 
+Proposition 
+and DISE are not fully documented
+ within O2 Business
+Existing flows include both automated processing and fallback/manual handling paths
+To support interim delivery, it is necessary to understand and replicate these capabilities where required
+ in the O2 Business Power Automate environment
+.
+1.
+2 
+Problem & Opportunity
+ 
+Problem
+There is currently insufficient visibility of:
+Power Automate flows facilitating integration between 
+Tariffcom
+ 
+Proposition 
+and
+ SOA /
+ DISE
+The process logic underpinning these automations
+Ownership
+ of Power Automate within VMO2
+, 
+the 
+support model, and access to implementation artefacts
+.
+Additionally:
+The programme does not currently have access to the 
+VMO2 
+Power Automate configurations/code required to replicate or transition these flows
+This limits the ability to:
+Recreate the existing environment in a timely manner, allowing us to achieve the goal of DISE migration by the end of 2026
+Ensure continuity of 
+Channel P
+artner journeys
+Progress architecture alignment and supplier estimation activity
+Opportunity
+:
+Remove the reliance on VMO2 to maintain the existing Power Automate environment for Indirect Channel Partners
+Remove the requirement to develop on 
+Tariffcom
+ Proposition platform
+Work towards achieving the goal of DISE migration
+Enable the programme to replicate or transition required flows for interim delivery
+Support progression to architecture validation and supplier sizing
+Scope Summary
+ 
+In Scope
+O2 Business implementation and post implementation support from VMO2
+ (
+estimate 2 weeks interim support over 2 months)
+Identification of Power Automate flows connecting 
+Tariffcom
+ Proposition, SOA
+ and DISE
+Detailed u
+nderstanding of
+ interfaces and
+ process logic (including success/failure routing)
+Identification of dependencies with 
+Indirect Channel Par
+tner journeys and 
+B
+ack
+ O
+ffice processes
+Identification of ownership and support responsibilities
+Provision of access to Power Automate configurations / implementation to 
+replicate in the O2 Business Power Automate environment
+Out of Scope
+Future
+ 
+state integration design
+Any Power Automate activities that do not impact Indirect Channel Partner processes
+Process optimisation beyond 
+I
+nterim
+ Transformation
+ continuity requirement
+s
+1.
+4
+  
+O2 
+Business Outcomes
+ 
+– 
+(Required)
+Enable definition of interim integration approach between 
+Tariffcom
+ Proposition, SOA
+ and DISE 
+Maintain continuity of 
+Indirect Channel P
+artner ordering and provisioning flows 
+Enable the programme to replicate or transition required Power Automate flows 
+Support production of supplier estimates and delivery options 
+Reduce risk of disruption during interim migration
+In Scope
+ 
+Area
+Impacted
+Channels
+☐
+ 
+No Channel Impact (BAU)
+☐
+ Assisted 
+(e.g. Contact Centre, Field Sales)
+☐
+ U
+nassisted 
+(e.g. Self-Service)
+☐
+ 
+Change to 
+E
+xisting e
+C
+ommerce
+☐
+ 
+N
+ew e
+C
+ommerce
+ Channel
+☐
+ 
+Stores
+☒
+ Other (
+Specify
+)
+ 
+Indirect Channel Partners
+Customer Segment
+☐
+ 
+Wholesale Fixed
+ 
+___________________________________________________
+☐
+ 
+Wholesale Mobile
+ 
+☐
+ SMB Direct
+☐
+ SMB Indirect
+ 
+Channel Partners
+☐
+ Volume Sales
+☐
+ Large Enterprise  
+☐
+ Public Sector
+☐
+ Soho Direct
+ 
+☐
+ 
+So
+H
+o Indirect
+ Channel Partners
+☐
+ WHS O2 Daisy (ABS SPID 372) 
+☐
+ VIP
+☐
+ O2 Daisy BUD  
+___________________________________________________
+☐
+ 
+Other (
+Specify
+)
+Customer Type 
+☒
+ New Customer  
+☒
+ Existing Customer
+Order Type
+☒
+ New 
+Order 
+- 
+New Custome
+r  
+☒
+ New Order - Existing Customer
+☒
+ Renewal
+/Resign Order
+ - Existing Customer
+☒
+ 
+Additional Connection Order - Existing Customer
+☒
+ MACD - Existing Customer
+☐
+ Other (
+Specify
+)
+API
+ Required 
+Impact:  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes 
+- 
+ wh
+ich 
+ APIs are expected to be delivered by VMO2 as part of the requirement?
+Logistics / Supply 
+C
+hain
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Reporting
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes – 
+Please outline the requirements and describe the type of impact
+ e.g. 
+☐
+ New Reports
+☐
+ Amend/Update
+ 
+Existing 
+Reports
+Migration 
+R
+equirements
+Impact:  
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Yes:
+ Power Automate environment
+Decommissioning Requirements
+Impact:  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Cease 
+E
+xisting 
+S
+ervice/
+S
+upplier
+Impact:  
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Network or IT Operations
+ 
+I
+mpact
+Impact:  
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+RFI/P
+Impact:  
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Known Constraints
+Impact:  
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Other
+Impact:  
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: Please specify the details.
+Customer Journey Touch Points 
+(Required)
+The customer journey is broken down into key touch points that represent different stages of interaction with our products or services from discovery to potential exit. Each touch point reflects a critical moment in the customer experience.
+Please review the touch points below and 
+indicate which ones are impacted by your initiative
+, along with a brief description of the 
+nature of the impact
+ (e.g., improvement, change, risk, etc.).
+We Discover
+ – Customers explore and learn about products or services
+Impacted 
+☐
+ 
+Yes
+    
+☒
+ No
+    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Buy
+ – Customers 
+/ 
+Sales people
+ 
+select and purchase a product or service
+Impacted 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes - please outline any specific requirements
+:
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ Blue Salesforce
+☐
+ Purple Salesforce / CPQ 
+☐
+ Microsoft Dynamics 365
+☐
+ Other (
+Specify
+)
+Wholesale 
+Fixed 
+ 
+☐
+ Red Salesforce
+ 
+☐
+ Engage
+☐
+ BPT
+☐
+ Other (
+Specify
+)
+We Join / Onboard
+ – Product/service is delivered, set up, and activated
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☒
+ O2 Daisy only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ Force
+☐
+ Oracle 
+☐
+ Other (
+Specify
+)
+We Use
+ – Customers experience the service, including issue resolution.
+Impacted 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Manage Billing
+ – Customers view and manage bills and usage
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ NRM
+☐
+ Oracle
+☐
+ Other (
+Specify
+)
+We Add / Change
+ – Customers modify or upgrade their services
+Impacted 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Stay or Leave
+ – Customers decide to renew, stay, or exit
+Impacted 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes - please outline any specific requiremen
+t
+:
+Out of Scope 
+(Required)
+Out of Scope
+ 
+Item
+Future Scope (
+e.g. 
+later phase Delivery)
+Non Indirect
+ Channel Partner Power Automate configuration
+N/A
+High level Requirements
+(Required)
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviours
+ the future solution must support.  
+If your requirement is on behalf of an external party such as 
+O2Business
+ then your requirement scope will only cover the capabilities in VMO2 that support them. 
+Guidance: 
+Clear high‑level requirements help ensure faster and more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting proposals you may wish to consider the specific elements of the customer lifecycle that each requirement impacts e.g. find/explore, buy/upgrade, pay/bill, getting started/use, manage, get help, stay/leave.
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Change / Requirement
+MVP*
+1
+The programme must establish a 
+detailed
+ view of Power Automate flows between 
+Tariffcom
+ Proposition
+ and
+ SOA /
+ DISE
+Y
+2
+Access to the Power Automate
+ Indirect Channel Partner
+ processes and documentation 
+in order t
+o
+ understand the detail technical aspects of the existing solution.
+ 
+The solution must provide visibility of automation processes supporting partner journeys (including automated and manual fallback routes)
+Y
+3
+The programme must identify ownership and support responsibilities for all integrations
+Y
+4
+The 
+I
+nterim solution must 
+retain 
+required
+ Indirect Channel Partner
+ Power Automate integration capabilities to
+ the O2 Business architecture,
+ support
+ing
+ partner operations
+ and minimis
+ing
+ development 
+on front end platforms i.e. Proposition.
+Y
+5
+The programme must have access to relevant Power Automate configurations or artefacts to enable replication or transition of required flows
+Y
+6
+The output must enable 
+O2 Business to recreate the same Power Automate configuration in their own environment
+Y
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Impact 
+VMO2 stakeholder
+Legal / contractual / legislative obligations
+  
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Regulatory obligations e.g. OFCOM, ICO,
+ 
+etc
+.
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Fraud or Security
+ Impact
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Has the whole 
+environmental impact
+ 
+of 
+the project, from design to end of life been
+ considered? 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Has the lowest energy using product or service been considered for the project 
+(if applicable)?
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Equity / Accessibility of VMO2 service(s)
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference (if any)
+Description/nature of dependency
+D3
+Provision of access to Power Automate environments where required
+D4
+Alignment with architecture on interim integration approach
+D5
+Lack of access to Power Automate configurations may prevent replication of required flows
+R
+1
+Incomplete understanding of flows may impact partner journey continuity
+R4
+Without timely engagement and 
+collaboration,
+ the Interim Transformation may be delayed and could impact the date O2 Business are able to decommission DISE
+ 
+Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+Interim solution will require reuse or replication of existing Power Automate flows
+A2
+Relevant Power Automate configurations/artifacts can be made available to support delivery
+A3
+Access to SME resource while O2 Business develop the solution on the O2 Business Power Automate 
+development and early life / deployment period
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner is advisable.  They may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

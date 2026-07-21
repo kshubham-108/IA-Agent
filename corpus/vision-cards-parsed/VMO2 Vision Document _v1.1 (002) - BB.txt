@@ -1,0 +1,842 @@
+Vision Document
+Business Area 
+☐
+ 
+Wholesale 
+Mobile & M
+W
+ (O2 Daisy)
+ 
+☒
+ Wholesale Fixed Connectivity 
+☐
+ Wholesale Mobile & MVNOs
+☐
+ B2B IT Migration
+ 
+Initiative Name
+BROADBAND TRANSFORMATION
+Sponsor 
+Name
+DAVID 
+SIMPSON
+P
+rod
+uc
+t 
+Owner
+ Name
+TAB
+ITHA 
+LIDDELL-HUGHES
+ / PAUL 
+DUCKLIN
+O2Daisy only section
+ 
+O2 Daisy ID
+O2Daisy CTIO Approved
+App
+roval to move to Ideate sizing must be 
+provided
+O2Daisy IT Architecture design or context
+NDA required?
+N 
+NDA admin
+N/A
+Aspirational 
+start date 
+Q2 2026
+Aspirational 
+delivery date
+Q1 2027
+Commercial launch date
+Phased delivery considerations/needs
+Drivers
+Q1 2027
+We may want (or need) to make the distinction between the existing Broadband Base and New Acquisition.
+ 
+Adherence to WSA4 as quickly as practical
+Vis
+i
+on Document Summary 
+ 
+The Vision Document serves as a key foundation for any business initiative. It outlines the core problem, objectives, expected benefits, scope, and identifies associated risks, assumptions, and dependencies. Its purpose is to provide a clear and comprehensive overview that supports accurate impact assessment and informed planning.
+This document is a required input for the Ideate Pack, which is used by the Mobile & MW Portfolio pod team to evaluate the initiative across all relevant touchpoints. A well-prepared Vision Document ensures the Ideate Pack can be completed accurately and effectively.
+Table of Contents
+1.
+Background / Problem & Opportunity / Scope Summary
+2
+2.
+In Scope 
+(Required)
+3
+3.
+Customer Journey Touch Points 
+(Required)
+6
+4.
+Out of Scope 
+(Required)
+7
+5.
+Legal/Regulatory, Fraud, Security and environmental impacts
+8
+6.
+Dependencies / Risks / Assumptions [Required]
+9
+7.
+Approvals & Document Control [Internal Delivery Team]
+10
+8.
+Appendices
+10
+Background / Problem & Opportunity / Scope Summary
+1.1 Background
+Briefly describe the context for this initiative, including relevant business areas, systems, teams, or external factors driving the need for change.
+Fixed Wholesale want to 
+enter the
+ 
+Business Broadband
+ 
+market
+. This is in response 
+to 
+the 
+O2
+ 
+Diasy / VMO2 
+separation
+ and the obligations within WSA4
+. 
+This means that Fixed Wholesale need to be able to provide the 
+Business Broadband f
+ixed 
+c
+onnectivity
+. 
+Currently, this process is 
+driven by 
+O2 Daisy with heavy reliance on 
+SalesForce
+ and ICOMS. 
+The purpose of this project is 
+to build a scalable 
+solution 
+which enables 
+O2 Daisy (and 
+other Fixed Wholesale Partners) 
+to complete the end-to-end 
+lifecycle 
+for broadband. i.e. from 
+serviceability
+, 
+quote,
+ 
+order, 
+billing, 
+faults and 
+disconnections
+ etc
+.
+Given the scale of the current and potential 
+future 
+volumes 
+any solution needs to be highly automated
+ 
+for Fixed Wholesale and deliver an easy digital 
+journey for O2 Daisy and 
+other Partners. 
+ 
+1.
+2 
+Problem & Opportunity
+ 
+State the main problem(s) and the opportunity created by addressing them. Highlight key pain points and expected benefits
+The key challenges that we are looking to overcome are:
+The ability to provide O2 Daisy (and other Partners) with 
+access to Business Broadband services
+The ability to 
+manage
+ 
+the existing O2 Daisy base and bill for the associated revenue
+ and provide service 
+journeys (faults
+, change management
+ etc)
+The 
+ability to provide highly automated 
+customer journeys 
+to minimise effort both for Fixed Wholesale, O2 Daisy and other Partners. 
+Compliance to 
+WSA4 requirements
+; we need to 
+be able to offer the Business Broadband solution end-to-end
+The opportunities for Fixed Wholesale are:
+Additional volumes and revenue from O2 Daisy for Business Broadband. Today, some of the legacy Daisy business do not have access to the VMO2 Business Broadband product set. 
+Greater automation of processes to reduce the cost to serve
+Ability to serve more wholesale partners as well as O2D with broadband product. 
+1.
+3 
+ Scope Summary
+ 
+Summarise what is included and excluded from the initiative to set clear expectations and boundaries
+In scope ​
+New 
+Acquisition (
+All 
+order 
+Journeys
+; 
+Serviceability
+, Quote, 
+New provide
+, 
+Delivery, 
+MAC
+D, Faults, 
+B
+illing, 
+Change Management, Service Management
+)
+Exiting O2 Daisy Broadband base (ability to change, bill, cease, fault fix etc)
+Product offering: Assimilate existing O2 D
+ai
+sy Business Broadband offering for 
+all markets, (SOHO, Enterprise, Public Sector) including connectivity access types, bandwidth options, static IP addresses and fixed voice
+, inclusion of XGS-PON.
+WSA 3 – FaaS​; the ability to charge O2 Daisy where we are providing a Field 
+a
+s 
+a
+ Service (FaaS) solution. 
+WSA 4 Business broadband; the ability for Fixed Wholesale to provide O2 Daisy with an E2E Business Broadband solution
+Layer 2
+ option
+ for partners to deliver own overlay if required.
+Out of scope ​
+N
+ational ethernet, ethernet extension
+Dark 
+Fibre
+In Scope 
+Area
+Impacted
+Channels
+☐
+ 
+No Channel Impact (BAU)
+☐
+ Assisted 
+(e.g. Contact Centre, Field Sales)
+☒
+ U
+nassisted 
+(e.g. Self-Service)
+☐
+ 
+Change to 
+E
+xisting e
+C
+ommerce
+☒
+ 
+N
+ew e
+C
+ommerce
+ Channel
+☐
+ 
+Stores
+☐
+ Other (
+Specify
+)
+Customer Segment
+☒
+ 
+Wholesale Fixed
+ 
+___________________________________________________
+☐
+ 
+Wholesale Mobile
+ 
+☐
+ SMB Direct
+☐
+ SMB Indirect
+ 
+☐
+ Volume Sales
+☐
+ Large Enterprise  
+☐
+ Public Sector
+☐
+ Soho Direct
+ 
+☐
+ Soho Indirect
+☐
+ WHS O2 Daisy (ABS SPID 372) 
+☐
+ VIP
+☐
+ O2 Daisy BUD  
+___________________________________________________
+☐
+ 
+Other (
+Specify
+)
+Customer Type 
+☒
+ New Customer  
+☒
+ Existing Customer
+Order Type
+☒
+ New 
+Order 
+- 
+New Custome
+r  
+☒
+ New Order - Existing Customer
+☒
+ Renewal
+/Resign Order
+ - Existing Customer
+☒
+ 
+Additional Connection Order - Existing Customer
+☒
+ MACD - Existing Customer
+☐
+ Other (
+Specify
+)
+API
+ Required 
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes 
+- 
+ wh
+ich 
+ APIs are expected to be delivered by VMO2 as part of the requirement?
+ 
+Quote, order, faults journeys to be available by API
+Logistics / Supply 
+C
+hain
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+ONU & Router
+ 
+Reporting
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes – 
+Please outline the requirements and describe the type of impact
+ e.g. 
+☒
+ New Reports
+☒
+ Amend/Update
+ 
+Existing 
+Reports
+Migration 
+R
+equirements
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Existing base into strategic system stack
+ 
+Decommissioning Requirements
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Cease 
+E
+xisting 
+S
+ervice/
+S
+upplier
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Network or IT Operations
+ 
+I
+mpact
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+U
+nknown
+RFI/P
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Known Constraints
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Other
+Impact:  
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: Please specify the details.
+Customer Journey Touch Points 
+(Required)
+The customer journey is broken down into key touch points that represent different stages of interaction with our products or services from discovery to potential exit. Each touch point reflects a critical moment in the customer experience.
+Please review the touch points below and 
+indicate which ones are impacted by your initiative
+, along with a brief description of the 
+nature of the impact
+ (e.g., improvement, change, risk, etc.).
+We Discover
+ – Customers explore and learn about products or services
+Impacted 
+☐
+ 
+Yes
+    
+☐
+ No
+    
+☒
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Buy
+ – Customers 
+/ 
+Sales people
+ 
+select and purchase a product or service
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Serviceability
+Quote
+Order placement
+Contract
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ Blue Salesforce
+☐
+ Purple Salesforce / CPQ 
+☐
+ Microsoft Dynamics 365
+☐
+ Other (
+Specify
+)
+Wholesale 
+Fixed 
+ 
+☒
+ Red Salesforce
+ 
+☒
+ Engage
+☒
+ BPT
+☒
+ Other (
+Specify
+)
+We Join / Onboard
+ – Product/service is delivered, set up, and activated
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Delivery
+Billing
+Acceptance into Service
+FaaS
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☒
+ DISE 
+☒
+ Force
+☒
+ Oracle 
+☒
+ Other (
+Specify
+)
+We Use
+ – Customers experience the service, including issue resolution.
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Faults
+MACD
+Billing
+Service Management
+FaaS
+We Manage Billing
+ – Customers view and manage bills and usage
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+New Acquisition
+One off 
+charges
+Ongoing Rental
+Ancillary Charges
+Debt Management
+Base Management (i.e. price rise)
+Add-on Service
+Disconnections (stop billing)
+Promotions
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☒
+ DISE 
+☒
+ NRM
+☒
+ Oracle
+☒
+ Other (
+Specify
+)
+We Add / Change
+ – Customers modify or upgrade their services
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Moves (shifts etc)
+Adds (
+static
+ IP, fixed voice etc)
+Changes
+ (upgrades, downgrades etc)
+Base Management
+Change Management
+We Stay or Leave
+ – Customers decide to renew, stay, or exit
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requiremen
+t
+:
+Disconnections
+Switch (move between providers)
+Renewals
+Out of Scope 
+(Required)
+Out of Scope
+ 
+Item
+Future Scope (
+e.g. 
+later phase Delivery)
+NA
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Impact 
+VMO2 stakeholder
+Legal / contractual / legislative obligations
+  
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Regulatory obligations e.g. OFCOM, ICO,
+ 
+etc
+.
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Fraud or Security
+ Impact
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Has the whole 
+environmental impact
+ 
+of 
+the project, from design to end of life been
+ considered? 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Has the lowest energy using product or service been considered for the project 
+(if applicable)?
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Equity / Accessibility of VMO2 service(s)
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D1
+Outbound
+O2 Daisy technology roadmap; unknown to 
+Fixed Wholesale but 
+O2 D
+ai
+sy are 
+likely 
+to need to consume whatever we build
+D2
+Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R1
+O2 Daisy develop IT solutions in parallel to this development which 
+conflict or duplicate 
+the outcome
+Medium
+Wasted effort, tech debt, incompatible E2E solution
+R2
+ Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+API based solution which can be made available to any/all Fixed Wholesale Partners
+A2
+Strategic solution for 
+Fixed Wholesale Business Broadband offering; minimal to no tech debt 
+over the next 
+2+ years.
+ 
+Approvals 
+& Document Control 
+[Internal Delivery Team]
+.
+Name
+Role
+Approval (signature or email)
+Date
+Sponsor / Delegate
+Product Manager / Owner
+ Requestor
+ Portfolio
+ Lead
+s SBA, PM, SSA
+ 
+(Scope is fit for purpose and relevant stakeholders have been consulted or informed)
+Author
+Version
+Date
+Reason
+0.1
+First draft
+0.2
+First review with stakeholders
+1.0
+Approved Version
+Appendices

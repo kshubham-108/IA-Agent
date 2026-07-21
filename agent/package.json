@@ -1,22 +1,28 @@
 {
   "name": "@ia-agent/agent",
   "version": "0.0.0",
-  "private": true,
   "type": "module",
+  "imports": {
+    "#*": "./*"
+  },
   "scripts": {
-    "dev": "eve dev",
     "build": "eve build",
+    "dev": "eve dev",
     "start": "eve start",
-    "typecheck": "tsc -p tsconfig.json --noEmit"
+    "typecheck": "tsc",
+    "eval": "cd .. && EVE_MOCK_MODEL=1 pnpm eval",
+    "eval:live": "cd .. && pnpm eval:live"
   },
   "dependencies": {
-    "@ia-agent/engine": "workspace:*",
-    "@ia-agent/extraction-schemas": "workspace:*",
+    "@vercel/connect": "0.4.0",
+    "ai": "^7.0.26",
     "eve": "0.26.2",
-    "zod": "^3.25.76"
+    "zod": "4.4.3",
+    "@ia-agent/engine": "workspace:*",
+    "@ia-agent/extraction-schemas": "workspace:*"
   },
   "devDependencies": {
-    "@types/node": "^22.16.5",
-    "typescript": "^5.8.3"
+    "@types/node": "24.x",
+    "typescript": "7.0.2"
   }
 }

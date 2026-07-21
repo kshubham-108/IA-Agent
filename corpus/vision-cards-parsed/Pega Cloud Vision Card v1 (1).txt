@@ -1,0 +1,418 @@
+Th
+is
+ Vision Card outlines the context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Idea tracking information
+.
+Pro
+posed
+ Title
+Pega Cloud Transformation
+Brief description
+ 
+Upgrade on premise Pega Customer Journey Management (CJM) to Pega Cloud / Pega 
+As
+ 
+A
+ Service ahead of on-prem support ending (April 27)
+What
+ ID 
+does your
+ business unit or demand forum use to track this proposal
+?
+VMFIN122
+ (opex line for current 
+licences
+ on CJM)
+What is the 
+unique
+ budget reference 
+for the budget 
+th
+at is
+ likely to fund 
+this 
+item
+?
+TBC
+Which business division will be funding this proposal?
+CIO – Consumer 
+Which demand forum 
+or person 
+within your business unit has prioritised this item as a candidate 
+for investment?
+ 
+Abid Khan
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+31/3/26
+If known, 
+w
+hen is this planned to attend 
+Investment Committee?
+May 26
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Is this an NDA’d project? If so, who is the NDA contact?
+N/a
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+Stakeholders
+Proposer
+Mark Wright
+S
+ponsor
+Howard Morgetroyd
+Finance Business Partner
+Matt Rigden
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+Context
+ of your idea
+Who is affected?
+Define the specific customer segments, colleague groups, or business units impacted
+Consumer complaint 
+and bereavement 
+handling
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+Consumer complaints, one touch switch, bereavements and DSAR
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+Digital, Voice
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+Existing 
+on premise
+ solution for Pega CJM
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+Pega Discover 
+going
+ out of support 
+in
+ September 26.  To ‘protect’ this platform
+, further extend 
+support 
+ and
+ allow its migration to Retain X (separate piece of work), 
+we have negotiated with Pega to ‘upgrade’ the 
+on premise
+ version to Pega Cloud
+What new Outcome are you aiming to achieve?
+What is your future vision?
+Consumer complaints, one touch switch, bereavements and DSAR hosted in Pega Cloud.  All retentions activity on one consolidated platform (Retain X).
+  Opportunity for legacy 
+high level
+ complaints (ACM 
+Enchoice
+) to be migrated into Pega Cloud in the future.
+How does this differ from the current state?
+Current state is on prem and requires 
+annual;
+ upgrades and management, plus associated infrastructure.  New state will be cloud hosted.
+W
+ho benefits from this and what will success look like from their perspective? 
+CTO
+ (less infrastructure to manage)
+Consumer (platform remains in support)
+Ofcom regulated process for DSAR, OTS and complaints
+Is there anything explicitly excluded from this?
+N/A
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+Pega have Cloud demo which could be provided if required
+What constraints or non-negotiables must the future solution 
+respect
+?
+Must maintain Pega Discover in support whilst migrating to Retain X (due to amount of daily revenue passing through the platform)
+ – to do this we need to upgrade to CJM Cloud 
+When do you want this to happen?
+To be delivered by end of 2026 
+Why must it happen then?
+To allow Pega Discover to remain in support and ahead of 
+support ending in April 27 for CJM on premise
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+N
+What is the approximate revenue uplift / cost saving from this?
+Neither – the upgrade keeps the Ofcom regulated processes in support.  Enabler for D
+i
+sc
+over extended support.  I.e. “must do”
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules,
+ or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+Establish CJM in Pega Cloud environment
+Y
+2
+Decommission Pega CJM on premise once testing has been successful
+Y
+3
+A
+lign
+ the new cloud instance with all established patterns (such as integrations must be in Apigee)
+Y
+4
+C
+omplete full testing (e2e, integration, UAT, 
+etc
+)
+Y
+5
+L
+aunch new CJM instance
+Y
+6
+M
+igrate all on-prem data
+Y
+What are your
+ reporting 
+or 
+self-serve analytics (data democ
+.
+) requirements
+?
+Requirements don’t change.  Source of current reporting would now come from the 
+cloud
+ instance not on prem.
+Reporting & Analytics
+ 
+The system shall provide standard dashboards for complaint volumes, trends, SLA compliance, and resolution times.
+The system shall support ad
+hoc reporting and export to 
+common formats (CSV, Excel, PDF).
+The system shall support configurable KPIs and management reports.
+The system shall retain historical complaint data as per retention policies.
+Y
+5.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+Medium (10–100k monthly)
+Response times or availability
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+Any legal or regulatory compliance requirements?
+Complaints, OTS and DSAR all Ofcom regulatory 
+Are there any Fraud 
+requirement
+s?
+Accessibility 
+/ vulnerable customer 
+requirements
+The journey must 
+support vulnerable customers
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Guidance:
+Say if 
+you believe 
+an operational department 
+will be impacted by implementing this idea
+.
+Operational area
+Impact
+?
+How
+CTO: 
+Will this requirement involve changes to the mobile or fixed network
+ or the services they deliver? 
+e.g
+.
+ 
+c
+onnectivity, coverage, messaging, et
+c.
+Y
+Small impact – removal of some hardware supporting the 
+on premise
+ solution
+Will CIO or CTO operational teams need to change the way they support our services? 
+N
+Digital channels 
+or 
+App
+Y
+Minor UI enhancements, testing requirements
+Commercial
+ and 
+Product teams
+N
+Marketing
+ and 
+Sales
+N
+Shop
+ and 
+B
+asket
+N
+Retail stores
+N
+Care
+ and 
+Retentions
+Y
+Minor UI enhancements, testing requirements
+Billing
+, 
+Payments
+, Customer 
+Finance
+, 
+Insurance
+N
+Logistics
+, 
+supply chain
+ and field
+ operations
+N
+Other: (State)
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Pega 
+completed 
+a 
+Cloud Readiness Assessment for CJM
+ which
+ indicates a straightforward upgrade to Pega as a Service migration path requiring under 1,000 hours of remediation effort
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas etc
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

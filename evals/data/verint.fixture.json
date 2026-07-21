@@ -1,0 +1,77 @@
+{
+  "formatVariant": "prototype-2026",
+  "fields": [
+    {
+      "id": "title",
+      "value": "Verint Migration to Amazon Connect",
+      "evidence_span": "Idea Tracking — Title: Verint Migration to Amazon Connect",
+      "confidence": 0.97,
+      "status": "found"
+    },
+    {
+      "id": "tracking_id",
+      "value": "IDEA-2026-VERINT",
+      "evidence_span": "Tracking ID: IDEA-2026-VERINT",
+      "confidence": 0.94,
+      "status": "found"
+    },
+    {
+      "id": "budget_ref",
+      "value": "Contact Centre FY26",
+      "evidence_span": "Budget reference: Contact Centre FY26",
+      "confidence": 0.91,
+      "status": "found"
+    },
+    {
+      "id": "channels_processes_systems",
+      "value": "Contact centre telephony, Verint WFM, Amazon Connect",
+      "evidence_span": "Systems: Verint, Amazon Connect, CRM",
+      "confidence": 0.9,
+      "status": "found"
+    },
+    {
+      "id": "dependencies",
+      "value": "Amazon Connect landing zone, CRM CTI",
+      "evidence_span": "Dependencies: Connect landing zone, CRM CTI",
+      "confidence": 0.88,
+      "status": "found"
+    },
+    {
+      "id": "journey_counts",
+      "value": "4 agent workflows",
+      "evidence_span": "Workflows: 4 agent workflows",
+      "confidence": 0.8,
+      "status": "found"
+    }
+  ],
+  "popitEvidence": {
+    "customer": {
+      "id": "popit.customer",
+      "value": "Contact centre customers indirectly affected",
+      "evidence_span": "Customer impact limited to service continuity",
+      "confidence": 0.82,
+      "status": "found"
+    },
+    "peopleProcess": {
+      "id": "popit.peopleProcess",
+      "value": "Agent desktop and routing process changes",
+      "evidence_span": "Agent workflow migration",
+      "confidence": 0.85,
+      "status": "found"
+    },
+    "technology": {
+      "id": "popit.technology",
+      "value": "Telephony platform migration",
+      "evidence_span": "Core telephony replacement",
+      "confidence": 0.88,
+      "status": "found"
+    },
+    "complexity": {
+      "id": "popit.complexity",
+      "value": "Single-domain migration with integration cutover",
+      "evidence_span": "Focused migration scope",
+      "confidence": 0.8,
+      "status": "found"
+    }
+  }
+}

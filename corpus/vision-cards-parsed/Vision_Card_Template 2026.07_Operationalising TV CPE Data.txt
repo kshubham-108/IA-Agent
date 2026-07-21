@@ -1,0 +1,498 @@
+Th
+is
+ Vision Card outlines the 
+desired business, customer and delivery outcome
+ for your
+ 
+new project idea
+. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Initiative 
+Title
+Operationalising
+ 
+TV CPE Data
+Business 
+O
+utcome
+ (and Value)
+1.1 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your 
+business
+-
+unit
+ 
+Primary (SMART) 
+Business 
+Outcome 
+Reduce wasted Trucks
+ for TV
+ by 50% by H2 2027
+. 175 per week.  Improving UX measured by Transactional NPS and Care AHT.
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+e.g. Improve
+, reduce, increase, enable, accelerate
+In which
+ business metric?
+e.g. 
+NPS, Customer retention, 
+Employee onboarding time, 
+Basket abandonment etc
+.
+For which
+ specific stakeholder or business user?
+ 
+(
+Primary outcome beneficiary
+)
+e.g. 
+Online PAYG customers
+, 
+O
+perations, 
+F
+inance, 
+Regulatory compliance
+, 
+R
+etail staff, 
+R
+etentions teams etc.
+ 
+By 
+how much
+?
+ 
+ 
+(
+Quantity
+ or percentage
+ is required
+)
+e.g. 
+5%, 30 seconds per transaction, 
++2 NPS points etc
+.
+What is the current 
+value for this business metric?
+e.g. 
+-15
+ 
+NPS
+ average q1-q4 2025
+Improvement must happen 
+by when
+?
+e.g. 
+within 12 months
+What strategic 
+outcome
+ does this support
+? 
+e.g. 
+enabling faster revenue realisation
+1.2 Value case
+What is your value case built on so far?
+ 
+Click
+ any that apply
+☐
+ 
+Revenue uplift  
+☒
+ 
+Cost saving
+☐
+ 
+Risk reduction
+☒
+ 
+Customer experience
+☐
+ 
+Other
+ (
+specify
+):
+What is the approximate financial value of this?
+£ 
+450,000
+ 
+Over 
+1
+ 
+years
+What are your 
+top 1-3
+ assumptions for this to be true?
+As
+suming care agents and digital channels adhere to the guidance offering by the error data and subsequent workflows
+What lead indicator
+(s)
+ will predict success
+ in delivering this value?
+% 
+first time tech visit resolution 
+Customer and Experience Outcomes
+2.1 Customer 
+/ User 
+Problem
+ 
+Which product
+s or services 
+are 
+in scope
+?
+360 & Stream TV Products – also Munro in the future
+Who is impacted?
+(e.g. customer type, colleague, segment etc)
+All TV Customers 
+raising a Fault via phone or Digital channels.
+What is their problem today?
+(2-3 lines max)
+We rely on customers to explain the issues they are experiencing to agents in a way that enables agents to choose the correct restoration workflow.  We also have inaccurate insight as agents struggle to assign adequate reason codes.
+Why it matters
+(1
+-3
+ line
+s
+)
+High 
+Opex
+ cost, poor CX, AHT in care
+What proof do you have?
+Field insight reporting 800k-900k 
+Opex
+ impact of wasted trucks, most TV calls logged as ‘Loss of Sound and Pic’ when call listening shows this is incorrect in most cases.
+2.2 Customer Experience Outcome (Future state)
+Desired Future 
+experience
+(1-2 sentences)
+Enable agent and Digital tools to show the specific error codes customer CPE is generating, this links to Information Centre workflows (that already exist) for a quick and accurate resolution and closure of the call/interaction
+How does this differ from the current state?
+We rely on customers to accurately understand and describe their issues to drive the resolution
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+“
+As a
+ VMO2 customer I want my issue understood immediately and actioned.  I do not want to have to waste my time for multiple engineer visits and I want my services restored as soon as possible with minimal effort or thought” 
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+Design TBC
+Delivery Outcomes
+3.1 
+Key capabilities required
+Describe what must exist
+ (
+not how
+)
+ 
+- 
+in 
+a few
+ lines.
+  
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+*MVP = These requirements must be delivered by the project to achieve the minimum viable customer or commercial outcome
+If your proposal is on behalf of an external party such as 
+giffgaff
+ then the capabilities will be those that VMO2 must supply to support this third party
+#
+Capability
+MVP*
+1
+All 
+customer
+ facing error codes the CPE has generated over the previous 1 week minimum are presented to the agent.
+Y
+2
+A selection of codes or flags are also generated to advise the agent of CPE failures – such as HDD health issues (pending sectors).  These are not 
+customer
+ facing/shown on the CPE. 
+Y
+3
+Agents can still bypass the advisory as necessary – the suggested restoration workflow is not strictly enforced.
+Y
+4
+The workflow/flags/insight followed by agents are presented to Field techs in their notes/PDAs to aid fault fix on sight.
+5
+6
+Reporting / Analytics Requirement
+s
+1
+A clear report showing the account ID, the CPE codes logged and the IC workflow used and generated, to track compliance.
+Y
+3.2 
+Delivery Scope & Impact
+Channel 
+Core domains / functions
+☒
+ Digital / App
+☐
+ Retail
+☒
+ Care / contact 
+centre
+☐
+ Messaging
+☐
+ Indirect
+☐
+ Product & Proposition Management
+☒
+ Customer data / Identity
+☐
+ Sales / shop / basket
+☐
+ Order & fulfilment
+☐
+ Supply chain & Logistics
+☐
+ Billing / payment / finance / insurance
+☒
+ In-life service / management
+☐
+ Fraud management
+☐
+ Network connectivity
+☐
+ Mobile Devices / CPE / STB
+☐
+ Wholesale partners
+, MVNO
+☐
+ B2B Daisy impact
+3.
+3
+ Delivery 
+S
+uccess 
+M
+etrics
+. How will delivery be measured?
+Type
+Metric
+Time to Market
+MVP by July 1
+st
+ 2027
+Quality target
+Realtime CPE data available to 
+customer
+ facing teams and tools
+Adoption target
+Reduction in wasted trucks by 50%
+Other (Specify)
+100% of TV faults 
+reporting
+ using CPE data and process followed to measure compliance.  Not done currently.
+3.
+4
+ 
+Complexity
+ 
+drivers
+Please mark 
+and describe 
+any that apply
+. This will
+ improve the accuracy of our estimate
+.
+Focus
+Requirement
+☒
+Data or customer migration is required between 
+suppliers or systems
+MSA Middleware to link GCP to Einstein DB and 
+into
+ our Enterprise and Digital system estate
+☐
+D
+ecommissioning of legacy systems or suppliers
+ is included
+Which?
+☐
+New suppliers or systems introduced
+Which?
+☐
+High transaction volumes >100k per month
+What volumes?
+☒
+Realtime/sub-second response required
+To get real time data from CPE into our tools.
+☐
+Regulatory/compliance critical
+What are the legal or regulatory compliance requirements?
+☐
+Security or privacy requirements
+e.g. Only parents (account holders) may access and set the access controls for the child device
+☐
+Fraud prevention
+What is the fraud prevention requirement?
+☐
+Auditability requirements
+What audit or logging is required?
+☐
+Accessibility / vulnerable customer requirements
+Nature of requirement
+3.
+5
+ 
+Delivery timing
+Target live date or window
+Q3 2027
+Why this date matters 
+To 
+realise
+ savings and UX improvement in year
+3.6 
+Constraints and Dependencies
+Key constraints
+TCS solution design, Middleware and in house Digital resources
+Known dependencies 
+(optional, if known)
+TBC
+What is out of scope?
+Forcing agents 
+down
+ a specific journey, the final decision will still be a human one using their best judgement following conversation 
+with
+ the customer impacted.
+Supporting Information
+Has any solution assessment been done? 
+Include links to existing solution options, blueprints, etc. that may support T Shirt sizing  
+No - Awaiting TCS resources
+Are there any 
+other 
+supporting documents or references 
+e.g. Links to slides, customer personas etc.
+As above
+Governance and Ownership
+Proposer
+Paul Sherman
+S
+ponsor
+Louise Fussell
+Person accountable for the business outcome
+TBC – Awaiting now Consumer Divisional structure
+Finance Business Partner
+(s) 
+Reeta Patel
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Tracking information
+Tracking reference if any
+TOP-967
+ is your 2027
+TOP-968
+ is your 2026
+Budget reference 
+(if known)
+C
+R
+-202
+6
+-00
+7
+Which business 
+unit
+ will be funding this proposal?
+Consumer
+Which demand forum or person prioritised this as a candidate for investment? 
+Consumer Demand Forum
+When was this 
+idea 
+approved 
+as a candidate for investment
+?
+21
+/
+12
+/25
+NDA name and contact 
+(if applicable)
+TBC
+Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and 
+Mobilisation
+ (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a sponsor, 
+and 
+potential 
+budget from the person or 
+meeting
+ that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+C
+entral Platform Assessment
+: When judged fit for purpose, the Vision card will be submitted for platform assessment
+ (CPA)
+.
+ 
+This 
+meeting specifies the main platform impacts of the 
+requirement and
+ determines which delivery partner will lead. The CPA output is raised to 
+the partner to request an IIA.
+ 
+IIA: 
+The Initial Impact Assessment will 
+be provided by the delivery partner (TCS or 
+TechM
+)
+. This will provide a fixed price quote for the initial phase, and an estimate of the full cost and duration. Business owners will
+ use IIA to obtain seed funding approval.
+ 
+Mobilisation
+: 
+Once funding is approved inform your BEM so they can support project planning and 
+mobilisation
+.
+ 

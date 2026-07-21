@@ -1,0 +1,46 @@
+# BA IIA calculator — golden anchors from PROJECT_BRIEF §3D
+bands:
+  - { min: 0, max: 1, label: Very Low }
+  - { min: 2, max: 4, label: Low }
+  - { min: 5, max: 8, label: Medium }
+  - { min: 9, max: 12, label: Medium High }
+  - { min: 13, max: 16, label: High }
+  - { min: 17, max: 20, label: Very High }
+
+# PU by total score (post floor) and year — §3D golden cases
+pu_by_score:
+  2025:
+    0: 0
+    2: 19.2
+    5: 57.6
+    12: 76.8
+    20: 345.6
+  2026:
+    0: 0
+    2: 16.4
+    5: 49.2
+    12: 65.6
+    20: 295.2
+  2027:
+    0: 0
+    2: 15.3
+    5: 46.0
+    12: 61.3
+    20: 277.2
+
+duration_weeks_by_score:
+  0: 0
+  2: 6.5
+  5: 10
+  12: 13
+  20: 20
+
+duration_label_by_score:
+  20: "20+ wks"
+
+effort_pct_by_score:
+  0: 0
+  2: 50
+  5: 100
+  12: 100
+  20: 300

@@ -1,0 +1,578 @@
+V
+ision Document
+Idea Name
+ 
+                                                    eSIM
+ Capability 
+for Wholesale Partners 
+only (
+x 13
+) via API
+Sponsor
+ / Sponsor Delegate
+N
+ame
+: 
+Dean Edwards
+Has a Vision document been created for this idea previously?
+n
+DOCUMENT HISTORY
+[Whilst the document is in draft, it should have the numbering convention of Draft v0.1.  Once approved, it needs to be 
+changed to Approved v1.0.
+]
+Author
+Version
+Date
+Reason
+Dean Edwards
+Draft v
+0.1
+0
+2
+.0
+7
+.2026
+1
+st
+ Draft
+1.
+PROBLEM or Opportunity Statement
+2
+2.
+Objectives / Goals
+2
+3.
+BUSINESS JUSTIFICATION & BENEFITS
+2
+4.
+SCOPE
+3
+5.
+Customer Impacts
+3
+6.
+ASpirational timelines
+4
+7.
+Budget
+4
+8.
+Initial Risks, Assumptions, Dependencies
+5
+9.
+Glossary
+6
+10.
+DISTRIBUTION LIST
+6
+11.
+Key Stakeholders
+6
+The purpose of the Vision document is to capture the key features of 
+the 
+idea, the business objectives, requested scope and benefits.  The Vision document will be used to engage key stakeholders and as a handover to the 
+prime partner 
+who will create an 
+Ideate Pack and Initial 
+Impact Assessment (IIA)
+.
+ 
+ T
+he 
+Ideate Pack
+ is a key input to the Initial Impact Assessment (IIA)
+ which will provide an initial view of expected costs and 
+delivery 
+timelines.  
+A well-constructed Vision document will speed up the time to complete the architectural steer and lead to a better quality and more accurate Initial Impact Assessment.
+The Vision 
+document is a pre-requisite for 
+receiving seed funding 
+and taking your project 
+through the
+ Front Door process
+.  The contents of 
+the 
+Vision document should be discussed and approved with the 
+Business Engagement and Mobilisation Partner
+ 
+(BEMP)
+ 
+and the project sponsor.  
+If not already engaged, please contact your 
+BEMP 
+as soon as possible.
+PROBLEM or Opportunity Statement
+The current process for fulfilling wholesale eSIM orders is manual and 
+paper-based
+. A wholesale partner submits an order form, which is manually processed by the SN&M team in the ABS system. The request is then sent to Thales for provisioning. Thales sends the QR code data to a third-party, Real Digital, who prints and mails the physical QR codes to the partner. 
+This multi-step process is lengthy and time-consuming.
+  Sometimes the Partner will choose to get a plastic SIM instead, sometimes they will connect a customer to another network that offers an easier eSIM solution such as Vodafone who’s eSIM solution is easier to use
+, as is EE’s and they both use an API type conn
+ection.
+We need a modern, digital 
+capability
+ 
+for digital eSIM fulfilment and eSIM management 
+all 13 
+B2B 
+wholesale partners, with a repeatable approach that can 
+allow them to connect to the API as and when they are ready, so be able to get some support of they need it either from VMO2’s SIM and Numbering Team or Thales.
+O2B are not involved with this VD as they are going in their own direction.  Tesco Mobile or any other MVNO are also NOT involved with this VD as they have a solution already
+ for eSIM.
+IOT are not included in this VD as they are on their own journey, needing a slightly different solution.
+Objectives
+ / Goals
+Remove dependency on SIM logistics and postage 
+of QR codes and 
+plastic 
+SIMS
+ but keep it in place for those Partners that 
+want to use it for certain situations
+Accelerate customer onboarding 
+(maximise revenue)
+Reduce operational cost and complexity
+ in the long-term
+A more digital SIM solution allows VMO2 to reduce its plastics use
+Deliver a Scalable, Standards
+Based eSIM Architecture
+ where target EID is unknown
+ or known
+BUSINESS JUSTIFICATION
+ 
+& BENEFITS
+This 
+will 
+speed
+ up
+ 
+fulfilment 
+and helps VMO2 stay competitive with multi
+-network
+ partners
+.
+The solution also future-proofs us as eSIM becomes standard, especially with Apple’s eSIM-only devices
+ in the future, and surely other manufacturers will follow suit.
+Other networks already provide more streamlined 
+digital eSIM 
+fulfilment options 
+which can influence partners
+ and competitors
+ to place customers with competitors when eSIM is required.
+Scalable architecture once built
+ 
+so that Wholesale B2B Partners can opt in
+ to the service 
+when they are ready.
+Replacing physical SIMs 
+eventually
+ 
+and 
+reducing 
+posted QR codes with digital eSIM 
+fulfilment
+ 
+reduces
+ 
+SIM pack manufacturing
+SIM pack manufacturing
+SIM logistics & postage
+Warehouse storage
+Lost / damaged / failed SIM orders
+SIM swap operational overhead
+4
+.
+ 
+Business Outcome
+s
+Faster eSIM fulfilment and activation – currently 24 hours for posted SIMS, target is <60 
+minutes; this
+ will help VMO2 stay competitive with multi-network partners.
+Scalable reliable standards-based platform -  
+99.9%
+ availability;  
+99%
+ eSIM fulfilment success.
+Removal of dependency of SIM logistics and postage - 
+X
+%
+ of wholesale eSIM fulfilments delivered 
+/
+digitally (no physical mail) and number of posted QR code packs
+ where the EID is unknown
+.
+ (current
+ volume of
+ SIM orders from 
+07/01/25 to 
+17/04/26 177,205)
+.
+The objective is to provide partners with a standardised way to request and manage digital 
+eSIMs
+ without requiring physical stock management
+SCOPE
+In Scope
+In-scope outcomes / requirements (what):
+Enable 
+ALL 13 
+x
+ 
+wholesale partners
+,
+ 
+to
+ be able to
+ request digital eSIM fulfilment of eSIM activation details
+ 
+and
+ 
+reduce
+ 
+reliance on paper-based fulfilment
+.
+Provide at least one fulfilment channel
+ appropriate for 
+All 13 Wholesale
+ partners, 
+(e.g
+., 
+digital QR code data
+ for partner-controlled presentation to end users).
+Support Partners by providing 
+a single wholesale-partner SM-DP+ tenant owned and managed by the Wholesale Partners team.
+Standard 
+APIs would be exposed through a middleware layer (
+such as
+ Apigee).
+Be able to cancel and 
+return orders if needed.
+Partner must 
+be able to receive all information required to: 
+Generate QR codes.
+Support journeys where the EID is known or not known.
+That this process is as close to instantaneous as possible.
+Partners must be able to b
+uild their own customer experiences
+ at their end.
+Define a repeatable wholesale partner onboarding model (interfaces, assurance, testing, operational support, and documentation) that can be reused across 
+all 
+wholesale
+ partners
+.
+Meet security, privacy, audit, and fraud controls appropriate for remote provisioning (including customer/partner authentication, authorisation, and traceability).
+Provide appropriate messaging and communications to the Wholesale Partner which enables them to 
+keep their customers informed of the eSIM fulfilment journey.
+The IIA must support Wholesale Mobile team in making a commercial decision to deliver 
+to 
+13
+ x
+ SMB Wholesale partners
+ an API that they can use as an when they are ready.
+IIA guidance required on Phase 2 mobilisation timing and dependencies:
+Indicative solution approach (how) – to be confirmed via Architectural Steer:
+ Deliver the above outcomes using industry-standard eSIM remote provisioning capabilities with appropriate partner connectivity and operational tooling. Specific platform components, integration patterns, and vendor interfaces will be confirmed during the Architectural Steer and Initial Impact Assessment.
+OUT OF Scope
+Physical SIM delivery process
+Billing and Collection
+Reporting activities
+VMO2
+, MVNO’s 
+and 
+direct 
+customers
+IOT.  They need their own journey for eSIM
+Future Scope Items
+NA
+5.4 High-level requirements
+The following high-level requirements describe the partner-facing capabilities needed to deliver digital eSIM fulfilment 
+of 
+an API
+ nature 
+for
+ 
+all wholesale
+ partners
+. 
+ VMO2 will not have direct contact with partners’ end users; 
+therefore,
+ requirements focus on partner interfaces, partner-consumable statuses, and appropriate security and audit controls.
+ID
+High-level requirement (wholesale partner-facing)
+MVP
+HLR-01
+Wholesale partners
+ can
+ submit a digital request for eSIM activation fulfilment via an agreed interface (API/portal/file transfer TBC). Requests are validated and either accepted with a reference ID or rejected with reason codes; 
+Wholesale partners
+ 
+can track status without VMO2 contacting end users.
+Y
+HLR-02
+Provide at least one secure partner fulfilment delivery mechanism for eSIM activation data (e.g., QR/activation data) suitable for partner-controlled presentation to end users, including encryption, partner authentication, and protections against unauthorised access/replay; rules for expiry/re-issue are defined (TBC).
+Y
+HLR-0
+3
+Define a standard onboarding model for 
+Wholesale partners 
+(integration, assurance/security, testing, operational readiness
+ with 1 test Partner
+, and 
+then 
+support
+ going forward for all Partners in-life
+) that is reusable across multiple partners, including documented interface specs, test approach/entry-exit criteria, RACI for incidents/changes, and cutover/rollback per partner.
+Y
+HLR-0
+4
+Provide partner-visible order lifecycle status and notifications (e.g., received, validated, provisioning requested, provisioned, delivered, failed, cancelled – TBC). 
+Wholesale partners 
+can query status by reference ID and receive reason/failure codes; status is consistent across channels.
+Y
+HLR-0
+5
+Implement security, privacy, audit, and fraud controls for partner requests and fulfilment delivery: enforce 
+Wholesale partners
+ 
+authentication/authorisation; maintain full traceability (who/what/when/line or device/outcome); and apply data minimisation so only required activation payload data is shared.
+Y
+HLR-0
+6
+Provide an exceptions model (retry, re-issue, cancellation, reconciliation) with partner-consumable reason codes and operational processes, including handling for transient vs permanent failures, idempotency rules (duplicate requests), reconciliation, and runbook coverage/SLAs (TBC).
+Y
+HLR-0
+7
+Reduce manual operational steps (e.g., ABS manual handling and third-party print/post) through automation and standard integration patterns, with metrics for throughput, failures, and turnaround time.
+Y
+HLR-0
+8
+Implement controls to prevent and detect misuse (e.g., unauthorised swaps, repeated re-issues), including per-partner rate limits/thresholds (TBC), anomaly detection for suspicious patterns, and retention of audit evidence for investigations.
+Y
+HLR-
+9
+Provide a scalable operating model to onboard additional 
+Wholesale partners
+ 
+users 
+beyond the first adopter without redesigning the core capability, including separation of partner configuration from core logic, controlled rollout (feature flags/throttling TBC), and standard monitoring/support processes.
+Y
+HLR-1
+0
+Meet target service outcomes for digital fulfilment (turnaround < 60 minutes where feasible; platform availability 99.9%; fulfilment success 99%), with KPIs measured end-to-end from request accepted to payload delivered and clear success/failure definitions (TBC).
+Y
+Customer Impacts
+[Please d
+escribe the impact of delivery of this idea on the customer.
+]
+  
+Question
+Y/N
+Details
+Question
+Y/N
+Details
+Does this 
+change 
+impact customers
+ and / or the customer experience
+?
+Y
+Is there 
+expected to be 
+an impact to the way the customer purchases their service(s)?
+Y
+Is there expected to be an impact to the way the customer 
+uses
+ their service(s)?
+N
+Is there expected to be an impact to the way the customer
+ makes
+ changes 
+to 
+their service(s)?
+N
+Is there expected to be an impact to the way the customer cancels their service(s)?
+N
+Is there expected to be an impact to the way Virgin Media provides support to the customer?
+N
+Will delivery of the idea offer the customer flexibility?
+Y
+Able to offer eSIM service quickl
+y
+Will delivery of the idea offer additional value to the customer?
+Y
+Yes
+ASpirational timelines
+Commercial Launch Date
+Scope
+Drivers
+Budget
+Funding approach is to be confirmed. The Vision assumes there will be (a) a shared/core platform capability cost to establish a standard wholesale digital eSIM fulfilment and device change capability, and (b) partner-specific onboarding costs 
+are not expected for Wholesale Partners at this stage so a full cost to prov
+ide to all x 13 Partners in Wholesale is needed please. 
+ A funding and commercial model decision 
+at Decision Forum 
+is required before scope and timelines can be finalised.
+ 
+Initial 
+Risks, 
+Assumptions
+,
+ Dependencies
+The areas below should only be completed if applicable, i.e. there may not be any constraints or dependencies.
+Risks
+[Risks are items that
+ could happen (but haven’t yet)
+ 
+that would impact the cost, scope, timelines or successful delivery of this project.
+  
+If you are 
+aware of any, 
+please iden
+tify them using the table below.]
+Risk
+Risk Description
+Probability
+Impact
+R1
+R2
+H/M/L
+Assumptions
+[Assumptions are items that are taken for 
+granted but
+ will need to be validated to prevent the Vision from not being met. 
+If you have made any 
+a
+ssumptions about the delivery or solution
+,
+ please iden
+tify them using the table below.]
+Identifier
+Assumption Description
+A1
+Design shall conform to the 
+ESA and
+ not create technical debt
+.
+A2
+VMO2 shall 
+provide the eSIM solution with 
+Wholesale partners
+ 
+and do not expect additional costs to be incurred by Wholesale partners
+ to be able to connect and use the platform
+.
+Dependencies
+[Any known dependencies, in or out bound should be detailed. These are items outside the control of the delivery but are needed 
+in order to
+ ensure the success of the Vision. 
+If you are aware of any
+,
+ please iden
+tify them using the table below.]
+Identifier
+Dependency Description
+D1
+HLR to UDB project which will migrate 
+customers from Ericsson HLR to Nokia UDB;  in order for customers to get
+ automated eSIM fulfilment, they will need to be on 
+the Nokia 
+UDB
+ platform.
+Constraints
+[
+A constraint is something that will limit what you do.  If you are aware of any, please identify
+ any 
+organisational
+ constraints that you believe will impact the delivery of your idea.]
+Identifier
+Constraint Description
+C1
+C2
+Lessons Learnt
+[
+Lessons learnt
+ are experiences obtained from previous projects that should be actively 
+taken into account
+ during the delivery of your idea
+.]
+Identifier
+Lesson Learnt
+ Description
+L
+1
+L
+2
+Glo
+ssary
+[Please include any technical/business terms used throughout this document, with an explanation of any acronyms.]
+Acronym / Abbreviation
+Definition
+CLD
+Commercial Launch Date
+HLRs
+High Level Requirements
+IIA
+Initial Impact Assessment
+PBA
+Principal Business Analyst
+SMART
+Specific, Measurable, Achievable
+, Relevant, Time-based
+TRD
+Technical Readiness Date
+DISTRIBUTION LIST
+[Please capture all stakeholders who have been sent the vision document for information or consultation.
+ Against each stakeholder, please indicate their responsibility in the RACI section (Responsible, Accoun
+table, Consulted, and Informed)
+.]
+Name
+Role
+Department
+RACI
+Version
+Dean Edwards
+Sponsor
+ (Partner Services Solutions Manager
+)
+Wholesale Solutions 
+Accountable
+1
+Sponsor Delegate (where applicable)
+Accountable
+Daniele Torrigiani
+Head of Wholesale Solutions
+Informed
+Helen Dixon
+Business Engagement & Mobilisation Partner
+Cross Functional Engagement
+Consulted
+Andrew Brockington
+Enterprise Architect
+Operations UK
+Consulted
+Key Stakeholders
+[Please capture all the stakeholder groups (by role & name) 
+engaged
+ as part of the vision 
+creation 
+and any areas that have been identified but not yet engaged.]
+Name
+Department
+Dean 
+E
+dwards
+Wholesale 
+S
+olutions
+ Manager
+Ian 
+W
+ilkins
+Wholesale commercial team
+Alexandra Blenkinsopp
+Wholesale commercial team
+Nick Hill
+Wholesale commercial team Manager
+Claire Rushforth
+Operational Performance and Acceptance 
+Lead

@@ -1,0 +1,378 @@
+V
+ision Document
+Idea Name
+ 
+- PLan.com 5GSA enablement 
+N
+ame
+: 
+Claire Rushforth 
+Sponsor
+ / Sponsor Delegate
+ 
+N
+ame
+: 
+Has a Vision document been created for this idea previously?
+Y/N
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+Stakeholders
+Proposer
+ 
+Claire Rushforth
+Sponsor
+ 
+Paul O’Sullivan
+Person accountable for the business outcome
+ 
+Claire can you please add
+ 
+Finance Business Partner(s) 
+ 
+Claire can you please add
+ 
+Other stakeholders (Optional)
+ 
+Only include if consulted to date. e.g., Legal, Regulatory, Insights, Care, Retail Ops. 
+ 
+Role
+ 
+Name
+ 
+ 
+Commercial Manager
+Nick Hill
+ 
+ 
+ 
+ 
+For admin use only
+ 
+Date received by Business Engagement and 
+Mobilisation
+ (BEM) team
+ 
+– shared via Business Forum 
+27/04/2026
+Vision has been reviewed with key architects / ESA domain owners? 
+Date approved for platform assessment by BEM 
+tbc
+1.
+PROBLEM or Opportunity Statement
+3
+2.
+Objectives / Goals
+3
+3.
+BUSINESS JUSTIFICATION & BENEFITS
+4
+4.
+SCOPE
+4
+5.
+Business OUtcomes
+4
+6.
+Customer Impacts
+5
+7.
+ASpirational timelines
+5
+8.
+Budget
+6
+9.
+Initial Risks, Assumptions, Dependencies
+6
+10.
+Glossary
+7
+11.
+DISTRIBUTION LIST
+7
+12.
+Key Stakeholders
+8
+PROBLEM or Opportunity Statement
+While 5G Standalone (5GSA) services are already offered to SMB wholesale partners via the standard delivery route, Plan.com is currently unable to consume 5GSA through this route due to historic, bespoke APN routing implemented prior to the introduction of 5GSA.
+As a result, although Plan.com meets the eligibility criteria for 5GSA, the service is effectively blocked by the current technical design. This initiative therefore 
+seeks
+ to enable service parity for Plan.com and to address regulatory obligations associated with offering equivalent services to SMB wholesale partners.
+The current assumption is that delivery of this change will be funded by VMO2. The requirement to enable 5GSA arises from historic APN design decisions implemented by VMO2 and is not attributable to a Plan.com
+initiated change request.
+Consideration of cost responsibility for any future strategic re
+alignment of Plan.com onto a fully standardised SMB architecture is outside the scope of this Vision Document.
+.
+Objectives
+ / Goals
+To enable 5GSA for Plan.com 
+HLD of 
+Plan.com’s
+ APN attached for clarification
+Considerations by the network team
+Network packet core design advised this would be a small change in networks as 5GSA was only blocked for them, steps are below:
+Plan.com is a special case as currently uses consumer signalling and corporate user plane, although long term we want to move them back onto corporate signalling. 
+Steps needed for plan to go live with 5GSA  
+As it stands 
+( assume
+ all is ok with 5GSA monetisation phase 2c) 
+Check that plan.com RADIUS as 
+tgis
+ uses the Radius accounting and authentication parameters NSAPI. As part of the standards this 
+changes  in
+ RAT type from 5 or 6 in 1-4 G but 5GSA will use 8. If Plan are using NSAPI to track the session they need to make some changes. We should also probably plan with them for a launch on 5G-SA. 
+Include 5GSA into plan rel5 subscriptions 
+Include IMSI sims in AMF
+Include IMSI range in IWK on the MME
+BUSINESS JUSTIFICATION & BENEFITS
+Regulatory have confirmed that as we are offering 5GSA to all other SMB customers we MUST be able to offer it to plan as we may have to deal with some regulatory competition law challenges 
+SCOPE
+In Scope
+Plan.com must have 5G SA capability made available to their existing Corporate / Private APNs:
+APNs in scope:
+ 
+data.plan.com (1766) and bob.plan.com (1767)
+SPIDs:
+ 
+573 and 576
+The solution must be fully tested end
+to
+end across both CIO and CTO.
+OUT OF Scope
+Broader enablement of 5GSA for SMB wholesale partners (already available) and any long
+term strategic re
+platforming of Plan.com beyond what is required to enable 5GSA as part of this initiative.
+future strategic re
+alignment of Plan.com onto a fully standardised SMB architecture is outside the scope of this Vision Document.
+To consume the 5GSA service, Plan.com customers will be required to add the relevant 5GSA service to their commercial tariff. This activity will be managed through existing SMB commercial processes and does not introduce a technical dependency for delivery of this initiative.
+Business OUtcom
+e
+s
+supports the longer
+term business objective of reducing bespoke network designs by aligning Plan.com closer to the standard SMB architecture where feasible, thereby reducing future change effort for new services
+.
+ 
+Enable
+ Plan.com to consume 
+5G Standalone (5GSA)
+ on an equivalent basis to other SMB wholesale partners.
+ 
+Remove
+ the current technical blocker created by historic bespoke APN routing. 
+Ensure
+ Plan.com is no longer treated as an exception when new SMB services are introduced which reduces exposure to regulatory or competition challenge arising from service inconsistency 
+Allow
+ Plan.com customers to commercially adopt 5GSA by adding the relevant service to their tariff. 
+Unlock
+ access to improved performance, latency, and future 5G capabilities for 
+Plan.com’s
+ customer base.
+Improves predictability of delivery, cost, and timelines for wholesale network changes
+Customer Impacts
+[Please d
+escribe the impact of delivery of this idea on the customer.
+]
+  
+Question
+Y/N
+Details
+Does this 
+change 
+impact customers
+ and / or the customer experience
+?
+Y/
+N
+Y – improved service and capabilities 
+Is there 
+expected to be 
+an impact to the way the customer purchases their service(s)?
+Y/
+N
+Y – they will have to add on a 5GSA 
+service
+ (already live for SMB customers)
+Is there expected to be an impact to the way the customer 
+uses
+ their service(s)?
+Y/
+N
+N
+Is there expected to be an impact to the way the customer
+ makes
+ changes 
+to 
+their service(s)?
+Y/
+N
+Y – ensure the 5G service is added 
+Is there expected to be an impact to the way the customer cancels their service(s)?
+Y/
+N
+N
+Is there expected to be an impact to the way Virgin Media provides support to the customer?
+Y/
+N
+N
+Will delivery of the idea offer the customer flexibility?
+Y/
+N
+N
+Will delivery of the idea offer additional value to the customer?
+Y/
+N
+Y – additional capabilities and improved overall service
+ASpirational timelines
+Commercial Launch Date
+Scope
+Drivers
+Within 4months
+Enable 5GA service for Plan.com on their specific set up
+Regulatory 
+Budget
+Initial 
+Risks, 
+Assumptions
+,
+ Dependencies
+The areas below should only be completed if applicable, i.e. there may not be any constraints or dependencies.
+Risks
+[Risks are items that
+ could happen (but haven’t yet)
+ 
+that would impact the cost, scope, timelines or successful delivery of this project.
+  
+If you are 
+aware of any, 
+please iden
+tify them using the table below.]
+Risk
+Risk Description
+Probability
+Impact
+R1
+Competition Law
+H/M/L
+H
+R2
+Downstream billing and charging impacts may be greater than initially assumed pending Impact Assessment.
+H/M/L
+M
+Assumptions
+[Assumptions are items that are taken for 
+granted but
+ will need to be validated to prevent the Vision from not being met. 
+If you have made any 
+a
+ssumptions about the delivery or solution
+,
+ please iden
+tify them using the table below.]
+Identifier
+Assumption Description
+A1
+e
+xisting 5G SA service code (5b), which is currently available to all wholesale partners be used, 
+ 
+A2
+Dependencies
+[Any known dependencies, in or out bound should be detailed. These are items outside the control of the delivery but are needed 
+in order to
+ ensure the success of the Vision. 
+If you are aware of any
+,
+ please iden
+tify them using the table below.]
+Identifier
+Dependency Description
+D1
+A hard dependency on 5G Monetisation – Phase 2C, specifically: 
+as a dependency (which enables the key capability in NW and IT to support 5G SA Pvt. APNs for any B2B customers).    
+Without knowing this we can’t confirm 
+CLD 
+delivery timelines
+D2
+Constraints
+[
+A constraint is something that will limit what you do.  If you are aware of any, please identify
+ any 
+organisational
+ constraints that you believe will impact the delivery of your idea.]
+Identifier
+Constraint Description
+C1
+C2
+Lessons Learnt
+[
+Lessons learnt
+ are experiences obtained from previous projects that should be actively 
+taken into account
+ during the delivery of your idea
+.]
+Identifier
+Lesson Learnt
+ Description
+L
+1
+L
+2
+Glo
+ssary
+[Please include any technical/business terms used throughout this document, with an explanation of any acronyms.]
+Acronym / Abbreviation
+Definition
+CLD
+Commercial Launch Date
+HLRs
+High Level Requirements
+IIA
+Initial Impact Assessment
+PBA
+Principal Business Analyst
+SMART
+Specific, Measurable, Achievable
+, Relevant, Time-based
+TRD
+Technical Readiness Date
+Name
+Role
+Department
+RACI
+Version
+Dean Edwards
+Sponsor
+Wholesale Solutions 
+Accountable
+Sponsor Delegate (where applicable)
+Accountable
+Kevin Veale 
+Technical 
+Architect
+Consulted
+Shyam Jamnadas
+Principal Business Analyst
+UK Delivery
+Consulted
+Ravi Birah
+Programme Director
+UK Delivery
+Consulted
+Key Stakeholders
+[Please capture all the stakeholder groups (by role & name) 
+engaged
+ as part of the vision 
+creation 
+and any areas that have been identified but not yet engaged.]
+Name
+Department
+Dean 
+E
+dwards
+Wholesale solutions
+Nick Hill
+Wholesale commercial team
+ manager

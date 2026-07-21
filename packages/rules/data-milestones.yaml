@@ -1,0 +1,8 @@
+# Data milestone split percentages of base PU (§3B)
+milestones:
+  design: 0.40
+  build_and_ut: 0.60
+  st_support: 0.10
+  oat_and_deploy: 0.05
+  warranty_opex: 0.08
+  additional_ps: 0.01

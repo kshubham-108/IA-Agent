@@ -1,0 +1,637 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+AD Evergreen 2026
+Primary (SMART) Outcome statement
+To 
+maintain
+ a compliant and secure 
+Active 
+D
+irectory 
+environment
+ 
+with supporting processes in
+ 
+line with the 
+VMO2 
+Access
+ & 
+Identity
+ 
+M
+anagement Security policies and Standards
+Reduce cost / eliminate vendor dependency
+What type of 
+state change/improvement must the project deliver
+?
+Must ensure that the 
+VMO
+2 
+A
+ctive 
+D
+irectory estate is running on a fully supported 
+Functional and windows server level. Ensure that accounts
+ are managed and reported upon in line with VMO2 
+Access
+ & 
+Identity M
+anagement security policies and standards
+.
+In which
+ business metric?
+Reduction in the VMO2 Active Directory vulnerability rating
+Reduction in 
+End-of-life
+ assets for the AD estate 
+Increase 
+in 
+the % of accounts which are set up in a compliant manner and have an assigned owner
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+Tech & 
+Platforms:
+ DWP 
+Identity & 
+Directory Services 
+team
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+Reduce Active Directory end of life assets by 90%
+What is the current 
+value for this business metric?
+AD End of life assets:
+ TBC
+AD Tru Risk vulnerability score: TBC
+Within what timeframe?
+By 
+end of 
+Q4 2026
+What strategic 
+outcome
+ does this support
+? 
+Ensuring that 
+platforms are
+ secure
+, patched and compliant
+Ensuring that VMO2 meets its compliance and control 
+reqs
+Stakeholders
+Proposer
+Vicky Rao
+Sponsor
+Phil Wilshaw
+Person accountable for the business outcome
+Vicky Rao
+ – Platform Owner – Identity & Directory Services
+Finance Business Partner(s) 
+TBC
+Role
+Vicky Rao
+ – Platform Owner – Identity & Directory Services
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+ 
+PJ024977
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+2026 Budget – 
+750K
+Which business division will be funding this proposal?
+CIO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Phil 
+Wilshaw
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+Oct 2025
+ as part of 2026 project and budget planning
+If known, when is this planned to attend Investment Committee?
+Attended - DWP Portfolio
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+None
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+No
+Confidence and cost control
+Date received by 
+Business Engagement and 
+Mobilisation
+ (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+Who is impacted and what is broken today?
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Active 
+D
+irectory is an underpinning service for the VMO2 technology estate therefore 
+maintaining the estate 
+benefits
+ 
+all of
+ the workforce and the owners of the VMO2 platforms.
+What customer need or problem is this proposal primarily addressing — and how do we know it matters to the customer?
+We are ensuring that VMO2 are operating a secure and compliant technology 
+estate as per our 
+customers
+ expectations in terms of protecting their data. In 
+addition,
+ we are ensuring that underpinning s
+ervices provide the stability and resilience required for us to 
+deliver 
+a reliable service to customers.
+Which product
+s or services 
+are 
+in scope
+?
+Active Directory
+ 
+Directory
+ Services
+Workforce Identity - Joiners, Movers & Leavers
+Non-human
+ identity management
+Authentication services
+Which channels, processes or (if known) systems are in scope? 
+Specify the channels, processes or systems involved today
+Active Directory 
+Directory
+ Services
+ 
+Active Directory 
+Directory
+ Services – Identity Hygiene
+ 
+incl
+ account classifications
+, ownership 
+Active Directory 
+Directory
+ Services – Environment consolidation
+Password Management
+ – 
+Non human
+, Standard & Privileged
+ End User passwords
+What is happening today?
+Describe what 
+the prim
+ary 
+customer 
+(or colleague) 
+experience
+s
+ today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Active Directory 
+Directory
+ Services are the underpinning services for all users and services accessing the VMO2 environment.
+There are 20+ Active Directories in 
+the 
+VM and O2 environments 
+which need to be maintained to a supported version to ensure that they receive and apply the appropriate security controls.
+Today there is a lack of consistency with the application of maintenance processes for both the infrastructure and the objects within the directories leading to 
+various risks and ASROs being raised to improve the security and maintenance of the environment.
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+Identity is deemed to be the security perimeter and is one of the key areas where it is important that mature security policies and controls are applied
+. The current lack of consistency of policy application as well as a lack of processes to maintain ownership for accts is having a negative impact on us being able to apply robust
+ password management,
+ inactivity,
+ and
+ leaver
+s 
+processes.
+What must change
+?
+Vision
+ summary
+ 
+(desired outcome)
+. 
+In one line, what will be materially better for the customer 
+(or colleague) 
+if this succeeds?
+The Active 
+Directory 
+Directory
+ Services going out of support will be returned to mainstream support and security policies & standards for key controls are applied consistently.
+ 
+How does this differ from the current state?
+There are 
+a number of
+ AD environments going out of extended support in Jan 2027 and will cease to receive security patching.
+Password policies are not being applied consistently across the 
+estate 
+which have been recorded as risks to our security
+Currently we do not have account 
+classification and /or 
+ownership assigned 
+consistently 
+across our AD end user and 
+non human
+ 
+identity populations leading to missing and inconsistent process application.
+ 
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+Our colleagues in security will be able to know that we are running 
+our Active Directory estate on a supported Active Directory and Windows Server version.
+Our colleagues in IT Governance & Security will know that we are able to apply the various VMO2 polic
+ies
+ and standards to the different types of accts because they are classified correctly and have ownership assigned.
+Our colleagues in IT Govern
+a
+nce & Security
+ will know that we are applying document ted password policies consistently across the estate (except where there is an agreed exception in place)
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+No
+What constraints or non-negotiables must the future solution 
+respect
+?
+The AD environments must as a minimum be running on a version of AD functional or server level that is in extended support throughout 2027 or preferabl
+y a version in mainstream support.
+All policies and controls applied must comply with the VMO2 Access & Identity Management policies & standards
+Is there anything explicitly out of scope?
+No
+   
+When do you want this to 
+go live?
+2026
+Why must it happen then? 
+e.g. 
+Critical drivers for timing.
+Windows server
+ 2016 goes out of extended support in 
+Jan 2027
+Other process controls being applied are required to address ASROs/Fin
+d
+ings identified as part of recent audits or 
+external reviews and 
+without remediation could lead to a security breach
+. These items have been prioritised in reviews with VMO2 security.
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+N/a
+Leading indicator (predictor of successful execution). 
+Suggest (if you know) what metric will measure successful execution of this change.
+% of 
+Active Directory estate servers that are End of Life
+% of Active Directory estate servers running on fully supported versions
+% o
+f Active Directory user 
+and 
+non human
+ 
+account objects with an active owner assigned
+ (managed)
+% of Active Directory 
+user and 
+non human
+ account objects with an account type applied
+What is the approximate revenue uplift / cost saving from this?
+Avoidance of penalties from a security breach
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+The Active Directory estate can be uplifted to a supported version without impacting the services running in the 
+domain 
+ -
+ the project needs to commence asap to mitigate any impacts of a ‘
+las
+t minute’ uplift
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+Upgrade 
+Active Directory 
+windows servers where the windows server version is out of support or will go out of support in 2027
+.
+ Upgrade the Active Directory functional leve
+l where the functional level is out of support or will go out of support in 2027.
+MVP
+2
+Align password policies across the Active Directory 
+D
+irectory
+ 
+S
+ervices estate in line with the 
+VMO2 Access & Identity Management Security Policy and Standard
+MVP
+3
+Deploy a method
+ for sending a reminder to the owners of service accounts to warn them of password expiry x days before the
+ expiry period of 
+x
+ 
+days to ensure passwords are rotated in line 
+with the VMO2 Access & Identity Management Security Policy and Standard
+MVP
+4
+Implement a method of assigning key attributes to account objects in 
+Active 
+D
+irectory 
+Directory
+ Services so that key policies and controls can be applied consistently 
+ie
+ account type, owner, owning team, owning company
+MVP
+5
+Implement reporting and proactive alerting to ensure that when new account objects are created or updated the activities are completed in line with new 
+account 
+classification
+, ownership rules
+ – where they aren’t an alert is raised for remediation
+MVP
+6
+Implement reporting to track historic account objects that need to be remediated
+ to meet the new requirements implemented as part of req 4
+. 
+7
+Implement admin tiering across the Active Directory estate ensuring best practice security configuration is applied
+MVP
+What are your
+ reporting 
+or 
+self-serve analytics (data 
+democ
+.
+) requirements
+?
+SEE REQ 5 & 6
+ 
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Delete as appropriate
+NA
+Response times or availability
+NA
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+VMO2 Access & Identity Management Security
+ Policy and Standard
+VMO2 patching, end of life and vulnerability policies
+Any legal or regulatory compliance requirements?
+Must comply with VMO2 SOX controls
+Cyber Essentials requir
+e
+ments
+Telecom Securities Act 
+Are there any Fraud 
+requirement
+s?
+N
+A
+Auditability requirements
+Full traceability of 
+account ownership and usage
+Accessibility 
+/ vulnerable customer 
+requirements
+NA
+6.2
+ 
+What parts of the business are likely to be impacted
+?
+This section helps us understand which parts of the organisation may be affected if this proposal goes ahead. You do not need technical knowledge — simply indicate where you believe there may be an impact. 
+If you are unsure, 
+p
+ick “Potential impact”. You are signalling where impact may exist, not committing to scope or design. This will be reviewed and refined during shaping and sizing
+.
+Operational area
+Impact
+?
+ 
+(Y/N/potential)
+How
+ might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+N
+Retail stores
+N
+Care and 
+R
+etentions
+N
+Commercial
+ & go to market
+Product & Proposition management
+N
+Marketing & Sales
+N
+Shop & Basket (buy/upgrade journeys)
+N
+Order fulfilment & service changes
+Order
+ 
+&
+ 
+fulfilment
+N
+Service activation & configuration
+N
+Field operations
+N
+Run and assure services
+Network services (mobile, fixed, TV)
+N
+Faults, outages & service assurance
+N
+Service operations & support teams
+N
+Money, account and trust
+Billing, payments & customer finance
+N
+Customer accounts, identity and permissions
+N
+Other
+Wholesale services & support
+N
+CIO 
+Potential
+May require support from the technology teams in implementation 
+and also
+ the remediation of data
+CTO
+Potential
+May require support from the technology teams in implementation 
+and also
+ the remediation of data
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Part of the D
+WP ESA Roadmap within the Security, Identity & Consent Domain
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+NA
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and 
+Mobilisation
+ (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

@@ -1,0 +1,900 @@
+Vision Document
+Business Area 
+☒
+ 
+Wholesale 
+Mobile & M
+W
+ (O2 Daisy)
+ 
+☐
+ Wholesale Fixed Connectivity 
+☐
+ Wholesale Mobile & MVNOs
+☐
+ B2B IT Migration
+ 
+Initiative Name
+RM6391 
+ 
+Sponsor 
+Name
+Jess O’Connor
+Product Owner Name
+Carol Clark
+O2 Daisy ID
+ID423
+O2Daisy CTIO Approved
+Emma Aylesbury
+O2Daisy IT Architecture design or context
+Andy Bowyer
+NDA required?
+No
+ 
+NDA admin
+N/A
+Aspirational 
+start date 
+30.06.26
+Aspirational 
+delivery date
+17.09.26
+O2B 
+Submission date
+ to VMO2
+02.06.26
+Review call held
+15.06.26
+Updates completed post call
+Updated submission
+16.06.26
+DMA
+23.06.26
+IIA
+08.07.26
+O2 Business approval
+Virtual Front Door
+13.07.26 or 20.07.26
+Commercial launch date
+Phased delivery considerations/needs
+Drivers
+01.10.26
+Vis
+i
+on Document Summary 
+ 
+The Vision Document serves as a key foundation for any business initiative. It outlines the core problem, objectives, expected benefits, scope, and identifies associated risks, assumptions, and dependencies. Its purpose is to provide a clear and comprehensive overview that supports accurate impact assessment and informed planning.
+This document is a required input for the Ideate Pack, which is used by the Mobile & MW Portfolio pod team to evaluate the initiative across all relevant touchpoints. A well-prepared Vision Document ensures the Ideate Pack can be completed accurately and effectively.
+Table of Contents
+1.
+Background / Problem & Opportunity / Scope Summary
+2
+2.
+In Scope 
+(Required)
+3
+3.
+Customer Journey Touch Points 
+(Required)
+6
+4.
+Out of Scope 
+(Required)
+7
+5.
+Legal/Regulatory, Fraud, Security and environmental impacts
+8
+6.
+Dependencies / Risks / Assumptions [Required]
+9
+7.
+Approvals & Document Control [Internal Delivery Team]
+10
+8.
+Appendices
+10
+Background / Problem & Opportunity / Scope Summary
+1.1 Background
+Briefly describe the context for this initiative, including relevant business areas, systems, teams, or external factors driving the need for change.
+The current mobile Framework for Public Sector (RM6261) expires 
+12.12.26 
+and is billed on Dise
+We have submitted our bid to 
+Crown Commercial Services (CCS) for the replacement Framework
+ (RM6391)
+Contract award notification
+ 
+07.09.26, 
+Framework start date 17.09.26
+For O2 
+Business
+ to be able to sell mobile to Public Sector customers, we need to be on the Framework and ready to trade when it goes live
+1.
+2 
+Problem & Opportunity
+ 
+State the main problem(s) and the opportunity created by addressing them. Highlight key pain points and expected benefits
+New set of mobile tariffs, bolt ons, and additional services need to be built on DISE. In due course these may be migrated when LEPS moves to O2 Business end state architecture. 
+RM6391 clarification update:
+ this is to be treated as a new tariff build set at a different price point, not a refresh of existing RM6261 pricing. Existing RM6261 services remain at current pricing and continue to run for eligible customers until the relevant framework/contract arrangements expire.
+1.
+3 
+ Scope Summary
+ 
+Summarise what is included and excluded from the initiative to set clear expectations and boundaries
+Public Sector customers
+New and resign from 1
+st
+ October 2026
+ (gives us time post award for testing)
+6391 requirements is a new set of tariff builds as listed below 
+Voice only
+ (PAYU & Unlimited)
+Individual voice & data tariffs – capped and uncapped, variety of data bundle sizes
+Individual data only tariffs – capped and uncapped, variety of data bundle sizes
+PAYU 
+d
+ata only tariff
+Voice & PAYU data only tariff
+Voice & shared data tariffs – variety of data bundle sizes
+Shared data needs to be able to go across multiple accounts
+Shared data only tariffs - Voice & Shared data tariffs – variety of data bundle sizes
+Aggregated voice & data tariffs - variety of data bundle sizes – Lot 2 only
+Aggregated data only tariffs - variety of data bundle sizes – Lot 2 only
+Fair use policies
+Bolt on bundles 
+International minutes
+ (individual and shared)
+International texts (individual and shared)
+Data bolt ons (one off
+ for individual and shared tariffs
+)
+Standard domestic out of bundle call rates
+ – 
+maybe
+ different to current, actual pricing TBC
+Standard international call rates – 
+maybe
+ different to current, actual pricing TBC
+Standard roaming call rates
+ – 
+maybe
+ different to current, actual pricing TBC
+Transformation Fund options
+Compatible with private APNs
+ROW 
+Roaming Pass
+Option for an EU Pass
+Shared ROW data bundles
+Spend Cap compatibility for eligible tariffs
+Data Cap compatibility (£36 or £45) for eligible tariffs
+Ability to apply additional services
+ – list below
+New customer contract documentation
+Updates to existing handover documentation 
+80 & 100% notifications on tariffs
+Potential for a new Bon Voyage message – if the call, text and data rates are changed
+£50 data cap 
+per MPN 
+– an actual cap, not zero rating
+When cap is reached a form of data bar to be placed onto account 
+If agreement to pay
+ for usage above £50
+ then data bar to be lifted 
+Unlimited UK standard calls
+Unlimited UK standard SMS
+EU calls, text, data – TBC
+Accessible online portal functionality – compliant with Regulations
+Zero rated websites – and not deduct from data allowance
+Tariff option for Smart watches
+Bolt on for Satellite services
+MVR Bolt On
+Akamai Secure Internet Access
+O2 Rentals charging
+Billing for Nuvoli TEMS
+Apple Care for Enterprise
+Device as a Service  
+O2 Capital
+Samsung Knox chargeable products
+Detailed requirements are available
+Clarification update:
+ Scope should be assessed against the detailed RM6391 requirements. No separate RM6261-to-RM6391 gap analysis has been completed. RM6391 applies to customers signed up to the new framework only; ex-Daisy Public Sector mobile customers are not in scope, as Daisy was not on the Public Sector framework.
+1.
+4
+  
+Business Outcomes
+Describe the business outcomes for this project.  (
+A business outcome describes the measurable change in business performance or behaviour that will be delivered if this initiative is successful.
+)
+Ability to generate a
+n RM6391 contract on Next Gen 
+Ability to offer mobile services, along with optional services
+Ability to connect customers contracted on RM6391
+ products and services
+Ability to bill the customer for the products and services contracted under RM6391
+Ability to 
+produce detailed reporting on the products, connections, tariffs, revenues etc
+ 
+In Scope 
+Area
+Impacted
+Channels
+☐
+ 
+No Channel Impact (BAU)
+☒
+ Assisted 
+(e.g. Contact Centre, Field Sales)
+☒
+ U
+nassisted 
+(e.g. Self-Service)
+☐
+ 
+Change to 
+E
+xisting e
+C
+ommerce
+☐
+ 
+N
+ew e
+C
+ommerce
+ Channel
+☐
+ 
+Stores
+☐
+ Other (
+Specify
+)
+Clarification update:
+ Self-service is in scope for Public Sector customers using My Account / My O2 Business. The CCS portal is not assumed to be the delivery channel for this VMO2 system impact assessment.
+Customer Segment
+☐
+ 
+Wholesale Fixed
+ 
+___________________________________________________
+☐
+ 
+Wholesale Mobile
+ 
+☐
+ SMB Direct
+☐
+ SMB Indirect
+ 
+☐
+ Volume Sales
+☐
+ Large Enterprise  
+☒
+ Public Sector
+☐
+ Soho Direct
+ 
+☐
+ Soho Indirect
+☐
+ WHS O2 Daisy (ABS SPID 372) 
+☐
+ VIP
+☐
+ O2 Daisy BUD  
+___________________________________________________
+☐
+ 
+Other (
+Specify
+)
+Customer Type 
+☒
+ New Customer  
+☒
+ Existing Customer
+Order Type
+☒
+ New 
+Order 
+- 
+New Custome
+r  
+☒
+ New Order - Existing Customer
+☒
+ Renewal
+/Resign Order
+ - Existing Customer
+☒
+ 
+Additional Connection Order - Existing Customer
+☐
+ MACD - Existing Customer
+☐
+ Other (
+Specify
+)
+API
+ Required 
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes 
+- 
+ wh
+ich 
+ APIs are expected to be delivered by VMO2 as part of the requirement?
+Logistics / Supply 
+C
+hain
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+ 
+Reporting
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes – 
+Please outline the requirements and describe the type of impact
+ e.g. 
+☒
+ 
+New Reports
+☐
+ Amend/Update
+ 
+Existing 
+Reports
+Clarification update:
+ Reporting scope is limited to customers signed up to RM6391. At time of clarification, the Public Sector customers on Framework agreements are ex-VMO2 customers only. Any wider reporting consolidation for non-RM6391 or ex-Daisy customer data is outside the VMO2 sizing scope unless separately agreed.
+Migration 
+R
+equirements
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Clarification update:
+ Migration remains an open clarification. TechM/O2 Business need to confirm whether “migration” means tariff migration, provider migration, RM6261-to-RM6391 contract movement, DISE-to-O2 Business systems migration, or product migration. Until defined, migration should not be sized as in scope.
+Decommissioning Requirements
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Cease 
+E
+xisting 
+S
+ervice/
+S
+upplier
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Network or IT Operations
+ 
+I
+mpact
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+: 
+Please see 
+Appendix
+ and below. 
+ 
+RFI/P
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+If we are classing bidding for a place on the Framework, then it’s a yes. 
+Known Constraints
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+£50 data cap on RM6261, is a zero rate – we require an actual cap. Not been scoped before. 
+6391 clause is the same with £50 data cap 
+but anything above £50 will be 
+stopped 
+~ advise on solution for this required 
+Other
+Impact:  
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: Please specify the details.
+Data to remain onshore/ as per Framework requirements
+Customer Journey Touch Points 
+(Required)
+The customer journey is broken down into key touch points that represent different stages of interaction with our products or services from discovery to potential exit. Each touch point reflects a critical moment in the customer experience.
+Please review the touch points below and 
+indicate which ones are impacted by your initiative
+, along with a brief description of the 
+nature of the impact
+ (e.g., improvement, change, risk, etc.).
+We Discover
+ – Customers explore and learn about products or services
+Impacted 
+☐
+ 
+Yes
+    
+☐
+ No
+    
+☒
+ Unknown
+If Yes - please outline any specific requirements
+:
+ 
+We Buy
+ – Customers 
+/ Sales people 
+select and purchase a product or service
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If Yes – confirm s
+olution impact if known
+Unsure what MS Dynamics is – so can’t say yes/no for that one
+Wholesale Mobile 
+☒
+ Blue Salesforce
+☐
+ Microsoft Dynamics 365
+☒
+ Other (
+Specify
+)
+Daisy Central 
+(
+SMB / SoHo
+)
+Daisy central (LE/PS)
+Strategic architecture TBC
+Solution needs to integrate into O2 Daisy BSS
+Wholesale 
+Fixed 
+ 
+☐
+ Red Salesforce
+ 
+☐
+ Engage
+☐
+ BPT
+☐
+ Other (
+Specify
+)
+ 
+We Join / Onboard
+ – Product/service is delivered, set up, and activated
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If Yes – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☒
+ DISE & O2 Daisy
+☒
+ Other (
+Specify
+)
+Daisy Central 
+(
+SMB / SoHo
+)
+Daisy central (LE/PS)
+Strategic architecture TBC
+Solution needs to integrate into O2 Daisy BSS
+Clarification update:
+ O2 Business-owned platforms, including Purple Salesforce and Daisy Central, remain an O2 Business responsibility for design, build, test and business readiness. VMO2 sizing should focus on the VMO2/DISE impacts unless a specific integration requirement is confirmed.
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ Force
+☐
+ Oracle 
+☐
+ Other (
+Specify
+)
+ 
+We Use
+ – Customers experience the service, including issue resolution.
+Impacted 
+☐
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Manage Billing
+ – Customers view and manage bills and usage
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+Online portal required that is compliant to the new Accessible requirements. 
+Clarification update:
+ this refers to existing Public Sector self-service channels, My Account / My O2 Business, where compatible or upgraded to meet WCAG 2.2 AA accessibility requirements.
+If Yes – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☒
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ NRM
+☐
+ Oracle
+☐
+ Other (
+Specify
+)
+We Add / Change
+ – Customers modify or upgrade their services
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Stay or Leave
+ – Customers decide to renew, stay, or exit
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requiremen
+t
+:
+Out of Scope 
+(Required)
+Out of Scope
+ 
+Item
+Future Scope (
+e.g. 
+later phase Delivery)
+Existing RM6261 services, pricing and contracts, except where an existing customer explicitly resigns or contracts onto RM6391.
+Ex-Daisy Public Sector mobile customers and any non-framework Daisy contracts.
+Daisy Central, Purple Salesforce and other O2 Business-owned application changes, including related readiness, training and operational preparation.
+May be considered by O2 Business as separate delivery/readiness activity, outside VMO2 Ideate sizing.
+Historical data migration, reporting outside RM6391 customers, or consolidation of ex-Daisy customer data.
+RM6261-to-RM6391 gap analysis activity; the IA should be based on the detailed RM6391 requirements provided.
+Migration activity until the meaning of “migration” is defined and agreed.
+Potential future phase, subject to separate scope, ownership, funding and impact assessment.
+Clarification update:
+ O2 Business-owned platforms, including Purple Salesforce and Daisy Central, are not expected to be delivered by VMO2 as part of this Ideate. Required changes, readiness, training and operational preparation for those platforms sit with O2 Business.
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Impact 
+VMO2 stakeholder
+Legal / contractual / legislative obligations  
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Vince Betty – Legal
+O2 
+Business
+ legal team – names TBC
+Regulatory obligations e.g. OFCOM, ICO, etc.
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+O2 
+Business
+ Regulatory
+Fraud or Security
+ Impact
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+O2 
+Business
+ Security 
+Has the whole 
+environmental impact
+ 
+of 
+the project, from design to end of life been
+ considered? 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Has the lowest energy using product or service been considered for the project (if applicable)?
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Equity / Accessibility of VMO2 service(s)
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Clarification update:
+ RM6391 compliance obligations include quality management, service management, configuration management, environmental management, accessibility, information security, cyber security, open standards, PCI DSS where applicable, Government Digital standards, Supplier Code of Conduct, Ofcom regulatory requirements, roaming protections, and spend cap / bill limit obligations. Accessibility requirements include WCAG 2.2 AA for relevant online portal capability.
+D
+ependencies 
+/ 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D1
+Inbound
+Confirmation to build on legacy
+D2
+Inbound
+Budget 
+approved 
+on receipt of IA
+Inbound
+VMO2 resource available – Solution design, Dise ref data
+ + others
+D3
+Inbound
+Lead times on VMO2 system changes 
+D4
+Inbound
+O2 Business resource available
+Contract Management
+Purple salesforce
+ – design, build and test
+Other - TBC
+D5
+Outbound
+Longer term, PS migration to O2 Business end state architecture
+D6 
+Inbound
+Unknown if this has an impact but flagging
+O2 Business SPID migration
+D7
+Inbound
+STSR 25475
+Unknown if this has an impact but flagging
+VMO2 TAP replacement project
+D8
+Inbound
+Unknown if this has an impact but flagging
+VMO2 Ericsson to Nokia migration
+D9
+Inbound
+Unknown if this has an impact but flagging
+O2 Business use of PCRF as part of Project Breeze, will PCRF support a new tariff build
+?
+D10
+Inbound
+Regulatory compliant 
+Bon Voyage messaging
+D11
+Inbound
+Accessibility compliant 
+online portal
+Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R
+1
+Build not completed in time for launch
+Medium
+Unable to deliver contracts until 
+the build is live
+ Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+Tariff
+s will be tested
+A2
+The impact assessment is based on detailed RM6391 requirements; no separate RM6261-to-RM6391 gap analysis has been completed.
+A3
+Reporting scope is limited to customers signed up to RM6391; wider ex-Daisy or non-framework reporting consolidation is outside scope unless separately agreed.
+A4
+Ex-Daisy Public Sector mobile customers are not in scope for this Ideate because Daisy was not on the Public Sector framework.
+A5
+O2 Business owns changes to Purple Salesforce, Daisy Central and associated business readiness, training and operational preparation.
+A6
+Data scope is limited to new data generated under RM6391. Historical data migration is not assumed in scope.
+A7
+Existing Public Sector online portal capability must either already meet, or be upgraded to meet, WCAG 2.2 AA accessibility requirements.
+Approvals 
+& Document Control 
+[Internal Delivery Team]
+.
+Name
+Role
+Approval (signature or email)
+Date
+Sponsor / Delegate
+Carol Clark
+Product Manager / Owner
+ Requestor
+Carol.clark@virginmediao2.co.uk
+19.05.26
+ Portfolio
+ Lead
+s SBA, PM, SSA
+ 
+(Scope is fit for purpose and relevant stakeholders have been consulted or informed)
+Author
+Version
+Date
+Reason
+0.1
+First draft
+0.2
+First review with stakeholders
+0.3
+CC Updated O2 Daisy to O2 Business
+, updated start date
+1.0
+Approved Version
+Appendice
+s

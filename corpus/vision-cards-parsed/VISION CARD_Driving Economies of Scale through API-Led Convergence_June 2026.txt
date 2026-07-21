@@ -1,0 +1,928 @@
+Th
+is
+ Vision Card outlines the 
+desired business, customer and delivery outcome
+ for your
+ 
+new project idea
+. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Initiative 
+Title
+Driving Economies of Scale through API-Led Convergence
+ (Four Projects)
+Business 
+O
+utcome
+ (and Value)
+1.1 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your 
+business
+-
+unit
+ 
+Primary (SMART) 
+Business 
+Outcome 
+A consistent architectural requirement across FMCT, Brokered Finance, TransUnion, and COL1 is the need to transition away from the legacy SOA framework, which is approaching end-of-life and no longer aligns to VMO2’s target architecture. We are not Decommissioning SOA we are driving the API's
+ 
+DATA flow through MSA/Apigee API
+.
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+All four initiatives: FMCT, Brokered Finance, COL 1 (Debt Collection Agencies), and TransUnion—introduce requirements that will increase transactional volumes through SOA; therefore, adopting a collaborative, 
+programme
+-led approach establishes a single, 
+standardised
+ delivery mechanism owned by FMCT, enabling scalable throughput, consistent integration patterns, and efficient volume management
+Projects impacted:
+FMCT
+Brokered Finance
+COL 1 Debt Collection Agencies
+TransUnion
+Delivered as a unified portfolio, this approach drives economies of scale, reduces duplication, and accelerates delivery, ensuring the benefits are realised once and leveraged across all four initiatives.
+In which
+ business metric?
+Across FMCT, Brokered Finance, COL 1 (Debt Collection Agencies), and TransUnion, all API changes will ensure no loss of existing capability and full functional parity. The transition from SOA-mediated calls to Apigee-managed APIs 
+will preserve current 
+behaviours
+ while delivering a consistent, scalable, and non-disruptive evolution of integration services. Delivered collectively, this approach also drives cost efficiency and economies of scale through a single, 
+standardised
+ build and delivery model owned by the FMCT 
+programme
+For which
+ specific stakeholder or business user?
+ 
+(
+Primary outcome beneficiary
+)
+The primary beneficiaries are VMO2 Business Strategy and End-State Architecture, through the acceleration of a cohesive target architecture, alongside individual project budget holders, who benefit from reduced delivery costs, 
+minimised
+ duplication, and shared investment across the portfolio.
+By 
+how much
+?
+ 
+ 
+(
+Quantity
+ or percentage
+ is required
+)
+A consistent architectural priority across FMCT, Brokered Finance, TransUnion, and COL1 is the transition away from the legacy SOA framework, which is nearing end-of-life and no longer aligns with VMO2’s target architecture.
+The objective is not to decommission SOA entirely, but to reduce dependency on it by re-routing API data flows through MSA and Apigee. This approach enables a more modern, scalable, and predictable integration model
+.
+What is the current 
+value for this business metric?
+Current SOA throughput limitations constrain scalability and performance, making the transition to MSA and Apigee-based APIs a critical dependency. Redirecting API data flows through MSA/Apigee will alleviate volume constraints, enabling improved throughput, resilience, and overall delivery predictability.
+Delivering this transition collectively across FMCT, Brokered Finance, TransUnion, and COL1 will further drive efficiencies, reducing both cost and delivery timelines through a coordinated, standardised approach.
+This is mainly driven by En
+d
+ State Architecture steer, of moving away from SOA.
+Improvement must happen 
+by when
+?
+Delivering this transition collectively across FMCT, Brokered Finance, TransUnion, and COL1 will drive efficiencies, reducing both cost and delivery timelines through a coordinated, standardised approach. To realise these cost benefits across all four programmes, this improvement must be live by November 2026
+What strategic 
+outcome
+ does this support
+? 
+Strong alignment to Business Strategy and the Enterprise Target State Architecture, underpinned by the CDO’s Apigee-first integration model
+.
+1.2 Value case
+What is your value case built on so far?
+ 
+Click
+ any that apply
+☐
+ 
+Revenue uplift  
+☒
+ 
+Cost saving
+☒
+ 
+Risk reduction
+☒
+ 
+Customer experience
+☒
+ 
+Other
+ (
+specify
+):
+ 
+Delivery Enablement / Business Continuity
+What is the approximate financial value of this?
+FMCT
+: 
+ 
+£
+3M – 8M 
+per annum
+Brokered Finance: ~£50/£60 
+millon
+ per annum
+COL1 Debt Collection Agencies
+ reduction of Debt 
+write off
+ - ~500k per annum
+TransUnion: Fraud 
+check reduction 
+in excess of
+ 1.5 million per annum
+Over 
+3
+ years
+What are your 
+top 1-3
+ assumptions for this to be true?
+Assumptions
+For FMCT, Brokered Finance, COL1 Debt Collection Agencies, and TransUnion, CDO Apigee will serve as the single, strategic integration layer for all transaction flows, fully eliminating reliance on legacy SOA and standardising delivery through an enterprise-wide API-first approach
+What lead indicator
+(s)
+ will predict success
+ in delivering this value?
+1. Migration & Adoption Indicators
+% of total  transactions routed via 
+CDO Apigee (target: ~100%)
+Reduction in volume of transactions via SOA (target: 0%)
+2
+. Delivery Stability Indicators
+Number of delivery blockers linked to architecture (target: near zero)
+% of 
+all 
+projects
+ releases delivered without dependency-related delays
+3. Customer Journey Indicators
+% of orders completed successfully without  failure / retry
+Reduction in  failure or abandonment rates
+4. Operational Efficiency Indicators
+Reduction in manual intervention / support cases related to 
+failed SOA calls
+Reduction in incident volume linked to integration failures
+This is a critical architectural uplift that unlocks delivery across FMCT, Brokered Finance, COL1 DCAs, and TransUnion by removing dependency on a constrained legacy platform. It reduces operational risk, avoids duplication of cost and effort, and establishes a scalable, consistent foundation for customer journeys.
+Customer and Experience Outcomes
+2.1 Customer Problem
+ (Evidence based)
+Who is the primary customer (or colleague) this change is for?
+ 
+Be as specific as possible (segment, situation, or context).
+Primary Customers
+Customers engaging with VMO2 products via digital (web/app) and assisted (contact centre, retail) channels, where API-driven interactions are essential to deliver seamless, end-to-end customer journeys across all segments, including PAYM.
+Secondary (Internal Users)
+Sales and service agents operating across Retail, Care, and Contact Centre environments, reliant on consistent, real-time API services to support customer acquisition and servicing.
+What customer need or problem is this proposal addressing
+?
+Customers and partners require a single, seamless, and reliable end-to-end journey that is secure, consistent, and enables them to complete their orders or tasks quickly and successfully, regardless of channel or product.
+However, this need is not currently fully met due to underlying integration constraints, which limit the ability to deliver a stable, consistent, and high-quality experience across journeys.
+What is happening today?
+Describe what the primary customer (or colleague) experiences today, without interpreting or proposing change.  What is hard, confusing, slow, risky, or frustrating today?
+Customers attempting to purchase Broadband, TV or PAYM products may experience:
+ No change.
+Internally:
+Delivery teams face inability to implement or extend credit check functionality (e.g. TV journeys) due to dependency on legacy SOA architecture
+ which is not ESA aligned.
+Changes required to support new products or journeys are blocked or delayed
+Risk of introducing channel-specific workarounds or duplicate flows if changes are forced outside governed architecture
+H
+ow do we know it matters to the customer?
+ The issue has:
+Directly blocked delivery of TV credit check functionality
+ (captured via FMC
+25758 and subsequent escalation)
+Resulted in 
+programme-level escalations and dependency blockers
+, impacting FMCT delivery timelines
+Created a risk of 
+failed or inconsistent order journeys
+, which are known drivers for: 
+Customer drop-offs
+Repeat contact to Care
+Reduced confidence in purchase experience
+Additionally:
+Credit check is a 
+mandatory step in order fulfilment
+, meaning any instability directly impacts 
+order completion and customer satisfaction
+What is the problem or opportunity? 
+Explain why this current experience fails the customer or creates risk, confusion, or unmet expectations (1–3 sentences)
+The current reliance on a constrained and non-compliant SOA architecture across FMCT, Brokered Finance, COL1 DCAs, and TransUnion limits the ability of these 
+programmes
+ to deliver consistent 
+and scalable API-driven journeys. This introduces a heightened risk of transaction failures, delays to product launches, and fragmented customer and partner experiences. This challenge presents a significant opportunity to 
+standardise
+ critical capabilities, such as credit checking, through 
+the CDO’s
+ Apigee platform. By establishing Apigee as the unified integration layer across VMO2 can deliver reliable, consistent, and future-proofed services, enabling seamless, end-to-end customer journeys across all channels, products, and partner interactions.
+2.2 Customer Experience Outcome (Future state)
+Vision summary (desired outcome). 
+In one line, what will be materially better for the customer (or colleague) if this succeeds?
+Customers can 
+complete 
+VMO2 product purchase 
+journeys seamlessly with a single, consistent and reliable credit check experience across all channels, aligned to our architectural strategic direction.
+How does this differ from the current state?
+A 
+unified 
+ API
+ calls are
+ 
+applied across 
+all VMO2 
+product 
+ journeys
+ (no dependency on legacy SOA) 
+Customers 
+experience consistent outcomes regardless of channel (digital, contact centre, or retail) 
+All API calls are
+ performed once per order, with no duplication, retries, or conflicting results 
+Order journeys are stable and predictable, with no delays or failures caused by underlying integration constraints 
+New products  are enabled without workarounds or inconsistencies, ensuring a smooth experience from the outset 
+Internal teams can deliver changes confidently, ensuring customer journeys remain aligned and consistent over time
+What will success feel like for your primary customer 
+(
+or colleague
+)
+?
+ 
+Describe behaviour, confidence, trust, ease, or outcomes.
+For Customers (
+VMO2 product sales
+)
+“As a customer, I want to complete purchase quickly and confidently without errors or delays. I expect the process to work first time, with no confusion or need to retry, regardless of how I choose to buy.”
+For Colleagues (Sales, Care, Delivery teams)
+“As a colleague, I can support customers through 
+all 
+sales 
+journeys knowing th
+at all API calls 
+and
+ 
+process
+es 
+ 
+are
+ consistent, reliable, and works the same across all channels, with no need for manual intervention or workaround explanations.”
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+ 
+Reference journeys:
+VMO2 
+Product Sales
+(digital and assisted channels)
+VMO
+2 
+purchase journeys
+Supporting artefacts:
+FMCT, Brokered Finance, COL 1 DCA & TransUnion
+ Design Artefacts
+CR-T333 (SOA to CDO Apigee migration design)
+FMCT, Brokered Finance
+, COL 1 DCA 
+end-to-end order journeys 
+2.
+3
+ Journey 
+context
+Which channels
+ and 
+processes are in scope? 
+Channels in scope
+Digital channels: 
+Online purchase journeys (Web)
+Mobile App (where applicable)
+Assisted channels: 
+Contact Centre / Care journeys
+Retail store sales journeys
+Processes in scope
+End-to-end 
+order journey validation requiring credit check
+, including:
+Customer order placement (Broadband / TV / PAYM)
+Credit check execution as part of order validation
+Order submission and completion
+Supporting processes:
+Assisted sales interactions (agent-led credit check initiation)
+Error handling and retry scenarios within customer journeys
+Regression testing of impacted journeys and APIs
+Which product
+s or services 
+are 
+in scope
+?
+Products in scope 
+All VMO2 Products
+Services / capabilities in scope
+Apigee API tran
+sactions
+Integration between: 
+DFE 
+CDO Apigee
+/MSA
+Experian PowerCurve
+Delivery Outcomes
+3.1 
+Capability outcomes
+What capabilities must exist to deliver the outcome?
+ 
+Describe the key capabilities needed (not features)
+.
+ 
+If your proposal is on behalf of an external party such as 
+giffgaff
+ then your requirement scope will only cover the capabilities in VMO2 that support 
+this third party.
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Capability
+MVP*
+1
+Capability to route all 
+API 
+ transactions
+ through the strategic CDO Apigee integration layer
+, removing reliance on legacy SOA/ESB pathways
+Projects: FMCT, Brokered Finance, 
+COL 1 DCA & TransUnion
+Y
+2
+Capability to ensure a single, consistent 
+Apigee API Calls 
+ per customer order across all channels (digital and assisted)
+, preventing duplication or conflicting outcomes
+Y
+3
+Capability to integrate 
+DFE
+ with Experian PowerCurve via CDO Apigee
+ to support real-time credit decisioning for 
+all VMO2 Product
+ journeys
+Y
+5
+Capability to support consistent 
+API 
+Call 
+ 
+behaviour
+ across
+ all VMO2 Product
+ journeys
+, irrespective of channel (web, app, contact 
+centre
+, retail)
+Y
+6
+Capability to validate and assure end-to-end order journeys through regression testing of impacted APIs and flows
+, ensuring no degradation in customer experience
+Y
+7
+Capability to manage error handling, retry scenarios, and failure responses within 
+all API calls
+,
+ ensuring customers can complete journeys without manual intervention wherever possible
+Y
+8
+Capability to provide operational monitoring and traceability of 
+all 
+ transactions via Apigee
+, enabling faster issue diagnosis and resolution
+Y
+9
+Capability to support future scalability and extensibility of 
+all 
+ integrations
+, allowing 
+all VMO2
+ products or journey enhancements without architectural constraints
+Y
+10
+Capability to ensure compliance with regulatory and financial controls for credit
+ & Fraud 
+ decisioning
+, maintaining integrity and auditability of credit checks
+Y
+Reporting or analytics capabilities
+% of credit chec
+k & Fraud 
+ transactions routed via 
+CDO Apigee  (target: 100% Apigee)
+ 
+Credit check
+ & Fraud
+ 
+success vs failure rates 
+across  
+VMO
+2 
+Sales 
+ journeys
+ 
+ 
+Volume of 
+order failures attributable to credit check issues
+Number of 
+incidents or defects related to credit check integration
+ 
+Trend of 
+manual interventions required due to credit check failures
+ 
+Transaction traceability including 
+what was checked, when, and outcome
+3.2 Delivery 
+S
+uccess 
+M
+etrics
+. How will delivery be measured?
+Type
+Metric
+Time to Market
+ (
+DFE 
+ →
+ CDO Apigee) delivered in line with 
+FMC
+T, Brokered Finance, COL1 
+DCA & 
+TransUnion 
+ release
+ milestones
+ 
+No delay to 
+FMT, Brokered Finance COL1 
+DCA & TransUnion
+Quality target
+Stable and reliable credit check execution across all journeys, measured by: 
+≥95%+ successful credit check execution without technical failure
+ (target benchmark)
+Zero Sev1/Sev2 incidents attributable to 
+DFE & Apigee API
+ integration post-release (target state)
+No regression impact to existing Broadband journeys after migration
+Adoption target
+100% of FMC
+T, Brokered Finance
+, COL 1 
+DCA & TransUnion
+ 
+Product Sale
+s
+ transactions routed via CDO Apigee 
+0% dependency on SOA for
+ FMCT, Brokered Finance, COL 1 
+DCA & TransUnion
+Full adoption across: 
+Digital channels
+Contact Centre / Retail journeys
+Other (Specify)
+Delivery Reliability / Dependency Reduction
+Significant reduction of legacy integration constraints, 
+targeting near-zero impact on delivery
+FMCT
+, Brokered Finance, COL 1 DCA 
+releases delivered without dependency-based delays linked to 
+legacy integration constraints
+2. Customer Journey Success
+Reduction in 
+credit-check
+ & Fraud che
+ck 
+related order failures or retries (~15–25%)
+ (aligned to Section 1.1)
+Increased % of 
+orders completed successfully on first attempt
+3. Operational Efficiency
+Reduction in: 
+Manual intervention required for credit check failures
+Care / support contacts related to order failures due to credit check issues
+4. Observability & Traceability
+100% traceability of credit check transactions via CDO Apigee
+Improved 
+incident diagnosis and resolution times
+Executive One-Liner 
+“Success is measured by full migration to Apigee, zero SOA dependency, stable credit check execution, and elimination of delivery blockers impacting FMCT Broadband, TV and PAYM journeys.
+3.3 Service and Quality Requirements (NFRs)
+What Volumes of customers or transactions 
+must the delivery support
+?
+Scope includes: 
+New customer orders
+Upgrades / product additions
+Assisted and digital sales journeys invoking credit check
+Volume: 
+High (>100k monthly)
+ 
+(
+New sales / order journeys requiring credit checks (Affordability, Risk Assessment, Deal Confirmation, Deal Cancellation)
+ & Fraud Checks 
+ across 
+DFE 
+ CDO 
+apigee
+ → 
+PowerCurve
+. Volume currently 
+assumed as High, 
+pending IA confirmation
+Performance
+Response times or availability
+ 
+Credit check must support real-time decisioning within customer journeys
+, existing patterns to be followed.
+Target: Near real-time response (≤2 seconds – Assumed benchmark
+ or as per the current standards as this is a like to like 
+implementation)
+Performance expectations are derived from synchronous interface design. Exact SLA thresholds to be validated with platform teams during IA
+Security or privacy
+If unsure, select ‘unknown’
+Existing pattern on credit check 
+& Fraud Check 
+to be followed: 
+Secure handling of customer personal and financial data 
+Access restricted to authorised systems
+Security requirements are derived from defined threat models and API Gateway enforcement as per IFA. Final controls to align with VMO2 enterprise security standards
+Compliance 
+What
+ 
+are the 
+legal or regulatory compliance requirements?
+Existing Compliance rules to be followed for Credit 
+check
+ & Fraud Check
+:
+Compliance with credit
+ & Fraud 
+ decisioning and personal data handling requirements
+Compliance requirements are inferred based on handling of financial and personal data within credit decisioning flows. Applicable regulatory requirements to be confirmed with Legal/Compliance during IA.
+Fraud prevention
+How must 
+we
+ prevent fraud?
+Existing Business rules to be followed or as defined in requirements:
+Ensure integrity of credit decisioning 
+Prevent bypass or manipulation of credit checks
+Fraud prevention requirements are derived from Risk Assessment capabilities defined in the interface. Final controls and thresholds to be validated during IA
+Auditability
+What audit or logging 
+is required?
+Existing requirements to be carried forward, or any additional requirements covered during IA.
+Full traceability of credit check
+& Fraud 
+ transactions across systems
+Auditability requirements are derived from availability of transaction identifiers and decision data. Logging strategy to be aligned with Apigee and enterprise observability standards during IA
+Accessibility 
+/ vulnerable customer 
+requirements
+Support vulnerable customer scenarios within journeys
+.
+Accessibility requirements are inferred from presence of vulnerability attributes in the data model. Customer journey and UX considerations to be validated with CX stakeholders during IA
+3.
+4
+ 
+Delivery Scope & Impact
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Y
+Customer order journeys for 
+all VMO2 Sales orders
+ during checkout, which will now be routed via CDO Apigee instead of SOA
+Retail stores
+Y
+Assisted sales journeys rely on credit check 
+& Fraud Check 
+for order validation; integration routing changes may require regression validation but no change to user process
+Care and Retentions
+Potential
+May see impact in troubleshooting or handling failed orders related to credit check
+ & Fraud checks
+; no change to scripts expected unless behaviour changes post-migration
+Commercial & go to market
+Product & Proposition management
+N
+No change to product definitions, eligibility rules, pricing, or packaging; credit decisioning logic remains unchanged in PowerCurve
+Marketing & Sales
+N
+No direct impact to campaigns, messaging, or channels as this is an integration-level change
+Shop & Basket (buy/upgrade journeys)
+Y
+Checkout flow depends on credit check
+ & Fraud checks
+; backend integration change requires validation to ensure no impact on eligibility and order completion
+Order fulfilment & service changes
+Order & fulfilment
+Y
+Credit check
+ & Fr
+aud Check
+ outcome determines whether order progresses or is cancelled; routing change requires end-to-end validation
+Service activation & configuration
+N
+No change to provisioning or activation logic; credit check remains pre-order validation step
+Supply Chain & Logistics
+N
+No impact as no change to device handling or delivery processes
+Field operations
+N
+No impact as activity occurs post-order completion and is not tied to credit check integration
+Run and assure services
+Network services (mobile, fixed, TV)
+N
+No change to network behaviour, connectivity, or performance
+Faults, outages & service assurance
+Potential
+Monitoring and incident management processes may need to include new integration layer (CDO Apigee) for issue diagnosis
+Service operations & support teams
+Y
+Operational monitoring, logging, and incident handling will need to align to Apigee-based integration instead of SOA
+Money, account and trust
+Billing, payments & customer finance
+Y
+Credit check
+ & 
+Fraud 
+check 
+ outcome
+ influences customer eligibility and financial acceptance; no logic 
+change
+ but integration path updated
+Customer accounts, identity and permissions
+N
+No change to customer identity, roles, or account structures
+Other
+Wholesale services & support
+N
+No impact as Credit Check capability is not exposed to wholesale partners
+B2B Daisy Impact
+N
+No impact as scope is limited to FMC
+T, 
+Brokered Finance, COL1 
+DCA & TransUnion 
+ 
+consumer journeys
+3.
+5
+ 
+Constraints and Dependencies
+What constraints or non-negotiables must the future solution 
+respect
+?
+The solution must comply with Enterprise Architecture mandate that Credit Check integrations cannot use SOA/ESB and must be routed via CDO Apigee 
+The solution must 
+prioritise
+ delivery continuity for FMCT Broadband, TV and PAYM journeys, ensuring no disruption to customer order completion 
+The 
+solution must not introduce any changes to credit decisioning logic; all decisioning remains within Experian PowerCurve 
+The solution must support a single credit check per order, ensuring no duplication or inconsistent outcomes across
+ channels 
+The 
+solution must align with FMCT Drop 10 delivery timelines, including sufficient time for integration testing and regression
+Is there anything explicitly out of scope?
+The project scope does not include changes to credit 
+or Fraud 
+decisioning rules, eligibility criteria, or financial logic in PowerCurve 
+The project scope does not include creation of new products, offers, or pricing changes for Broadband or TV 
+The project scope does not include onboarding of new third-party systems beyond existing Credit Check 
+& 
+Fruad
+ 
+ecosystem. PAYM
+ is included where a unified credit
+ 
+Fraud 
+ check
+ experience and regression or volume-led testing 
+are
+ required due to the shared capability.
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+Align delivery with other VMO2 Programs 
+like Transunion, Brokerage Finance, 
+COL Debt Collection
+CDO Apigee Platform Readiness
+ – Availability of APIs, routing, and security configurations aligned to Credit Check integration 
+Netcracker (NC 360) Changes
+ – Update of integration endpoints from SOA to Apigee for Credit Check flows 
+ DFE 
+ Apigee 
+ Experi
+an 
+powercurve
+Experian PowerCurve Availability
+ – Continued stability of credit decisioning service (no functional change but critical dependency) 
+SME Availability (N
+C
+,
+DFE,
+ Apigee, QA, Credit)
+ – Required for IA, design validation, and issue resolution 
+End-to-end Environment Readiness
+ – Integrated environments (
+DFE
+ →
+ 
+ Apigee → PowerCurve) required for testing and validation 
+Governance Approvals (CR & IA)
+ – CR approval and completion of Impact Assessment required before delivery can proceed
+3.
+5
+ 
+Delivery timing
+When do you want this to 
+go live?
+Delivery aligned to 
+FMCT Drop 10 implementation timelines with testing coverage across Broadband, TV and PAYM, 
+recognising
+ PAYM as a key volume path
+Target: Enable Credit Check via CDO Apigee in line with Drop 10 readiness for Broadband and TV journeys- November 2026
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing.
+Required to unblock FMCT
+, 
+Brokered Finance, COL1 DCA & Trans
+Union
+, which cannot proceed with SOA-based 
+Transactional data i
+ntegration 
+Ensures compliance with Enterprise Architecture mandate before further changes are introduced 
+Prevents delivery delays and rework by aligning early with target-state integration (Apigee) 
+Supports stable and consistent customer order journeys ahead of broader FMCT rollout phases 
+Avoids need for temporary or tactical workarounds, which would increase cost and technical debt
+Supporting Information
+Has any solution assessment been done? 
+Include links to existing solution options, blueprints, etc. that may support T Shirt sizing  
+Solution 
+Designs are available
+Are there any 
+other 
+supporting documents or references 
+e.g. Links to slides, customer personas etc.
+Brokered
+ Finance HLD
+FMT HLD
+COL 1 DCA HLD
+TransUnion ‘Design Note’  
+All of
+ the above to be attached as LINKS on the Appendix
+Governance and Ownership
+Proposer
+Vijay Boothnath
+S
+ponsor
+FMCT Programme (Fixed Mobile Convergence Transformation)
+Person accountable for the business outcome
+Vijay Boothnath
+Finance Business Partner
+(s) 
+TBC – Finance Business Partner aligned to FMCT Programme (Value case and cost model approval during IA)
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+.
+ 
+Role
+Name
+Enterprise Architecture / ESA
+Sean Devlin, Jonathan Harwood
+Solution / Integration Architecture
+Karen Moore, Paul Seawright
+Integration 
+Delivery lead
+Jaydeep Dhamecha
+BSS / Netcracker
+Netcracker Delivery Team (FMCT-aligned resources)
+Credit / Fraud Domain
+PowerCurve / Credit Domain SMEs
+Anthony Hall, 
+Nazmeen Bolia
+QA / Testing
+FMCT QA Teams
+ – Amit Shukla
+FMCT TV Program Lead
+Chris Asamoah
+FMCT Leadership
+Vijay Boothnath
+, Courtney Mentore, Eva Slattery
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+FMC-30897 – Credit Check SOA to CDO Apigee (FMCT)
+[FMC-30897] FMCT CR – Credit Check SOA to CDO Apigee Uplift (Broadband & TV) - JIRA
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+TBC
+Which business division will be funding this proposal?
+Transunion (Fraud) 10% - IA being Progressed
+FMCT 30% -
+Broadband + TV (Munro) 
+FMCT programme ownership
+Brokered Finance 30
+%  -
+ the IA
+COL Debt Collection 30%  - we will have the IA for this by 17
+th
+ June this is with NC
+. 
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+FMCT Programme Leadership, aligned with Enterprise Architecture Steer and Major Programmes (TMO) Governance processes
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+13
+/
+05
+/2
+6
+- CR-30897 – Progress to IA 
+If known, when is this planned to attend Investment Committee?
+TBC
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+N/a
+For admin use only
+Date received by 
+Business Engagement and 
+Mobilisation
+ (BEM) team
+DD/MM/YY
+Vision has been reviewed with key architects / ESA domain owners?
+Y/
+N
+  -
+ TBC
+Date approved for platform assessment by BEM
+DD/MM/YY
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and 
+Mobilisation
+ (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

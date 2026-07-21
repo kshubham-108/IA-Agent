@@ -1,0 +1,668 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Desired SMART Business Outcome
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g
+. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Pro
+posed
+ Title
+SIM Swap 
+Reliability
+ 
+Primary (SMART) Outcome statement
+Enable fast, reliable, low effort SIM swap for all VMO2 mobile users, providing 
+consistent
+ <5
+minute fulfilment across all customer journeys with >99.9% service continuity during swaps
+ by H
+2
+ 2027 building trust and Improved customer satisfaction through faster, more predictable outcomes
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+Enable
+In which
+ business metric?
+Fast, reliable, low effort SIM swap
+ 
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+All VMO2 mobile
+ users
+ 
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+Consistent <5
+minute fulfilment across all customer journeys. 
+>99.9% service continuity during swaps
+What is the current 
+value for this business metric?
+T
+ransaction delays of up to 24 hours,
+ 
+undermining confidence and adoption.
+SIM swap
+s
+ 
+cause service disruption
+Within what timeframe?
+H2 2027
+What strategic 
+outcome
+ does this support
+? 
+Building trust 
+and 
+Improved customer satisfaction through faster, more predictable outcomes. 
+ 
+Stakeholders
+Proposer
+Marc Tordoff / Jason Allen 
+S
+ponsor
+Anna Fitzpatrick 
+Person accountable for the business outcome
+Marc Tordoff
+Finance Business Partner
+(s) 
+Max Koehn
+, 
+Steven Tuckwell
+Other stakeholders
+ (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+Jon Fawcett
+ 
+Head of Mobile Products
+ 
+Daniele Torrigiani
+Head of Wholesale Solutions
+ 
+Paul Duffy
+ 
+Service Transition
+ 
+Adrian Merwood
+ 
+Devices
+ 
+Darren Thompson
+ 
+Service Operations
+ 
+Jason Cooper / Emma Bloor
+ 
+Application Operations
+ 
+Paul Doctor
+P
+rocess transformation architect
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+TOP-
+746
+, 
+DMA-2026-TDP-03183
+What is the 
+unique
+ budget reference 
+for the budget that is likely to fund 
+this 
+item
+?
+CO-2026-128
+Which business division will be funding this proposal?
+CTO
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+Consumer Demand Forum
+When was the priority of this 
+idea 
+approved 
+as a candidate for investment
+?
+3/2/26
+If known, when is this planned to attend Investment Committee?
+16/
+4
+/26
+List any known dependencies (if applicable)
+ 
+Leave blank if unknown
+The following projects/proposals will benefit from SIM Swap improvements delivered by this project:
+5G Sunrise – 5GSA for Consumer 
+5G Sunrise - 5GSA for Tesco Mobile 
+5G Sunrise - 5GSA for GiffGaff 
+5G Sunrise - 5GSA for PrePay,  
+5G Sunrise - 5GSA for O2 Daisy 
+Is this an NDA’d project? If so, who is the NDA contact?
+no
+For admin use only
+Date received by 
+Business Engagement and Mobilisation (BEM) team
+February 2026
+Vision has been reviewed with key architects / ESA domain owners?
+Yes
+Date approved for platform assessment by BEM
+February 2026
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+All mobile users wishing to 
+perform a SIM swap – especially those wishing to swap from R10-R15 (5GSA)
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+All VMO2 mobile connections
+ e.g. 
+Consumer:
+ PAYM + PAYG,  
+Consumer:
+ giffgaff  
+Wholesale:
+ SMB+ O2 Daisy 
+Wholesale:
+ Tesco Mobile 
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+All channels and journeys involved with 
+SIM Swap from p- or eSIM to p- or eSIM
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+The current SIM swap process is 
+not fit for purpose
+ in supporting the seamless, real-time experience expected in a 5GSA environment. 
+Customer experience is degraded
+ by transaction delays of up to 24 hours, undermining confidence and adoption. 
+Operational 
+in
+efficiency
+: Current fragmentation across systems introduces latency, manual touchpoints, and avoidable failure modes. 
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+Market benchmarking
+ shows competitors completing SIM swaps in 
+seconds
+, highlighting a clear gap in operational efficiency and digital maturity. 
+To unlock 5GSA’s full potential, a capability
+ and process overhaul
+ is required, enabling ‘near’ instant sim swaps, reducing friction, and aligning with modern expectations. 
+What must change
+?
+One line vision summary
+SIM Swap 
+is simple, reliable and 
+nearly instant
+ for all our mobile customers
+How does this differ from the current state?
+Meet customer performance expectations
+ by enabling SIM swaps to be prioritised and completed in 
+under 5 minutes
+, this includes whether there are concurrent activities taking place such as bulk migrations, etc. 
+Ensure seamless service continuity
+ throughout the swap journey. 
+Streamline cross-platform orchestration
+ to reduce latency, eliminate manual dependencies, and improve operational resilience. 
+What
+ will success look like 
+for your primary beneficiary
+ 
+Customers performing a SIM Swap
+: 
+SIM Swap was as simple
+ and fast
+ as 1-2 and done
+Are there any journeys, workflow
+,
+ or screen mockups that illustrate or support this requirement? 
+Insert link here
+What constraints or non-negotiables must the future solution 
+respect
+?
+The solution must prioritise regulatory compliance and customer trust over 
+other
+ requirements
+Is there anything explicitly out of scope?
+No
+When do you want this to 
+go live?
+Progressive delivery of value 
+/ improvements as early as practically deliverabl
+e
+ through 2026-2027
+Why must it happen then? 
+e
+.g. 
+Critical drivers for timing
+.
+Market benchmarking shows competitors completing SIM swaps in seconds, highlighting a clear gap in operational efficiency and digital maturity
+. 
+SIM Swap is
+ a key enabler for faster 
+rollout of 5GSA capability to our mobile users.
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes – reviewed 
+by 
+James Vincent
+Leading indicator
+ (predictor of successful execution)
+. 
+Suggest
+ 
+(
+if you know
+)
+ what 
+metric 
+will measure successful execution of this change
+.
+% 
+SIM swaps completed successfully in under 5 minutes
+% of SIM swaps completed without fault 
+% of SIM swaps completed without manual intervention
+% of and duration of service disruption during SIM swap
+What is the approximate revenue uplift / cost saving from this?
+This capability underpins the 5G Sunrise programme, a company wide initiative that is looking to realise a >£200m investment. 
+Key assumptions
+. 
+Are there any critical assumptions that support your timing or business case?
+5G Sunrise programme seeks to enable all mobile customers with a capable device to 
+access 5GSA by the end 2027. SIM Swap reliability 
+is required to support this goal.
+Scenario Assumptions
+​
+Expected Benefit (000’s) / Frequency
+​
+Revenue benefit
+: £1,103,856​
+Contribution
+: £993,470​
+Projected migrations to 2030
+: 2,168,981 (18.86% of base)
+​
+Assumed a 2% reduction in churn on incremental migrations multiplied by an ARPU of 
+£17.90
+​
+2026     £324 
+​
+2027     £86,806 ​
+2028     £271,753 ​
+2029     £371,839 ​
+2030     £373,134 ​
+Revenue benefit: 
+£221,214​
+Contribution
+: £199,092​
+Projected migrations to 2030
+: 742,645 (59.14% of base)
+​
+Assumed a 2% reduction in churn on incremental migrations multiplied by an ARPU of £10.45​
+2026     £111
+​
+2027     £29,651 ​
+2028     £63,521 ​
+2029     £63,965 ​
+2030     £63,965 ​
+Revenue benefit: 
+£419,624
+​
+Contribution
+: £377,662
+​
+Projected migrations to 2030: 
+2,419,000 (60.48% of base)
+​
+Assumed a 2% reduction in churn on incremental migrations multiplied by an ARPU of £10.45​
+2026     £211
+​
+2027     £56,245 ​
+2028     £120,494​
+2029     £121,337 ​
+2030     £121,337 ​
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+Redesign SIM Swap across platforms to deliver sub
+5
+minute swaps, ensure seamless end
+to
+end continuity, and streamline orchestration to cut latency, remove manual steps, and strengthen resilience, enabling a frictionless customer experience
+:
+1
+Sub
+5
+minute end
+to
+end completion for all SIM swap scenarios
+ in all channels
+Y
+2
+Ensure seamless service continuity throughout the swap journey
+ by e.g. 
+Current SIM card is not disconnected until the new one is ready to be downloaded or activated
+Y
+3
+Improve reliability and observability with enhanced alarming & monitoring of the sim swap performance, retries, and rollback paths, including performance reportability
+Y
+4
+Reduce sys
+t
+em latency through 
+e.g. 
+streamlined flows and removal of legacy bottlenecks
+Y
+5
+If improvements are capable of incremental 
+delivery,
+ then 
+priority should be given to fix
+es that have the greatest 
+reach in terms of #customers 
+and the scale of improvement (value add)
+Basis for prioritisation
+6
+7
+8
+9
+10
+What are your
+ reporting 
+or 
+self-serve analytics (data democ
+.
+) requirements
+?
+Dashboards should measure 
+and enable analysis across 
+business unit, 
+customer types, channels, sim swap scenarios etc of 
+key indicators including 
+e.g. 
+% SIM swaps completed successfully in under 5 minutes
+% of SIM swaps completed without fault 
+% of SIM swaps completed without manual intervention
+% of and duration of service disruption during SIM swap
+Y
+6.1 
+N
+on-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions
+ there will be?
+ 
+Yr1: 3 million, Yr2 :3 million, Yr 3: 1 million new/upgraded connections 
+ 
+Consumer: 150k per month peak from 5G SA Adoption work within O2 PAYM 
+ 
+Wholesale: 150k per month peak from 5G SA Adoption work within Wholesale 
+Response times or availability
+Consistent <5
+minute fulfilment across all customer journeys
+>99.9% service continuity during swaps. 
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+Unknown
+Any legal or regulatory compliance requirements?
+SIM Swap processes must comply with relevant 
+OFCOM regulation designed to prevent e.g. fraudulent SIM swaps
+ including inter alia 
+OFCOM 
+general condition C7
+, 
+voluntary 
+UK Home office 
+UK Telecommunications Fraud Sector Charter
+ etc.
+ 
+Are there any Fraud 
+requirement
+s?
+SIM Swap processes must be designed to prevent 
++
+ not enable fraud
+Auditability requirements
+SIM swaps must be fully 
+recorded
+ and auditable
+Accessibility 
+/ vulnerable customer 
+requirements
+The journey must 
+support vulnerable customers
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Say if you believe an operational department will be impacted by implementing this idea
+.
+Operational area
+Impact?
+ 
+(Y/N/potential)
+How might this area be impacted?
+Customer facing channels
+Digital channels (web, app)
+Y
+Surfacing and improvement of SIM Swap journeys
+Retail stores
+Y
+Potential customer support requirement
+Care and Retentions
+Y
+Potential customer support requirement
+Commercial & go to market
+Product & Proposition management
+Y
+In terms of e.g. customer comms, FAQ etc
+Marketing & Sales
+Y
+In terms of e.g. customer comms, FAQ etc
+Shop & Basket (buy/upgrade journeys)
+?
+Assumed more impacting of in life customers
+ 
+Order fulfilment & service changes
+Order & fulfilment
+Y
+Presumably
+ – including supply chain
+Service activation & configuration
+Y
+Provisioning, activation
+ etc
+Field operations
+Customer installs, repairs, visits, equipment delivery 
+Run and assure services
+Network services (mobile, fixed, TV)
+Y
+Enable 5GSA service
+s when 
+provisioned
+Faults, outages & service assurance
+Y
+See NFR
+ 
+Supply chain logistics
+Y
+Supply chain for SIM
+Service operations & support teams
+Y
+Operational processes, monitoring, incident handling 
+Money, account and trust
+Billing, payments & customer finance
+N
+Not by this project
+ 
+Customer accounts, identity and permissions
+N
+Assume no
+ 
+Other
+Wholesale services & support
+Y
+In respect of any SIM Swap support of e.g. giffgaff, Tesco etc
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+Insert link here.
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+See slides from November 
+(Jason Allen)
+Assumed technical scope includes
+Process redesign: Mapping and simplifying the full SIM swap journey across CIO/CTO domains. 
+Technical re
+engineering: API optimisation, event
+driven automation, and architectural simplification. 
+Cross
+platform alignment: Clear ownership, sequencing, prioritisation and SLAs across all contributing teams. 
+End
+to
+end validation: Performance, resilience, and customer
+journey testing. 
+Customer FAQ: Improved / clear information supporting SIM Swap journey
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

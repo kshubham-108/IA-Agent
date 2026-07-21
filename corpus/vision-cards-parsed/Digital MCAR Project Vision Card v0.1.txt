@@ -1,0 +1,663 @@
+Th
+is
+ Vision Card outlines the 
+desired business outcome, 
+context, problem and vision for 
+your
+ 
+new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal. 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this
+ after submission
+.
+ 
+Digital MCAR Project
+Business outcomes should be measurable change
+s
+ in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals
+ for your business
+-
+unit
+ e.g. 
+Reduce sales cycle duration for B2B customers by 20% within 12 months, enabling faster revenue realisation and improved customer experience
+Increase ‘fix broadband fault in one contact’ rates from 55% to 85% by Q4 2027, reducing operational cost
+to
+serve and increasing customer satisfaction in our network
+Proposed Title
+Digital Comms 
+(Braze)
+Digital MCAR Project
+The high-level scope of the MCAR project involves the development and implementation of new data pipelines to fix business critical service messages and a new MCAR data model to drive marketing transformation. This new data model will capture and integrate both marketing attributes and customer events, providing a unified and comprehensive view of the customer. The project will address the challenges of fragmented data and manual processes, enabling VMO2 to deliver more targeted and efficient customer interactions, both service and marketing communications. 
+Data Pipeline Efficiency
+: Resolve instances of 'wrong comms' and significantly reduce the risk of repeated high-cost fines by implementing robust data pipelines.
+Customer Engagement and Marketing Effectiveness
+: Empower VMO2 with capabilities for improved customer engagement, increased Cross-Sell opportunities, a better Total Customer Experience (TCX), advanced personalisation, and a strong platform for future AI and agentic marketing initiatives.
+Democratise Data
+: Transition complex data logic into a transparent, managed operational model, fostering safer and more widespread data access and utilisation across the organisation.
+Provide a Unified, Trusted Customer View
+: Deliver a single, trusted view of the customer for Marketing by integrating the MCAR Attribute Model with Pipeline Event Streams, ensuring consistent insights across all channels.
+Establish MCAR as the Martech / AdTech Centralised Intelligence Layer
+: Position MCAR as the core intelligence data layer for current and future marketing and advertising technology, providing a definitive and consistent operational model for unified strategies, audience management and downstream customer platforms like Braze and 
+ZeoTap
+.
+Project Phases
+Critical Service Comms (Event) Automation 
+in collab with Data Engineering
+Marketing (Attribute) Model 
+in collab with Data 
+Democ
+*
+Workstream
+ 1: Critical 
+Service
+ Comms Automation
+ 
+ 
+EOTN, ABTN & Price Rise Comms Pipelines
+Workstream
+ 2: Marketing Attribute Model
+Creation of approx. 550 attributes that are designed to replace our current trait matrix for Comms, allowing a level of 
+self service
+ data to be given to the Data Marketing teams to serve customer comms.
+The above can be derived by answering the following questions
+:
+What type of 
+state change/improvement must the project deliver
+?
+The project must deliver, 3 fast moving data pipes to solve EOTN, ABTN & Price Rise comms. 
+Creation of Approx 5
+5
+0
+ attributes to replace our current static trait deployment. 
+Hand over from external agen
+cies (Current state) to internal teams (Future state) of all trait/ attribute creation moving forward to serve comms into the future.
+ 
+In which
+ business metric?
+Reduce cost / reliance on external contractors (Accenture)
+Remove current incorrect comms sent by comms team due to data issues
+Mitigation of Fines / complaints due to incorrect comms
+For which
+ specific stakeholder or business user?
+ (
+Primary outcome beneficiary
+)
+Digital Comms team
+By 
+how much
+?
+ (
+Q
+uantified amount or percentage
+ is required
+)
+Reduction in 
+3
+rd
+ party
+ costs 
+of £
+3m
+ between 
+27
+-29
+Reduction of approx. 200k comms incorrectly sent per month
+What is the current 
+value for this business metric?
+N/A – Not 
+delivered today.
+Within what timeframe?
+Business Case assumes the 
+following 
+timelines: 
+Discovery/Definition
+:
+ 
+May 26
+Phase 1: Completed Aug 26
+Phase 2: Completed Nov 26
+What strategic 
+outcome
+ does this support
+? 
+Build Trust - Fix Critical Journeys
+Stakeholders
+Proposer
+Andy Lewis
+S
+ponsor
+James Hardy
+Person accountable for the business outcome
+Andy Lewis (Digital)
+Fred Gray (Digital)
+Leon Vaughan (
+Domain Owner) 
+Finance Business Partner
+(s) 
+Cheryl 
+Chong
+ (
+Finance Business Partner Digital)
+ 
+Other stakeholders (Optional)
+Only include if consulted to date. 
+e.g., Legal, Regulatory, Insights, Care, Retail Ops
+. 
+Role
+Name
+Digital 
+Front End
+ Domain Owner 
+Leon Vaughan
+Digital Enterprise Architect
+Rohan 
+Joglekar
+Data Engineering
+Johnny Ford
+Data 
+Democ
+Matt Nash 
+Data 
+Democ
+Daffyd Hopkins
+Data 
+Democ
+ (ECN/ABTN)
+William Ko
+Commercial (ECN/ABTN)
+Karen Swan
+Digital Ad Tech & Audience
+Teik Ch
+ua
+Digital Ad Tech & Audience
+Daniel
+ Powell
+Digital Comms
+Laxmi Patel
+Digital Comms
+Hannah Greenshields
+Digital Comms
+Andrea 
+Gesteira
+ Mateos
+Tracking information
+What 
+reference or 
+ID does your business unit use to track this proposal?
+Digital MCAR
+What is the unique budget reference for the budget that is likely to fund this item?
+N/A
+Which business division will be funding this proposal?
+Customer Comms 
+- 
+11030
+Which demand forum or person within your business unit has prioritised this item as a candidate for investment? 
+James Hardy
+When was the priority of this idea approved as a candidate for investment?
+Nov-25
+ 
+If known, when is this planned to attend Investment Committee?
+Funded outside of IT ESA
+ 
+List any known dependencies (if applicable) 
+Leave blank if unknown
+Dependencies on Data Engineering to 
+provide access & direction on 
+best practice
+Dependences on Data 
+Democ
+ to provide access & direction on best practice 
+Dependencies on Architecture to sign off agreed approach & pattern
+Any other dependencies TBC
+Is this an 
+NDA’d
+ project? If so, who is the NDA contact?
+n/a
+For admin use only
+Date received by Business Engagement and Mobilisation (BEM) team
+Vision has been reviewed with key architects / ESA domain owners?
+Date approved for platform assessment by BEM
+Who is impacted and what is broken today?
+Who is the prime beneficiary of this change? 
+Define the specific customer segments, colleague groups, or business units impacted
+Customer segments:
+ All VMO2 consumer customers across VM Fixed (broadband, TV) and O2 Mobile, including converged Volt customers, customers in collections (~250K entering monthly), customers affected by network disruptions (~2.4M monthly), and customers subject to annual price rises (~16M total)
+.
+Colleague groups:
+ Consumer Central Digital (Comms & Marketing) teams, Campaign Managers, Commercial/Trading teams, Service Comms teams, Customer Journey Orchestration teams, and the Audience Analytics team
+.
+Business units:
+ Digital (specifically 
+the Comms team, and 
+AdTech & Audience team
+)
+. 
+Commercial
+ &
+ Regulatory
+ teams through 
+compliance 
+adherence
+ and 
+customer experience control
+. 
+Data Democratisation, Data Engineering, and Data Modelling teams whose current workload 
+of 
+supporting the teams can
+ 
+be
+ 
+centralized and streamlined 
+into an agnostic data asset (MCAR) and 
+dedicated service pipelines
+.
+ 
+Which product
+s
+ 
+or services 
+are 
+in scope
+?
+VM Fixed broadband and TV product holdings (M50 through Gig1, TV packages, bolt-
+ons
+)
+O2 Mobile (Pay Monthly, PAYG, SIM-only, Tablet, Mobile 
+Wifi
+)
+Converged Volt bundles (combined fixed + mobile)
+O2 Extras, household bundles, and add-on services
+Critical service comms: Regulatory notifications, Collections notices, Network Disruption notifications, and Price Rise Defence communications
+Which 
+channels
+, 
+processes 
+or 
+(if known) 
+systems are in scope? 
+Specify the channels, 
+processes 
+or systems involved today
+Channels:
+ SMS, App Push, Email, Whitemail (letters), Alternate Format, and App (
+MyVM
+, MyO2), Website (CRO, Personalisation, Paid Traffic Acquisition, Consumer Contact (Chat)
+.
+Processes:
+ Marketing campaign targeting & audience planning & creation, regulatory comms, collections comms, network disruption comms (planned and unplanned), price rise notification journey, cross-sell/upsell orchestration, consent & GDPR compliance, cohort exclusion and suppression checks
+.
+Systems:
+ GCP 
+BigQuery
+ (data warehouse), Braze (
+MarTech
+ execution), 
+Zeotap
+/Unity (AdTech/CDP), Comms API (Cloud Run), 
+Mulesoft
+ APIs, Airflow pipelines, 
+dbt
+ (audience build), 
+PubSub
+ messaging, ICOMS, 
+Netcracker
+, CIO Customer Data Hub (CDH), Pricing Engine, and Pega (being migrated off)
+.
+What is happening today?
+Describe the current experience and known impacts (1–3 sentences)
+Customer data is held across multiple upstream systems (
+Netcracker
+, ICOMS, CIO CDH, Data Modelling tables) and processed through separate, team-specific pipelines. 
+The existing Customer Traits model processes ~2.7M customer rows daily via a batch pipeline that triggers at 8am, with results reaching Braze around 10am. 
+Critical service comms like collections and network disruption run through independent pipelines — some with significant manual steps (e.g., offshore teams extracting files from ICOMS) and processing gaps (collections files only on weekdays; unplanned disruption comms paused over bank holidays).
+What is the problem or opportunity
+? 
+Explain why the current state is undesirable, and what needs to change (1–3 sentences)
+The current data landscape means VMO2 does not yet have a unified, real-time view of customer attributes for marketing and service activation. This has led to customer-impacting issues — for example, a June 2025 incident saw ~18,000 customers receive incorrect billing reminders because balance data had not been updated in time to reflect offline payments.
+Key pipeline components lack built-in resilience for Ofcom-regulated service comms, data freshness relies on daily batch processing when near-real-time is needed, and high demand on the Data Democratisation and Data Engineering teams creates capacity constraints. 
+MCAR is the opportunity to centralise and harmonise over 750 customer attributes into a single intelligence layer, enabling personalised 1-to-1 comms, real-time event-driven triggers, and future AI/agentic capabilities — while improving operational reliability and reducing team dependencies.
+What must change
+?
+One line vision summary
+Marketing Customer Analytical Record (MCAR) and automated pipelines to establish a comprehensive, unified customer data foundation
+, driving VMO2 marketing transformation.
+How does this differ from the current state?
+T
+he current state relies on fragmented legacy systems (ICOMS, 
+Netcracker
+, and old Pega tables) and fragile, manual batch processes—like DBT (Data Build Tool) audiences that poll every five minutes—which frequently cause data mismatches and "wrong comms". It relies on a reactive, "campaign-first" approach where data engineers must manually build disposable, one-off traits for every new marketing brief. 
+The future state introduces a "customer-first" event-driven Pub/Sub pipeline and a centrali
+s
+ed, 
+denormal
+is
+ed
+ Master Attribute Record on GCP, eliminating manual data extracts and enabling flexible self-service discovery.
+What will success look like for your primary beneficiary 
+For the Marketing and Comms teams, success means eliminating the risk of "apology campaigns" and regulatory fines caused by inaccurate or delayed data. It also means achieving self-service capability, allowing non-technical product owners to instantly discover, size, and utili
+s
+e audience data (scaling up to 
+5
+50+ master attributes) without 
+hard dependencies
+ on Data 
+Team
+ 
+sprint cycles.
+Are there any journeys, workflow, or screen 
+mockups
+ that illustrate or support this requirement? 
+To be defined within discovery
+What constraints or non-negotiables must the future solution 
+respect
+?
+A strict architectural constraint is that all integration between external suppliers (e.g., 
+Netcracker
+ to Braze or 
+Zeotap
+) must flow centrally through GCP to prevent vendor lock-in and govern a single source of truth. 
+The solution must strictly adhere to GDPR/PII compliance, meaning no VMO2 data, code, or documentation can be stored or shared outside of VMO2-controlled environments and VMO2-issued devices. Furthermore, the architecture must not impact or alter any underlying operational or billing systems.
+Is there anything explicitly out of scope?
+Yes. MCAR is not an enterprise-wide Single Customer View (SCV); it is explicitly focused only on Marketing and Customer service data. Additionally, Digital Voice Migration (DVO/DVSOT) switch-off communications are explicitly ruled out of the general pipeline migration due to their own highly specific £23M regulatory risk profile. End of Contract and Best Tariff notifications (ECN/ABTN) for O2 business customers are also explicitly out of scope.
+When do you want this to go live?
+The project utili
+s
+es a phased delivery model:
+Workstream 1 (Critical Service Comms pipelines like EOCN, ABTN, and Price Rise) is targeted to go live by 
+August
+,
+ 2026.
+Workstream 2 (The full MCAR Attribute Model, Pega retirement, and Volt cross-sell) is targeted to go live by 
+November
+, 2026
+Why must it happen then? 
+e.g. Critical drivers for timing.
+The timeline is heavily driven by regulatory pressure; VMO2 has faced £40M-£50M in Ofcom fines in recent years for failing to accurately send mandatory notifications (like End of Contract and Price Rises). 
+Furthermore, Virgin Media is migrating all customers from legacy percentage-based plans to "pounds and pence" fixed price plans in September/October 2026; the Price Rise pipeline automation must closely align with this deadline to avoid building technical debt on a soon-to-be-retired billing model.
+Does this have a value case yet? 
+e.g. Have you assessed where and how much the value will be derived from this change?
+Yes. The value is split into risk mitigation and revenue generation:
+Risk Mitigation: Projections indicate a £17.5M to £66M reduction in financial risk by preventing future regulatory fines.
+Revenue Uplift: By improving cross-selling (like Volt convergence propositions) and personali
+s
+ation, the business case projects up to £32.2M in incremental consumer revenue by 2027. 
+Leading indicator (predictor of successful execution). 
+Suggest (if you know) what metric will measure successful execution of this change.
+Pipelines: reduced complaints, reduced regulatory violations
+MCAR: reduced time for marketing to access accurate data for their use-cases.
+What is the approximate revenue uplift / cost saving from this?
+The approximate financial benefits of the MCAR project are split between generating new revenue and saving costs through risk mitigation:
+Revenue Uplift: The project is projected to generate up to £32.2 million in incremental consumer revenue by 2027. This is based on a targeted 0.5% to 1.5% performance uplift resulting from better personalization, improved cross-selling capabilities (such as targeting single-play customers for Volt convergence), and reduced customer churn.
+Cost Savings (Risk Mitigation): The project is expected to save the business between £17.5 million and £66 by avoiding future regulatory fines. These savings will be achieved by automating critical service communication pipelines (like Price Rises and End of Contract Notifications) to eliminate the data inaccuracies and manual errors that currently result in "wrong comms" and regulatory penalties.
+Key assumptions. 
+Are there any critical assumptions that support your timing or business case?
+Timely Internal Migrations: The client must complete all prerequisite internal system and data platform transitions on schedule.
+Strategic Alignment: Project delivery is intentionally timed to align with the client's broader strategic updates and upcoming billing model changes.
+Agile within Fixed Capacity: The project operates on a fixed budget with a capped team capacity, managing priorities dynamically without requiring formal Change Requests for day-to-day shifts.
+Upstream Data Reliability: The client is entirely responsible for ensuring the availability, quality, and schema stability of upstream source data.
+High level Requirements
+ 
+(note
+ will be defined during Discovery, indicative requirements below)
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.
+ 
+ 
+If your requirement is on behalf of 
+an external party such as
+ giffgaff then your requirement scope will only cover the capabilities in VMO2 that support the
+m
+. 
+Guidance: 
+Clear high‑level requirements help ensure 
+faster and 
+more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting 
+proposals you may wish to consider 
+the specific elements of the customer lifecycle that
+ each requirement impacts e.g. 
+find/explore, 
+b
+uy
+/upgrade
+, 
+p
+ay/bill, 
+g
+etting started/use, 
+m
+anage
+, get help, stay/leave.
+*
+MVP
+ = 
+These requirements 
+must be delivered 
+by the project 
+to achieve the minimum viable customer or commercial outcome
+#
+Change / 
+Requirement
+MVP
+*
+1
+Develop and implement new data pipelines capable of capturing and processing critical customer events in real-time. Bake compliance checks (e.g., cohort sizing, exclusion rules) directly into the automation processes to ensure strict adherence to regulatory standards. Replace the fragile, existing DBT (Data Build Tool) Audience Builds with robust, integrated real-time event streams (utilising a GCP Pub/Sub Integration Hub) to prevent audience collapse, reducing latency of communications, and improve agility of Digital teams. 
+Specific Priority Use Cases 
+End of Contract Notification (EOCN):
+ Automate the extraction of a customer's current contract price, end date, post-contract pricing, and best alternative deals. This must remove the reliance on fragile Excel front-books, support an average volume of 40,000 customers per week, and guarantee delivery within the strictly mandated 31-day regulatory window. Annual Best Tariff Notification (ABTN): Reliably extract the customer's monthly price paid and current service details from an automated pipeline to calculate and trigger the best available alternative tariffs. 
+Price Rise Notification
+: Establish a single source of truth for product holdings across the ICOMS and 
+Netcracker
+ systems. The pipeline must accurately identify customer cohorts and accurately reflect complex tariff conditions (such as Volt benefits, Switch Up, or Ultimate tariffs) so that customers receive highly personalised and accurate price increase information without manual errors
+TBC
+2
+Based on extensive marketing communication experience, build a unified data model designed to surface reusable demographic, geographic, psychographic, and 
+segmentation data for all Marketing Communications - including but not limited to: Customer Relationship Management, Service Communication, Paid Media Traffic Acquisition (i.e., existing customer suppression),Website Personalisation and Conversion Rate Optimisation (CRO), and Customer Contact teams. Unify slow-moving customer attributes into an intelligence layer that is consistent across the entire Digital business to enable both 1-to-1 personalised customer communication and batch audience direct marketing activation. Push these surfaced attributes on a 24-hour refresh directly into MCAR, ensuring direct integration capability to any current and future Marketing and Advertising technologies. 
+Specific Priority Use Cases & Deliverables
+: 
+Deliver the MCAR data model using a phased approach, with the ultimate objective of deploying **750+ master attributes** into the development cycle. 
+Migrate 390 existing service communication journeys out of the outdated and unstable 
+‘
+net-
+intell
+-prod
+’
+ GCP environment. This will replace fragile DBT (Data Build Tool) batch audiences with a robust, near real-time GCP Pub/Sub Integration Hub. 
+Decommission the legacy Pega CDH/EDH data tables and migrate all O2 campaign traits to the new end-state 
+Netcracker
+ (NC) data tables. This is required so that marketing audience targeting accurately matches the commercial team's exact eligibility figures. 
+Deploy stable upstream events and traits to accurately target eligible users for bi-monthly VOLT cross-sell campaigns. This requires integrating the Experian (
+Xpin
+) identity graph to link mobile and broadband subscriptions to a single household 
+PIN, and
+ implementing an automated "circuit breaker" to immediately pause campaigns if upstream data is delayed or misaligned. 
+Ensure that customer marketing permission (opt-in) and third-party suppression data are applied and available on Day 1, allowing onboarding welcome journey communication and upsell / cross-sell marketing opportunities can be triggered immediately rather than waiting 72 hours for systems to 
+sync. Immediately
+ rather than waiting 72 hours for systems to sync. 
+TBC
+What are your reporting or self-serve analytics (data 
+democ
+.) requirements?
+none
+6
+.1 
+Non-Functional Requirements (NFR)
+A non
+functional requirement explains the standards 
+the
+ solution must meet — such as speed, reliability, security, or ease of use — so that the experience works well for customers and colleagues, not just functionally
+.
+Do you know how many customers or transactions there will be?
+ 
+To be defined as part of discovery 
+Response times or availability
+To be defined as part of discovery 
+Are there any security or privacy requirements
+? 
+If unsure, select ‘unknown’
+To be defined as part of discovery 
+Any legal or regulatory compliance requirements?
+To be defined as part of discovery 
+Are there any Fraud 
+requirement
+s?
+To be defined as part of discovery 
+Auditability requirements
+To be defined as part of discovery 
+Accessibility 
+/ vulnerable customer 
+requirements
+To be defined as part of discovery 
+ 
+What parts of the business are likely to be impacted
+?
+Have you thought about how your requirement will impact key channels or 
+operational units in 
+VMO2
+? 
+Say if you believe an operational department will be impacted by implementing this idea
+.
+Operational area
+Impact
+?
+How
+CTO: 
+Will this requirement involve changes to the mobile or fixed network
+ or the services they deliver? 
+e.g
+.
+ 
+c
+onnectivity, coverage, messaging, et
+c.
+n
+Will CIO or CTO operational teams need to change the way they support our services? 
+n
+ 
+Digital channels 
+or 
+App
+n
+Commercial
+ and 
+Product teams
+n
+Marketing and Sales
+y
+Pipelines: reduced
+ customer 
+complaints, lower regulatory compliance burden.
+MCAR: 
+simplified access to data from upstream sources.
+Shop and 
+Basket
+n
+Retail stores
+n
+Care and Retentions
+n
+Billing, Payments, Customer Finance, Insurance
+n
+Logistics
+, 
+supply chain
+ and field
+ operations
+n
+Other: Field Sales
+n
+Other: 
+Field Sales & Retail Operations 
+n
+ 
+Supporting Information
+Has any solution 
+assessment
+ been don
+e? 
+Include links to 
+existing
+ solution options, 
+blueprints
+,
+ etc
+.
+ that
+ 
+may
+ support 
+T Shirt sizing
+  
+VMO2 Jira:
+MCAR Scrum Board - Backlog - Jira
+Are there any 
+other 
+supporting documents or references 
+e.g. 
+Links to slides
+, customer personas 
+etc.
+VMO2 
+Confluence
+ Pages: 
+Marketing Customer Analytics Record - Marketing Customer Analytics Record - Confluence
+:
+MCAR Deliverables
+:
+Critical Service Comms
+🔚 
+End of Contract Notification (EOCN)
+🧾 
+Annual Best Tariff Notification (ABTN)
+📈 
+Price Rise Notification
+Price Rise Ideation
+Price Rise Notification Customer Journey
+Price Rise Reference Documentation
+Network Disruption
+💰 
+Collections
+Marketing Customer Attribute Model
+💡 
+What is MCAR
+MCAR Source to Target Mapping
+MCAR Attributes Table
+Customer Journeys
+Customer Journeys Reference Materials
+❎ 
+Volt Cross Sell and Upsell
+Volt reference documents
+Pega Retirement
+Pega Reference Documents
+✅ 
+Marketing Consent (Onboard 
+Opt
+ In)
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner
+ is advisable
+.  They 
+may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[Insert BEM team inbox here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM partner may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

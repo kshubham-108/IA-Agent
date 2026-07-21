@@ -1,0 +1,297 @@
+Vision Document
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+Stakeholders
+Proposer
+ 
+Daniele Torrigiani
+Sponsor
+ 
+Paul O’Sullivan
+Person accountable for the business outcome
+ 
+Daniele Torrigiani
+Finance Business Partner(s) 
+ 
+Sarah Hughes
+Other stakeholders (Optional)
+ 
+Only include if consulted to date. e.g., Legal, Regulatory, Insights, Care, Retail Ops. 
+ 
+Role
+ 
+Name
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+For admin use only
+ 
+Date received by Business Engagement and 
+Mobilisation
+ (BEM) team
+ 
+– shared via Business Forum 
+19/05/26
+Vision has been reviewed with key architects / ESA domain owners? 
+Y
+Date approved for platform assessment by BEM 
+04/
+06/26
+Contents
+1
+Problem / Opportunity Statement (Required)
+2
+1.1
+Background or context of the opportunity
+2
+1.1.1
+Describe the problem or opportunity
+2
+1.1.2
+Business Objectives - what is the business trying to achieve?
+2
+1.1.3
+What should happen in 
+future
+ if we address this opportunity?
+3
+2
+Desired SMART Business Outcome
+3
+3
+What is in scope of this idea? (Required)
+3
+4
+Out of current scope (possible future scope) [Required]
+3
+5
+Dependencies / Risks / Assumptions [Required]
+4
+5.1
+Dependencies
+4
+5.2
+Risks
+4
+5.3
+Assumptions
+4
+6
+Aspirational timelines
+4
+7
+Appendices
+5
+8
+Attachments, References (optional)
+5
+Problem / Opportunity 
+Statement (
+Required)
+Background or context of the opportunity
+VMO2 is currently onboarding the Cure MVNO via the 1 Global platform, which will establish 1 Global as a Mobile Virtual Network Enabler (MVNE) partner providing connectivity and managed integration between VMO2 and MVNOs. As part of this engagement, there is now an opportunity to assess and enable the onboarding of additional MVNOs through the same 1 Global channel, leveraging the existing integration, operational model, and commercial constructs already being established.
+Describe the problem or opportunity
+The current onboarding of Cure represents the first implementation of the VMO2–1 Global MVNE model. However, the ability to onboard further MVNOs through this channel has not yet been formally assessed. The opportunity is to extend this model to support additional MVNO partners with minimal incremental effort, ensuring scalability, repeatability, and commercial efficiency. This requires understanding the technical, operational, and billing impacts of introducing an additional MVNO while maintaining separation where required.
+Business Objectives - what is the business trying to achieve?
+Objectiv
+es 
+  Enable onboarding of additional MVNOs via the 1 Global MVNE platform 
+  Reuse existing Cure integration, network configuration, and service models where possible 
+  Ensure appropriate separation of wholesale billing and commercial arrangements per MVNO 
+  Minimise incremental technical and operational effort for each new MVNO 
+  Establish a scalable and repeatable MVNO onboarding framework via 1 Global
+  
+Enable commercial launch of a specific MVNO that will be used as pilot of this new process
+What should happen in 
+future
+ if we address this opportunity?
+If successful, VMO2 will be able to onboard multiple MVNOs through 1 Global in a streamlined and cost-efficient manner. Each MVNO will benefit from a consistent service offering and operational framework, while VMO2 retains control of billing, commercial agreements, and service 
+performance. This will create a scalable MVNE capability that reduces time-to-market for new partners and supports wholesale revenue growth.
+D
+esired SMART Business Outcome
+ 
+Business outcomes should be measurable changes in a business metric, within a set timescale, for a clear stakeholder, and aligned to one or more strategic goals for your business-unit e.g. 
+ 
+Quality
+ - 
+Reduction in: 
+D
+efects
+I
+ncidents
+P1 / major service issues
+Continuity of Service
+Ensuring no service disruption for MVNOs and B2B customers
+Meeting contractual obligations for continuity
+Proposed Title
+ 
+Enable Scalable MVNO Onboarding via 1 Global MVNE Platform
+Primary (SMART) Outcome statement
+ 
+Enable the onboarding of additional MVNO partners via the 1 Global MVNE platform within a reduced delivery timeline (relative to Cure baseline), ensuring full wholesale billing separation and operational readiness, 
+in order to
+ accelerate wholesale revenue growth and improve onboarding efficiency for future MVNOs.
+The above can be derived by answering the following questions:
+ 
+What type of state change/improvement must the project deliver?
+ 
+Enable and accelerate MVNO onboarding
+In which business metric?
+ 
+Time-to-onboard MVNO, wholesale revenue growth, operational efficiency
+For which specific stakeholder or business user? (Primary outcome beneficiary)
+ 
+Wholesale, Finance, and MVNO Operations teams
+What strategic outcome does this support? 
+ 
+Faster revenue realisation and scalable MVNO growth model
+ 
+What is in scope of this idea?
+ (Required)
+
+  Onboarding of an additional MVNO via the existing 1 Global MVNE integration 
+(new MVNO 
+is due to be signed imminently.
+
+  Separate wholesale billing setup for the new MVNO, aligned to Cure charging constructs 
+
+  Integration with MACH for tariff and rating (multi-rate model where applicable) 
+
+  Coverage Maps integration into 
+SpatialBuzz
+ for the new MVNO 
+
+  Use of existing network service profile (same services and quality as Cure) 
+
+  Dedicated service management wrapper for the new MVNO 
+
+  Assessment of synergies with existing VMO2 ↔ 1 Global operational model 
+
+  Minor network configuration changes where subscriber discrimination is required 
+
+  Mediation configuration updates if required for MVNO separation
+Extension of Service Management reporting currently in place for Cure.
+Wholesale Billing Reporting for new MVNOs as a dedicated reporting function.
+Out of current scope (possible future scope)
+ 
+[Required]
+Are there any specific exclusions to the defined scope for the proposed project? If this is the first phase, a proof of concept or a minimum viable product some functionality, capabilities or journeys could be excluded.
+  Introduction of new or differentiated network services beyond the Cure profile 
+  Major network redesign or new core capabilities 
+  Changes to core MVNE architecture beyond incremental scaling 
+  Non-1 Global MVNE onboarding models
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or required by other projects (outbound).
+ID
+Inbound or Outbound
+Project reference 
+(
+if any
+)
+Description
+/nature of dependency
+D1
+Inbound
+Cure
+C
+ompletion of Cure MVNO onboarding and validation of baseline architecture
+D2
+D3
+Risks
+Please list any risks (
+events
+ that could happen, but have not happened yet), that would impact cost / scope / timelines / successful delivery.
+ID
+Risk Description
+Probability
+Impact if this happens
+R1
+Requirement for additional network or mediation configuration if 
+subscriber discrimination is more complex than anticipated
+Medium
+Increased delivery timeline and cost
+R2
+R3
+ 
+Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+New MVNO will use the same network service profile as Cure with no service differentiation
+A2
+B
+illing model will follow a similar multi-rate structure as implemented for Cure
+A3
+Technical changes required will remain minor and largely reuse existing integrations
+A
+s
+pirational timelines
+[Please indicate Aspirational Commercial Launch Date (CLD) and drivers behind these timelines. Where individual scope lines have different aspirational CLDs please indicate this below.  
+These dates are only aspirational
+, until the project is mobilised & a full impact assessment has been completed, this date is not committed to.]
+Commercial Launch Date
+Scope
+Drivers
+ASAP  
+Onboarding of additional MVNO via existing 1 Global integration
+-
+  Partner-driven urgency to launch services 
+-
+  Reuse of Cure baseline to minimise delivery effort 
+-
+ Technical changes expected to be minimal; operational readiness is the key gating factor
+For information: Next steps
+ 
+Pre-submission checks: An early conversation with your Business Engagement and 
+Mobilisation
+ (BEM) Partner is advisable.  They may suggest a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+ 
+Submission: Once you have a potential sponsor, budget reference and priority from the person or body that 
+prioritises
+ demand in your division, please submit your draft Vision Card to the BEM team [Insert BEM team inbox here] 
+ 
+Vision card review: A Business Engagement and 
+Mobilisation
+ Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM partner may drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+ 
+T-Shirt Sizing: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and TechM. 
+ 
+Mobilisation
+: Further 
+mobilisation
+ tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.
+ 
+ 
+Appendices
+Strategic projects may have a Delivery Blueprint. 
+Initial ideation may have created 
+customer journey slides
+, infographics or 
+relevant research
+. Feel free to add these – or 
+list external references here
+. 
+ 
+Attachments, 
+R
+eferences
+ (optional)
+Below are the 
+Project Cure HLD
+, LLD
+ 
+and BRD.  Note that there are other documents available if required.
+ 

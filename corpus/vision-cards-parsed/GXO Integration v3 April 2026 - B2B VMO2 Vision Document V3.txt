@@ -1,0 +1,1299 @@
+Vision Document
+This Vision outlines the desired business outcome, context, problem and vision for your new project idea. The following questions will guide technical teams in providing ball-park T Shirt sizing for the proposal.
+ 
+If unsure, provide your best first draft — your Business Engagement Mobilisation Partner will help you refine this after submission.
+ 
+ 
+Business Area 
+☒
+ 
+Wholesale 
+Mobile & M
+W
+ (O2 Daisy)
+ 
+☐
+ Wholesale Fixed Connectivity 
+☐
+ B2B IT Migration
+ 
+Initiative Name
+GXO Integration
+ – Tactical 
+&
+ Strategic
+Sponsor 
+Name
+Davinder Sandher
+P
+rod
+uc
+t 
+Owner
+ Name
+Yiannis Niarchos
+Finance Partner Name
+Amy 
+Charman
+O2Daisy only section
+ 
+O2 Daisy ID
+ID377 
+O2Daisy CTIO Approved
+App
+roval to move to Ideate sizing must be 
+provided
+O2Daisy IT Architecture design or context
+Avinash / 
+Abhilash / David Hollings
+NDA required?
+N 
+NDA admin
+NDA contact name
+Tactical: 
+Aspirational start date
+ASAP
+1/9
+/2026
+Aspirational 
+delivery date
+1/9/2026
+(ahead of the new iPhone launch)
+Strategic: 
+Aspirational start date
+ 
+31/12/2026
+Aspirational 
+delivery date
+31/12/2026
+Commercial launch date
+Phased delivery considerations/needs
+Drivers
+1
+/9/2026
+ID377
+: 
+O2 Daisy Warehouse Interfacing - 
+Tactical
+Ability to 
+send all orders to GXO 
+instead of Westcoast via i
+nterfaces 
+that 
+will be 
+based on the existing DISE-GXO interface
+ file
+s
+. 
+T
+he aim is to 
+avoid 
+stock obsolescence
+, 
+double handling logistics costs, 
+manual interventions 
+&
+ short payment cycles. 
+1/12/2026
+ID378
+: 
+O2 Daisy Warehouse Interfacing 
+Strategic – API
+Use API integration with
+ 
+Netcracker
+ API (SVOS)
+. 
+Linked to consumption of VMO2’s 
+Netcracker
+ 360 API for Mobile provisioning.
+This API isn’t ready for 
+consumption,and
+ needs more work 
+on the
+ VMO2
+ side
+.
+Table of Contents
+1.
+Problem & Opportunity / Scope Summary
+2
+2.
+In Scope
+2
+3.
+Customer Journey Touch Points 
+(Required)
+4
+4.
+Out of Scope 
+(Required)
+6
+5.
+High level Requirements
+7
+6.
+Legal/Regulatory, Fraud, Security and environmental impacts
+8
+7.
+Dependencies / Risks / Assumptions [Required]
+9
+2
+For information: Next steps
+9
+ 
+Problem & Opportunity / Scope Summary
+Background or context of the opportunity
+Where does the problem or opportunity occur? What is the context, event, or customer journey in which it occurs?
+Context/Background
+Schedule 7 requires all devices to be purchased through VMO2, with a TSA compliance deadline of 30 April 2026.
+O2 Daisy Transformation has produced a high
+level architecture, but VMO2 and O2 Daisy are unable to meet the TSA deadline.
+We are currently operating a dual
+warehouse model: GXO for f-VMO2 orders and Westcoast for f-Daisy orders:
+ 
+To comply with our contractual agreements, we are shipping devices to Westcoast via the indirect DISE process so they can fulfil 
+the
+ 
+Daisy orders.
+Current State Process
+ 
+This diagram shows that today 
+there are thr
+ee fulfilment paths instead of one. 
+Current Fulfilment Model
+Path 1
+: 
+DI
+S
+E
+ (Established / BAU)
+Individual customer orders 
+only 
+for 
+Apple 
+devices, 
+where customers require DEP 
+enrolme
+nt
+. 
+Daisy p
+lace
+s
+ via partner portal 
+→
+ DI
+S
+E → GXO
+. 
+GXO fulfils orders directly
+ to the customer. 
+Includes:  
+Automated fulfilment
+Apple enrolment processes (via existing integration)
+This flow is working and not being changed
+Path 2: Daisy Central
+ (Interim / Workaround)
+Individual customer orders for all
+ 
+devices:
+Apple: customers 
+don’t require DEP enrolment 
+Orders placed in Daisy Central → fulfilled from West Coast warehouse
+All other devices including 
+Samsung 
+whether customer requires enrolment or not. 
+Stock is:
+ 
+Shipped from GXO → West Coast to support this model
+ 
+because there is no direct GXO integration
+Current problem
+s
+:
+No integration to GXO fulfilment processes
+No automated Apple enrolment
+Requires multiple manual interventions
+Dual Ordering Process (Critical Behaviour)
+Path 3
+This is
+ the most manual route, where Daisy Central orders needing enrolment 
+have to
+ be re-keyed into the indirect portal to go via DISE. The current model is fragmented, manual and hard to scale, and the aim is to simplify this into a more direct and automated process.
+Non-enrolled
+ devices
+:
+Ordered via Daisy Central
+Fulfilled from West Coast stock
+ (ordered in bulk in advance from VMO2)
+Apple enrolled
+ devices
+Cannot be fulfilled from West Coast
+Current process 
+mu
+ust
+ be:
+Re-keyed manually into Indirect Portal
+Routed to DI
+S
+E → GXO
+Fulfilled from GXO 
+via the
+ 
+existing 
+enrolment
+ process. 
+This creates:
+Duplicate order handling
+Inconsistent fulfilment paths
+This process 
+l requires:
+Forecasting & Stock Movement
+Manual forecasting and bulk ordering via GXO
+Devices shipped to West Coast manually
+ Apple Enrolment Workaround
+Manual re-entry of orders via indirect portal
+To trigger enrolment via DICE integration
+Post-Fulfilment Handling
+Additional manual steps required
+Load enrolled devices into Daisy Central
+Enable downstream build/billing
+Resourcing
+Manual process supported by ~3 people
+Scaling Risk
+More customers are being moved to Daisy Central
+Manual workload will:
+ 
+Increase significantly
+Potentially 
+block transformation progress
+Illustration of 
+all
+ 
+three
+ 
+current processes and 
+proposed 
+high-level changes
+. 
+1.
+2 
+Problem & Opportunity
+ 
+State the main problem(s) and the opportunity created by addressing them. Highlight key pain points and expected benefits
+Several issues arise following the current approach: 
+The current interim operating model is 
+manual, fragmented, and structurally unscalable
+, creating material commercial, operational, and financial risk.
+Increased Cost Exposure:
+Loss of TEF group purchasing benefits and other efficiencies (if we
+ 
+continued 
+purchasing from 
+disties
+ and Westcoast). 
+Minimal additional benefit from logistics optimization.
+Significant one
+off and ongoing costs.
+Loss of Apple rebate incentives.
+Operational & Financial Risks
+Higher working
+capital requirements due to inventory holding
+Increased risk of stock obsolescence. 
+Changes to the Apple relationship could create commercial and financial implications, requiring the negotiation of new terms and a revised contract.
+Revenue loss from reduced stock availability. 
+Mobile revenue loss, as ACE is incompatible and Knox commercial rates 
+are
+ less 
+favourable
+. 
+Westcoast’s capabilities are not like
+for
+like. 
+Primary
+ 
+Ask (Medium
+ Term
+)
+Daisy Central → GXO Integration
+Eliminate:   
+Need to route via West Coast
+Need for DI
+S
+E dependency
+Goal:
+Daisy Central sends orders directly to GXO
+Align with existing fulfilment processes
+Strategic Ask (Long
+er
+ Term)
+Full Strategic Integration / API Layer
+Remove:   
+Interim processes
+DI
+S
+E platform dependency
+Achieve:   
+Scalable, automated end-to-end process
+Consider optionality of a 
+Phas
+ed 
+Approach
+Following previous discussions
+ with supply chain and
+ 
+shared for 
+information
+:
+A 
+s
+tock API is already in place between 
+GXO and DISE
+. 
+Current 
+interfaces 
+in below diagram (A
+PI number 5 below: 
+MDS DISE → 
+SOA & Apigee ISP API Gateways
+ → 
+GXO MQ / IBM MQ Service Gateway
+)
+ 
+O2 Business is also asking VMO2 to share all DISE interfaces
+, example high
+-
+level diagram from supply chain below. 
+ 
+1.3 Scope
+ Summary
+ 
+Summarise what is included and excluded from the initiative to set clear expectations and boundaries
+The ask is to enable a more direct, automated and scalable fulfilment process for Daisy device orders
+, 
+allowing
+ Daisy order volumes to be fulfilled from the primary VMO2 warehouse by sending orders electronically for pick/pack/dispatch, instead of moving stock in bulk to a secondary warehouse (currently Westcoast) for fulfilment.
+It covers the business capabilities required to
+:
+Stock 
+validation, 
+availability
+ and confirmation. 
+S
+ubmit fulfilment requests electronically
+S
+upport configuration/enrolment where needed
+R
+eceive fulfilment updates
+P
+ass the necessary data into downstream operational, reporting and billing processes.
+ For example, 
+but not limited 
+to:
+ 
+stock levels, 
+order details, 
+inventory transactions, 
+IMEI / serial numbers, 
+consignment / delivery information, etc. 
+Consider optionality of a 
+Phased Approach
+Phase 
+A
+: Tactical Integration
+Daisy Central → GXO integration
+Reduce reliance on West Coast
+Phase 
+B
+: Strategic API Integration
+ (*)
+End-state architecture
+Full automation
+Removal of DI
+S
+E dependency
+Maintain business continuity during the transition (
+assuming 
+no decommissioning of the current estate as
+ other segments will continue to use systems such as 
+DISE 
+)
+.
+Ensure 
+these processes 
+continue 
+to function
+:
+Returns
+ and reverse
+ logistics
+E
+nrolment
+ 
+of all Apple and 
+non-Apple
+ devices 
+eSIM
+ 
+provisioning
+Ensure reporting continuity
+e.g., shipment status/returns-related data
+,
+ and identify any new reporting needed for contractual compliance
+1.
+4
+  
+Business
+ Outcomes
+ 
+– 
+(Required)
+Describe the business outcomes for this project.  (
+A business outcome describes the measurable change in business performance or behaviour that will be delivered if this initiative is successful.
+)
+Contractual & commercial compliance achieved
+ (e.g., Schedule 7): 100% of in-scope device procurement/fulfilment routed through VMO2 to preserve contractual obligations and commercial agreements with both VMO2 and TEF. 
+Improved device stock availability
+ to reduce lost sales caused by supply constraints.
+Faster, more reliable delivery performance
+ (including later cut-off times where applicable) to improve customer experience and order conversion.
+Streamlined returns experience
+ with consistent end-to-end fulfilment performance.
+Sustained access to competitively priced devices
+ by retaining TEF/VMO2 purchasing benefits and avoiding distributor pricing exposure.
+Protection of mobile revenue and margin
+ by retaining favourable commercial terms for devices and services, e.g., AppleCare for Enterprise, Samsung Knox, O2 Capital financing. Eligibility for incentives/rebates.
+Reduced working-capital exposure
+ through improved inventory velocity and reduced on-hand stock.
+Lower risk of stock obsolescence
+ via better demand alignment and integrated fulfilment.
+Delivery outcomes: 
+Automated and accelerated device enrolment process, reducing the need for manual intervention and minimising the risk of errors that could negatively impact the customer experience, and simultaneously enabling operational scalability.
+Reduction in avoidable logistics cost
+ by removing dual-warehouse/double-handling and related manual interventions/reconciliation.
+Operational scalability through automation
+: elimination of fragmented manual processes and establishment of a repeatable operating model that supports future growth and strategic API-led integration.
+Orders flow
+ from Daisy Central to GXO without manual intervention
+Devices are enrolled
+ prior to delivery
+IMEI and fulfilment data
+ are automatically returned
+Billing
+ is triggered automatically in Daisy Central
+. 
+What must this integration guarantee on Day 1 to protect business continuity?
+To ensure zero disruption, the integration must guarantee:
+End
+to
+end order flow from Daisy systems into GXO and 
+RDi
+, with no manual intervention.
+Continued purchasing of all mobile device stock through VMO2
+, preserving commercial agreements, rebates, and pricing from Day 1.
+In Scope
+ 
+Area
+Impacted
+Channels
+☐
+ 
+No Channel Impact (BAU)
+☒
+ Assisted 
+(e.g. Contact Centre, Field Sales)
+☒
+ U
+nassisted 
+(e.g. Self-Service)
+☐
+ 
+Change to 
+E
+xisting e
+C
+ommerce
+☐
+ 
+N
+ew e
+C
+ommerce
+ Channel
+☐
+ 
+Stores
+☐
+ Other (
+Specify
+)
+Customer Segment
+☐
+ 
+Wholesale Fixed
+ 
+___________________________________________________
+☒
+ 
+Wholesale Mobile
+ 
+☒
+ SMB Direct
+☒
+ SMB Indirect
+ 
+☒
+ Volume Sales
+☒
+ Large Enterprise
+☒
+ Public Sector
+☒
+ Soho Direct
+ 
+☒
+ Soho Indirect
+☒
+ 
+WHS O2 Daisy (ABS SPID 372) 
+☒
+ VIP
+☐
+ O2 Daisy BUD  
+___________________________________________________
+☐
+ 
+Other (
+Specify
+)
+Customer Type 
+☒
+ New Customer  
+☒
+ Existing Customer
+Order Type
+☒
+ New 
+Order 
+- 
+New Custome
+r  
+☒
+ New Order - Existing Customer
+☒
+ Renewal
+/Resign Order
+ - Existing Customer
+☒
+ 
+Additional Connection Order - Existing Customer
+☒
+ MACD - Existing Customer
+☒
+ Other (
+Specify
+)
+SIM and Hardware 
+orders
+ only. 
+API
+ Required 
+- 
+O2 Daisy Warehouse Interfacing – Tactical
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+O2 Daisy Warehouse Interfacing Strategic – API
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes 
+- 
+wh
+ich 
+APIs are expected to be delivered by VMO2 as part of the requirement?
+Tactical: Interface Files
+Strategic: 
+Use API integration with 
+Netcracker
+ API (SVOS)
+Logistics / Supply 
+C
+hain
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+See appendix for 
+supply chain 
+input. 
+Reporting
+Impact
+: 
+ 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes – 
+Please outline the requirements and describe the type of impact
+. 
+ 
+Existing reports
+ should be investigated to ensure continuity and compliance with existing requirements such as Apple EDI.
+New reports
+ are necessary
+ for Daisy, also
+:
+if data cannot be shared by GXO into the existing systems including Nucleus (and/or its replacement), GCP and BI.
+If any Apple contractual commitments are impacted. 
+☒
+ New Reports
+☒
+ Amend/Update
+ 
+Existing 
+Reports
+Migration 
+R
+equirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Assumes a migration schedule of SoHo
+ and 
+SME customers
+.  
+Decommissioning Requirements
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Cease 
+E
+xisting 
+S
+ervice/
+S
+upplier
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Network or IT Operations
+ 
+I
+mpact
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+RFI/P
+Impact
+: 
+ 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: 
+Please specify the details
+.
+Known Constraints
+Impact
+: 
+ 
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+If Yes: 
+Please specify the details
+.
+Other
+Impact:  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes: Please specify the details.
+Customer Journey Touch Points 
+(Required)
+The customer journey is broken down into key touch points that represent different stages of interaction with our products or services from discovery to potential exit. Each touch point reflects a critical moment in the customer experience.
+Please review the touch points below and 
+indicate which ones are impacted by your initiative
+, along with a brief description of the 
+nature of the impact
+ (e.g., improvement, change, risk, etc.).
+We Discover
+ – Customers explore and learn about products or services
+Impacted 
+☐
+ 
+Yes
+    
+☒
+ No
+    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Buy
+ – Customers 
+/ 
+Sales people
+ 
+select and purchase a product or service
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ Blue Salesforce
+☐
+ Purple Salesforce / CPQ 
+☐
+ Microsoft Dynamics 365
+☐
+ Other (
+Specify
+)
+Wholesale 
+Fixed 
+ 
+☐
+ Red Salesforce
+ 
+☐
+ Engage
+☐
+ BPT
+☐
+ Other (
+Specify
+)
+We Join / Onboard
+ – Product/service is delivered, set up, and activated
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+If 
+Yes
+ – confirm s
+olution impact if known
+Wholesale Mobile 
+☐
+ O2 Daisy 
+only
+☐
+ DISE
+ only
+☐
+ DISE & O2 Daisy
+☐
+ Other (
+Specify
+)
+Wholesale Fixed  
+☐
+ DISE 
+☐
+ Force
+☐
+ Oracle 
+☐
+ Other (
+Specify
+)
+We Use
+ – Customers experience the service, including issue resolution.
+Impacted 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+ 
+We Manage Billing
+ – Customers view and manage bills and usage
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+ 
+Billing will 
+be managed by Daisy Central. 
+We Add / Change
+ – Customers modify or upgrade their services
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requirements
+:
+We Stay or Leave
+ – Customers decide to renew, stay, or exit
+Impacted 
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+If Yes - please outline any specific requiremen
+t
+:
+Out of Scope 
+(Required)
+Out of Scope
+ 
+Item
+Future Scope (
+e.g. 
+later phase Delivery)
+1 BAU DISE Process
+Existing:  
+Partner Portal → DISE → GXO flow
+2 Bulk Device Ordering Process
+Ordering via partner portal into DISE remains
+Bulk stock flow:
+GXO → West Coast remains for interim
+3 Procurement / Supply Chain BAU
+:
+Device procurement via supply chain: Remains unchanged
+Enhancements to forecasting processes
+Changes to supply chain allocation logic
+Considered: Separate from enrolment solution scope
+4 Reverse logistics 
+– assuming existing processes continue to function.
+S
+ubject to separate validation 
+Depends also
+ on ID
+ 2
+57
+ – returns valuation
+High level Requirements
+High level requirements describe what the change needs to deliver — not how it should be built. Use short, simple statements focused on capabilities, rules, or 
+behaviors
+ the future solution must support.  
+If your requirement is on behalf of an external party such as giffgaff then your requirement scope will only cover the capabilities in VMO2 that support them. 
+Guidance: 
+Clear high‑level requirements help ensure faster and more accurate sizing
+List the essential capabilities or features needed to achieve your desired outcome (e.g., “Customers must be able to…”, “The system must allow…”)
+Focus on requirements, not solutions (avoid naming specific technologies or designs)
+Include any critical business rules, data needs, reporting requirements, or compliance considerations
+For customer impacting proposals you may wish to consider the specific elements of the customer lifecycle that each requirement impacts e.g. find/explore, buy/upgrade, pay/bill, getting started/use, manage, get help, stay/leave.
+*MVP = 
+These requirements 
+must be delivered by the project to achieve the minimum viable customer or commercial outcome
+#
+Change / Requirement
+1
+Ensure Contractual and Commercial Compliance for Device Fulfilment
+ - The business must ensure that all device procurement and fulfilment activities comply with VMO2 contractual obligations (including Schedule 7 and supplier commercial agreements), without service disruption during interim or transitional operating models.
+Y
+2
+Maintain End
+to
+End Fulfilment Continuity for Daisy Customers
+-
+The business must maintain uninterrupted device fulfilment for all in
+scope Daisy customer orders, ensuring that customers can continue to order, receive, and return devices without degradation to service levels during the interim and future-state transitions.
+Y
+3
+Establish a Foundation for Strategic Supply Chain Integration -The interim solution must not constrain or preclude the future strategic integration of Daisy ordering platforms with VMO2 supply chain capabilities, including improved stock visibility, automation, and API
+led integration
+Y
+4
+Improve Operational Efficiency and Reduce Avoidable Cost -
+The business must reduce avoidable operational cost and inefficiency introduced by interim fulfilment arrangements, including but not limited to dual warehousing, duplicate handling, and manual reconciliation activities
+Y
+5
+Order Submission to Fulfilment
+The integration must enable:
+Direct submission of orders from Daisy Central to GXO
+Elimination of: 
+Indirect portal usage
+DI
+S
+E-mediated order routing
+Fulfilment & Dispatch Confirmation
+ 
+6
+Stock Visibility & Availability
+The integration must provide:
+Real-time visibility of available stock at GXO
+Ability to determine: 
+Stock available to O2 Business
+Allocated vs actual stock levels
+Support for stock validation at point of order
+7
+The integration must enable:
+Return of device-specific 
+data from GXO
+, including: 
+IMEI numbers
+Serial numbers
+Billing Trigger & Automation
+8
+The integration must support:
+Automatic triggering of 
+billing
+ events in Daisy Central based on: 
+Fulfilment confirmation
+Device data (IMEI / serial)
+End-to-End Process Automation
+ 
+9
+The integration must ensure:
+A 
+continuous flow
+ across: 
+Order capture → Enrolment → Fulfilment → Billing
+No requirement for: 
+Manual intervention
+Offline processes
+Dual system handling
+Legal/
+Regulatory
+, 
+Fraud
+, 
+Security 
+and environmental i
+mpacts
+If this requirement is impacted by or changes our capability to maintain legal, fraud, security or environmental obligations then add details here.
+Area
+Impact 
+VMO2 stakeholder
+Legal / contractual / legislative obligations
+  
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Regulatory obligations e.g. OFCOM, ICO,
+ 
+etc
+.
+☐
+ Yes    
+☒
+ No    
+☐
+ Unknown
+Fraud or Security
+ Impact
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Has the whole 
+environmental impact
+ 
+of 
+the project, from design to end of life been
+ considered? 
+☒
+ Yes    
+☐
+ No    
+☐
+ Unknown
+Aim to stop dual handing process. 
+Has the lowest energy using product or service been considered for the project 
+(if applicable)?
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Equity / Accessibility of VMO2 service(s)
+☐
+ Yes    
+☐
+ No    
+☒
+ Unknown
+Dependencies / 
+Risks / 
+Assumptions
+ 
+[Required]
+Dependencies
+List any decisions, actions or projects that are required for this proposal to proceed (inbound) or 
+requir
+ed by other projects (outbound).
+Dependencies raised
+Architecture alignment required
+Must 
+validate with
+ 
+Supply chain
+ID
+Inbound or Outbound
+Project reference (if any)
+Description/nature of dependency
+D
+3
+Outbound
+ID340
+ Apple DEP enrolment automation
+Daisy orders needing device enrolment are fulfilled directly by Daisy / Westcoast warehouse and not manually through the indirect route and portal.
+D5
+Inbound & Outbound
+ID 257
+ 
+Returns Valuation Process
+Work underway by Paul Franey and Gina
+ (reverse logistics – project Arnold)
+, Tim Burton
+ (VMO2 accounting)
+.
+ 
+Assumptions
+Please list key assumptions that remain to be validated to establish if the vision / benefits can be delivered.
+ID
+Assumption Description
+A1
+IT transformation and the relevant schedule of customers migration 
+A2
+GXO and 
+RDi
+ remain the only logistics partners of VMO2 supply chain
+A3
+Maintain business continuity during the transition (assuming no decommissioning of the current estate as other segments will continue to use systems such as DIS
+E
+)
+Appendix
+This is for information only.
+Please take into consideration
+ 
+that the
+se were discussions between O2 Business 
+and VMO2 supply chain prior to submitting this document. 
+ 
+ 
+Supply Chain
+ ID 11047025174
+Tactical Integration
+Use file-based integrations with VMO2’s GXO platform to handle the volumes from Daisy and migration, as well as to comply with schedule 7, suggestion is to have a tactical API from supply chain.
+ 
+Implement an interim “lift and shift” integration using 
+as much as possible 
+the existing order and shipment file formats and transfer protocols already in use today.
+1.3.1 Deliverables summary (Tactical vs Strategic)
+Tactical approach (interim “lift and shift” / flat-file integration)
+File-based order submission from Daisy into GXO using existing order/shipment file formats and transfer protocols (replicating DISE behaviours and file structures as closely as possible).
+Ability to send Daisy order volumes electronically to GXO for pick/pack/dispatch (reducing reliance on moving stock in bulk to Westcoast for fulfilment).
+Defined and agreed 
+order prefixing / unique order identifier
+ rules so GXO WMS prefix-based business rules do not conflict with existing DISE prefixes.
+Live stock
+ check capability
+ to support order validation (noted as currently via SOA and needing to move to Apogee).
+Operational continuity with 
+no decommissioning
+ of the current estate as part of the interim scope.
+Day-1 business continuity outcomes: end-to-end order flow from Daisy systems into GXO and 
+RDi
+ with no manual intervention; continued procurement of mobile device stock through VMO2 to preserve commercial agreements/rebates/pricing.
+Reporting continuity for shipment status/returns data, plus identification and delivery of any new Daisy reporting required for contractual compliance (including Apple EDI considerations).
+Strategic approach (future-state / API-led integration)
+API integration using 
+Netcracker
+ API (SVOS)
+ (linked to VMO2 
+Netcracker
+ 360 API for mobile provisioning), subject to readiness and any required VMO2-side enhancements.
+Real-time stock availability
+ checks to support order validation and reduce failed fulfilment (SVOS for stock validation and available-to-promise calculations).
+Target future flow: Daisy Apogee GXO for order submission, with unified transaction visibility via 
+Netcracker
+.
+Confirmed and implemented 
+unique order identifiers/prefixing rules
+ to ensure correct routing and no conflict with existing order types.
+Inputs required to complete strategic design: technical working session and 
+payload examples
+ (noted as expected from 
+Giacom
+), plus additional information required by GXO to complete the strategic IA.
+Reporting and data sharing design to ensure downstream enterprise reporting platforms (e.g., Nucleus and/or replacement, GCP, BI) can consume required data, and to confirm whether any Apple contractual commitments are impacted.
+Note:
+ These deliverables align to the phased items already captured in this document: 
+ID377
+ (O2 Daisy Warehouse 
+Interfacing  Tactical
+), 
+ID378
+ (O2 Daisy Warehouse 
+Interfacing  Strategic
+  API), and 
+ID340
+ (Enrolment extension with Comarch) where applicable to the tactical timeline.
+1
+. Interim Tactical Solution — “Lift and Shift”
+The tactical approach would:
+Replicate DI
+S
+E behaviours and file structures
+ as closely as possible.
+Use 
+OBI / CON / ITIL fixed protocol file transmissions
+ exactly as they exist today.
+Require Daisy Central to output files 
+matching existing GXO expectations
+.
+Minimise development on the GXO/VM02 side.
+Still require a 
+live stock
+ check API
+, currently done via SOA and needs to move to Apogee.
+GXO’s WMS uses 
+prefix
+based business rules
+. 
+Daisy must clarify their order prefixing structure for the tactical solution to avoid collision with existing DISE prefixes.
+2
+. Strategic Integration (Future State)
+The strategic model involves:
+Use of 
+SVOS for stock validation
+ and available-to-promise calculations.
+Daisy → Apogee → GXO for actual order submission.
+Unified storage/API submission into 
+Netcracker
+ for transaction visibility.
+However:
+More information is needed for GXO to complete the strategic IA.
+This requires a 
+technical working session
+ and payload examples (from 
+G
+iac
+om
+)
+For information: Next steps
+Pre-submission
+ checks
+: An early conversation 
+with your
+ Business Engagement and Mobilisation (BEM) 
+Partner is advisable.  They may suggest
+ a simpler delivery route. They may also be able to support early shaping of your vision around technical capabilities.
+Submission
+: Once you have a potential sponsor, budget reference and priority from the person or body that prioritises demand in your division, please submit your draft Vision Card to the BEM team
+ 
+[BEM team inbox 
+to be inserted 
+here]
+ 
+Vision card review
+: A Business Engagement and Mobilisation Partner will engage with you to refine and clarify important details in your vision required to obtain the best early impact assessment. The BEM 
+partner 
+may 
+also 
+drive conversations with key architects to ensure we obtain the most cost-effective recommendation ahead of sizing.
+T-Shirt 
+Sizing
+: When judged fit for purpose, the Vision card will be submitted for platform assessment. This will lead to an initial T-shirt-sizing, and clear ownership of delivery between TCS and 
+TechM
+. 
+Mobilisation
+: Further mobilisation tasks will depend on funding status, whether the idea is in the baseline plan, and future changes to the delivery quotation process that are TBC with the new delivery suppliers.

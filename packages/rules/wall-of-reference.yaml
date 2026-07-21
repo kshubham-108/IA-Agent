@@ -1,0 +1,143 @@
+# TCS Wall of Reference — 27 golden rows @ PUR £425.52 (§3A)
+pur: 425.52
+rows:
+  - id: data-ccs-phase-2
+    lot: Data
+    project: CCS Phase 2
+    pu: 1210.662048192771
+    cost_gbp: 515160.91
+  - id: data-ofcom-net-act
+    lot: Data
+    project: OFCOM Provider Net Act Equivalent for 360 Customers
+    pu: 30.028799999999997
+    cost_gbp: 12777.85
+  - id: data-helix-cmdb
+    lot: Data
+    project: O2 Helix CMDB Integration
+    pu: 136.47095555555555
+    cost_gbp: 58071.12
+  - id: data-edh-fdp-dq
+    lot: Data
+    project: EDH FDP Data Quality Framework
+    pu: 172.638
+    cost_gbp: 73460.92
+  - id: data-ace-landing-pad
+    lot: Data
+    project: ACE Landing PAD migration
+    pu: 4693.300688888889
+    cost_gbp: 1997093.31
+  - id: data-ncc-phase-4
+    lot: Data
+    project: NCC Phase 4 Del
+    pu: 556.4246888888889
+    cost_gbp: 236769.83
+  - id: data-helix-datalake
+    lot: Data
+    project: Req for Data IA Helix Datalake
+    pu: 492.06493333333333
+    cost_gbp: 209383.47
+  - id: data-cpe-inventory
+    lot: Data
+    project: Phase 2 CPE Inventory Project
+    pu: 202.87924444444445
+    cost_gbp: 86329.18
+  - id: data-losing-provider
+    lot: Data
+    project: Losing Provider Logic
+    pu: 196.52664444444446
+    cost_gbp: 83626.02
+  - id: data-bulk-diagnostic
+    lot: Data
+    project: Bulk Diagnostic API
+    pu: 106.9928
+    cost_gbp: 45527.58
+  - id: data-picasso
+    lot: Data
+    project: Picasso
+    pu: 113.094
+    cost_gbp: 48123.76
+  - id: data-augustus-bill-ops
+    lot: Data
+    project: Augustus Bill Ops
+    pu: 30.27031111111111
+    cost_gbp: 12880.62
+  - id: data-apollo-fraud
+    lot: Data
+    project: Apollo as an AO FRAUD reporting
+    pu: 23.8412
+    cost_gbp: 10144.91
+  - id: data-edh-gcp
+    lot: Data
+    project: EDH > GCP
+    pu: 9792.8365
+    cost_gbp: 4167047.79
+  - id: data-netpulse-gcp
+    lot: Data
+    project: Netpulse > GCP
+    pu: 9504
+    cost_gbp: 4044142.08
+  - id: consumer-myo2
+    lot: Consumer
+    project: My O2 Mobile App Rebuild
+    pu: 3018.75
+    cost_gbp: 1284538.50
+  - id: consumer-retainx
+    lot: Consumer
+    project: RetainX
+    pu: 4162.86
+    cost_gbp: 1771380.19
+  - id: consumer-payg-transformation
+    lot: Consumer
+    project: PayG Transformation
+    pu: 3253
+    cost_gbp: 1384216.56
+  - id: consumer-payg-comms
+    lot: Consumer
+    project: PayG Communication
+    pu: 1836
+    cost_gbp: 781254.72
+  - id: consumer-bss-comms
+    lot: Consumer
+    project: BSS Service Comms
+    pu: 1462
+    cost_gbp: 622110.24
+  - id: consumer-o2-website
+    lot: Consumer
+    project: O2.co.uk Transformation
+    pu: 16192.5
+    cost_gbp: 6890232.60
+  - id: consumer-o2-marketing
+    lot: Consumer
+    project: O2 Marketing Transformation
+    pu: 11924
+    cost_gbp: 5073900.48
+  - id: small-apigee
+    lot: Consumer
+    project: APIGee onboarding API
+    pu: 6
+    cost_gbp: 2553.12
+  - id: small-10-pages
+    lot: Consumer
+    project: Migration of 10 content pages
+    pu: 18
+    cost_gbp: 7659.36
+  - id: small-affirm
+    lot: Consumer
+    project: Affirm Onboarding
+    pu: 19
+    cost_gbp: 8084.88
+  - id: small-360-dfe-topup
+    lot: Consumer
+    project: Migration from a legacy page within 360 to DFE web page for top up
+    pu: 15
+    cost_gbp: 6382.80
+  - id: small-recycle
+    lot: Consumer
+    project: Recycle Arnold
+    pu: 22
+    cost_gbp: 9361.44
+
+small_change_pack:
+  items: [6, 18, 19, 15, 22]
+  total_pu: 80
+  total_cost_gbp: 34041.60

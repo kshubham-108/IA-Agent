@@ -1,0 +1,218 @@
+Prototype Vision Card 
+contents 
+V
+_
+6 
+2026
+1. 
+Project 
+Overview & Vision
+Project Title: 
+Virgin Media- Fixed ‘Right to Exit’ 
+and Mobile/Fixed Price Rise Execution
+Brief description:
+Regulatory change to move all ‘fixed’ customers 
+onto ‘
+pounds and 
+pence’
+ terms
+ in line with consumer charter signed by CEO. 
+This will include a reciprocal RTE for VOLT Bundled customers
+ followed by the fixed/mobile PR Execution in April 2027 bills.
+Options for 
+RPI  customers
+ being explored are: 
+Keep current terms. 
+Customer
+ get RPI+3.9% price increase
+Move customers to £/p (with RTE). Notification 10th August
+Move customers to £/p (with RTE). Notification aligned to ’27 PR 
+Exempt RPI customers from PR going forward 
+£/p banding (No RTE). Notification aligned to ’27 PR 
+What is the current experience/business model/process you want to change?
+As per Ofcom regulation, rules were introduced to set out any annual price increases in pounds and pence at the point of sale.
+ 
+Additionally
+ the consumer charter was signed by the industry which prevents all major telecoms providers increasing customers bills by 
+inflation linked
+ terms, therefore remedial action is needed to rectify our approach prior to PR27 delivery. 
+This ensures 
+transparency
+ allowing consumers to know exactly how much their contract will increase. These rules were introduced to prevent bill shock and to empower consumers to compare 
+deal
+ effectively. We would now like to 
+apply
+ this across the whole fixed base to apply the same rationale
+. Price Rise will then be applied to mobile and fixed customers within BAU timing.
+ 
+1. The existing price rise product code should not be reset to zero.
+2. Any pending RPI price rise due to an expiry of a time limited discount should be withdrawn from the point of moving to 
+pnp
+ 
+What outcome are you aiming to achieve for VMO2 or our customers?
+Future annual price increases must be clearly stated in pounds and pence
+ (as per 
+telecoms
+ customer charter 2026)
+ so customers know exactly how much their bill will rise before they sign up.
+ This then needs to 
+effectively
+ 
+reflected
+ in customer bills to 
+realise
+ the business benefit.
+What is the envisioned customer experience?
+Clear, predictable pricing with no hidden
+ surprises
+ – customers will know exactly how much of their bill will increase, with simple, upfront pound
+ 
+and
+ 
+pence changes instead of unclear percentage rises linked to RPI.
+ Customer comms will explain the change and then be communicated 
+to
+ within 30 days of the rise. Customers need to be able to access the updated information in channels and terms need to reflect this.
+ 
+When do you want this to happen?
+Q
+1
+NDA?
+No
+What capability or operational change do you believe is required to support this?
+#
+Change / 
+Requirement
+MVP?
+1
+Amend billing platforms to ensure customers billed correctly in pounds and pence.
+Y
+2
+Ensure customers are notified of change within the obligatory notice period. 
+And ensure customers are aware of their ‘Right to Exit’ period. 
+(Where applicable)
+Y
+3
+Make changes across digital estate as well as across all channels
+ ensuring all ‘Right to Exit’ requirements are captured. 
+Y
+Any 
+non functional
+ requirements such as 
+response times
+, 
+performance
+, regulation
+, 
+security
+ or accessibility
+?
+1.
+All 
+non functional
+ requirements as per previous ‘Right to Exit’ Project
+Y
+2. Strategic Context
+What business problem or opportunity does this address?
+We are aligning with the market and improving customer experience
+. Compliance with the consumer charter.
+Which of our strategic pillars does it support?
+None
+What is the unique customer ID or budget reference this aligns to?
+Not in roadmap
+When was this approved to proceed to sizing by the Consumer Demand Forum? (Date)
+Consumer Committee 27/5/26
+3. Scope & Impact
+Which customer segments are impacted?
+Fixed PRI customer base
+ VOLT Bundled customers
+ and PR whole customer base
+ (if RTE is required)
+Which product families are involved?
+N/A
+Estimated number of customers or transactions affected (monthly/annually)
+.
+1.
+1 
+million customers 
+RTE
+C15m price rise
+What is the approximate revenue uplift / cost saving from this
+?
+None
+List any projects or proposals that this idea should align to / have as a managed dependency
+Frontbook
+ refresh/tariff refresh
+ 
+W
+hich operational areas will be impacted? 
+Operational area
+Impacted
+?
+Digital channels / App
+Y
+Commercial/Product teams
+Y
+Marketing/Sales
+Y
+Shop/basket
+Y
+Care/Retentions
+Y
+Billing/Payments/Finance/Insurance
+Y
+IT/Network Ops
+Y
+Fraud/security/regulatory
+Y
+Logistics / supply chain  
+N
+Other: (State)
+4. Stakeholders & Governance
+Proposer/Prime contact
+Mark Moss
+ / 
+Claire Ashton
+Sponsor
+Chris Bournes
+Finance Business Partner
+Craig Garvey
+/Lee Coates
+Other stakeholders:
+Role
+Name
+End to End Project Manager
+Emma Carroll 
+Head of Strategic 
+Programmes
+Chris Pluves 
+Communications Product Owner
+Emma Zieba
+/Alex Baldwin
+Operational Readiness Manager
+Lindsey Nicholson
+/James Telford
+Portfolio Manager 
+Craig Miller
+Head of Strategic and Experience insight 
+Chris Beeson
+Senior Regulatory Policy Advisor
+David Christie
+/Sophie Andreau
+ 
+Head of Retentions Trading 
+Oli Longland
+5. Supporting Information
+Are there any supporting documents or references (slide deck, market analysis, product brief
+ 
+etc
+)
+Link to consumer charter signed by Lutz
+Any known constraints or assumptions?
+Assumptions driven out from business case
+Any risks or concerns already identified?
+Assumptions driven out from business case
+6. Submission Details
+Date of Submission:
+ 
+17/06/2026- (Revised) 

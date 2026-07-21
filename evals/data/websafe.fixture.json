@@ -1,0 +1,77 @@
+{
+  "formatVariant": "numbered-prototype",
+  "fields": [
+    {
+      "id": "title",
+      "value": "Websafe Strategic",
+      "evidence_span": "§1.1 SMART outcome grid — Websafe Strategic",
+      "confidence": 0.96,
+      "status": "found"
+    },
+    {
+      "id": "budget_ref",
+      "value": "Digital Safety FY26",
+      "evidence_span": "§1.2 value case — budget ref Digital Safety FY26",
+      "confidence": 0.9,
+      "status": "found"
+    },
+    {
+      "id": "future_vision",
+      "value": "Strategic websafe controls across consumer digital estate",
+      "evidence_span": "§1.1 outcome: strategic websafe controls",
+      "confidence": 0.92,
+      "status": "found"
+    },
+    {
+      "id": "channels_processes_systems",
+      "value": "O2.co.uk, My O2, parental controls platform",
+      "evidence_span": "§2.1 channels: web, app, parental controls",
+      "confidence": 0.89,
+      "status": "found"
+    },
+    {
+      "id": "journey_counts",
+      "value": "6 customer journeys",
+      "evidence_span": "§2.3 journeys: 6 customer journeys",
+      "confidence": 0.82,
+      "status": "found"
+    },
+    {
+      "id": "heatmap",
+      "value": "POPIT heatmap summary inline",
+      "evidence_span": "§3 heatmap summary provided",
+      "confidence": 0.8,
+      "status": "found"
+    }
+  ],
+  "popitEvidence": {
+    "customer": {
+      "id": "popit.customer",
+      "value": "Consumer digital users; parental safety cohort",
+      "evidence_span": "§1.1 beneficiaries: consumer digital users",
+      "confidence": 0.86,
+      "status": "found"
+    },
+    "peopleProcess": {
+      "id": "popit.peopleProcess",
+      "value": "Moderate process change for digital safety ops",
+      "evidence_span": "§2.2 process impact moderate",
+      "confidence": 0.84,
+      "status": "found"
+    },
+    "technology": {
+      "id": "popit.technology",
+      "value": "Heavy platform integration across web estate",
+      "evidence_span": "§2.1 systems breadth high",
+      "confidence": 0.9,
+      "status": "found"
+    },
+    "complexity": {
+      "id": "popit.complexity",
+      "value": "Cross-channel safety controls with policy rules",
+      "evidence_span": "§2.4 complexity: policy-driven controls",
+      "confidence": 0.83,
+      "status": "found"
+    }
+  }
+}

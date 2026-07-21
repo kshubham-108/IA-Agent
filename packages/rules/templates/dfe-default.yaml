@@ -1,0 +1,7 @@
+id: dfe-default
+label: DFE default multiplier
+base_multiplier: 2.30
+overlay_multiplier: 1.35
+golden:
+  base_pu: 28
+  expected_pu: 86.94
