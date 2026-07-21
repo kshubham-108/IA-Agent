@@ -1,0 +1,4 @@
+tcs_consumer_data: {2025: 425.52, 2026: 362, 2027: 239, 2028: 184, 2029: 159, 2030: 146, 2031: 143}
+techm_reference_pur_2025: 394.04
+historical: {consolidated_calculator_v0_4: 414, payg_estimates: 450, lot_consumer: 419.32, lot_data: 525.00}
+# Superseded planning figures (591.42 / 424 / 510 / 428 / 414-by-lot): never use for new estimates.

@@ -1,0 +1,66 @@
+---
+description: VMO2/TCS IA estimation agent domain rules (PROJECT_BRIEF §1–§5b)
+alwaysApply: true
+---
+
+# IA Agent Domain Rules
+
+Read `PROJECT_BRIEF.md` for full spec. Consult **https://eve.dev/docs** for Eve framework APIs (@Docs → add eve.dev in Cursor if not indexed).
+
+## Mission
+
+- **Flow A (IIA / seed funding):** Vision Card + heatmap + IIA templates → seed funding (SA+BA PU→£→duration to DoR), ballpark, computed confidence band, gap report.
+- **Flow B (IA post-HLD):** requirements + impacted areas + HLD → deterministic line-item PU build-up × PUR(year), sign-off grade, every line traceable to rule + evidence span.
+- **Year toggle:** PUR from `packages/rules/rates.yaml`; default 2026 = £362.
+
+## Non-negotiable rules
+
+1. **The LLM never does arithmetic.** Only path to any number is calling an engine tool in `agent/tools/`. No schema lets the model emit PU or £ directly.
+2. **Overlay vectors / complexity tables / management overlays are per-template YAML config** — never assume (RetainX guessed vector → 4,249.18 vs true 4,162.86).
+3. **1 PU = 1 blended person-day; 5 PU = 1 person-week.**
+4. **Golden tests are law** — engine ships only when §3 passes exactly.
+5. **Confidence is computed** from manifest coverage × empirical variance.
+6. **Provenance on every figure** (rule id + evidence span).
+7. **Engine stays framework-agnostic** — pure TypeScript in `packages/engine`; Eve tools are thin wrappers. Pin all versions.
+
+## Rates (`packages/rules/rates.yaml`)
+
+`tcs_consumer_data`: 2025=425.52, 2026=362, 2027=239, 2028=184, 2029=159, 2030=146, 2031=143. Never use superseded planning figures (591.42 / 424 / 510 / 428 / 414-by-lot).
+
+## Golden tests (write first; never edit expectations to pass)
+
+- **§3A:** 27 Wall-of-Reference cost rows @ £425.52 to 2 d.p. (MyO2, RetainX, PayG, BSS, O2.co.uk, O2 Marketing, small-change pack, 15 Data-lot rows).
+- **§3B:** Template arithmetic — RetainX 4,162.86; O2T 16,192.5; DFE default; complexity; ETL; MW; 360 AD; data milestone splits.
+- **§3C:** OFR seed funding — BA 295.2 + SA 161 = **456.2 PU**; £165,144.40 @2026.
+- **§3D:** Five BA calculator cases (Verint 49.20; Offline Fixed Retentions 295.20; PEGA 16.40; Woody RAF 0 clamp; Websafe 65.60). Band lookup {0–1 VL … 17–20 VH}; negative floor; duration lookup.
+
+## Confidence model
+
+Full IA ±15%; IIA+heatmap −30%/+50%; Vision-only −50%/+100%. Slide by manifest coverage. Gap report ranks missing fields by estimate impact.
+
+## Vision Card corpus (`corpus/`)
+
+59 Vision Cards in three format variants:
+1. **Prototype Vision Card 2026.xx** — structured Q&A tables (dominant).
+2. **Numbered prototype form** (e.g. Websafe §1.1 SMART grid).
+3. **Lean Vision Card** (SbD phase 2, Fixed RTE) — stress case for gap detection.
+
+## Labelled eval pairs (§5b)
+
+| Vision Card | Expected score → PU (2026) |
+|---|---|
+| `Offline_Fixed_Retentions_Vision_Card_v1_0.docx` (+ v0.1 pdf) | 4/5/4/3, CIF+4, CDF 0 → 20 → 295.2 |
+| `20260515_Vision_Card_Websafe_Strategic_Ver1_2.pdf` | 2/2/5/3, +2, −2 → 12 → 65.6 |
+| `Verint_Migration_to_Amazon_Connect_-_Vision_Card.docx` | 1/1/3/1, +1, −2 → 5 → 49.2 |
+| `Pega_Cloud_Vision_Card_v1__1_.docx` | 0/2/1/2, +1, −4 → 2 → 16.4 |
+
+Woody RAF = zero-case (no card in corpus — request it). Eval targets: extraction ≥95% field accuracy on 4 pairs; POPIT ±1 on ≥3/4 dimensions; band correct 4/4. Missing fields → flag gap + widen band, never guess.
+
+## Architecture
+
+- `packages/engine` — pure calculators + vitest golden tests
+- `packages/rules` — YAML tables
+- `packages/extraction-schemas` — zod extracts (no numeric estimate fields)
+- `agent/` — Eve runtime (Claude via AI Gateway), skills, tools, evals, channels
+- `apps/web` — Next.js UI
+- `corpus/` — vision cards, wall_of_reference, labelled pairs

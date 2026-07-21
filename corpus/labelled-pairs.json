@@ -1,0 +1,39 @@
+[
+  {
+    "visionCard": "Offline Fixed Retentions Vision Card v1.0.docx",
+    "alternatePdf": "Offline Fixed Retentions Vision Card v0.1.pdf",
+    "expected": {
+      "dimensions": { "cust": 4, "pp": 5, "tech": 4, "comp": 3, "cif": 4, "cdf": 0 },
+      "totalScore": 20,
+      "pu2026": 295.2,
+      "band": "Very High"
+    }
+  },
+  {
+    "visionCard": "20260515_Vision_Card_Websafe (Strategic) Ver1.2.pdf",
+    "expected": {
+      "dimensions": { "cust": 2, "pp": 2, "tech": 5, "comp": 3, "cif": 2, "cdf": -2 },
+      "totalScore": 12,
+      "pu2026": 65.6,
+      "band": "Medium High"
+    }
+  },
+  {
+    "visionCard": "Verint Migration to Amazon Connect - Vision_Card.docx",
+    "expected": {
+      "dimensions": { "cust": 1, "pp": 1, "tech": 3, "comp": 1, "cif": 1, "cdf": -2 },
+      "totalScore": 5,
+      "pu2026": 49.2,
+      "band": "Medium"
+    }
+  },
+  {
+    "visionCard": "Pega Cloud Vision Card v1 (1).docx",
+    "expected": {
+      "dimensions": { "cust": 0, "pp": 2, "tech": 1, "comp": 2, "cif": 1, "cdf": -4 },
+      "totalScore": 2,
+      "pu2026": 16.4,
+      "band": "Low"
+    }
+  }
+]

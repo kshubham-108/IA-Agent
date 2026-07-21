@@ -1,0 +1,12 @@
+{
+  "name": "@ia-agent/rules",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./rates.yaml": "./rates.yaml"
+  },
+  "scripts": {
+    "typecheck": "node -e \"process.exit(0)\""
+  }
+}
